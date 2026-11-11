@@ -1,5 +1,812 @@
 {
- "generatedAt": null,
- "source": null,
- "locations": []
+ "generatedAt": "2026-11-11T00:53:39.541Z",
+ "source": "https://api3.libcal.com (LibCal)",
+ "locations": [
+  {
+   "lid": 5504,
+   "name": "Zach S. Henderson Library",
+   "days": {
+    "2026-11-08": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "12pm",
+       "to": "2am"
+      }
+     ],
+     "rendered": "12pm - 2am"
+    },
+    "2026-11-09": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "7:30am",
+       "to": "2am"
+      }
+     ],
+     "rendered": "7:30am - 2am"
+    },
+    "2026-11-10": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "7:30am",
+       "to": "2am"
+      }
+     ],
+     "rendered": "7:30am - 2am"
+    },
+    "2026-11-11": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "7:30am",
+       "to": "2am"
+      }
+     ],
+     "rendered": "7:30am - 2am"
+    },
+    "2026-11-12": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "7:30am",
+       "to": "2am"
+      }
+     ],
+     "rendered": "7:30am - 2am"
+    },
+    "2026-11-13": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "7:30am",
+       "to": "5pm"
+      }
+     ],
+     "rendered": "7:30am - 5pm"
+    },
+    "2026-11-14": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "9am",
+       "to": "6pm"
+      }
+     ],
+     "rendered": "9am - 6pm"
+    },
+    "2026-11-15": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "12pm",
+       "to": "2am"
+      }
+     ],
+     "rendered": "12pm - 2am"
+    },
+    "2026-11-16": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "7:30am",
+       "to": "2am"
+      }
+     ],
+     "rendered": "7:30am - 2am"
+    },
+    "2026-11-17": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "7:30am",
+       "to": "2am"
+      }
+     ],
+     "rendered": "7:30am - 2am"
+    },
+    "2026-11-18": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "7:30am",
+       "to": "2am"
+      }
+     ],
+     "rendered": "7:30am - 2am"
+    },
+    "2026-11-19": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "7:30am",
+       "to": "2am"
+      }
+     ],
+     "rendered": "7:30am - 2am"
+    },
+    "2026-11-20": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "7:30am",
+       "to": "5pm"
+      }
+     ],
+     "rendered": "7:30am - 5pm"
+    },
+    "2026-11-21": {
+     "status": "closed",
+     "hours": [],
+     "rendered": "Closed"
+    }
+   }
+  },
+  {
+   "lid": 7259,
+   "name": "Lane Library",
+   "days": {
+    "2026-11-08": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "2pm",
+       "to": "11pm"
+      }
+     ],
+     "rendered": "2pm - 11pm"
+    },
+    "2026-11-09": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "7:30am",
+       "to": "11pm"
+      }
+     ],
+     "rendered": "7:30am - 11pm"
+    },
+    "2026-11-10": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "7:30am",
+       "to": "11pm"
+      }
+     ],
+     "rendered": "7:30am - 11pm"
+    },
+    "2026-11-11": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "7:30am",
+       "to": "11pm"
+      }
+     ],
+     "rendered": "7:30am - 11pm"
+    },
+    "2026-11-12": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "7:30am",
+       "to": "11pm"
+      }
+     ],
+     "rendered": "7:30am - 11pm"
+    },
+    "2026-11-13": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "7:30am",
+       "to": "5pm"
+      }
+     ],
+     "rendered": "7:30am - 5pm"
+    },
+    "2026-11-14": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "9am",
+       "to": "6pm"
+      }
+     ],
+     "rendered": "9am - 6pm"
+    },
+    "2026-11-15": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "2pm",
+       "to": "11pm"
+      }
+     ],
+     "rendered": "2pm - 11pm"
+    },
+    "2026-11-16": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "7:30am",
+       "to": "11pm"
+      }
+     ],
+     "rendered": "7:30am - 11pm"
+    },
+    "2026-11-17": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "7:30am",
+       "to": "11pm"
+      }
+     ],
+     "rendered": "7:30am - 11pm"
+    },
+    "2026-11-18": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "7:30am",
+       "to": "11pm"
+      }
+     ],
+     "rendered": "7:30am - 11pm"
+    },
+    "2026-11-19": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "7:30am",
+       "to": "11pm"
+      }
+     ],
+     "rendered": "7:30am - 11pm"
+    },
+    "2026-11-20": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "7:30am",
+       "to": "5pm"
+      }
+     ],
+     "rendered": "7:30am - 5pm"
+    },
+    "2026-11-21": {
+     "status": "closed",
+     "hours": [],
+     "rendered": "Closed"
+    }
+   }
+  },
+  {
+   "lid": 7287,
+   "name": "Learning Commons (Armstrong)",
+   "days": {
+    "2026-11-08": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "2pm",
+       "to": "12am"
+      }
+     ],
+     "rendered": "2pm - 12am"
+    },
+    "2026-11-09": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "8am",
+       "to": "12am"
+      }
+     ],
+     "rendered": "8am - 12am"
+    },
+    "2026-11-10": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "8am",
+       "to": "12am"
+      }
+     ],
+     "rendered": "8am - 12am"
+    },
+    "2026-11-11": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "8am",
+       "to": "12am"
+      }
+     ],
+     "rendered": "8am - 12am"
+    },
+    "2026-11-12": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "8am",
+       "to": "12am"
+      }
+     ],
+     "rendered": "8am - 12am"
+    },
+    "2026-11-13": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "8am",
+       "to": "6pm"
+      }
+     ],
+     "rendered": "8am - 6pm"
+    },
+    "2026-11-14": {
+     "status": "closed",
+     "hours": [],
+     "rendered": "Closed"
+    },
+    "2026-11-15": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "2pm",
+       "to": "12am"
+      }
+     ],
+     "rendered": "2pm - 12am"
+    },
+    "2026-11-16": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "8am",
+       "to": "12am"
+      }
+     ],
+     "rendered": "8am - 12am"
+    },
+    "2026-11-17": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "8am",
+       "to": "12am"
+      }
+     ],
+     "rendered": "8am - 12am"
+    },
+    "2026-11-18": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "8am",
+       "to": "12am"
+      }
+     ],
+     "rendered": "8am - 12am"
+    },
+    "2026-11-19": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "8am",
+       "to": "12am"
+      }
+     ],
+     "rendered": "8am - 12am"
+    },
+    "2026-11-20": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "8am",
+       "to": "6pm"
+      }
+     ],
+     "rendered": "8am - 6pm"
+    },
+    "2026-11-21": {
+     "status": "closed",
+     "hours": [],
+     "rendered": "Closed"
+    }
+   }
+  },
+  {
+   "lid": 25872,
+   "name": "Foy Music Library",
+   "days": {
+    "2026-11-08": {
+     "status": "closed",
+     "hours": [],
+     "rendered": "Closed"
+    },
+    "2026-11-09": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "10am",
+       "to": "6pm"
+      }
+     ],
+     "rendered": "10am - 6pm"
+    },
+    "2026-11-10": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "10am",
+       "to": "6pm"
+      }
+     ],
+     "rendered": "10am - 6pm"
+    },
+    "2026-11-11": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "10am",
+       "to": "6pm"
+      }
+     ],
+     "rendered": "10am - 6pm"
+    },
+    "2026-11-12": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "10am",
+       "to": "6pm"
+      }
+     ],
+     "rendered": "10am - 6pm"
+    },
+    "2026-11-13": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "9am",
+       "to": "5pm"
+      }
+     ],
+     "rendered": "9am - 5pm"
+    },
+    "2026-11-14": {
+     "status": "closed",
+     "hours": [],
+     "rendered": "Closed"
+    },
+    "2026-11-15": {
+     "status": "closed",
+     "hours": [],
+     "rendered": "Closed"
+    },
+    "2026-11-16": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "10am",
+       "to": "6pm"
+      }
+     ],
+     "rendered": "10am - 6pm"
+    },
+    "2026-11-17": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "10am",
+       "to": "6pm"
+      }
+     ],
+     "rendered": "10am - 6pm"
+    },
+    "2026-11-18": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "10am",
+       "to": "6pm"
+      }
+     ],
+     "rendered": "10am - 6pm"
+    },
+    "2026-11-19": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "10am",
+       "to": "6pm"
+      }
+     ],
+     "rendered": "10am - 6pm"
+    },
+    "2026-11-20": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "9am",
+       "to": "5pm"
+      }
+     ],
+     "rendered": "9am - 5pm"
+    },
+    "2026-11-21": {
+     "status": "closed",
+     "hours": [],
+     "rendered": "Closed"
+    }
+   }
+  },
+  {
+   "lid": 25873,
+   "name": "East Georgia Library",
+   "days": {
+    "2026-11-08": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "12pm",
+       "to": "5pm"
+      }
+     ],
+     "rendered": "12pm - 5pm"
+    },
+    "2026-11-09": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "8am",
+       "to": "5pm"
+      }
+     ],
+     "rendered": "8am - 5pm"
+    },
+    "2026-11-10": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "8am",
+       "to": "5pm"
+      }
+     ],
+     "rendered": "8am - 5pm"
+    },
+    "2026-11-11": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "8am",
+       "to": "7:30pm"
+      }
+     ],
+     "rendered": "8am - 7:30pm"
+    },
+    "2026-11-12": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "8am",
+       "to": "7:30pm"
+      }
+     ],
+     "rendered": "8am - 7:30pm"
+    },
+    "2026-11-13": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "8am",
+       "to": "5pm"
+      }
+     ],
+     "rendered": "8am - 5pm"
+    },
+    "2026-11-14": {
+     "status": "closed",
+     "hours": [],
+     "rendered": "Closed"
+    },
+    "2026-11-15": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "12pm",
+       "to": "5pm"
+      }
+     ],
+     "rendered": "12pm - 5pm"
+    },
+    "2026-11-16": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "8am",
+       "to": "5pm"
+      }
+     ],
+     "rendered": "8am - 5pm"
+    },
+    "2026-11-17": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "8am",
+       "to": "5pm"
+      }
+     ],
+     "rendered": "8am - 5pm"
+    },
+    "2026-11-18": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "8am",
+       "to": "7:30pm"
+      }
+     ],
+     "rendered": "8am - 7:30pm"
+    },
+    "2026-11-19": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "8am",
+       "to": "7:30pm"
+      }
+     ],
+     "rendered": "8am - 7:30pm"
+    },
+    "2026-11-20": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "8am",
+       "to": "5pm"
+      }
+     ],
+     "rendered": "8am - 5pm"
+    },
+    "2026-11-21": {
+     "status": "closed",
+     "hours": [],
+     "rendered": "Closed"
+    }
+   }
+  },
+  {
+   "lid": 13545,
+   "name": "Online Chat Hours",
+   "days": {
+    "2026-11-08": {
+     "status": "closed",
+     "hours": [],
+     "rendered": "Closed"
+    },
+    "2026-11-09": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "9am",
+       "to": "7pm"
+      }
+     ],
+     "rendered": "9am - 7pm"
+    },
+    "2026-11-10": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "9am",
+       "to": "7pm"
+      }
+     ],
+     "rendered": "9am - 7pm"
+    },
+    "2026-11-11": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "9am",
+       "to": "7pm"
+      }
+     ],
+     "rendered": "9am - 7pm"
+    },
+    "2026-11-12": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "9am",
+       "to": "7pm"
+      }
+     ],
+     "rendered": "9am - 7pm"
+    },
+    "2026-11-13": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "9am",
+       "to": "4pm"
+      }
+     ],
+     "rendered": "9am - 4pm"
+    },
+    "2026-11-14": {
+     "status": "closed",
+     "hours": [],
+     "rendered": "Closed"
+    },
+    "2026-11-15": {
+     "status": "closed",
+     "hours": [],
+     "rendered": "Closed"
+    },
+    "2026-11-16": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "9am",
+       "to": "7pm"
+      }
+     ],
+     "rendered": "9am - 7pm"
+    },
+    "2026-11-17": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "9am",
+       "to": "7pm"
+      }
+     ],
+     "rendered": "9am - 7pm"
+    },
+    "2026-11-18": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "9am",
+       "to": "7pm"
+      }
+     ],
+     "rendered": "9am - 7pm"
+    },
+    "2026-11-19": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "9am",
+       "to": "7pm"
+      }
+     ],
+     "rendered": "9am - 7pm"
+    },
+    "2026-11-20": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "9am",
+       "to": "4pm"
+      }
+     ],
+     "rendered": "9am - 4pm"
+    },
+    "2026-11-21": {
+     "status": "closed",
+     "hours": [],
+     "rendered": "Closed"
+    }
+   }
+  }
+ ]
 }

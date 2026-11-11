@@ -1,265 +1,1619 @@
 {
- "generatedAt": "2026-10-29T15:00:00Z",
+ "generatedAt": "2026-11-11T00:59:19.405Z",
  "note": "Coordinates fill in automatically from the university calendar's places list and OpenStreetMap on each refresh.",
  "buildings": [
   {
-   "name": "Academic Success Center",
-   "campus": "statesboro"
+   "name": "AMC CLASSIC Savannah 11",
+   "campus": "armstrong",
+   "lat": 31.986969,
+   "lon": -81.172027,
+   "source": "openstreetmap"
   },
   {
-   "name": "Admissions - Lewis Hall",
-   "campus": "statesboro"
+   "name": "Annex #2",
+   "campus": "armstrong",
+   "lat": 31.978158,
+   "lon": -81.163205,
+   "source": "calendar"
   },
   {
-   "name": "Allen E. Paulson Stadium",
-   "campus": "statesboro"
-  },
-  {
-   "name": "Anderson Hall",
-   "campus": "statesboro"
-  },
-  {
-   "name": "Arts Building",
-   "campus": "statesboro"
-  },
-  {
-   "name": "Biological Sciences Building",
-   "campus": "statesboro"
-  },
-  {
-   "name": "Brannen Hall",
-   "campus": "statesboro"
-  },
-  {
-   "name": "Carroll Building",
-   "campus": "statesboro"
-  },
-  {
-   "name": "Carruth Building",
-   "campus": "statesboro"
-  },
-  {
-   "name": "Carter Recital Hall",
-   "campus": "statesboro"
-  },
-  {
-   "name": "Center for Art and Theatre",
-   "campus": "statesboro"
-  },
-  {
-   "name": "College of Business",
-   "campus": "statesboro"
-  },
-  {
-   "name": "College of Education",
-   "campus": "statesboro"
-  },
-  {
-   "name": "Cone Hall",
-   "campus": "statesboro"
-  },
-  {
-   "name": "Counseling Center",
-   "campus": "statesboro"
-  },
-  {
-   "name": "Dining Commons",
-   "campus": "statesboro"
-  },
-  {
-   "name": "Eidson House: Honors College",
-   "campus": "statesboro"
-  },
-  {
-   "name": "Engineering Building",
-   "campus": "statesboro"
-  },
-  {
-   "name": "Engineering and Research Building",
-   "campus": "statesboro"
-  },
-  {
-   "name": "Fielding D. Russell Union",
-   "campus": "statesboro"
-  },
-  {
-   "name": "Forest Drive Classroom Building",
-   "campus": "statesboro"
-  },
-  {
-   "name": "Foy Building",
-   "campus": "statesboro"
-  },
-  {
-   "name": "Georgia Southern Museum",
-   "campus": "statesboro"
-  },
-  {
-   "name": "Hanner Complex-Fieldhouse/Kinesiology Lab",
-   "campus": "statesboro"
-  },
-  {
-   "name": "Health Center",
-   "campus": "statesboro"
-  },
-  {
-   "name": "Hendricks Hall",
-   "campus": "statesboro"
-  },
-  {
-   "name": "Herty Building",
-   "campus": "statesboro"
-  },
-  {
-   "name": "Hollis Building",
-   "campus": "statesboro",
-   "lat": 32.427185,
-   "lon": -81.780727,
-   "source": "calendar.georgiasouthern.edu"
-  },
-  {
-   "name": "Information Technology Building",
-   "campus": "statesboro"
-  },
-  {
-   "name": "Interdisciplinary Academic Building",
-   "campus": "statesboro"
-  },
-  {
-   "name": "Jack and Ruth Hill Convocation Center",
-   "campus": "statesboro"
-  },
-  {
-   "name": "Kennedy Hall",
-   "campus": "statesboro"
-  },
-  {
-   "name": "Lakeside Dining Commons",
-   "campus": "statesboro"
-  },
-  {
-   "name": "Marvin Pittman Administration Building",
-   "campus": "statesboro"
-  },
-  {
-   "name": "Math/Physics Building",
-   "campus": "statesboro"
-  },
-  {
-   "name": "Military Science Building",
-   "campus": "statesboro"
-  },
-  {
-   "name": "Natural Sciences Building",
-   "campus": "statesboro"
-  },
-  {
-   "name": "Newton Building",
-   "campus": "statesboro"
-  },
-  {
-   "name": "Nursing/Chemistry Building",
-   "campus": "statesboro"
-  },
-  {
-   "name": "Performing Arts Center",
-   "campus": "statesboro"
-  },
-  {
-   "name": "Planetarium",
-   "campus": "statesboro"
-  },
-  {
-   "name": "Recreation Activity Center",
-   "campus": "statesboro"
-  },
-  {
-   "name": "Rosenwald Building",
-   "campus": "statesboro"
-  },
-  {
-   "name": "Sanford Hall",
-   "campus": "statesboro"
-  },
-  {
-   "name": "Veazey Hall",
-   "campus": "statesboro"
-  },
-  {
-   "name": "Watson Hall",
-   "campus": "statesboro"
-  },
-  {
-   "name": "Williams Center",
-   "campus": "statesboro"
-  },
-  {
-   "name": "Zach S. Henderson Library",
-   "campus": "statesboro"
-  },
-  {
-   "name": "Student Union",
-   "campus": "armstrong"
-  },
-  {
-   "name": "Student Success Complex",
-   "campus": "armstrong"
-  },
-  {
-   "name": "Science Center",
-   "campus": "armstrong"
-  },
-  {
-   "name": "Lane Library",
-   "campus": "armstrong"
-  },
-  {
-   "name": "Fine Arts Hall",
-   "campus": "armstrong"
-  },
-  {
-   "name": "Fine Arts Auditorium",
-   "campus": "armstrong"
-  },
-  {
-   "name": "University Hall",
-   "campus": "armstrong"
-  },
-  {
-   "name": "Solms Hall",
-   "campus": "armstrong"
+   "name": "Armstrong Center",
+   "campus": "armstrong",
+   "lat": 31.979517,
+   "lon": -81.168444,
+   "source": "calendar"
   },
   {
    "name": "Ashmore Hall",
-   "campus": "armstrong"
+   "campus": "armstrong",
+   "lat": 31.979013,
+   "lon": -81.164042,
+   "source": "calendar"
   },
   {
-   "name": "Gamble Hall",
-   "campus": "armstrong"
+   "name": "AutoZone",
+   "campus": "armstrong",
+   "lat": 31.981187,
+   "lon": -81.151257,
+   "source": "openstreetmap"
   },
   {
-   "name": "Hawes Hall",
-   "campus": "armstrong"
+   "name": "Burnett Hall",
+   "campus": "armstrong",
+   "lat": 31.981013,
+   "lon": -81.162584,
+   "source": "openstreetmap"
   },
   {
-   "name": "Jenkins Hall",
-   "campus": "armstrong"
+   "name": "Church of Christ of Savannah",
+   "campus": "armstrong",
+   "lat": 31.986473,
+   "lon": -81.159324,
+   "source": "openstreetmap"
   },
   {
-   "name": "MCC (Memorial College Center)",
-   "campus": "armstrong"
-  },
-  {
-   "name": "Sports Center",
-   "campus": "armstrong"
+   "name": "Coastal Georgia Center",
+   "campus": "armstrong",
+   "lat": 32.07707,
+   "lon": -81.101671,
+   "source": "calendar"
   },
   {
    "name": "Compass Point",
    "campus": "armstrong"
   },
   {
+   "name": "Fine Arts Auditorium",
+   "campus": "armstrong",
+   "lat": 31.980388,
+   "lon": -81.164779,
+   "source": "calendar"
+  },
+  {
+   "name": "Fine Arts Hall",
+   "campus": "armstrong",
+   "lat": 31.980388,
+   "lon": -81.164779,
+   "source": "calendar"
+  },
+  {
+   "name": "Gamble Hall",
+   "campus": "armstrong",
+   "lat": 31.980783,
+   "lon": -81.161846,
+   "source": "calendar"
+  },
+  {
+   "name": "Greenhouse - Biology",
+   "campus": "armstrong",
+   "lat": 31.979217,
+   "lon": -81.159014,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Hawes Hall",
+   "campus": "armstrong",
+   "lat": 31.980179,
+   "lon": -81.163056,
+   "source": "calendar"
+  },
+  {
+   "name": "Islamic Center of Savannah",
+   "campus": "armstrong",
+   "lat": 31.989342,
+   "lon": -81.161736,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Jenkins Hall",
+   "campus": "armstrong",
+   "lat": 31.979794,
+   "lon": -81.161364,
+   "source": "calendar"
+  },
+  {
+   "name": "Kingdom Hall of Jehovah’s Witnesses",
+   "campus": "armstrong",
+   "lat": 31.988106,
+   "lon": -81.164605,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Lane Library",
+   "campus": "armstrong",
+   "lat": 31.978158,
+   "lon": -81.163205,
+   "source": "calendar"
+  },
+  {
+   "name": "Learning Commons",
+   "campus": "armstrong",
+   "lat": 31.978158,
+   "lon": -81.163205,
+   "source": "calendar"
+  },
+  {
+   "name": "Liberty Campus | Hinesville, GA",
+   "campus": "armstrong",
+   "lat": 31.850591,
+   "lon": -81.599315,
+   "source": "calendar"
+  },
+  {
+   "name": "MCC (Memorial College Center)",
+   "campus": "armstrong"
+  },
+  {
+   "name": "Pizza Hut",
+   "campus": "armstrong",
+   "lat": 31.982594,
+   "lon": -81.150293,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Publix",
+   "campus": "armstrong",
+   "lat": 31.981362,
+   "lon": -81.152131,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Savannah Mall",
+   "campus": "armstrong",
+   "lat": 31.983937,
+   "lon": -81.172477,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Science Center",
+   "campus": "armstrong",
+   "lat": 31.979532,
+   "lon": -81.160712,
+   "source": "calendar"
+  },
+  {
+   "name": "Shell",
+   "campus": "armstrong",
+   "lat": 31.981371,
+   "lon": -81.169624,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Solms Hall",
+   "campus": "armstrong",
+   "lat": 31.980157,
+   "lon": -81.163739,
+   "source": "calendar"
+  },
+  {
+   "name": "Sports Center",
+   "campus": "armstrong",
+   "lat": 32.431921,
+   "lon": -81.780328,
+   "source": "calendar"
+  },
+  {
+   "name": "Staples",
+   "campus": "armstrong",
+   "lat": 31.981083,
+   "lon": -81.150898,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Student Recreation Center",
+   "campus": "armstrong",
+   "lat": 31.978471,
+   "lon": -81.160683,
+   "source": "calendar"
+  },
+  {
+   "name": "Student Success Complex",
+   "campus": "armstrong",
+   "lat": 31.978023,
+   "lon": -81.16087,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Student Union",
+   "campus": "armstrong",
+   "lat": 31.97881,
+   "lon": -81.162965,
+   "source": "calendar"
+  },
+  {
+   "name": "Taco Bell",
+   "campus": "armstrong",
+   "lat": 31.981557,
+   "lon": -81.169984,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Trinity Lutheran Church",
+   "campus": "armstrong",
+   "lat": 31.980718,
+   "lon": -81.154442,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "University Hall",
+   "campus": "armstrong",
+   "lat": 32.422783,
+   "lon": -81.779163,
+   "source": "calendar"
+  },
+  {
+   "name": "Victor Hall",
+   "campus": "armstrong",
+   "lat": 31.98077,
+   "lon": -81.161066,
+   "source": "openstreetmap"
+  },
+  {
    "name": "Waters College of Health Professions",
    "campus": "armstrong"
+  },
+  {
+   "name": "111 South",
+   "campus": "statesboro",
+   "lat": 32.425693,
+   "lon": -81.793971,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Academic Success Center",
+   "campus": "statesboro",
+   "lat": 32.598434,
+   "lon": -82.307319,
+   "source": "calendar"
+  },
+  {
+   "name": "Admissions - Lewis Hall",
+   "campus": "statesboro",
+   "lat": 32.426192,
+   "lon": -81.784111,
+   "source": "calendar"
+  },
+  {
+   "name": "Allen E. Paulson Stadium",
+   "campus": "statesboro",
+   "lat": 32.412158,
+   "lon": -81.783155,
+   "source": "calendar"
+  },
+  {
+   "name": "AMC CLASSIC Statesboro 12",
+   "campus": "statesboro",
+   "lat": 32.434165,
+   "lon": -81.763501,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Anderson Hall",
+   "campus": "statesboro",
+   "lat": 32.414454,
+   "lon": -81.795543,
+   "source": "calendar"
+  },
+  {
+   "name": "Andrews Klean Korner",
+   "campus": "statesboro",
+   "lat": 32.43501,
+   "lon": -81.783019,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Anthony P. Tippins Family Training Facility",
+   "campus": "statesboro",
+   "lat": 32.412704,
+   "lon": -81.785772,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Arby's",
+   "campus": "statesboro",
+   "lat": 32.430381,
+   "lon": -81.778484,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Arts Building",
+   "campus": "statesboro",
+   "lat": 32.425047,
+   "lon": -81.784692,
+   "source": "calendar"
+  },
+  {
+   "name": "Auto Glass Service Inc",
+   "campus": "statesboro",
+   "lat": 32.440499,
+   "lon": -81.759919,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Auxiliary Services",
+   "campus": "statesboro",
+   "lat": 32.418411,
+   "lon": -81.782918,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Auxiliary Warehouse",
+   "campus": "statesboro",
+   "lat": 32.420789,
+   "lon": -81.791047,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Averitt Center for the Arts",
+   "campus": "statesboro",
+   "lat": 32.449065,
+   "lon": -81.782521,
+   "source": "calendar"
+  },
+  {
+   "name": "Barr Law",
+   "campus": "statesboro",
+   "lat": 32.428457,
+   "lon": -81.787401,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Big Lots",
+   "campus": "statesboro",
+   "lat": 32.440351,
+   "lon": -81.762628,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "BIG/City Campus",
+   "campus": "statesboro",
+   "lat": 32.448612,
+   "lon": -81.78119,
+   "source": "calendar"
+  },
+  {
+   "name": "Biological Sciences Building",
+   "campus": "statesboro",
+   "lat": 32.420786,
+   "lon": -81.78971,
+   "source": "calendar"
+  },
+  {
+   "name": "Bishop Alumni Center",
+   "campus": "statesboro",
+   "lat": 32.414551,
+   "lon": -81.790802,
+   "source": "calendar"
+  },
+  {
+   "name": "Bishop Field House",
+   "campus": "statesboro",
+   "lat": 32.412217,
+   "lon": -81.784203,
+   "source": "calendar"
+  },
+  {
+   "name": "Black Box Theatre",
+   "campus": "statesboro",
+   "lat": 32.425244,
+   "lon": -81.785535,
+   "source": "calendar"
+  },
+  {
+   "name": "Bland Cottage",
+   "campus": "statesboro",
+   "lat": 32.42207,
+   "lon": -81.774982,
+   "source": "calendar"
+  },
+  {
+   "name": "Books-A-Million",
+   "campus": "statesboro",
+   "lat": 32.429367,
+   "lon": -81.760738,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Bookstore",
+   "campus": "statesboro",
+   "lat": 32.424301,
+   "lon": -81.779158,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Botanic Garden",
+   "campus": "statesboro",
+   "lat": 32.420825,
+   "lon": -81.77389,
+   "source": "calendar"
+  },
+  {
+   "name": "Brannen Hall",
+   "campus": "statesboro",
+   "lat": 32.428713,
+   "lon": -81.782229,
+   "source": "calendar"
+  },
+  {
+   "name": "Bray, DMD and Young, DMD",
+   "campus": "statesboro",
+   "lat": 32.441338,
+   "lon": -81.761869,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Buffalo Wild Wings",
+   "campus": "statesboro",
+   "lat": 32.439383,
+   "lon": -81.761963,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Burger King",
+   "campus": "statesboro",
+   "lat": 32.432246,
+   "lon": -81.780023,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Cambridge",
+   "campus": "statesboro",
+   "lat": 32.418138,
+   "lon": -81.783402,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Carroll Building",
+   "campus": "statesboro",
+   "lat": 32.424352,
+   "lon": -81.784434,
+   "source": "calendar"
+  },
+  {
+   "name": "Carruth Building",
+   "campus": "statesboro",
+   "lat": 32.423984,
+   "lon": -81.781297,
+   "source": "calendar"
+  },
+  {
+   "name": "Carter Recital Hall",
+   "campus": "statesboro",
+   "lat": 32.424547,
+   "lon": -81.780723,
+   "source": "calendar"
+  },
+  {
+   "name": "Centennial Place",
+   "campus": "statesboro",
+   "lat": 32.42309,
+   "lon": -81.779775,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Center for Art & Theatre",
+   "campus": "statesboro",
+   "lat": 32.425244,
+   "lon": -81.785535,
+   "source": "calendar"
+  },
+  {
+   "name": "Center for Art and Theatre",
+   "campus": "statesboro",
+   "lat": 32.425191,
+   "lon": -81.785494,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Center for Wildlife Education & Lamar Q Ball, Jr. Raptor Center",
+   "campus": "statesboro",
+   "lat": 32.425215,
+   "lon": -81.788384,
+   "source": "calendar"
+  },
+  {
+   "name": "Ceramics & Sculpture Studio",
+   "campus": "statesboro",
+   "lat": 32.41826,
+   "lon": -81.788718,
+   "source": "calendar"
+  },
+  {
+   "name": "Chemistry and Nursing",
+   "campus": "statesboro",
+   "lat": 32.421499,
+   "lon": -81.787301,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Child Development Center",
+   "campus": "statesboro",
+   "lat": 32.426302,
+   "lon": -81.7868,
+   "source": "calendar"
+  },
+  {
+   "name": "College of Business",
+   "campus": "statesboro",
+   "lat": 32.422539,
+   "lon": -81.786076,
+   "source": "calendar"
+  },
+  {
+   "name": "College of Education",
+   "campus": "statesboro",
+   "lat": 32.422285,
+   "lon": -81.788307,
+   "source": "calendar"
+  },
+  {
+   "name": "Colonial House of Flowers",
+   "campus": "statesboro",
+   "lat": 32.41336,
+   "lon": -81.767843,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Cone Hall",
+   "campus": "statesboro",
+   "lat": 32.427814,
+   "lon": -81.781484,
+   "source": "calendar"
+  },
+  {
+   "name": "Cook Out",
+   "campus": "statesboro",
+   "lat": 32.43272,
+   "lon": -81.780358,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "CORE Credit Union",
+   "campus": "statesboro",
+   "lat": 32.413432,
+   "lon": -81.767876,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Counseling Center",
+   "campus": "statesboro",
+   "lat": 32.422522,
+   "lon": -81.783333,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Coward Building Athletic Foundation",
+   "campus": "statesboro",
+   "lat": 32.411627,
+   "lon": -81.781788,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "CVS Pharmacy",
+   "campus": "statesboro",
+   "lat": 32.434826,
+   "lon": -81.78317,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "D's Friendly Diner",
+   "campus": "statesboro",
+   "lat": 32.439951,
+   "lon": -81.762971,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Days Inn",
+   "campus": "statesboro",
+   "lat": 32.432212,
+   "lon": -81.778734,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Deal Hall",
+   "campus": "statesboro",
+   "lat": 32.425899,
+   "lon": -81.783193,
+   "source": "calendar"
+  },
+  {
+   "name": "Dingus Magee's Restaurant",
+   "campus": "statesboro",
+   "lat": 32.422728,
+   "lon": -81.778355,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Dining Commons",
+   "campus": "statesboro",
+   "lat": 32.423808,
+   "lon": -81.778889,
+   "source": "calendar"
+  },
+  {
+   "name": "Disc Golf Courses",
+   "campus": "statesboro",
+   "lat": 32.366975,
+   "lon": -81.781086,
+   "source": "calendar"
+  },
+  {
+   "name": "Eagle Field",
+   "campus": "statesboro",
+   "lat": 32.431239,
+   "lon": -81.781698,
+   "source": "calendar"
+  },
+  {
+   "name": "Eagle Pines 1 (South)",
+   "campus": "statesboro",
+   "lat": 32.598434,
+   "lon": -82.307319,
+   "source": "calendar"
+  },
+  {
+   "name": "Eagle Pines 2 (West)",
+   "campus": "statesboro",
+   "lat": 32.598434,
+   "lon": -82.307319,
+   "source": "calendar"
+  },
+  {
+   "name": "Eagle Village",
+   "campus": "statesboro",
+   "lat": 32.420137,
+   "lon": -81.777892,
+   "source": "calendar"
+  },
+  {
+   "name": "East Georgia Medical Office Building",
+   "campus": "statesboro",
+   "lat": 32.415553,
+   "lon": -81.770327,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "East Georgia Regional Medical Center",
+   "campus": "statesboro",
+   "lat": 32.414592,
+   "lon": -81.770245,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Edison House",
+   "campus": "statesboro",
+   "lat": 32.426727,
+   "lon": -81.779787,
+   "source": "calendar"
+  },
+  {
+   "name": "Eidson House: Honors College",
+   "campus": "statesboro"
+  },
+  {
+   "name": "El Jalapeno",
+   "campus": "statesboro",
+   "lat": 32.428926,
+   "lon": -81.786977,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "El Sombero",
+   "campus": "statesboro",
+   "lat": 32.43853,
+   "lon": -81.783486,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Engineering and Research Building",
+   "campus": "statesboro"
+  },
+  {
+   "name": "Engineering Building",
+   "campus": "statesboro",
+   "lat": 32.421783,
+   "lon": -81.785606,
+   "source": "calendar"
+  },
+  {
+   "name": "Facilities Services Administration",
+   "campus": "statesboro",
+   "lat": 32.41781,
+   "lon": -81.794998,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Facilities Services Landscape/Custodial Services",
+   "campus": "statesboro",
+   "lat": 32.418329,
+   "lon": -81.794108,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Facilities Services Shops",
+   "campus": "statesboro",
+   "lat": 32.41898,
+   "lon": -81.794922,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Fair Road Soccer Field",
+   "campus": "statesboro",
+   "lat": 32.433263,
+   "lon": -81.782071,
+   "source": "calendar"
+  },
+  {
+   "name": "Fielding D. Russell Union",
+   "campus": "statesboro",
+   "lat": 32.424956,
+   "lon": -81.77974,
+   "source": "calendar"
+  },
+  {
+   "name": "Fifth Quarter Bar & Grill",
+   "campus": "statesboro",
+   "lat": 32.41602,
+   "lon": -81.778391,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "First Presbyterian Church",
+   "campus": "statesboro",
+   "lat": 32.4175,
+   "lon": -81.771389,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Five Below",
+   "campus": "statesboro",
+   "lat": 32.429757,
+   "lon": -81.761461,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Food World",
+   "campus": "statesboro",
+   "lat": 32.431442,
+   "lon": -81.77829,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Football Operations Center",
+   "campus": "statesboro",
+   "lat": 32.41239,
+   "lon": -81.782233,
+   "source": "calendar"
+  },
+  {
+   "name": "Football Practice Fields",
+   "campus": "statesboro",
+   "lat": 32.432503,
+   "lon": -81.782881,
+   "source": "calendar"
+  },
+  {
+   "name": "Forest Drive Classroom Building",
+   "campus": "statesboro",
+   "lat": 32.422115,
+   "lon": -81.784226,
+   "source": "calendar"
+  },
+  {
+   "name": "Forrest Drive Classroom Building",
+   "campus": "statesboro",
+   "lat": 32.422113,
+   "lon": -81.784242,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Foy Building",
+   "campus": "statesboro",
+   "lat": 32.424547,
+   "lon": -81.780723,
+   "source": "calendar"
+  },
+  {
+   "name": "Freedom’s Landing",
+   "campus": "statesboro",
+   "lat": 32.409558,
+   "lon": -81.783847,
+   "source": "calendar"
+  },
+  {
+   "name": "George L. Smith Building",
+   "campus": "statesboro",
+   "lat": 32.598434,
+   "lon": -82.307319,
+   "source": "calendar"
+  },
+  {
+   "name": "Georgia Southern Museum",
+   "campus": "statesboro",
+   "lat": 32.42719,
+   "lon": -81.781754,
+   "source": "calendar"
+  },
+  {
+   "name": "Gracewood Baptist Church",
+   "campus": "statesboro",
+   "lat": 32.414727,
+   "lon": -81.798663,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Great Wall Chinese Restaurant",
+   "campus": "statesboro",
+   "lat": 32.431087,
+   "lon": -81.778336,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Hampton Inn Statesboro",
+   "campus": "statesboro",
+   "lat": 32.41232,
+   "lon": -81.769628,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Hanner Complex-Fieldhouse/Kinesiology Lab",
+   "campus": "statesboro",
+   "lat": 32.427848,
+   "lon": -81.779721,
+   "source": "calendar"
+  },
+  {
+   "name": "Hardee's",
+   "campus": "statesboro",
+   "lat": 32.438387,
+   "lon": -81.76315,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Health Center",
+   "campus": "statesboro",
+   "lat": 31.978158,
+   "lon": -81.163205,
+   "source": "calendar"
+  },
+  {
+   "name": "Hefty Building",
+   "campus": "statesboro",
+   "lat": 32.426331,
+   "lon": -81.781202,
+   "source": "calendar"
+  },
+  {
+   "name": "Hendricks Hall",
+   "campus": "statesboro",
+   "lat": 32.426162,
+   "lon": -81.785751,
+   "source": "calendar"
+  },
+  {
+   "name": "Heritage Pavilion",
+   "campus": "statesboro",
+   "lat": 32.420587,
+   "lon": -81.774499,
+   "source": "calendar"
+  },
+  {
+   "name": "Herring Pavilion",
+   "campus": "statesboro",
+   "lat": 32.432967,
+   "lon": -81.783383,
+   "source": "calendar"
+  },
+  {
+   "name": "Herty Building",
+   "campus": "statesboro",
+   "lat": 32.429066,
+   "lon": -81.783342,
+   "source": "calendar"
+  },
+  {
+   "name": "Holiday Inn Express Statesboro",
+   "campus": "statesboro",
+   "lat": 32.436851,
+   "lon": -81.785338,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Holiday Pizza",
+   "campus": "statesboro",
+   "lat": 32.438156,
+   "lon": -81.782761,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Hollis Building",
+   "campus": "statesboro",
+   "lat": 32.427185,
+   "lon": -81.780727,
+   "source": "calendar"
+  },
+  {
+   "name": "Honey Bowen Building",
+   "campus": "statesboro",
+   "lat": 32.437554,
+   "lon": -81.783258,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Housing Facilities",
+   "campus": "statesboro",
+   "lat": 32.418956,
+   "lon": -81.793704,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Huey Magoo's Chicken Tenders",
+   "campus": "statesboro",
+   "lat": 32.41132,
+   "lon": -81.796172,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Human Resouces Office",
+   "campus": "statesboro",
+   "lat": 32.426065,
+   "lon": -81.787324,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Information Technology Building",
+   "campus": "statesboro",
+   "lat": 32.42322,
+   "lon": -81.786558,
+   "source": "calendar"
+  },
+  {
+   "name": "Interdisciplinary Academic Building",
+   "campus": "statesboro",
+   "lat": 32.424215,
+   "lon": -81.785158,
+   "source": "calendar"
+  },
+  {
+   "name": "Interior Design Complex I",
+   "campus": "statesboro",
+   "lat": 32.423721,
+   "lon": -81.785139,
+   "source": "calendar"
+  },
+  {
+   "name": "Iron Works",
+   "campus": "statesboro",
+   "lat": 32.42879,
+   "lon": -81.779912,
+   "source": "calendar"
+  },
+  {
+   "name": "Ivory Tower",
+   "campus": "statesboro",
+   "lat": 32.438282,
+   "lon": -81.782795,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "J.I. Clements Stadium",
+   "campus": "statesboro",
+   "lat": 32.429763,
+   "lon": -81.781017,
+   "source": "calendar"
+  },
+  {
+   "name": "Jack and Ruth Hill Convocation Center",
+   "campus": "statesboro"
+  },
+  {
+   "name": "Jimmy John's",
+   "campus": "statesboro",
+   "lat": 32.412976,
+   "lon": -81.7684,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Kennedy Hall",
+   "campus": "statesboro",
+   "lat": 32.418729,
+   "lon": -81.778649,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Knights Inn Statesboro",
+   "campus": "statesboro",
+   "lat": 32.43329,
+   "lon": -81.785682,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Lakeside Dining Commons",
+   "campus": "statesboro",
+   "lat": 32.423508,
+   "lon": -81.783997,
+   "source": "calendar"
+  },
+  {
+   "name": "Larry's Giant Subs",
+   "campus": "statesboro",
+   "lat": 32.430965,
+   "lon": -81.778254,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Lewis Hall - Admissions",
+   "campus": "statesboro",
+   "lat": 32.42615,
+   "lon": -81.784056,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Little Caesars",
+   "campus": "statesboro",
+   "lat": 32.429341,
+   "lon": -81.760435,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "LongHorn Steakhouse",
+   "campus": "statesboro",
+   "lat": 32.437481,
+   "lon": -81.760393,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Luck Flanders Gambrell Center",
+   "campus": "statesboro",
+   "lat": 32.598434,
+   "lon": -82.307319,
+   "source": "calendar"
+  },
+  {
+   "name": "Marvin Pittman Administration Building",
+   "campus": "statesboro",
+   "lat": 32.425822,
+   "lon": -81.78244,
+   "source": "calendar"
+  },
+  {
+   "name": "Math/Physics Building",
+   "campus": "statesboro",
+   "lat": 32.4261,
+   "lon": -81.780489,
+   "source": "calendar"
+  },
+  {
+   "name": "Maurices",
+   "campus": "statesboro",
+   "lat": 32.429152,
+   "lon": -81.760106,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "McDonald's",
+   "campus": "statesboro",
+   "lat": 32.412002,
+   "lon": -81.767049,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "MDL Specialty Boutique",
+   "campus": "statesboro",
+   "lat": 32.429316,
+   "lon": -81.760376,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Military Science Building",
+   "campus": "statesboro",
+   "lat": 32.421932,
+   "lon": -81.791401,
+   "source": "calendar"
+  },
+  {
+   "name": "Mill Creek Regional Park",
+   "campus": "statesboro",
+   "lat": 32.455054,
+   "lon": -81.744247,
+   "source": "calendar"
+  },
+  {
+   "name": "Mr D's Omelette",
+   "campus": "statesboro",
+   "lat": 32.440059,
+   "lon": -81.762798,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Natural Sciences Building",
+   "campus": "statesboro",
+   "lat": 32.424117,
+   "lon": -81.779916,
+   "source": "calendar"
+  },
+  {
+   "name": "Nature Trail",
+   "campus": "statesboro",
+   "lat": 32.598434,
+   "lon": -82.307319,
+   "source": "calendar"
+  },
+  {
+   "name": "Nessimith-Lane Conference Center",
+   "campus": "statesboro",
+   "lat": 32.420191,
+   "lon": -81.78287,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Nessmith-Lane Center",
+   "campus": "statesboro",
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "source": "calendar"
+  },
+  {
+   "name": "Newton Building",
+   "campus": "statesboro",
+   "lat": 32.42302,
+   "lon": -81.784555,
+   "source": "calendar"
+  },
+  {
+   "name": "Nursing/Chemistry Building",
+   "campus": "statesboro",
+   "lat": 32.422138,
+   "lon": -81.785048,
+   "source": "calendar"
+  },
+  {
+   "name": "Ollie's Bargain Outlet",
+   "campus": "statesboro",
+   "lat": 32.434616,
+   "lon": -81.779894,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Papa John's",
+   "campus": "statesboro",
+   "lat": 32.43103,
+   "lon": -81.778296,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Parking & Transportation",
+   "campus": "statesboro",
+   "lat": 32.423849,
+   "lon": -81.77764,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Parrish Athlethics Building",
+   "campus": "statesboro",
+   "lat": 32.429296,
+   "lon": -81.779919,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Parrish Football Center",
+   "campus": "statesboro",
+   "lat": 32.431266,
+   "lon": -81.779894,
+   "source": "calendar"
+  },
+  {
+   "name": "Performing Arts Center",
+   "campus": "statesboro",
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "source": "calendar"
+  },
+  {
+   "name": "Petco",
+   "campus": "statesboro",
+   "lat": 32.429522,
+   "lon": -81.761004,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Physical Education Building",
+   "campus": "statesboro",
+   "lat": 32.598434,
+   "lon": -82.307319,
+   "source": "calendar"
+  },
+  {
+   "name": "Pittman Park United Methodist Church",
+   "campus": "statesboro",
+   "lat": 32.425086,
+   "lon": -81.77438,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Planetarium",
+   "campus": "statesboro",
+   "lat": 32.4261,
+   "lon": -81.780489,
+   "source": "calendar"
+  },
+  {
+   "name": "Plant Operations Building",
+   "campus": "statesboro",
+   "lat": 32.598434,
+   "lon": -82.307319,
+   "source": "calendar"
+  },
+  {
+   "name": "Popeyes",
+   "campus": "statesboro",
+   "lat": 32.433062,
+   "lon": -81.780602,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Psychology Clinic & Senior Companion Program",
+   "campus": "statesboro",
+   "lat": 32.426823,
+   "lon": -81.787138,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Public Safety GSU Police",
+   "campus": "statesboro",
+   "lat": 32.425943,
+   "lon": -81.788604,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Rack Room Shoes",
+   "campus": "statesboro",
+   "lat": 32.429073,
+   "lon": -81.759963,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Recreation Activity Center",
+   "campus": "statesboro",
+   "lat": 32.410662,
+   "lon": -81.789502,
+   "source": "calendar"
+  },
+  {
+   "name": "Recreational Activities Center",
+   "campus": "statesboro",
+   "lat": 32.417225,
+   "lon": -81.792268,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Rosenwald Building",
+   "campus": "statesboro",
+   "lat": 32.427164,
+   "lon": -81.781778,
+   "source": "calendar"
+  },
+  {
+   "name": "Saint Matthew's Parish",
+   "campus": "statesboro",
+   "lat": 32.425944,
+   "lon": -81.771991,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Sanford Hall",
+   "campus": "statesboro",
+   "lat": 32.427541,
+   "lon": -81.782229,
+   "source": "calendar"
+  },
+  {
+   "name": "Scene Shop",
+   "campus": "statesboro",
+   "lat": 32.418099,
+   "lon": -81.788241,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "School of Human Ecology",
+   "campus": "statesboro",
+   "lat": 32.426058,
+   "lon": -81.787322,
+   "source": "calendar"
+  },
+  {
+   "name": "Sea Island Bank",
+   "campus": "statesboro",
+   "lat": 32.431666,
+   "lon": -81.779568,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Second Saint John Missionary Baptist Church",
+   "campus": "statesboro",
+   "lat": 32.421775,
+   "lon": -81.772215,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Shot and Jean Strange Learning and Recreation Center",
+   "campus": "statesboro",
+   "lat": 32.598434,
+   "lon": -82.307319,
+   "source": "calendar"
+  },
+  {
+   "name": "Soccer/Track Stadium",
+   "campus": "statesboro",
+   "lat": 32.448788,
+   "lon": -81.783167,
+   "source": "calendar"
+  },
+  {
+   "name": "Softball Facility",
+   "campus": "statesboro",
+   "lat": 32.431913,
+   "lon": -81.780344,
+   "source": "calendar"
+  },
+  {
+   "name": "Southern Courtyard",
+   "campus": "statesboro",
+   "lat": 32.417338,
+   "lon": -81.779836,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Southern Nails",
+   "campus": "statesboro",
+   "lat": 32.42929,
+   "lon": -81.760323,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Southern Pines",
+   "campus": "statesboro",
+   "lat": 32.415917,
+   "lon": -81.783851,
+   "source": "calendar"
+  },
+  {
+   "name": "Southern Social",
+   "campus": "statesboro",
+   "lat": 32.415589,
+   "lon": -81.777469,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Starbucks",
+   "campus": "statesboro",
+   "lat": 32.437175,
+   "lon": -81.761563,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Statesboro Convention & Visitors Bureau",
+   "campus": "statesboro",
+   "lat": 32.440138,
+   "lon": -81.784061,
+   "source": "calendar"
+  },
+  {
+   "name": "Statesboro Fire Department",
+   "campus": "statesboro",
+   "lat": 32.445037,
+   "lon": -81.787627,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Statesboro High School",
+   "campus": "statesboro",
+   "lat": 32.443402,
+   "lon": -81.762633,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Statesboro Mall",
+   "campus": "statesboro",
+   "lat": 32.436249,
+   "lon": -81.762291,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Statesboro OB/GYN Specialists",
+   "campus": "statesboro",
+   "lat": 32.411391,
+   "lon": -81.766711,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Steverson Family Baseball Facility",
+   "campus": "statesboro",
+   "lat": 32.429552,
+   "lon": -81.781776,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Sudie A. Fulford Community Learning Center",
+   "campus": "statesboro",
+   "lat": 32.598434,
+   "lon": -82.307319,
+   "source": "calendar"
+  },
+  {
+   "name": "Super 8",
+   "campus": "statesboro",
+   "lat": 32.427073,
+   "lon": -81.788899,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Sweetheart Circle",
+   "campus": "statesboro",
+   "lat": 32.427074,
+   "lon": -81.783176,
+   "source": "calendar"
+  },
+  {
+   "name": "Tech Corner",
+   "campus": "statesboro",
+   "lat": 32.423157,
+   "lon": -81.780275,
+   "source": "calendar"
+  },
+  {
+   "name": "Ted Smith Family Football Center",
+   "campus": "statesboro",
+   "lat": 32.412158,
+   "lon": -81.782065,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "The Church of Jesus Christ of Latter-day Saints",
+   "campus": "statesboro",
+   "lat": 32.411083,
+   "lon": -81.765231,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "The Heritage Bank",
+   "campus": "statesboro",
+   "lat": 32.433969,
+   "lon": -81.781291,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "The Renaissance Apartments",
+   "campus": "statesboro",
+   "lat": 32.413877,
+   "lon": -81.786619,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "The Wax Strip",
+   "campus": "statesboro",
+   "lat": 32.429367,
+   "lon": -81.760498,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "TJ Maxx",
+   "campus": "statesboro",
+   "lat": 32.428831,
+   "lon": -81.759716,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Tokyo Japanese Restaurant",
+   "campus": "statesboro",
+   "lat": 32.412816,
+   "lon": -81.768308,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Tractor Supply Company",
+   "campus": "statesboro",
+   "lat": 32.439642,
+   "lon": -81.761881,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Ulta Beauty",
+   "campus": "statesboro",
+   "lat": 32.429653,
+   "lon": -81.761243,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Veazey Hall",
+   "campus": "statesboro",
+   "lat": 32.426596,
+   "lon": -81.784857,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Waffle House",
+   "campus": "statesboro",
+   "lat": 32.439149,
+   "lon": -81.762744,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Walker Pharmacy & Boutique",
+   "campus": "statesboro",
+   "lat": 32.411372,
+   "lon": -81.769837,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Walmart Neighborhood Market",
+   "campus": "statesboro",
+   "lat": 32.411352,
+   "lon": -81.768939,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Walmart Supercenter",
+   "campus": "statesboro",
+   "lat": 32.434085,
+   "lon": -81.759617,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Walnut Grove",
+   "campus": "statesboro",
+   "lat": 32.445044,
+   "lon": -81.785338,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Watson Hall",
+   "campus": "statesboro",
+   "lat": 32.423433,
+   "lon": -81.776964,
+   "source": "calendar"
+  },
+  {
+   "name": "Wells Fargo",
+   "campus": "statesboro",
+   "lat": 32.430641,
+   "lon": -81.778854,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Wendy's",
+   "campus": "statesboro",
+   "lat": 32.43466,
+   "lon": -81.781712,
+   "source": "openstreetmap"
+  },
+  {
+   "name": "Wiggins Baseball Building",
+   "campus": "statesboro",
+   "lat": 32.417236,
+   "lon": -81.792201,
+   "source": "calendar"
+  },
+  {
+   "name": "Williams Center",
+   "campus": "statesboro",
+   "lat": 32.424132,
+   "lon": -81.779917,
+   "source": "calendar"
+  },
+  {
+   "name": "Zach S. Henderson Library",
+   "campus": "statesboro",
+   "lat": 32.424835,
+   "lon": -81.783324,
+   "source": "calendar"
+  },
+  {
+   "name": "Zaxby's",
+   "campus": "statesboro",
+   "lat": 32.434343,
+   "lon": -81.781447,
+   "source": "openstreetmap"
   }
  ]
 }
