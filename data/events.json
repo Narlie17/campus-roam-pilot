@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-11T00:53:38.539Z",
- "source": "Localist API + Eagle Engage (170) · https://calendar.georgiasouthern.edu",
+ "generatedAt": "2026-11-11T04:12:46.291Z",
+ "source": "Localist API + Eagle Engage (167) · https://calendar.georgiasouthern.edu",
  "events": [
   {
    "id": "engage-philanthropy-in-action-3",
@@ -28,86 +28,6 @@
    "free": null,
    "org": "Georgia Southern University Alumni Association",
    "orgUri": "georgia-southern-university-alumni-association",
-   "colleges": []
-  },
-  {
-   "id": "engage-ida-meeting-3",
-   "title": "IDA Meeting",
-   "start": "2026-11-10T23:00:00.000Z",
-   "end": "2026-11-11T01:00:00.000Z",
-   "allDay": false,
-   "location": "IAB 1015",
-   "campus": "statesboro",
-   "url": "https://georgiasouthern.presence.io/event/ida-meeting-3",
-   "types": [
-    "Career Development",
-    "Credit",
-    "Free Food",
-    "Social Event",
-    "Student Org. Event"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "career",
-    "food",
-    "social"
-   ],
-   "desc": "This is our last meeting of the semester. This is an opportunity for students to learn from each other, as well as from industry professionals. We will have a fun activity, free food, information, and a guest speaker.",
-   "free": null,
-   "org": "Interior Design Association",
-   "orgUri": "interior-design-association-2",
-   "colleges": []
-  },
-  {
-   "id": "engage-mens-basketball-vs-mercer",
-   "title": "Men's Basketball Vs Mercer",
-   "start": "2026-11-11T00:00:00.000Z",
-   "end": "2026-11-11T02:00:00.000Z",
-   "allDay": false,
-   "location": "Jack and Ruth Ann Hill convocation center",
-   "campus": "statesboro",
-   "url": "https://georgiasouthern.presence.io/event/mens-basketball-vs-mercer",
-   "types": [
-    "Free Stuff",
-    "Social Event",
-    "Sports/Fitness"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "sports",
-    "fitness",
-    "veterans",
-    "women",
-    "service",
-    "social"
-   ],
-   "desc": "Salute to Service Join us in honoring our men and women of the United States Armed Forces. Complimentary ticket for all military personnel available at the ticket booth upon entrance. Giveaway: GS Camo Hats",
-   "free": null,
-   "org": "Georgia Southern Athletics",
-   "orgUri": "georgia-southern-athletics-2",
-   "colleges": []
-  },
-  {
-   "id": "engage-mmfp-senior-project-pitches",
-   "title": "MMFP Senior Project Pitches",
-   "start": "2026-11-11T00:00:00.000Z",
-   "end": "2026-11-11T01:30:00.000Z",
-   "allDay": false,
-   "location": "Sanford Hall 1002",
-   "campus": "statesboro",
-   "url": "https://georgiasouthern.presence.io/event/mmfp-senior-project-pitches",
-   "types": [
-    "Oral/Written/Digital Communication"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [],
-   "desc": "Students from the Spring 2027 section of MMFP 4432 - Senior Project will pitch their proposed capstone productions to a faculty panel and anyone else present.",
-   "free": null,
-   "org": "Department of Communication Arts",
-   "orgUri": "department-of-communication-arts",
    "colleges": []
   },
   {
