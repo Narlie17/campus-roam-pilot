@@ -92,3 +92,6 @@ html[data-theme=dark] .swipehint{border:1px dashed #313b4c;color:#bcc5d3}
 @media(max-width:820px){html[data-theme=dark] #tabs.sidebar{background:rgba(20,33,58,0.97);box-shadow:0 -4px 18px rgba(0,0,0,0.24)}}
 
 html[data-theme=dark] .goldchip,html[data-theme=dark] .sugg .k{background:rgba(230,185,74,.16);color:#f1d27a}html[data-theme=dark] .greenchip,html[data-theme=dark] .success{background:rgba(95,208,165,.14);color:#86e2bf}html[data-theme=dark] .redchip,html[data-theme=dark] .error,html[data-theme=dark] .btn.danger{background:rgba(255,143,152,.13);color:#ffa3ab}html[data-theme=dark] .warning{background:rgba(230,185,74,.13);color:#f1d27a}html[data-theme=dark] .notice{background:#1a2b47;color:#c4d3e8}html[data-theme=dark] .pagedots i{background:#2f4060}html[data-theme=dark] .pagedots i.on{background:#e6b94a}html[data-theme=dark] .footer{color:#8796ad}html[data-theme=dark] .sub,html[data-theme=dark] p{color:#a9b7cb}html[data-theme=dark] .hero p{color:#dbe6f5}
+
+/* Organization pages */
+.orglink{background:none;border:0;padding:0;margin:0;font:inherit;color:inherit;text-align:left;cursor:pointer;text-decoration:underline;text-decoration-color:var(--line);text-underline-offset:3px}.orglink:hover{color:var(--blue)}
