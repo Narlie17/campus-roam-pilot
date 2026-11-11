@@ -18,3 +18,29 @@ a.btn{text-decoration:none}
 @media(max-width:560px){.qlgrid{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;margin:14px -10px;padding:0 10px 4px}.ql{flex:0 0 42%;scroll-snap-align:start}}
 .field .chip{align-self:flex-start}
 .modalwrap{position:fixed;inset:0;background:rgba(16,40,76,.45);display:grid;place-items:center;z-index:40;padding:18px}.modal{max-width:420px;width:100%}.modal p{margin:0 0 6px;color:var(--ink);line-height:1.5}
+/* Compact phone layout (fit to screen) */
+@media(max-width:560px){
+body{font-size:14px;-webkit-text-size-adjust:100%}
+.topbar{padding:10px 12px}.brand{font-size:16px;gap:7px}.brandmark{width:28px;height:28px;font-size:18px;border-radius:9px}.mode{font-size:10px;padding:4px 8px}.outline{padding:6px 10px;font-size:12px}
+.app{margin:8px auto;padding:0 8px;gap:10px}
+.sidebar{display:grid;grid-template-columns:repeat(4,1fr);gap:4px;padding:6px;border-radius:14px;overflow:visible}
+.navbtn{display:flex;flex-direction:column;align-items:center;gap:2px;padding:7px 2px;margin:0;font-size:10.5px;line-height:1.15;text-align:center;white-space:normal;border-radius:9px}
+.navbtn .ico{margin:0;font-size:15px}
+.hero{padding:14px 16px;border-radius:16px}.hero h1{font-size:19px;margin:4px 0 5px;letter-spacing:-.4px}.hero p{font-size:12.5px}.hero:after{font-size:110px;top:-20px}.eyebrow{font-size:10px;letter-spacing:1.2px}
+.studenthead{margin-bottom:8px}
+.cards{grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;margin:10px 0}.card{padding:9px;border-radius:12px}.card .sub{font-size:10.5px}.metric{font-size:15px!important;margin-top:2px;line-height:1.2;word-break:break-word}
+.panel{padding:12px;border-radius:14px}.panel h3{font-size:15px;margin-bottom:6px}
+.section-title{margin:14px 0 8px}.section-title h2{font-size:15.5px}.section-title small{font-size:11px}
+.item{padding:10px 0}.item h4{font-size:14px;margin-bottom:3px}.item p{font-size:12.5px}
+.chip{padding:4px 8px;font-size:10.5px;margin:2px}.itemmeta{gap:3px;margin:5px 0}
+.btn{padding:9px 12px;font-size:13px;border-radius:10px}.btn.small{font-size:11.5px;padding:6px 9px}.btnrow{gap:6px;margin-top:8px}
+.sub{font-size:12px}.notice{font-size:12px;padding:9px 11px;margin:8px 0}
+.qlgrid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:5px;margin:10px 0;padding:0;overflow:visible}.ql{padding:7px 4px;border-radius:10px;align-items:center;text-align:center}.ql b{font-size:11px;line-height:1.2}.ql span{display:none}
+.sugg{gap:8px;padding:6px 0}.sugg .k{flex-basis:46px;font-size:9.5px}
+.field{font-size:12px;margin:8px 0}.field input,.field select,.field textarea{font-size:16px;padding:9px 10px}
+.pillselect{font-size:12px;padding:7px 10px;margin:3px}.daypick label{font-size:12px;padding:6px 10px}
+.authwrap{margin:16px auto;padding:0 10px}.authwrap .panel{padding:18px}.authwrap h1{font-size:22px}.authwrap p{font-size:13px}
+.timeline{padding-left:13px;margin-left:5px}.timeline .item:before{left:-19px;top:14px;width:8px;height:8px}
+.empty{padding:16px;font-size:12px}.footer{padding:16px 10px;font-size:11px}.alertbox{left:10px;right:10px;bottom:10px;max-width:none;font-size:13px;padding:12px 14px}
+table{font-size:12px}th,td{padding:8px 6px}
+}

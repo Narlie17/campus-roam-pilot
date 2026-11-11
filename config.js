@@ -12,7 +12,7 @@ window.ROAM_CONFIG = {
   target: 70,
   timeZone: 'America/New_York',
   // Shown in the app for withdrawal / deletion / questions. Use a domain email you own.
-  contactEmail: '',
+  contactEmail: 'nm14372@georgiasouthern.edu',
   // Public student link used by the admin "Invite" panel (e.g. https://campus-roam-students.netlify.app).
   studentUrl: '',
   // Optional: URL of a hosted events.json (campus-roam-app/data/events.json on GitHub Pages)
