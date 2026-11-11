@@ -15,7 +15,7 @@
  const ENGAGE=(C.meta?.sources?.engageBase||D.orgs?.base||'').replace(/\/$/,'');
  let user=null,profile=null,classes=[],adminEvents=[],publicEvents=[],follows=[],saved=[],savedPublic=[],hidden=[],announcements=[],surveys=[],tab='today',authMode='signup',interestSet=new Set(),weather=null,browseMajor=null,recovery=false;
  const initialRecovery=/type=recovery/.test(location.hash);
- const ui={dayPage:0,org:null,filter:'all',scope:'mine',q:'',showSaved:false,orgQ:'',orgCat:'all',resQ:'',dateKind:'all'};
+ const ui={dayPage:0,org:null,filter:'all',scope:'mine',q:'',showSaved:false,orgQ:'',orgCat:'all',resQ:'',dateKind:'all',fyPage:0,open:new Set()};
 
  /* ---------- helpers ---------- */
  const status=(txt,kind='')=>`<div class="notice ${kind}">${esc(txt)}</div>`;
@@ -23,7 +23,7 @@
  const mins=t=>Number(t.slice(0,2))*60+Number(t.slice(3,5));
  const hm=m=>`${String(Math.floor(m/60)).padStart(2,'0')}:${String(m%60).padStart(2,'0')}`;
  const validURL=u=>{try{const a=new URL(u);return ['https:','http:'].includes(a.protocol)?a.href:'#'}catch{return '#'}};
- const ext=(href,label,cls='btn secondary small',attrs='')=>`<a class="${cls}" target="_blank" rel="noopener noreferrer" href="${esc(validURL(href))}" ${attrs}>${esc(label)} ↗</a>`;
+ const ext=(href,label,cls='btn secondary small',attrs='')=>`<a class="${cls}" target="_blank" rel="noopener noreferrer" href="${esc(validURL(href))}" ${attrs}>${esc(label)}<svg class="exti" viewBox="0 0 12 12" aria-hidden="true"><path d="M4.5 2.5h5v5M9.5 2.5 3 9" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>`;
  const tel=p=>`<a class="btn secondary small" href="tel:${esc(String(p).replace(/[^0-9+]/g,''))}">${esc(p)}</a>`;
  const myCampus=()=>profile?.campus||CAMPUSES[0].id;
  const campusName=id=>(CAMPUSES.find(c=>c.id===id)||{}).name||'';
@@ -148,7 +148,7 @@
   else{const d=R.demo.load();d.profile={...d.profile,...payload};R.demo.save(d)}
  }
  async function loadPublicEvents(){
-  publicEvents=(D.events?.events||[]).map(e=>({...e,source:e.source||'calendar'}));
+  publicEvents=(D.events?.events||[]).map(e=>({...e,title:noEmoji(e.title),desc:noEmoji(e.desc),source:e.source||'calendar'}));
   if(R.cfg.liveEventsUrl){try{const r=await fetch(R.cfg.liveEventsUrl,{cache:'no-store'});if(r.ok){const j=await r.json();if(Array.isArray(j.events)&&j.events.length)publicEvents=j.events}}catch(e){console.warn('Live events unavailable; using bundled events',e.message)}}
  }
  async function load(){
@@ -246,7 +246,7 @@
   return null;
  }
 
- function initPager(){const c=document.getElementById('daypages');if(!c)return;const pages=[...c.children];let cur=-1;const fit=()=>{const w=c.clientWidth||1;const i=Math.max(0,Math.min(pages.length-1,Math.round(c.scrollLeft/w)));if(i!==cur){if(cur>=0){const top=c.getBoundingClientRect().top+window.scrollY-70;if(window.scrollY>top)window.scrollTo({top})}cur=i;ui.dayPage=i}c.style.height=pages[i].offsetHeight+'px'};c.scrollLeft=(ui.dayPage||0)*c.clientWidth;fit();let tm;c.addEventListener('scroll',()=>{clearTimeout(tm);tm=setTimeout(fit,90)},{passive:true});if(window.ResizeObserver){const ro=new ResizeObserver(()=>fit());pages.forEach(p=>ro.observe(p))}}
+ function initPager(id='daypages',key='dayPage'){const c=document.getElementById(id);if(!c)return;const pages=[...c.children];let cur=-1;const fit=()=>{const w=c.clientWidth||1;const i=Math.max(0,Math.min(pages.length-1,Math.round(c.scrollLeft/w)));if(i!==cur){if(cur>=0){const top=c.getBoundingClientRect().top+window.scrollY-70;if(window.scrollY>top)window.scrollTo({top})}cur=i;ui[key]=i;document.querySelectorAll('[data-pagerfor="'+id+'"] button').forEach((b,j)=>b.classList.toggle('on',j===i))}c.style.height=pages[i].offsetHeight+'px'};c.scrollLeft=(ui[key]||0)*c.clientWidth;fit();let tm;c.addEventListener('scroll',()=>{clearTimeout(tm);tm=setTimeout(fit,90)},{passive:true});if(window.ResizeObserver){const ro=new ResizeObserver(()=>fit());pages.forEach(p=>ro.observe(p))}}
  function renderToday(){
   const st=termStatus(),s=todayBlocks(),g=gaps(),now=R.nowHM();
   const current=s.find(x=>x.start_time.slice(0,5)<=now&&x.end_time.slice(0,5)>now);
@@ -281,6 +281,38 @@
  }
 
  function deptMatch(e){const mj=majorObj(profile?.major);if(!mj)return false;if((e.colleges||[]).includes(mj.college))return true;if(e.dept&&follows.some(f=>f.kind==='department'&&f.name===e.dept))return true;const col=(A.colleges||[]).find(c=>c.id===mj.college);const words=[mj.name.replace(/\s*\(.*\)/,''),...((col&&col.keywords)||[])].map(w=>w.toLowerCase()).filter(w=>w.length>3);const txt=(e.title+' '+(e.org||'')+' '+(e.dept||'')).toLowerCase();return words.some(w=>txt.includes(w))}
+ function noEmoji(t){return String(t||'').replace(/[\p{Extended_Pictographic}\u{1F1E6}-\u{1F1FF}️‍⃣]/gu,'').replace(/[ \t]{2,}/g,' ').trim()}
+ function isSA(e){return /student affairs|dean of students|leadership and community|student union|counseling|university housing|fraternity and sorority|student government|programming board|multicultural|hispanic outreach|health services|campus recreation|career|first and second year|student conduct|accessibility|military & veteran|wellness|eagle essentials/i.test((e.org||'')+' '+(e.dept||''))}
+ function dkey(d){return new Intl.DateTimeFormat('en-CA',{timeZone:R.TZ,year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date(d))}
+ function weekEndKey(){const now=new Date();const dow=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'].indexOf(new Intl.DateTimeFormat('en-US',{weekday:'short',timeZone:R.TZ}).format(now));return dkey(now.getTime()+(dow===0?7:7-dow)*864e5)}
+ function mondayOf(k){const d=new Date(k+'T12:00:00Z');d.setUTCDate(d.getUTCDate()-((d.getUTCDay()+6)%7));return d}
+ function grp(id,title,sub,body,count,force){if(!body)return '';const open=force||ui.open.has(id);return `<details class="grp" data-grp="${esc(id)}"${force?' data-forced="1"':''}${open?' open':''}><summary><span class="gtx"><span class="gt">${esc(title)}</span>${sub?`<span class="gs">${esc(sub)}</span>`:''}</span><span class="gc">${count}</span></summary><div class="gb">${body}</div></details>`}
+ function fyPaged(data){
+  const def=ui.filter==='all'&&!ui.showNew&&!ui.showSaved&&!ui.q;if(!def)return forYou(data);
+  const end=weekEndKey();const wk=data.filter(e=>dkey(e.start)<=end),later=data.filter(e=>dkey(e.start)>end);
+  const byDate=(x,y)=>String(x.start).localeCompare(String(y.start));
+  const per={};const sa=wk.filter(isSA).sort(byDate).filter(e=>{const k=e.org||e.dept||'';per[k]=(per[k]||0)+1;return per[k]<=2}).slice(0,8);const saIds=new Set(sa.map(e=>e.id));
+  const saSec='<div class="section-title"><h2>From Student Affairs</h2><small>Campus offices posting this week</small></div>'+(sa.length?sa.map(e=>eventCard(e)).join(''):'<div class="empty">No Student Affairs events posted for the rest of this week yet.</div>');
+  const weeks=new Map();[...later].sort(byDate).forEach(e=>{const m=mondayOf(dkey(e.start));const k=m.toISOString().slice(0,10);if(!weeks.has(k))weeks.set(k,{m,list:[]});weeks.get(k).list.push(e)});
+  const laterHtml=[...weeks.values()].map(w=>`<div class="section-title"><h2>Week of ${esc(w.m.toLocaleDateString('en-US',{month:'long',day:'numeric',timeZone:'UTC'}))}</h2><small>${w.list.length} event${w.list.length===1?'':'s'}</small></div>${w.list.slice(0,25).map(e=>eventCard(e)).join('')}${w.list.length>25?`<p class="sub">${w.list.length-25} more that week. Search or pick an interest to narrow down.</p>`:''}`).join('')||'<div class="empty">Nothing posted beyond this week yet. New events appear here automatically as they are posted.</div>';
+  const pick=ui.fyPage||0;
+  return `<div class="pgseg" data-pagerfor="fypages"><button type="button" class="${pick===0?'on':''}" data-fypage="0">This week <small>${wk.length}</small></button><button type="button" class="${pick===1?'on':''}" data-fypage="1">Later <small>${later.length}</small></button></div>
+  <div class="daypages" id="fypages"><section class="daypage" aria-label="This week">${saSec}${wk.length?forYou(wk.filter(e=>!saIds.has(e.id))):'<div class="empty">No more events this week.</div>'}${later.length?'<button type="button" class="swipehint" data-fypage="1">Swipe for later weeks <span>→</span></button>':''}</section><section class="daypage" aria-label="Later"><div class="pagehead"><button type="button" class="btn secondary small" data-fypage="0">← This week</button></div>${laterHtml}</section></div>`;
+ }
+ let coursesP=null,courseT;
+ function loadCourses(){if(window.ROAM_COURSES)return Promise.resolve(window.ROAM_COURSES);return coursesP||(coursesP=new Promise(res=>{const s=document.createElement('script');s.src='courses.js';s.onload=()=>res(window.ROAM_COURSES||null);s.onerror=()=>{coursesP=null;res(null)};document.head.appendChild(s)}))}
+ function courseSearch(v){clearTimeout(courseT);courseT=setTimeout(async()=>{const box=document.getElementById('courseHits');if(!box)return;const q=v.trim().toLowerCase();if(q.length<2){box.innerHTML='';return}
+  const cat=await loadCourses();if(!cat){box.innerHTML='<p class="sub">The course directory is not available right now. Type the code and name below.</p>';return}
+  const toks=q.split(/\s+/).filter(Boolean),qc=q.replace(/\s+/g,'');const hits=[];
+  for(const [c,t] of cat.courses){const code=c.toLowerCase(),title=t.toLowerCase(),flat=code.replace(' ','');const byCode=flat.startsWith(qc);if(!byCode&&!toks.every(k=>(code+' '+title).includes(k)))continue;hits.push([byCode?0:(' '+title).includes(' '+toks[0])?1:2,c,t,parseInt(c.split(' ')[1])||9999])}
+  hits.sort((a,b)=>a[0]-b[0]||a[3]-b[3]||a[1].localeCompare(b[1]));
+  box.innerHTML=hits.length?hits.slice(0,8).map(([,c,t])=>`<button type="button" class="coursehit" data-course="${esc(c+'|'+t)}"><b>${esc(c)}</b><span>${esc(t)}</span></button>`).join('')+(hits.length>8?`<p class="sub">${hits.length-8} more. Keep typing to narrow it down.</p>`:''):'<p class="sub">No match in the course catalog. You can still type it below.</p>'},150)}
+ function pickCourse(v){const i=v.indexOf('|');const f=document.getElementById('classForm');if(!f)return;f.course_code.value=v.slice(0,i);f.course_name.value=v.slice(i+1).slice(0,100);const fi=document.getElementById('courseFind');if(fi)fi.value='';const box=document.getElementById('courseHits');if(box)box.innerHTML=`<p class="sub">Added ${esc(v.slice(0,i))}. Now choose the days, times and building.</p>`}
+ function buildingOptions(){
+  const B={statesboro:['Arts Building','Biological Sciences Building','Carroll Building','Carruth Building','Center for Art & Theatre','College of Business','College of Education','Engineering Building','Engineering and Research Building','Fielding D. Russell Union','Forest Drive Classroom Building','Foy Building','Hanner Complex','Herty Building','Hollis Building','Information Technology Building','Interdisciplinary Academic Building','Interior Design Complex','Jack and Ruth Hill Convocation Center','Marvin Pittman Administration Building','Math/Physics Building','Military Science Building','Natural Sciences Building','Nessmith-Lane Center','Newton Building','Nursing/Chemistry Building','Performing Arts Center','Physical Education Building','Planetarium','Recreation Activity Center','Rosenwald Building','School of Human Ecology','Williams Center','Zach S. Henderson Library'],
+   armstrong:['Armstrong Center','Ashmore Hall','Burnett Hall','Fine Arts Hall','Gamble Hall','Hawes Hall','Jenkins Hall','Lane Library','Learning Commons','MCC (Memorial College Center)','Science Center','Solms Hall','Sports Center','Student Union','University Hall','Victor Hall','Waters College of Health Professions']};
+  const mine=B[myCampus()]?myCampus():'statesboro',other=mine==='armstrong'?'statesboro':'armstrong';const nm=id=>(CAMPUSES.find(c=>c.id===id)||{}).name||id;const opt=n=>`<option>${esc(n)}</option>`;
+  return `<option value="">Choose a building</option><optgroup label="${esc(nm(mine))} campus">${B[mine].map(opt).join('')}</optgroup><optgroup label="${esc(nm(other))} campus">${B[other].map(opt).join('')}</optgroup><optgroup label="Other">${opt('Online (Folio)')}${opt('Liberty Campus (Hinesville)')}${opt('Other / not listed')}</optgroup>`}
  function forYou(data){
   const def=ui.filter==='all'&&!ui.showNew&&!ui.showSaved&&!ui.q;if(!def)return data.slice(0,60).map(e=>eventCard(e)).join('');
   const byDate=(x,y)=>String(x.start).localeCompare(String(y.start));
@@ -303,16 +335,17 @@
   const opts=[...INTERESTS].sort((a,b)=>(mine.includes(b.id)-mine.includes(a.id))||a.label.localeCompare(b.label));
   $('#screen').innerHTML=`${head('For You','Picked for your major and interests','Public university calendar and Eagle Engage events, plus anything the ROAM team publishes — ranked for you.')}
   <div class="section-title"><h2>${ui.showSaved?'On your schedule':ui.showNew?'New for you':'Upcoming opportunities'}</h2><small>${data.length} event${data.length===1?'':'s'} · sorted by match and date</small></div>
-  <div class="panel"><div class="formgrid"><label class="field">Explore by interest<select id="eventFilter"><option value="all">All upcoming events</option>${opts.map(x=>`<option value="${esc(x.id)}" ${ui.filter===x.id?'selected':''}>${mine.includes(x.id)?'★ ':''}${esc(x.label)}</option>`).join('')}</select></label><label class="field">Search<input id="eventSearch" type="search" placeholder="Title, place or org" value="${esc(ui.q)}"></label></div>
+  <div class="panel"><div class="formgrid"><label class="field">Explore by interest<select id="eventFilter"><option value="all">All upcoming events</option>${opts.map(x=>`<option value="${esc(x.id)}" ${ui.filter===x.id?'selected':''}>${esc(x.label)}</option>`).join('')}</select></label><label class="field">Search<input id="eventSearch" type="search" placeholder="Title, place or org" value="${esc(ui.q)}"></label></div>
   <div class="btnrow"><button class="btn small ${ui.showSaved||ui.showNew?'secondary':'gold'}" data-view="all">All</button>${newIds.size?`<button class="btn small ${ui.showNew?'gold':'secondary'}" data-view="new">New (${newIds.size})</button>`:''}<button class="btn small ${ui.showSaved?'gold':'secondary'}" data-view="saved">On my schedule (${saved.length+savedPublic.length})</button><button class="btn small secondary" data-scope="${ui.scope==='mine'?'all':'mine'}">${ui.scope==='mine'?`${esc(campusName(myCampus()))} only · show both campuses`:'Both campuses · show mine only'}</button>${hidden.length?`<button class="btn small secondary" data-unhide="1">Show ${hidden.length} hidden</button>`:''}</div>
-  ${data.length?forYou(data):`<div class="empty">${ui.showSaved?'Nothing added yet. Tap + Add to my schedule on any event.':'No upcoming events match this view. Try another interest or both campuses.'}</div>`}
-  <p class="sub">Event data: university calendar and Eagle Engage${D.events?.generatedAt?`, updated ${esc(R.niceDate(D.events.generatedAt))}`:''}. Always confirm details on the event page.</p></div>`;
+  ${data.length?fyPaged(data):`<div class="empty">${ui.showSaved?'Nothing added yet. Tap + Add to my schedule on any event.':'No upcoming events match this view. Try another interest or both campuses.'}</div>`}
+  <p class="sub">Event data: university calendar and Eagle Engage${D.events?.generatedAt?`, updated ${esc(R.niceDate(D.events.generatedAt))}`:''}. New events are added automatically about four times a day. Always confirm details on the event page.</p></div>`;
+  initPager('fypages','fyPage');
  }
 
  function renderSchedule(){
   const all=[...classes].sort((a,b)=>DAYS.indexOf(a.weekday)-DAYS.indexOf(b.weekday)||a.start_time.localeCompare(b.start_time));
   const st=termStatus();
-  $('#screen').innerHTML=`${head('Class-first planning','Your semester, organized',st.label)}<div class="twocol" style="margin-top:18px"><div class="panel"><h3>Add a class</h3><form id="classForm"><div class="formgrid"><label class="field">Course code<input name="course_code" placeholder="ECON 2106" maxlength="30" required></label><label class="field">Course name<input name="course_name" maxlength="100" placeholder="Microeconomics"></label></div><div class="field">Meets on</div><div class="daypick">${DAYS.slice(1,6).map(d=>`<label><input type="checkbox" name="days" value="${d}"> ${d.slice(0,3)}</label>`).join('')}<label><input type="checkbox" name="days" value="Saturday"> Sat</label></div><div class="formgrid"><label class="field">Start time<input type="time" name="start_time" value="09:00" required></label><label class="field">End time<input type="time" name="end_time" value="10:15" required></label><label class="field">Building<input name="building" maxlength="120" placeholder="Engineering" list="buildingList"></label><label class="field">Room<input name="room" maxlength="40" placeholder="1112"></label></div><datalist id="buildingList">${[...new Set((C.places||[]).filter(p=>p.campus===myCampus()).map(p=>p.name))].map(n=>`<option value="${esc(n)}">`).join('')}</datalist><button class="btn gold" type="submit">Add class</button></form><p class="sub">Pick every day the class meets (e.g. Mon + Wed). ROAM blocks overlapping times. Your class data is private to your account.</p></div><div class="panel"><h3>Your weekly schedule</h3>${all.length?all.map(c=>`<div class="item"><div class="row"><h4>${esc(c.course_code)} · ${esc(c.weekday)}</h4><button data-deleteclass="${esc(c.id)}" class="btn danger small">Remove</button></div><p>${c.course_name?esc(c.course_name)+' · ':''}${esc(fmtTime(c.start_time))} – ${esc(fmtTime(c.end_time))}</p><p>${esc(c.building||'')} ${esc(c.room||'')}</p></div>`).join(''):'<div class="empty">Nothing added yet.</div>'}</div></div>`;
+  $('#screen').innerHTML=`${head('Class-first planning','Your semester, organized',st.label)}<div class="twocol" style="margin-top:18px"><div class="panel"><h3>Add a class</h3><form id="classForm"><label class="field coursefind">Find your course<input id="courseFind" type="search" autocomplete="off" placeholder="Type a class name or code, e.g. Microeconomics"></label><div id="courseHits" class="coursehits" aria-live="polite"></div><div class="formgrid"><label class="field">Course code<input name="course_code" placeholder="ECON 2106" maxlength="30" required></label><label class="field">Course name<input name="course_name" maxlength="100" placeholder="Microeconomics"></label></div><div class="field">Meets on</div><div class="daypick">${DAYS.slice(1,6).map(d=>`<label><input type="checkbox" name="days" value="${d}"> ${d.slice(0,3)}</label>`).join('')}<label><input type="checkbox" name="days" value="Saturday"> Sat</label></div><div class="formgrid"><label class="field">Start time<input type="time" name="start_time" value="09:00" required></label><label class="field">End time<input type="time" name="end_time" value="10:15" required></label><label class="field">Building<select name="building">${buildingOptions()}</select></label><label class="field">Room<input name="room" maxlength="40" placeholder="1112"></label></div><button class="btn gold" type="submit">Add class</button></form><p class="sub">Pick every day the class meets (e.g. Mon + Wed). ROAM blocks overlapping times. Your class data is private to your account.</p></div><div class="panel"><h3>Your weekly schedule</h3>${all.length?all.map(c=>`<div class="item"><div class="row"><h4>${esc(c.course_code)} · ${esc(c.weekday)}</h4><button data-deleteclass="${esc(c.id)}" class="btn danger small">Remove</button></div><p>${c.course_name?esc(c.course_name)+' · ':''}${esc(fmtTime(c.start_time))} – ${esc(fmtTime(c.end_time))}</p><p>${esc(c.building||'')} ${esc(c.room||'')}</p></div>`).join(''):'<div class="empty">Nothing added yet.</div>'}</div></div>`;
  }
 
  function renderMajor(){
@@ -335,7 +368,7 @@
   const o=(D.orgs?.orgs||[]).find(x=>x.name===name);if(!o){ui.org=null;return renderCommunity()}
   const on=follows.some(f=>f.kind==='organization'&&f.name===o.name);const cats=(o.cats||[]).filter(c=>!/Campus$/.test(c));
   const evs=[...adminEvents.map(fromAdmin),...publicEvents].filter(e=>e.org===o.name&&new Date(e.end||e.start)>new Date()&&!hidden.includes(e.id)).sort((a,b)=>String(a.start).localeCompare(String(b.start))).slice(0,10);
-  const bio=(o.desc||'').trim();
+  const bio=noEmoji(o.desc);
   $('#screen').innerHTML=`<div class="pagehead"><button type="button" class="btn secondary small" data-orgback="1">← All organizations</button></div>
   <div class="hero"><div class="eyebrow">Student organization</div><h1>${esc(o.name)}</h1><p>${esc(cats.slice(0,3).join(' · ')||'Campus organization')}${o.members?` · ${o.members} members`:''}</p></div>
   <div class="btnrow" style="margin:12px 0"><button data-follow="organization|${esc(o.name)}" class="btn small ${on?'secondary':'gold'}">${on?'✓ Following':'+ Follow'}</button>${ENGAGE&&o.uri?ext(`${ENGAGE}/organization/${o.uri}`,'Full page','btn secondary small'):''}</div>
@@ -346,32 +379,59 @@
  function renderCommunity(){if(ui.org)return renderOrgPage(ui.org);
   const mine=myInterests();const cats=[...new Set(INTERESTS.filter(i=>mine.includes(i.id)).flatMap(i=>i.orgCats||[]))];
   const kw=INTERESTS.filter(i=>mine.includes(i.id)).flatMap(i=>i.keywords||[]);
-  const orgs=(D.orgs?.orgs||[]).filter(o=>!(o.cats||[]).includes('Campus Department'));
+  const all=D.orgs?.orgs||[];const isDept=o=>(o.cats||[]).includes('Campus Department');const ACAD=/\b(Department|College|School) of\b|\bProgram\b|\bStudies\b|\bSciences\b/;
+  const orgs=all.filter(o=>!isDept(o)),offices=all.filter(o=>isDept(o)&&!ACAD.test(o.name)),acad=all.filter(o=>isDept(o)&&ACAD.test(o.name));
   const orgScore=o=>(follows.some(f=>f.kind==='organization'&&f.name===o.name)?10:0)+((o.cats||[]).some(c=>cats.includes(c))?4:0)+(kw.some(k=>o.name.toLowerCase().includes(k))?3:0)+(o.upcoming?1:0);
-  const allCats=[...new Set(orgs.flatMap(o=>o.cats||[]))].filter(c=>!/Campus$/.test(c)).sort();
-  let list=orgs;if(ui.orgCat!=='all')list=list.filter(o=>(o.cats||[]).includes(ui.orgCat));if(ui.orgQ){const q=ui.orgQ.toLowerCase();list=list.filter(o=>(o.name+' '+(o.desc||'')).toLowerCase().includes(q))}
-  list=[...list].sort((a,b)=>orgScore(b)-orgScore(a)||a.name.localeCompare(b.name));
+  const byName=(a,b)=>a.name.localeCompare(b.name),byScore=(a,b)=>orgScore(b)-orgScore(a)||byName(a,b);
   const mj=majorObj(profile.major);const col=collegeObj(mj?.college)||{};const depts=(col.departments||[]).map(d=>d.name);
-  const btn=(kind,name)=>{const on=follows.some(f=>f.kind===kind&&f.name===name);return `<button data-follow="${esc(kind)}|${esc(name)}" class="btn small ${on?'secondary':'gold'}">${on?'✓ Following':'+ Follow'}</button>`};
-  const orgRow=o=>`<div class="item row"><div><h4><button type="button" class="orglink" data-org="${esc(o.name)}">${esc(o.name)}</button></h4><p>${esc((o.cats||[]).filter(c=>!/Campus$/.test(c)).slice(0,2).join(' · ')||'Student organization')}${o.members?` · ${o.members} members`:''}${o.upcoming?` · ${o.upcoming} upcoming`:''}</p></div><div class="btnrow">${ENGAGE&&o.uri?ext(`${ENGAGE}/organization/${o.uri}`,'Engage'):''}${btn('organization',o.name)}</div></div>`;
-  $('#screen').innerHTML=`${head('Find your people','Community, without the noise',`${orgs.length} Eagle Engage organizations. Follow any to boost their events in your feed.`)}<div class="twocol" style="margin-top:18px"><div class="panel"><h3>Student organizations</h3><div class="formgrid"><label class="field">Search<input id="orgSearch" type="search" value="${esc(ui.orgQ)}" placeholder="Club name or topic"></label><label class="field">Category<select id="orgCat"><option value="all">All categories</option>${allCats.map(c=>`<option ${c===ui.orgCat?'selected':''}>${esc(c)}</option>`).join('')}</select></label></div><div class="sub">${list.length} shown · suggested for you first</div>${list.slice(0,40).map(orgRow).join('')||'<div class="empty">No organizations match.</div>'}${list.length>40?`<p class="sub">Showing 40 of ${list.length}. Search to narrow down.</p>`:''}</div>
-  <div class="panel"><h3>Departments${col.short?` · ${esc(col.short)}`:''}</h3>${depts.length?depts.map(n=>`<div class="item row"><div><h4>${esc(n)}</h4><p>Department updates and opportunities</p></div>${btn('department',n)}</div>`).join(''):'<p class="sub">Choose a major in Profile to see your college\'s departments.</p>'}<div class="separator"></div><h3>Following (${follows.length})</h3>${follows.length?follows.map(f=>`<div class="item row"><div><h4>${esc(f.name)}</h4><p>${esc(f.kind)}</p></div>${btn(f.kind,f.name)}</div>`).join(''):'<p class="sub">Nothing yet.</p>'}</div></div><div class="notice">Organization list comes from Eagle Engage's public directory. Following is a ROAM feature, not an official membership.</div>`;
+  const btn=(kind,name)=>{const on=follows.some(f=>f.kind===kind&&f.name===name);return `<button data-follow="${esc(kind)}|${esc(name)}" class="btn small ${on?'secondary':'gold'}">${on?'Following':'Follow'}</button>`};
+  const kindOf=o=>isDept(o)?(ACAD.test(o.name)?'Academic department':'Campus office'):((o.cats||[]).filter(c=>!/Campus$/.test(c)).slice(0,2).join(' · ')||'Student organization');
+  const orgRow=o=>`<div class="item row"><div><h4><button type="button" class="orglink" data-org="${esc(o.name)}">${esc(noEmoji(o.name))}</button></h4><p>${esc(kindOf(o))}${o.members?` · ${o.members} members`:''}${o.upcoming?` · ${o.upcoming} upcoming`:''}</p></div><div class="btnrow">${btn('organization',o.name)}</div></div>`;
+  const deptRow=n=>`<div class="item row"><div><h4>${esc(n)}</h4><p>Department updates and opportunities</p></div><div class="btnrow">${btn('department',n)}</div></div>`;
+  const q=(ui.orgQ||'').trim().toLowerCase(),S=!!q;let body,count=0;
+  if(S){const L=all.filter(o=>(o.name+' '+(o.desc||'')+' '+(o.cats||[]).join(' ')).toLowerCase().includes(q)).sort(byScore);const dl=depts.filter(n=>n.toLowerCase().includes(q)&&!all.some(o=>o.name===n));count=L.length+dl.length;
+   body=`<div class="panel">${L.slice(0,60).map(orgRow).join('')}${dl.map(deptRow).join('')}${count?'':'<div class="empty">No groups match. Try a topic like engineering, dance or volunteer.</div>'}${L.length>60?`<p class="sub">Showing 60 of ${L.length}. Keep typing to narrow down.</p>`:''}</div>`}
+  else{const G=[];
+   if(follows.length)G.push(['following','Following','Groups you follow',follows.map(f=>{const o=all.find(x=>x.name===f.name);return o?orgRow(o):deptRow(f.name)})]);
+   const sug=orgs.filter(o=>orgScore(o)>=3&&!follows.some(f=>f.name===o.name)).sort(byScore).slice(0,10);
+   G.push(['suggested','Suggested for you',mine.length?'Based on your interests':'Add interests in Profile for better picks',sug.map(orgRow)]);
+   G.push(['offices','Student Affairs & campus offices','Dean of Students, Housing, Counseling, Recreation and more',[...offices].sort(byName).map(orgRow)]);
+   G.push(['depts','Academic departments',col.short?`${col.short} departments first`:'Choose a major in Profile to see yours first',[...depts.map(n=>{const o=all.find(x=>x.name===n);return o?orgRow(o):deptRow(n)}),...acad.filter(o=>!depts.includes(o.name)).sort(byName).map(orgRow)]]);
+   const prim=o=>(o.cats||[]).filter(c=>!/Campus$/.test(c))[0]||'Other';const by=new Map();orgs.forEach(o=>{const c=prim(o);if(!by.has(c))by.set(c,[]);by.get(c).push(o)});
+   [...by.keys()].sort((a,b)=>(a==='Other')-(b==='Other')||a.localeCompare(b)).forEach(c=>G.push(['cat-'+c,c,'',by.get(c).sort(byScore).map(orgRow)]));
+   body=`<div class="grps">${G.filter(g=>g[3].length).map(g=>grp('com-'+g[0],g[1],g[2],g[3].join(''),g[3].length,false)).join('')}</div>`}
+  $('#screen').innerHTML=`${head('Find your people','Community, without the noise',`${orgs.length} student organizations plus ${offices.length+acad.length} campus offices and departments from Eagle Engage. Follow any to boost their events in your feed.`)}
+  <div class="panel searchpanel"><label class="field">Search<input id="orgSearch" type="search" value="${esc(ui.orgQ)}" placeholder="Club, office, department or topic" autocomplete="off"></label><div class="sub">${S?`${count} result${count===1?'':'s'}`:'Grouped by type · tap a group to open'}</div></div>${body}
+  <div class="notice">Organization list comes from Eagle Engage's public directory. Following is a ROAM feature, not an official membership.</div>`;
  }
 
  function renderResources(){
-  const cats=[...new Set((C.resources||[]).map(r=>r.category))];
-  let res=C.resources||[];if(ui.resQ){const q=ui.resQ.toLowerCase();res=res.filter(r=>(r.name+' '+r.desc+' '+r.category).toLowerCase().includes(q))}
+  const q=(ui.resQ||'').trim().toLowerCase(),S=!!q;const hit=(...p)=>!S||p.filter(Boolean).join(' ').toLowerCase().includes(q);
   const placeRow=p=>{const o=openStatus(p);return `<div class="item"><div class="row"><h4>${esc(p.name)}</h4><span class="chip ${o.cls}">${esc(o.text)}</span></div><p>${esc(p.where||'')}${p.hours?' · Today: '+esc(hoursText(p)):''}</p>${p.note?`<p>${esc(p.note)}</p>`:''}<div class="btnrow">${p.phone?tel(p.phone):''}${(p.links||[]).slice(0,3).map(l=>ext(l.url,l.label,'btn secondary small',`data-resource="${esc(p.name)}"`)).join('')}</div></div>`};
-  const dining=placesOn('dining').map(p=>({p,o:openStatus(p)})).sort((a,b)=>(b.o.open-a.o.open)||a.p.name.localeCompare(b.p.name)).map(x=>x.p);
-  const other=['study','health','fitness','support'].flatMap(c=>placesOn(c));
+  const resRow=r=>`<div class="item row"><div><h4>${esc(r.name)}</h4><p>${esc(r.desc||'')}</p></div>${ext(r.url,'Visit','btn secondary small',`data-resource="${esc(r.name)}"`)}</div>`;
+  const linkRow=(t,d,links,attr)=>`<div class="item"><h4>${esc(t)}</h4><p>${esc(d||'')}</p><div class="btnrow">${(links||[]).map(l=>ext(l.url,l.label,'btn secondary small',attr||`data-resource="${esc(t)}"`)).join('')}</div></div>`;
+  const openN=ps=>ps.filter(p=>openStatus(p).open).length;
+  const places=(c,k)=>placesOn(c).filter(p=>hit(p.name,p.where,p.note,k));
+  const dining=placesOn('dining').map(p=>({p,o:openStatus(p)})).sort((a,b)=>(b.o.open-a.o.open)||a.p.name.localeCompare(b.p.name)).map(x=>x.p).filter(p=>hit(p.name,p.where,p.note,'dining food eat meal lunch coffee'));
+  const G=new Map();const add=(id,title,sub,rows)=>{if(rows.length)G.set(id,{id,title,sub,rows})};
+  add('portals','Student portals','MyGS, Folio, email and more',(A.quickLinks||[]).filter(x=>hit(x.label,x.sub,'portal login')).map(x=>`<div class="item row"><div><h4>${esc(x.label)}</h4><p>${esc(x.sub||'')}</p></div>${ext(x.url,'Open','btn secondary small',`data-resource="${esc(x.label)}"`)}</div>`));
+  add('dining','Dining',dining.length?`${openN(dining)} open now`:'',dining.map(placeRow));
+  const study=places('study','study library quiet');add('study','Study spaces',study.length?`${openN(study)} open now`:'',study.map(placeRow));
+  const transit=(C.transit||[]).filter(t=>hit(t.name,t.detail,'bus shuttle transit parking ride')).map(t=>linkRow(t.name,t.detail,t.links,'data-route="1"'));
+  const extra={'Health & wellness':places('health','health clinic doctor medical').map(placeRow),'Getting around':transit};
+  const cats=[...new Set((C.resources||[]).map(r=>r.category))];
+  cats.forEach(c=>add('rc-'+c,c,'',[...(extra[c]||[]),...(C.resources||[]).filter(r=>r.category===c&&hit(r.name,r.desc,r.category)).map(resRow)]));
+  Object.keys(extra).filter(c=>!cats.includes(c)).forEach(c=>add('rc-'+c,c,'',extra[c]));
+  const fit=places('fitness','gym fitness recreation workout');add('fitness','Fitness & recreation',fit.length?`${openN(fit)} open now`:'',fit.map(placeRow));
+  add('support','Support offices','',places('support','support help office').map(placeRow));
+  add('gems','Free help most students miss','Food pantry, free tutoring and more',(C.hiddenGems||[]).filter(g=>hit(g.title,g.what)).map(g=>linkRow(g.title,g.what,g.links)));
+  const order=['portals','dining','study','rc-Academic help','rc-Career','rc-Health & wellness','fitness','rc-Basic needs','rc-Money','support','rc-Campus life','rc-Getting around','rc-Safety','gems'];
+  const list=[...order.filter(k=>G.has(k)).map(k=>G.get(k)),...[...G.values()].filter(g=>!order.includes(g.id))];
+  const total=list.reduce((n,g)=>n+g.rows.length,0);
   $('#screen').innerHTML=`${head('Made for in-between moments','Resources for your campus day',`${campusName(myCampus())} campus · hours shown in real time from published schedules`)}
-  <div class="panel" style="margin-top:18px"><h3>Get help now</h3><div class="btnrow">${(C.help||[]).map(h=>`<a class="btn ${h.phone==='911'||h.phone==='988'?'danger':'secondary'} small" href="tel:${esc(h.phone)}" title="${esc(h.detail)}">${esc(h.name)} · ${esc(h.phone)}</a>`).join('')}</div></div>
-  ${quickLinks()}
-  <div class="twocol"><div class="panel"><h3>Dining</h3>${dining.map(placeRow).join('')||'<p class="sub">No dining listed for this campus.</p>'}<p class="sub">Hours can change during breaks, finals and game days.</p></div>
-  <div class="panel"><h3>Study, health, fitness & support</h3>${other.map(placeRow).join('')}</div></div>
-  <div class="section-title"><h2>Free help most students miss</h2></div><div class="panel">${(C.hiddenGems||[]).map(g=>`<div class="item"><h4>${esc(g.title)}</h4><p>${esc(g.what)}</p><div class="btnrow">${(g.links||[]).map(l=>ext(l.url,l.label,'btn secondary small',`data-resource="${esc(g.title)}"`)).join('')}</div></div>`).join('')}</div>
-  <div class="section-title"><h2>Resource directory</h2><small>${res.length} resources</small></div><div class="panel"><label class="field">Search resources<input id="resSearch" type="search" value="${esc(ui.resQ)}" placeholder="Tutoring, financial aid, parking…"></label>${cats.map(c=>{const rs=res.filter(r=>r.category===c);return rs.length?`<h3 style="margin-top:14px">${esc(c)}</h3>${rs.map(r=>`<div class="item row"><div><h4>${esc(r.name)}</h4><p>${esc(r.desc||'')}</p></div>${ext(r.url,'Visit','btn secondary small',`data-resource="${esc(r.name)}"`)}</div>`).join('')}`:''}).join('')||'<div class="empty">No resources match.</div>'}</div>
-  <div class="section-title"><h2>Getting around</h2></div><div class="panel">${(C.transit||[]).map(t=>`<div class="item"><h4>${esc(t.name)}</h4><p>${esc(t.detail)}</p><div class="btnrow">${(t.links||[]).map(l=>ext(l.url,l.label,'btn secondary small','data-route="1"')).join('')}</div></div>`).join('')}</div>
+  <div class="panel searchpanel"><label class="field">Search resources<input id="resSearch" type="search" value="${esc(ui.resQ)}" placeholder="Tutoring, financial aid, parking, food…" autocomplete="off"></label><div class="sub">${S?`${total} result${total===1?'':'s'}`:`${list.length} categories · tap one to open`}</div></div>
+  <div class="panel helpnow"><h3>Get help now</h3><div class="btnrow">${(C.help||[]).map(h=>`<a class="btn ${h.phone==='911'||h.phone==='988'?'danger':'secondary'} small" href="tel:${esc(h.phone)}" title="${esc(h.detail)}">${esc(h.name)} · ${esc(h.phone)}</a>`).join('')}</div></div>
+  <div class="grps">${list.map(g=>grp('res-'+g.id,g.title,g.sub,g.rows.join(''),g.rows.length,S)).join('')||'<div class="empty">No resources match. Try another word, like tutoring or food.</div>'}</div>
   <div class="notice warning">ROAM uses publicly published Georgia Southern information and is not connected to university systems. Confirm hours and policies on the linked official pages.</div>`;
  }
 
@@ -424,11 +484,13 @@
  /* ---------- events: app ---------- */
  let searchT;
  document.addEventListener('input',e=>{const id=e.target?.id;if(!['eventSearch','orgSearch','resSearch'].includes(id))return;clearTimeout(searchT);searchT=setTimeout(()=>{const pos=e.target.selectionStart;if(id==='eventSearch')ui.q=e.target.value;if(id==='orgSearch')ui.orgQ=e.target.value;if(id==='resSearch')ui.resQ=e.target.value;render();const el=$('#'+id);if(el){el.focus();try{el.setSelectionRange(pos,pos)}catch{}}},250)});
+ document.addEventListener('input',e=>{if(e.target?.id==='courseFind')courseSearch(e.target.value)});
+ document.addEventListener('toggle',e=>{const d=e.target;if(d?.dataset?.grp&&!d.dataset.forced){d.open?ui.open.add(d.dataset.grp):ui.open.delete(d.dataset.grp)}},true);
  document.addEventListener('change',e=>{const id=e.target?.id;if(id==='eventFilter'){ui.filter=e.target.value;ui.showSaved=false;renderDiscover()}if(id==='orgCat'){ui.orgCat=e.target.value;renderCommunity()}if(id==='majorPick'){browseMajor=e.target.value||null;renderMajor()}});
  document.addEventListener('click',async e=>{
   const btn=e.target.closest('button,a');if(!btn)return;const ds=btn.dataset;
   try{
-   if(ds.daypage!=null){const c=document.getElementById('daypages');if(c)c.scrollTo({left:Number(ds.daypage)*c.clientWidth,behavior:'smooth'})}
+   if(ds.fypage!=null){const c=document.getElementById('fypages');if(c)c.scrollTo({left:Number(ds.fypage)*c.clientWidth,behavior:'smooth'})}if(ds.course!=null){pickCourse(ds.course);return}if(ds.daypage!=null){const c=document.getElementById('daypages');if(c)c.scrollTo({left:Number(ds.daypage)*c.clientWidth,behavior:'smooth'})}
     if(ds.org){ui.org=ds.org;switchTab('community');return}
     if(ds.orgback){ui.org=null;renderCommunity();window.scrollTo({top:0});return}
     if(ds.tab){ui.org=null;switchTab(ds.tab)}

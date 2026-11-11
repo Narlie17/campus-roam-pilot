@@ -95,3 +95,28 @@ html[data-theme=dark] .goldchip,html[data-theme=dark] .sugg .k{background:rgba(2
 
 /* Organization pages */
 .orglink{background:none;border:0;padding:0;margin:0;font:inherit;color:inherit;text-align:left;cursor:pointer;text-decoration:underline;text-decoration-color:var(--line);text-underline-offset:3px}.orglink:hover{color:var(--blue)}
+
+/* polish4: consistent type, grouped lists, pager tabs, course finder */
+body,button,input,select,textarea{font-family:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif}
+h1,h2{font-weight:700}h3,h4{font-weight:650}.btn,.chip,.eyebrow{font-weight:650}
+.searchpanel{margin-top:18px}.searchpanel .field{margin-bottom:6px}
+.helpnow{margin-top:12px}
+.grps{display:grid;gap:10px;margin:14px 0}
+.grp{background:var(--white);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.grp>summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:15px 18px;min-height:52px}
+.grp>summary::-webkit-details-marker{display:none}
+.grp>summary::after{content:"";width:8px;height:8px;border-right:2px solid var(--muted);border-bottom:2px solid var(--muted);transform:rotate(45deg);margin:-4px 4px 0 0;flex:0 0 auto;transition:transform .15s}
+.grp[open]>summary::after{transform:rotate(-135deg);margin-top:4px}
+.gtx{display:flex;flex-direction:column;gap:2px;flex:1;min-width:0}.gt{font-weight:650;font-size:15px;color:var(--ink)}.gs{font-size:12.5px;color:var(--muted)}
+.gc{font-size:12px;font-weight:650;color:var(--muted);background:var(--cream);border:1px solid var(--line);border-radius:999px;padding:3px 9px}
+.gb{padding:0 18px 6px;border-top:1px solid var(--line)}.gb .item:last-child{border-bottom:0}
+.pgseg{display:flex;gap:4px;background:var(--cream);border:1px solid var(--line);border-radius:12px;padding:4px;margin:14px 0 6px}
+.pgseg button{flex:1;border:0;background:transparent;border-radius:9px;padding:9px 10px;font-weight:650;font-size:14px;color:var(--muted);cursor:pointer}
+.pgseg button small{font-weight:600;opacity:.75;margin-left:4px}
+.pgseg button.on{background:var(--white);color:var(--ink);box-shadow:0 1px 4px rgba(16,40,76,.12)}
+.coursefind{margin-bottom:6px}
+.coursehits{display:grid;gap:6px;margin:0 0 12px}
+.coursehit{display:flex;gap:10px;align-items:baseline;text-align:left;width:100%;border:1px solid var(--line);background:var(--white);color:var(--ink);border-radius:10px;padding:10px 12px;cursor:pointer;font-size:14px}
+.coursehit b{font-weight:650;white-space:nowrap}.coursehit span{color:var(--muted)}
+.coursehit:hover,.coursehit:focus{border-color:var(--blue)}
+.exti{width:10px;height:10px;margin-left:3px;flex:0 0 auto;opacity:.7}
