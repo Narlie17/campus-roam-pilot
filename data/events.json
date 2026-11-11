@@ -1,35 +1,7 @@
 {
- "generatedAt": "2026-11-11T04:12:46.291Z",
- "source": "Localist API + Eagle Engage (167) · https://calendar.georgiasouthern.edu",
+ "generatedAt": "2026-11-11T10:14:40.806Z",
+ "source": "Localist API + Eagle Engage (166) · https://calendar.georgiasouthern.edu",
  "events": [
-  {
-   "id": "engage-philanthropy-in-action-3",
-   "title": "Philanthropy In Action",
-   "start": "2026-11-09T05:00:00.000Z",
-   "end": "2026-11-11T05:00:00.000Z",
-   "allDay": false,
-   "location": "Statesboro & Armstrong Campus",
-   "campus": "statesboro",
-   "url": "https://georgiasouthern.presence.io/event/philanthropy-in-action-3",
-   "types": [
-    "Free Food",
-    "Fundraiser"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "career",
-    "theatre",
-    "food",
-    "service",
-    "social"
-   ],
-   "desc": "Philanthropy in Action is November 9 - 11! Together, we can celebrate as a university community, connect with the people, places, and programs we care about and give back to the organizations and departments through our time, talent and treasure. In this three-day celebration, faculty, staff, and students will have a…",
-   "free": null,
-   "org": "Georgia Southern University Alumni Association",
-   "orgUri": "georgia-southern-university-alumni-association",
-   "colleges": []
-  },
   {
    "id": "54071341184639-54071341185664",
    "title": "Eagle Fast Pitch Competition",
