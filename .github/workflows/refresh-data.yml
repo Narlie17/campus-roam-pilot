@@ -26,10 +26,10 @@ jobs:
         run: node scripts/build-data.mjs data
       - name: Commit if anything changed
         run: |
-          if git diff --quiet data/ data.js; then echo "No changes."; exit 0; fi
+          if [ -z "$(git status --porcelain data/ data.js courses.js)" ]; then echo "No changes."; exit 0; fi
           sed -i "s/const BUILD = \".*\";/const BUILD = \"$(date -u +%Y%m%d%H%M)\";/" sw.js
           git config user.name "roam-data-bot"
           git config user.email "roam-data-bot@users.noreply.github.com"
-          git add data/ data.js sw.js
+          git add data/ data.js sw.js courses.js
           git commit -m "Refresh campus data $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push
