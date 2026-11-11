@@ -2,9 +2,9 @@
 // Network-first for everything on this site, so students always get today's data when
 // they have signal, and the last good copy when they don't. BUILD is bumped by the
 // refresh workflow so old caches are cleared after each data update.
-const BUILD = "202611110110";
+const BUILD = "202611110210";
 const CACHE = "roam-" + BUILD;
-const SHELL = ["./", "index.html", "styles.css", "config.js", "data.js", "shared.js", "student.js", "manifest.webmanifest", "icons/icon-192.png"];
+const SHELL = ["./", "index.html", "app.css", "config.js", "data.js", "shared.js", "student.js", "manifest.webmanifest", "icons/icon-192.png"];
 
 self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(SHELL)).then(() => self.skipWaiting()));
