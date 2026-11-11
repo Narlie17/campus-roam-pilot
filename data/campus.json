@@ -1,0 +1,2145 @@
+{
+ "meta": {
+  "institution": "Georgia Southern University",
+  "dataUpdated": "2026-10-29",
+  "disclaimer": "ROAM is an independent student project. It uses only publicly published Georgia Southern information and is not an official Georgia Southern University product. Always confirm hours and deadlines with the linked official source.",
+  "eventsCalendar": "https://calendar.georgiasouthern.edu/calendar",
+  "sources": {
+   "engageBase": "https://georgiasouthern.presence.io",
+   "engageNote": "Eagle Engage runs on Presence. Organizations and org events refresh automatically.",
+   "libcalHost": "",
+   "libcalIid": "",
+   "libraryHoursPage": "https://georgiasouthern.libguides.com/hours/"
+  }
+ },
+ "campuses": [
+  {
+   "id": "statesboro",
+   "name": "Statesboro"
+  },
+  {
+   "id": "armstrong",
+   "name": "Armstrong (Savannah)"
+  }
+ ],
+ "years": [
+  "First-year",
+  "Second-year",
+  "Third-year",
+  "Fourth-year+",
+  "Transfer",
+  "Graduate"
+ ],
+ "interests": [
+  {
+   "id": "academic",
+   "label": "Study help & tutoring",
+   "group": "Academics & careers",
+   "keywords": [
+    "tutoring",
+    "study",
+    "study hall",
+    "workshop",
+    "writing center",
+    "library",
+    "success",
+    "advising",
+    "academic success"
+   ],
+   "orgCats": [
+    "Academic"
+   ]
+  },
+  {
+   "id": "honors",
+   "label": "Honors & academic societies",
+   "group": "Academics & careers",
+   "keywords": [
+    "honors",
+    "honor society",
+    "phi eta sigma",
+    "tau sigma",
+    "beta beta beta",
+    "psi chi",
+    "tau beta pi",
+    "phi sigma",
+    "thesis"
+   ],
+   "orgCats": [
+    "Honorary"
+   ]
+  },
+  {
+   "id": "career",
+   "label": "Careers & internships",
+   "group": "Academics & careers",
+   "keywords": [
+    "career",
+    "job",
+    "internship",
+    "resume",
+    "interview",
+    "professional",
+    "networking",
+    "employer",
+    "career fair",
+    "handshake",
+    "etiquette"
+   ],
+   "orgCats": [
+    "Professional"
+   ]
+  },
+  {
+   "id": "premed",
+   "label": "Pre-med & health careers",
+   "group": "Academics & careers",
+   "keywords": [
+    "pre-med",
+    "pre-medical",
+    "pre-dental",
+    "pre-physician",
+    "pre-anesthesia",
+    "pharmacy",
+    "pharmacists",
+    "veterinarian",
+    "veterinary",
+    "medicine",
+    "medical",
+    "nursing",
+    "nurses",
+    "physical therapy",
+    "audiology",
+    "speech-language"
+   ],
+   "orgCats": []
+  },
+  {
+   "id": "prelaw",
+   "label": "Pre-law & justice",
+   "group": "Academics & careers",
+   "keywords": [
+    "pre-law",
+    "law",
+    "justice",
+    "moot court",
+    "legal",
+    "criminal justice",
+    "ethics bowl"
+   ],
+   "orgCats": []
+  },
+  {
+   "id": "business",
+   "label": "Business & entrepreneurship",
+   "group": "Academics & careers",
+   "keywords": [
+    "business",
+    "entrepreneur",
+    "entrepreneurship",
+    "erpsim",
+    "marketing",
+    "management",
+    "supply chain",
+    "logistics",
+    "sales",
+    "human resource",
+    "incubation",
+    "innovation"
+   ],
+   "orgCats": []
+  },
+  {
+   "id": "finance",
+   "label": "Finance, investing & accounting",
+   "group": "Academics & careers",
+   "keywords": [
+    "finance",
+    "financial",
+    "investment",
+    "investing",
+    "accounting",
+    "accountants",
+    "economics",
+    "economic",
+    "money"
+   ],
+   "orgCats": []
+  },
+  {
+   "id": "tech",
+   "label": "Computing & coding",
+   "group": "Academics & careers",
+   "keywords": [
+    "computing",
+    "code",
+    "coding",
+    "computer",
+    "technology",
+    "cyber",
+    "hackathon",
+    "data",
+    "ai",
+    "girls who code",
+    "information technology"
+   ],
+   "orgCats": []
+  },
+  {
+   "id": "engineering",
+   "label": "Engineering & robotics",
+   "group": "Academics & careers",
+   "keywords": [
+    "engineer",
+    "engineers",
+    "engineering",
+    "robotics",
+    "motorsports",
+    "space",
+    "ieee",
+    "construction",
+    "surveying",
+    "manufacturing"
+   ],
+   "orgCats": []
+  },
+  {
+   "id": "science",
+   "label": "Science & research",
+   "group": "Academics & careers",
+   "keywords": [
+    "science",
+    "biology",
+    "biological",
+    "chemistry",
+    "chemical",
+    "physics",
+    "stem",
+    "molecular",
+    "math",
+    "astronomy",
+    "planetarium",
+    "research",
+    "forensic",
+    "seminar",
+    "biochemistry"
+   ],
+   "orgCats": []
+  },
+  {
+   "id": "education",
+   "label": "Future teachers",
+   "group": "Academics & careers",
+   "keywords": [
+    "educator",
+    "educators",
+    "education",
+    "teaching",
+    "teacher",
+    "literacy"
+   ],
+   "orgCats": []
+  },
+  {
+   "id": "culture",
+   "label": "World cultures & languages",
+   "group": "Academics & careers",
+   "keywords": [
+    "french",
+    "german",
+    "spanish",
+    "japanese",
+    "chinese",
+    "arabic",
+    "turkish",
+    "conversation",
+    "international",
+    "cultural",
+    "heritage",
+    "language",
+    "mesa",
+    "global",
+    "diwali",
+    "day of the dead"
+   ],
+   "orgCats": [
+    "Cultural"
+   ]
+  },
+  {
+   "id": "arts",
+   "label": "Art & galleries",
+   "group": "Arts & media",
+   "keywords": [
+    "gallery",
+    "exhibit",
+    "exhibition",
+    "art",
+    "arts",
+    "sculpture",
+    "painting",
+    "caricatures",
+    "museum"
+   ],
+   "orgCats": [
+    "Creative & Performing Arts"
+   ]
+  },
+  {
+   "id": "music",
+   "label": "Music, bands & choir",
+   "group": "Arts & media",
+   "keywords": [
+    "music",
+    "choir",
+    "band",
+    "ensemble",
+    "concert",
+    "recital",
+    "symphonic",
+    "symphony",
+    "gospel",
+    "marching",
+    "brass",
+    "percussion",
+    "karaoke",
+    "jazz"
+   ],
+   "orgCats": []
+  },
+  {
+   "id": "theatre",
+   "label": "Theatre & film",
+   "group": "Arts & media",
+   "keywords": [
+    "theatre",
+    "theater",
+    "film",
+    "screening",
+    "masquers",
+    "play",
+    "musical",
+    "cabaret",
+    "menagerie"
+   ],
+   "orgCats": []
+  },
+  {
+   "id": "dance",
+   "label": "Dance & step",
+   "group": "Arts & media",
+   "keywords": [
+    "dance",
+    "step",
+    "stomp",
+    "k-pop dance",
+    "latin rhythm",
+    "doo-dah"
+   ],
+   "orgCats": []
+  },
+  {
+   "id": "writing",
+   "label": "Writing, media & journalism",
+   "group": "Arts & media",
+   "keywords": [
+    "writing",
+    "writers",
+    "poetry",
+    "media",
+    "journalism",
+    "george-anne",
+    "public relations",
+    "creative writing",
+    "book",
+    "fledge"
+   ],
+   "orgCats": []
+  },
+  {
+   "id": "crafts",
+   "label": "Crafts & making",
+   "group": "Arts & media",
+   "keywords": [
+    "fiber",
+    "crochet",
+    "knitting",
+    "clay",
+    "ceramics",
+    "craft",
+    "crafts",
+    "nicho",
+    "mud"
+   ],
+   "orgCats": []
+  },
+  {
+   "id": "fashion",
+   "label": "Fashion & design",
+   "group": "Arts & media",
+   "keywords": [
+    "fashion",
+    "visage",
+    "interior design",
+    "apparel",
+    "design"
+   ],
+   "orgCats": []
+  },
+  {
+   "id": "gaming",
+   "label": "Gaming & esports",
+   "group": "Games & hobbies",
+   "keywords": [
+    "gaming",
+    "gamers",
+    "esports",
+    "game night",
+    "castle panic",
+    "pokemon",
+    "chess",
+    "spades",
+    "roll for initiative",
+    "magical athlete",
+    "escape room"
+   ],
+   "orgCats": []
+  },
+  {
+   "id": "anime",
+   "label": "Anime, manga & K-pop",
+   "group": "Games & hobbies",
+   "keywords": [
+    "anime",
+    "manga",
+    "k-pop",
+    "kpop",
+    "alternative"
+   ],
+   "orgCats": []
+  },
+  {
+   "id": "outdoors",
+   "label": "Outdoors & nature",
+   "group": "Games & hobbies",
+   "keywords": [
+    "outdoor",
+    "outdoors",
+    "garden",
+    "botanic",
+    "climbing",
+    "high ropes",
+    "southern adventures",
+    "anglers",
+    "fishing",
+    "wildlife",
+    "nature",
+    "eco"
+   ],
+   "orgCats": []
+  },
+  {
+   "id": "animals",
+   "label": "Animals & pets",
+   "group": "Games & hobbies",
+   "keywords": [
+    "pet",
+    "pets",
+    "humane",
+    "furs",
+    "raptor",
+    "equestrian",
+    "animal",
+    "animals"
+   ],
+   "orgCats": []
+  },
+  {
+   "id": "sports",
+   "label": "Eagles games & tailgates",
+   "group": "Sports & wellness",
+   "keywords": [
+    "football",
+    "basketball",
+    "volleyball",
+    "soccer",
+    "baseball",
+    "softball",
+    "athletics",
+    "tailgate",
+    "game day",
+    "vs",
+    "marching band"
+   ],
+   "orgCats": [
+    "Sports"
+   ]
+  },
+  {
+   "id": "clubsports",
+   "label": "Club sports & intramurals",
+   "group": "Sports & wellness",
+   "keywords": [
+    "club sport",
+    "intramural",
+    "intramurals",
+    "lacrosse",
+    "frisbee",
+    "ultimate",
+    "rugby",
+    "hockey",
+    "tennis",
+    "swim",
+    "powerlifting",
+    "dodgeball",
+    "archery",
+    "clay target",
+    "shooting"
+   ],
+   "orgCats": [
+    "Club Sports/Intramurals"
+   ]
+  },
+  {
+   "id": "fitness",
+   "label": "Fitness & the gym",
+   "group": "Sports & wellness",
+   "keywords": [
+    "fitness",
+    "yoga",
+    "workout",
+    "exercise",
+    "gym",
+    "rac",
+    "group fitness",
+    "powerlifting"
+   ],
+   "orgCats": []
+  },
+  {
+   "id": "wellness",
+   "label": "Mental health & wellness",
+   "group": "Sports & wellness",
+   "keywords": [
+    "wellness",
+    "health",
+    "counseling",
+    "mindful",
+    "mindfulness",
+    "meditation",
+    "stress",
+    "self care",
+    "self-care",
+    "recovery",
+    "mental health",
+    "grief"
+   ],
+   "orgCats": []
+  },
+  {
+   "id": "food",
+   "label": "Free food & food events",
+   "group": "Sports & wellness",
+   "keywords": [
+    "food",
+    "free food",
+    "lunch",
+    "dinner",
+    "breakfast",
+    "bbq",
+    "coffee",
+    "truck",
+    "trucks",
+    "taste",
+    "snack",
+    "pizza",
+    "cookout",
+    "potluck",
+    "friendsgiving",
+    "roasted"
+   ],
+   "orgCats": []
+  },
+  {
+   "id": "faith",
+   "label": "Faith & spirituality",
+   "group": "Community & identity",
+   "keywords": [
+    "ministry",
+    "ministries",
+    "christian",
+    "catholic",
+    "bible",
+    "baptist",
+    "church",
+    "fellowship",
+    "spiritual",
+    "latter-day",
+    "wesley",
+    "cru",
+    "ukirk",
+    "faith",
+    "worship",
+    "gospel",
+    "young life"
+   ],
+   "orgCats": [
+    "Spiritual"
+   ],
+   "private": true
+  },
+  {
+   "id": "greek",
+   "label": "Fraternities & sororities",
+   "group": "Community & identity",
+   "keywords": [
+    "fraternity",
+    "sorority",
+    "greek",
+    "panhellenic",
+    "interfraternity",
+    "pan-hellenic"
+   ],
+   "orgCats": [
+    "Social Fraternities and Sororities"
+   ]
+  },
+  {
+   "id": "black",
+   "label": "Black student community",
+   "group": "Community & identity",
+   "keywords": [
+    "black",
+    "african",
+    "naacp",
+    "collegiate 100",
+    "negro",
+    "nsbe",
+    "naba",
+    "sistuhs",
+    "men of vision"
+   ],
+   "orgCats": [],
+   "private": true
+  },
+  {
+   "id": "latino",
+   "label": "Hispanic & Latino community",
+   "group": "Community & identity",
+   "keywords": [
+    "hispanic",
+    "latino",
+    "latina",
+    "latin",
+    "hola",
+    "alpfa",
+    "sigma lambda gamma",
+    "sigma iota alpha",
+    "day of the dead"
+   ],
+   "orgCats": [],
+   "private": true
+  },
+  {
+   "id": "intl",
+   "label": "International students",
+   "group": "Community & identity",
+   "keywords": [
+    "international",
+    "global",
+    "caribbean",
+    "nigerian",
+    "ghanaian",
+    "bangladeshi",
+    "turkish",
+    "model arab",
+    "model african",
+    "diwali"
+   ],
+   "orgCats": []
+  },
+  {
+   "id": "lgbtq",
+   "label": "LGBTQ+ community",
+   "group": "Community & identity",
+   "keywords": [
+    "gender and sexuality",
+    "lgbt",
+    "lgbtq",
+    "queer",
+    "pride",
+    "sexuality"
+   ],
+   "orgCats": [],
+   "private": true
+  },
+  {
+   "id": "firstgen",
+   "label": "First-generation students",
+   "group": "Community & identity",
+   "keywords": [
+    "first gen",
+    "first-gen",
+    "first generation",
+    "first to soar",
+    "trio",
+    "mcnair",
+    "reach"
+   ],
+   "orgCats": []
+  },
+  {
+   "id": "parents",
+   "label": "Student parents",
+   "group": "Community & identity",
+   "keywords": [
+    "ccampis",
+    "childcare",
+    "parent",
+    "parents",
+    "student-parents",
+    "pumpkin jamboree"
+   ],
+   "orgCats": []
+  },
+  {
+   "id": "veterans",
+   "label": "Military, ROTC & veterans",
+   "group": "Community & identity",
+   "keywords": [
+    "military",
+    "veteran",
+    "veterans",
+    "rotc",
+    "cadet",
+    "combatives",
+    "army"
+   ],
+   "orgCats": []
+  },
+  {
+   "id": "access",
+   "label": "Disability community & accessibility",
+   "group": "Community & identity",
+   "keywords": [
+    "disability",
+    "disabilities",
+    "accessibility",
+    "sarc",
+    "best buddies",
+    "accessible"
+   ],
+   "orgCats": [],
+   "private": true
+  },
+  {
+   "id": "women",
+   "label": "Women's leadership",
+   "group": "Community & identity",
+   "keywords": [
+    "women",
+    "sisterhood",
+    "for women by women",
+    "girls who code",
+    "women in business",
+    "women in technology",
+    "society of women"
+   ],
+   "orgCats": []
+  },
+  {
+   "id": "service",
+   "label": "Volunteering",
+   "group": "Service, causes & campus life",
+   "keywords": [
+    "volunteer",
+    "volunteering",
+    "service",
+    "serve912",
+    "donation",
+    "drive",
+    "philanthropy",
+    "habitat",
+    "red cross",
+    "circle k",
+    "miracle",
+    "fundraiser",
+    "community garden"
+   ],
+   "orgCats": [
+    "Service"
+   ]
+  },
+  {
+   "id": "politics",
+   "label": "Politics & civic life",
+   "group": "Service, causes & campus life",
+   "keywords": [
+    "political",
+    "politics",
+    "democrats",
+    "turning point",
+    "socialists",
+    "bridge",
+    "vote",
+    "election",
+    "white house",
+    "debate"
+   ],
+   "orgCats": [
+    "Political Action"
+   ]
+  },
+  {
+   "id": "advocacy",
+   "label": "Social justice & advocacy",
+   "group": "Service, causes & campus life",
+   "keywords": [
+    "advocacy",
+    "social action",
+    "equality",
+    "inclusion",
+    "diversity",
+    "consent",
+    "upstander"
+   ],
+   "orgCats": [
+    "Social Action",
+    "Diversity Education and Advocacy"
+   ]
+  },
+  {
+   "id": "environment",
+   "label": "Sustainability & environment",
+   "group": "Service, causes & campus life",
+   "keywords": [
+    "sustainability",
+    "sustainable",
+    "environment",
+    "environmental",
+    "eco",
+    "recycling",
+    "climate",
+    "garden"
+   ],
+   "orgCats": []
+  },
+  {
+   "id": "leadership",
+   "label": "Leadership & student government",
+   "group": "Service, causes & campus life",
+   "keywords": [
+    "leader",
+    "leaders",
+    "leadership",
+    "sga",
+    "student government",
+    "ambassador",
+    "ambassadors",
+    "southern leaders",
+    "programming board"
+   ],
+   "orgCats": [
+    "Peer Mentorship"
+   ]
+  },
+  {
+   "id": "social",
+   "label": "Campus traditions & parties",
+   "group": "Service, causes & campus life",
+   "keywords": [
+    "homecoming",
+    "party",
+    "block party",
+    "social",
+    "costume",
+    "halloween",
+    "trivia",
+    "festival",
+    "parade",
+    "celebration",
+    "southern self",
+    "true blue",
+    "lighting",
+    "grad bash",
+    "concert",
+    "movie night"
+   ],
+   "orgCats": [
+    "Special Interest"
+   ]
+  },
+  {
+   "id": "housing",
+   "label": "Residence hall life",
+   "group": "Service, causes & campus life",
+   "keywords": [
+    "residence hall",
+    "housing",
+    "rha",
+    "eagle village",
+    "centennial place",
+    "windward",
+    "registration station"
+   ],
+   "orgCats": [
+    "University Housing"
+   ]
+  }
+ ],
+ "terms": [
+  {
+   "id": "fa26",
+   "name": "Fall 2026",
+   "classesStart": "2026-08-19",
+   "classesEnd": "2026-11-20",
+   "finalsStart": "2026-11-30",
+   "finalsEnd": "2026-12-05",
+   "noClass": [
+    [
+     "2026-09-07",
+     "2026-09-07"
+    ],
+    [
+     "2026-11-23",
+     "2026-11-28"
+    ]
+   ],
+   "makeup": [
+    {
+     "date": "2026-11-18",
+     "follows": "Mo",
+     "label": "Monday class makeup day"
+    }
+   ],
+   "source": "https://drive.google.com/file/d/16GUFuMS7EbnrYV4B9B1xqU6lDHiY-FrJ/view"
+  },
+  {
+   "id": "sp27",
+   "name": "Spring 2027",
+   "classesStart": "2027-01-13",
+   "classesEnd": "2027-04-23",
+   "finalsStart": "2027-04-26",
+   "finalsEnd": "2027-05-01",
+   "noClass": [
+    [
+     "2027-01-18",
+     "2027-01-18"
+    ],
+    [
+     "2027-03-15",
+     "2027-03-20"
+    ]
+   ],
+   "makeup": [],
+   "source": "https://drive.google.com/file/d/1MG_X-pqYIcI-JFAm74kqKNGCWuTXGB6i/view"
+  }
+ ],
+ "dates": [
+  {
+   "date": "2026-08-19",
+   "title": "Fall classes begin",
+   "kind": "term",
+   "term": "fa26"
+  },
+  {
+   "date": "2026-08-19",
+   "end": "2026-08-25",
+   "title": "Drop/Add (ends 11:59 PM Aug 25)",
+   "kind": "deadline",
+   "term": "fa26"
+  },
+  {
+   "date": "2026-08-28",
+   "title": "Last day to apply for Fall 2026 graduation",
+   "kind": "deadline",
+   "term": "fa26"
+  },
+  {
+   "date": "2026-09-07",
+   "title": "Labor Day: no classes",
+   "kind": "holiday",
+   "term": "fa26"
+  },
+  {
+   "date": "2026-10-19",
+   "title": "SARC & Learning Support early registration for Spring/Summer 2027",
+   "kind": "registration",
+   "term": "fa26"
+  },
+  {
+   "date": "2026-10-26",
+   "title": "Early registration for Spring & Summer 2027 begins (check WINGS for your time)",
+   "kind": "registration",
+   "term": "fa26"
+  },
+  {
+   "date": "2026-11-02",
+   "end": "2026-11-07",
+   "title": "Homecoming Week",
+   "kind": "campus",
+   "term": "fa26"
+  },
+  {
+   "date": "2026-11-03",
+   "title": "Last day to withdraw without academic penalty (Full Term)",
+   "kind": "deadline",
+   "term": "fa26"
+  },
+  {
+   "date": "2026-11-18",
+   "title": "Monday class makeup day: attend your Monday classes",
+   "kind": "term",
+   "term": "fa26"
+  },
+  {
+   "date": "2026-11-19",
+   "title": "Minimester II: last day of classes",
+   "kind": "term",
+   "term": "fa26"
+  },
+  {
+   "date": "2026-11-20",
+   "title": "Last day of Fall classes",
+   "kind": "term",
+   "term": "fa26"
+  },
+  {
+   "date": "2026-11-23",
+   "end": "2026-11-28",
+   "title": "Thanksgiving holidays: no classes",
+   "kind": "holiday",
+   "term": "fa26"
+  },
+  {
+   "date": "2026-11-30",
+   "end": "2026-12-05",
+   "title": "Fall final exams",
+   "kind": "exam",
+   "term": "fa26"
+  },
+  {
+   "date": "2026-12-06",
+   "title": "Residence halls close at noon (non-graduates)",
+   "kind": "term",
+   "term": "fa26"
+  },
+  {
+   "date": "2026-12-08",
+   "title": "Commencement: undergraduate, Enmarket Arena, Savannah, 1 PM",
+   "kind": "campus",
+   "term": "fa26"
+  },
+  {
+   "date": "2026-12-09",
+   "title": "Commencement: graduate, Hill Convocation Center, Statesboro, 1 PM",
+   "kind": "campus",
+   "term": "fa26"
+  },
+  {
+   "date": "2026-12-10",
+   "title": "Commencement: undergraduate, Paulson Stadium, Statesboro, 1 PM",
+   "kind": "campus",
+   "term": "fa26"
+  },
+  {
+   "date": "2027-01-01",
+   "title": "New Year's Day: offices closed",
+   "kind": "holiday",
+   "term": "sp27"
+  },
+  {
+   "date": "2027-01-10",
+   "title": "Residence hall check-in, noon",
+   "kind": "term",
+   "term": "sp27"
+  },
+  {
+   "date": "2027-01-13",
+   "title": "Spring classes begin & fee payment deadline",
+   "kind": "deadline",
+   "term": "sp27"
+  },
+  {
+   "date": "2027-01-13",
+   "end": "2027-01-19",
+   "title": "Drop/Add (ends 11:59 PM Jan 19)",
+   "kind": "deadline",
+   "term": "sp27"
+  },
+  {
+   "date": "2027-01-18",
+   "title": "Martin Luther King Jr. Holiday: no classes",
+   "kind": "holiday",
+   "term": "sp27"
+  },
+  {
+   "date": "2027-01-29",
+   "title": "Last day to apply for Spring/Summer 2027 graduation",
+   "kind": "deadline",
+   "term": "sp27"
+  },
+  {
+   "date": "2027-03-15",
+   "end": "2027-03-20",
+   "title": "Spring break",
+   "kind": "holiday",
+   "term": "sp27"
+  },
+  {
+   "date": "2027-03-22",
+   "title": "Early registration for Fall 2027 begins (check WINGS)",
+   "kind": "registration",
+   "term": "sp27"
+  },
+  {
+   "date": "2027-04-06",
+   "title": "Last day to withdraw without academic penalty (Full Term)",
+   "kind": "deadline",
+   "term": "sp27"
+  },
+  {
+   "date": "2027-04-23",
+   "title": "Last day of Spring classes",
+   "kind": "term",
+   "term": "sp27"
+  },
+  {
+   "date": "2027-04-26",
+   "end": "2027-05-01",
+   "title": "Spring final exams",
+   "kind": "exam",
+   "term": "sp27"
+  },
+  {
+   "date": "2027-05-02",
+   "title": "Residence halls close at noon (non-graduates)",
+   "kind": "term",
+   "term": "sp27"
+  },
+  {
+   "date": "2027-05-04",
+   "title": "Commencement: undergraduate (all colleges), Enmarket Arena, Savannah, 9 AM",
+   "kind": "campus",
+   "term": "sp27"
+  },
+  {
+   "date": "2027-05-05",
+   "title": "Commencement: Paulson Stadium 9 AM (Engineering & Computing, Arts & Humanities, Science & Math, Public Health, Health Professions); graduate ceremony Hill Convocation Center 4 PM",
+   "kind": "campus",
+   "term": "sp27"
+  },
+  {
+   "date": "2027-05-06",
+   "title": "Commencement: Paulson Stadium 9 AM (Behavioral & Social Sciences, Education, Business); graduate ceremony Hill Convocation Center 4 PM",
+   "kind": "campus",
+   "term": "sp27"
+  }
+ ],
+ "places": [
+  {
+   "id": "dining-commons",
+   "name": "Dining Commons",
+   "campus": "statesboro",
+   "category": "dining",
+   "where": "Building 465, 97 Georgia Ave.",
+   "hours": {
+    "Mo-Su": "09:00-21:00"
+   },
+   "note": "Breakfast all day Saturday; Sunday brunch 9 AM–2 PM.",
+   "links": [
+    {
+     "label": "Menu",
+     "url": "https://georgiasouthern.nutrislice.com/menu/dining-commons"
+    }
+   ]
+  },
+  {
+   "id": "lakeside",
+   "name": "Lakeside Dining Commons",
+   "campus": "statesboro",
+   "category": "dining",
+   "where": "1332 Southern Dr.",
+   "hours": {
+    "Mo-Th": "07:00-18:00",
+    "Fr": "07:00-15:00"
+   },
+   "links": [
+    {
+     "label": "Menu",
+     "url": "https://georgiasouthern.nutrislice.com/menu/lakeside"
+    }
+   ]
+  },
+  {
+   "id": "cfa-sb",
+   "name": "Chick-fil-A",
+   "campus": "statesboro",
+   "category": "dining",
+   "where": "Russell Union",
+   "hours": {
+    "Mo-Th": "07:30-19:00",
+    "Fr": "07:30-15:00"
+   }
+  },
+  {
+   "id": "sbux-sb",
+   "name": "Starbucks",
+   "campus": "statesboro",
+   "category": "dining",
+   "where": "Russell Union",
+   "hours": {
+    "Mo-Th": "07:30-18:00",
+    "Fr": "07:30-15:00"
+   }
+  },
+  {
+   "id": "msd",
+   "name": "Market Street Deli",
+   "campus": "statesboro",
+   "category": "dining",
+   "where": "Information Technology Building",
+   "hours": {
+    "Mo-Th": "07:30-17:00",
+    "Fr": "07:30-15:00"
+   },
+   "links": [
+    {
+     "label": "Menu",
+     "url": "https://georgiasouthern.nutrislice.com/menu/market-street-deli"
+    }
+   ]
+  },
+  {
+   "id": "three-tree",
+   "name": "Three Tree Coffee Roasters",
+   "campus": "statesboro",
+   "category": "dining",
+   "where": "Zach S. Henderson Library",
+   "hours": {
+    "Mo-Th": "08:00-16:00",
+    "Fr": "08:00-14:00"
+   }
+  },
+  {
+   "id": "smoovie",
+   "name": "Smoovie Smoothie Cafe",
+   "campus": "statesboro",
+   "category": "dining",
+   "where": "Recreation Activity Center",
+   "hours": {
+    "Mo-Th": "07:00-18:00",
+    "Fr": "07:00-14:00"
+   },
+   "links": [
+    {
+     "label": "Menu",
+     "url": "https://georgiasouthern.nutrislice.com/menu/smoovie-smoothie-cafe/smoovie-menu"
+    }
+   ]
+  },
+  {
+   "id": "baja",
+   "name": "Baja Bites",
+   "campus": "statesboro",
+   "category": "dining",
+   "where": "Russell Union · mobile orders only",
+   "hours": {
+    "Mo-Fr": "10:30-17:00"
+   }
+  },
+  {
+   "id": "wingin",
+   "name": "Wingin' It",
+   "campus": "statesboro",
+   "category": "dining",
+   "where": "Russell Union · mobile orders only",
+   "hours": {
+    "Mo-Fr": "10:30-17:00"
+   }
+  },
+  {
+   "id": "yumi",
+   "name": "Yumi Sushi",
+   "campus": "statesboro",
+   "category": "dining",
+   "where": "Russell Union · mobile orders only",
+   "hours": {
+    "Mo-Fr": "10:30-15:00"
+   }
+  },
+  {
+   "id": "gusmart-ru",
+   "name": "Gus Mart",
+   "campus": "statesboro",
+   "category": "dining",
+   "where": "Russell Union",
+   "hours": {
+    "Mo-Sa": "07:30-22:00",
+    "Su": "13:00-22:00"
+   }
+  },
+  {
+   "id": "gusmart-it",
+   "name": "Gus Mart",
+   "campus": "statesboro",
+   "category": "dining",
+   "where": "IT Building",
+   "hours": {
+    "Mo-Th": "07:30-20:00",
+    "Fr": "07:30-15:00"
+   }
+  },
+  {
+   "id": "gusmart-nc",
+   "name": "Gus Mart",
+   "campus": "statesboro",
+   "category": "dining",
+   "where": "Nursing/Chemistry Building",
+   "hours": {
+    "Mo-Fr": "09:00-14:00"
+   }
+  },
+  {
+   "id": "gusmini-coe",
+   "name": "Gus Mini Mart",
+   "campus": "statesboro",
+   "category": "dining",
+   "where": "College of Education",
+   "hours": {
+    "Mo-Su": "07:30-22:00"
+   }
+  },
+  {
+   "id": "the-yard",
+   "name": "The Yard on Chandler",
+   "campus": "statesboro",
+   "category": "dining",
+   "where": "Food truck courtyard, Lot 29",
+   "hours": {
+    "Tu-Th": "11:00-14:00"
+   },
+   "links": [
+    {
+     "label": "This week's trucks",
+     "url": "https://drive.google.com/file/d/1DTu8MvS49YXvG3iOStukt-N61cI8Aluw/view"
+    }
+   ]
+  },
+  {
+   "id": "galley",
+   "name": "The Galley Dining Commons",
+   "campus": "armstrong",
+   "category": "dining",
+   "where": "11935 Abercorn St.",
+   "hours": {
+    "Mo-Su": "07:30-19:00"
+   },
+   "links": [
+    {
+     "label": "Menu",
+     "url": "https://georgiasouthern.nutrislice.com/menu/the-galley"
+    }
+   ]
+  },
+  {
+   "id": "cfa-arm",
+   "name": "Chick-fil-A",
+   "campus": "armstrong",
+   "category": "dining",
+   "where": "University Court, MCC",
+   "hours": {
+    "Mo-Fr": "10:30-15:30"
+   }
+  },
+  {
+   "id": "sbux-arm",
+   "name": "Starbucks",
+   "campus": "armstrong",
+   "category": "dining",
+   "where": "Student Union",
+   "hours": {
+    "Mo-Fr": "07:30-15:30"
+   }
+  },
+  {
+   "id": "taco-santo",
+   "name": "Taco Santo",
+   "campus": "armstrong",
+   "category": "dining",
+   "where": "Armstrong Campus",
+   "hours": {
+    "Mo-Th": "10:30-19:00"
+   }
+  },
+  {
+   "id": "sandwich",
+   "name": "Sandwich Shoppe",
+   "campus": "armstrong",
+   "category": "dining",
+   "where": "Armstrong Campus",
+   "hours": {
+    "Mo-Th": "10:30-14:00"
+   }
+  },
+  {
+   "id": "henderson",
+   "name": "Henderson Library",
+   "campus": "statesboro",
+   "category": "study",
+   "where": "1400 Southern Drive",
+   "phone": "912-478-5647",
+   "note": "Hours change by week. Check today's hours before you go.",
+   "links": [
+    {
+     "label": "Today's hours",
+     "url": "https://georgiasouthern.libguides.com/hours/"
+    },
+    {
+     "label": "Reserve a study room",
+     "url": "https://www.georgiasouthern.edu/library/reserve-a-room"
+    },
+    {
+     "label": "Book research help",
+     "url": "https://georgiasouthern.libcal.com/appointments"
+    },
+    {
+     "label": "Chat with a librarian",
+     "url": "https://www.georgiasouthern.edu/library/chat-with-a-librarian"
+    }
+   ]
+  },
+  {
+   "id": "lane",
+   "name": "Lane Library",
+   "campus": "armstrong",
+   "category": "study",
+   "where": "11935 Abercorn St., Savannah",
+   "phone": "912-344-3027",
+   "note": "Hours change by week. Check today's hours before you go.",
+   "links": [
+    {
+     "label": "Today's hours",
+     "url": "https://georgiasouthern.libguides.com/hours/"
+    },
+    {
+     "label": "Reserve a study room",
+     "url": "https://www.georgiasouthern.edu/library/reserve-a-room"
+    }
+   ]
+  },
+  {
+   "id": "rac",
+   "name": "Recreation Activity Center (RAC)",
+   "campus": "statesboro",
+   "category": "fitness",
+   "where": "2687 Bunny Akins Blvd.",
+   "phone": "912-478-5436",
+   "hours": {
+    "Mo-Th": "06:00-23:00",
+    "Fr": "06:00-21:00",
+    "Sa": "09:00-19:00",
+    "Su": "13:00-23:00"
+   },
+   "note": "Fall & spring hours. Holiday, break and game-day hours differ.",
+   "links": [
+    {
+     "label": "RAC info",
+     "url": "https://www.georgiasouthern.edu/student-life/recreation/rac"
+    },
+    {
+     "label": "Group fitness",
+     "url": "https://www.georgiasouthern.edu/student-life/recreation/rac/group-fitness"
+    },
+    {
+     "label": "Intramurals",
+     "url": "https://www.georgiasouthern.edu/student-life/recreation/rac/intramural-sports"
+    },
+    {
+     "label": "Climbing & Southern Adventures",
+     "url": "https://www.georgiasouthern.edu/student-life/recreation/rac/southern-adventures"
+    }
+   ]
+  },
+  {
+   "id": "health-sb",
+   "name": "Health Services",
+   "campus": "statesboro",
+   "category": "health",
+   "where": "984 Plant Drive",
+   "phone": "912-478-5641",
+   "hours": {
+    "Mo-Th": "08:00-17:00",
+    "Fr": "09:00-17:00"
+   },
+   "note": "Physical therapy and pharmacy close 12–1 PM. Closed university holidays.",
+   "links": [
+    {
+     "label": "Make an appointment",
+     "url": "https://www.georgiasouthern.edu/offices/health-services/appointments"
+    },
+    {
+     "label": "After-hours care",
+     "url": "https://www.georgiasouthern.edu/offices/health-services/emergencies-and-after-hours-care"
+    }
+   ]
+  },
+  {
+   "id": "health-arm",
+   "name": "Health Services",
+   "campus": "armstrong",
+   "category": "health",
+   "where": "Compass Point, 7000 Building (Student Services Annex, bottom floor)",
+   "phone": "912-478-5641",
+   "hours": {
+    "Mo-Th": "08:00-12:30,13:30-17:00",
+    "Fr": "09:00-12:30,13:30-17:00"
+   },
+   "note": "Closed daily 12:30–1:30 PM.",
+   "links": [
+    {
+     "label": "Make an appointment",
+     "url": "https://www.georgiasouthern.edu/offices/health-services/appointments"
+    },
+    {
+     "label": "After-hours care",
+     "url": "https://www.georgiasouthern.edu/offices/health-services/emergencies-and-after-hours-care"
+    }
+   ]
+  },
+  {
+   "id": "counseling-sb",
+   "name": "Counseling Center",
+   "campus": "statesboro",
+   "category": "health",
+   "where": "Building 435, 5731 Forest Drive",
+   "phone": "912-478-5541",
+   "hours": {
+    "Mo-Fr": "08:00-17:00"
+   },
+   "note": "Schedule in person or by phone. Ask about same-day sessions. After hours: call or text 988.",
+   "links": [
+    {
+     "label": "Counseling Center",
+     "url": "https://www.georgiasouthern.edu/students/counseling/"
+    }
+   ]
+  },
+  {
+   "id": "counseling-arm",
+   "name": "Counseling Center",
+   "campus": "armstrong",
+   "category": "health",
+   "where": "7000 Compass Point Annex",
+   "phone": "912-478-5541",
+   "hours": {
+    "Mo-Fr": "08:00-17:00"
+   },
+   "note": "Schedule in person or by phone. After hours: call or text 988.",
+   "links": [
+    {
+     "label": "Counseling Center",
+     "url": "https://www.georgiasouthern.edu/students/counseling/"
+    }
+   ]
+  },
+  {
+   "id": "pantry-sb",
+   "name": "Eagle Essentials Food Pantry",
+   "campus": "statesboro",
+   "category": "support",
+   "where": "Williams Center 2010",
+   "hours": {
+    "Mo-Fr": "10:00-17:30"
+   },
+   "note": "Free for students. Sign up once on PantrySoft, then visit.",
+   "links": [
+    {
+     "label": "Sign up (PantrySoft)",
+     "url": "https://app.pantrysoft.com/login/Georgiasouthern"
+    },
+    {
+     "label": "About the pantries",
+     "url": "https://www.georgiasouthern.edu/student-life/dean/food-insecurity"
+    }
+   ]
+  },
+  {
+   "id": "pantry-arm",
+   "name": "Captain's Cupboard Food Pantry",
+   "campus": "armstrong",
+   "category": "support",
+   "where": "Student Success Complex, Room 1022",
+   "hours": {
+    "Mo": "10:00-12:00",
+    "Tu": "12:00-16:00",
+    "We": "10:00-14:00",
+    "Th-Fr": "10:00-16:00"
+   },
+   "note": "Free for students. Sign up once on PantrySoft, then visit.",
+   "links": [
+    {
+     "label": "Sign up (PantrySoft)",
+     "url": "https://app.pantrysoft.com/login/Georgiasouthern"
+    },
+    {
+     "label": "About the pantries",
+     "url": "https://www.georgiasouthern.edu/student-life/dean/food-insecurity"
+    }
+   ]
+  }
+ ],
+ "resources": [
+  {
+   "name": "Academic Success Center",
+   "category": "Academic help",
+   "desc": "Free tutoring, success coaching, study strategies, testing and workshops.",
+   "url": "https://www.georgiasouthern.edu/academics/student-success/success-center",
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "name": "Writing Center",
+   "category": "Academic help",
+   "desc": "Get feedback on papers, essays and other writing at any stage.",
+   "url": "https://www.georgiasouthern.edu/academics/student-success/writing-center",
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "name": "Academic Advising (CARC)",
+   "category": "Academic help",
+   "desc": "Meet your advisor at key points each semester to stay on track to your degree.",
+   "url": "https://www.georgiasouthern.edu/academics/advising/",
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "name": "Library research help",
+   "category": "Academic help",
+   "desc": "Book a one-on-one research appointment or chat with a librarian.",
+   "url": "https://georgiasouthern.libcal.com/appointments",
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "name": "Academic calendars",
+   "category": "Academic help",
+   "desc": "Official term dates, deadlines and final exam schedules.",
+   "url": "https://www.georgiasouthern.edu/?p=18809",
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "name": "First & Second Year Experience",
+   "category": "Academic help",
+   "desc": "Programs and support for students in their first two years.",
+   "url": "https://www.georgiasouthern.edu/academics/student-success/first-second-year-experience",
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "name": "TRIO Student Support Services",
+   "category": "Academic help",
+   "desc": "Support for first-generation, income-eligible and disabled students.",
+   "url": "https://www.georgiasouthern.edu/academics/student-success/trio-student-support-services",
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "name": "EAGLE Academy",
+   "category": "Academic help",
+   "desc": "Inclusive postsecondary program at Georgia Southern.",
+   "url": "https://www.georgiasouthern.edu/academics/student-success/eagle-academy"
+  },
+  {
+   "name": "McNair Scholars Program",
+   "category": "Academic help",
+   "desc": "Prepares eligible undergraduates for doctoral study.",
+   "url": "https://www.georgiasouthern.edu/academics/student-success/mcnair-scholars-program",
+   "tags": [
+    "academic",
+    "career"
+   ]
+  },
+  {
+   "name": "REACH for Southern Scholars",
+   "category": "Academic help",
+   "desc": "Support program for REACH Georgia scholars.",
+   "url": "https://www.georgiasouthern.edu/academics/student-success/reach-for-southern-scholars-program"
+  },
+  {
+   "name": "Student Athlete Services",
+   "category": "Academic help",
+   "desc": "Advisement, tutoring and mentoring for student-athletes.",
+   "url": "https://www.georgiasouthern.edu/academics/student-success/student-athlete-services",
+   "tags": [
+    "sports"
+   ]
+  },
+  {
+   "name": "Career & Professional Development",
+   "category": "Career",
+   "desc": "Résumé help, career coaching, internships and employer events.",
+   "url": "https://ocpd.georgiasouthern.edu/",
+   "tags": [
+    "career"
+   ]
+  },
+  {
+   "name": "Handshake",
+   "category": "Career",
+   "desc": "Find jobs and internships and sign up for career fairs.",
+   "url": "https://ocpd.georgiasouthern.edu/resources/handshake/",
+   "tags": [
+    "career"
+   ]
+  },
+  {
+   "name": "Counseling Center",
+   "category": "Health & wellness",
+   "desc": "Free, confidential counseling for students. 912-478-5541.",
+   "url": "https://www.georgiasouthern.edu/students/counseling/",
+   "phone": "912-478-5541",
+   "tags": [
+    "wellness"
+   ]
+  },
+  {
+   "name": "Health Services",
+   "category": "Health & wellness",
+   "desc": "Medical appointments, pharmacy and physical therapy. 912-478-5641.",
+   "url": "https://www.georgiasouthern.edu/offices/health-services/appointments",
+   "phone": "912-478-5641",
+   "tags": [
+    "wellness"
+   ]
+  },
+  {
+   "name": "Center for Addiction Recovery",
+   "category": "Health & wellness",
+   "desc": "Recovery community and support for students.",
+   "url": "https://www.georgiasouthern.edu/academics/student-success/addiction-recovery",
+   "tags": [
+    "wellness"
+   ]
+  },
+  {
+   "name": "Campus Recreation & Intramurals",
+   "category": "Health & wellness",
+   "desc": "Fitness, group classes, intramurals, club sports and outdoor trips.",
+   "url": "https://www.georgiasouthern.edu/student-life/recreation",
+   "tags": [
+    "sports",
+    "wellness"
+   ]
+  },
+  {
+   "name": "Food pantries",
+   "category": "Basic needs",
+   "desc": "Free food for students on every campus. Sign up once on PantrySoft.",
+   "url": "https://www.georgiasouthern.edu/student-life/dean/food-insecurity",
+   "tags": [
+    "food"
+   ]
+  },
+  {
+   "name": "Dean of Students",
+   "category": "Basic needs",
+   "desc": "Help when life gets in the way of school. Statesboro 912-478-3326 · Armstrong 912-344-2514.",
+   "url": "https://www.georgiasouthern.edu/student-life/dean/resources"
+  },
+  {
+   "name": "Financial Aid",
+   "category": "Money",
+   "desc": "FAFSA, scholarships, loans and aid status.",
+   "url": "https://www.georgiasouthern.edu/admissions-aid/financial-aid"
+  },
+  {
+   "name": "Financial Aid resources",
+   "category": "Money",
+   "desc": "Forms, guides and money management help.",
+   "url": "https://www.georgiasouthern.edu/admissions-aid/financial-aid/resources/"
+  },
+  {
+   "name": "University Housing",
+   "category": "Campus life",
+   "desc": "Residence halls, move-in and housing questions.",
+   "url": "https://www.georgiasouthern.edu/student-life/housing"
+  },
+  {
+   "name": "Eagle Dining",
+   "category": "Campus life",
+   "desc": "Dining locations, hours and meal plans.",
+   "url": "https://www.georgiasouthern.edu/student-life/dining-services/locations",
+   "tags": [
+    "food"
+   ]
+  },
+  {
+   "name": "The Eagle Experience",
+   "category": "Campus life",
+   "desc": "Welcome and tradition events through the year.",
+   "url": "https://www.georgiasouthern.edu/eagle-experience",
+   "tags": [
+    "social"
+   ]
+  },
+  {
+   "name": "Campus events calendar",
+   "category": "Campus life",
+   "desc": "Every public event on the university calendar.",
+   "url": "https://calendar.georgiasouthern.edu/calendar",
+   "tags": [
+    "social"
+   ]
+  },
+  {
+   "name": "MyGeorgiaSouthern",
+   "category": "Campus life",
+   "desc": "The university portal for WINGS, Folio and email.",
+   "url": "https://my.georgiasouthern.edu/"
+  },
+  {
+   "name": "Campus transit & shuttles",
+   "category": "Getting around",
+   "desc": "Southern Express loop and the free Statesboro–Savannah intercampus shuttle.",
+   "url": "https://www.georgiasouthern.edu/offices/parking-transportation/campus-transit"
+  },
+  {
+   "name": "Live bus tracker (Passio GO)",
+   "category": "Getting around",
+   "desc": "See where the buses are right now.",
+   "url": "https://georgiasouthern.passiogo.com/"
+  },
+  {
+   "name": "Public Safety",
+   "category": "Safety",
+   "desc": "University police locations and contacts.",
+   "url": "https://www.georgiasouthern.edu/offices/public-safety/locations/"
+  },
+  {
+   "name": "University Alert Center",
+   "category": "Safety",
+   "desc": "Current campus alerts and emergency notices.",
+   "url": "https://www.georgiasouthern.edu/alert"
+  }
+ ],
+ "transit": [
+  {
+   "name": "Southern Express (Statesboro)",
+   "detail": "Continuous campus loop. Starts 7 AM on weekdays; reduced schedule about every 15 minutes, 4–9 PM Mon–Thu; Friday service ends 6 PM. No weekend, holiday or between-semester service.",
+   "links": [
+    {
+     "label": "Live map",
+     "url": "https://georgiasouthern.passiogo.com/"
+    },
+    {
+     "label": "Transit info",
+     "url": "https://www.georgiasouthern.edu/offices/parking-transportation/campus-transit"
+    }
+   ]
+  },
+  {
+   "name": "Intercampus shuttle (Statesboro ↔ Savannah)",
+   "detail": "Free for students. Leaves from the Russell Union lot (Statesboro) and the Sports Center lot near the Student Union (Armstrong). Runs on class and final-exam days. 35 seats, first come, first served. ADA accessible, free Wi-Fi.",
+   "links": [
+    {
+     "label": "Shuttle schedule",
+     "url": "https://www.georgiasouthern.edu/offices/parking-transportation/campus-transit"
+    },
+    {
+     "label": "Shuttle page",
+     "url": "https://www.georgiasouthern.edu/offices/parking-transportation/intercampus-shuttle"
+    }
+   ],
+   "schedule": {
+    "MWF": {
+     "fromStatesboro": [],
+     "fromArmstrong": []
+    },
+    "TR": {
+     "fromStatesboro": [],
+     "fromArmstrong": []
+    },
+    "note": "Parking & Transportation hasn't published the departure times as text. Ask them at 912-478-7275 or parking@georgiasouthern.edu and paste the times here (24h, e.g. \"07:00\"). ROAM will then show the next shuttle."
+   }
+  }
+ ],
+ "help": [
+  {
+   "name": "Emergency",
+   "detail": "Police, fire or medical emergency",
+   "phone": "911"
+  },
+  {
+   "name": "988 Suicide & Crisis Lifeline",
+   "detail": "Call or text, 24/7",
+   "phone": "988"
+  },
+  {
+   "name": "Counseling Center",
+   "detail": "Mon–Fri 8 AM–5 PM, both campuses",
+   "phone": "912-478-5541"
+  },
+  {
+   "name": "Health Services",
+   "detail": "Appointments and nurse questions",
+   "phone": "912-478-5641"
+  },
+  {
+   "name": "Dean of Students · Statesboro",
+   "detail": "Help with a crisis that affects school",
+   "phone": "912-478-3326"
+  },
+  {
+   "name": "Dean of Students · Armstrong",
+   "detail": "Help with a crisis that affects school",
+   "phone": "912-344-2514"
+  }
+ ],
+ "interestGroups": [
+  "Academics & careers",
+  "Arts & media",
+  "Games & hobbies",
+  "Sports & wellness",
+  "Community & identity",
+  "Service, causes & campus life"
+ ],
+ "hiddenGems": [
+  {
+   "id": "pantry",
+   "title": "Free groceries at the campus food pantry",
+   "what": "Eagle Essentials (Williams Center 2010, Statesboro, Mon–Fri 10 AM–5:30 PM) and Captain's Cupboard (Student Success Complex 1022, Armstrong) give students free food. Sign up once on PantrySoft with your Eagle ID, then stop by.",
+   "links": [
+    {
+     "label": "Sign up (PantrySoft)",
+     "url": "https://app.pantrysoft.com/login/Georgiasouthern"
+    },
+    {
+     "label": "Pantry hours & info",
+     "url": "https://www.georgiasouthern.edu/student-life/dean/food-insecurity-resources"
+    }
+   ],
+   "tags": [
+    "food"
+   ]
+  },
+  {
+   "id": "counseling",
+   "title": "Free, confidential counseling",
+   "what": "The Counseling Center sees students on both campuses, Mon–Fri 8 AM–5 PM. Call 912-478-5541 and ask about same-day sessions. After hours, call or text 988.",
+   "links": [
+    {
+     "label": "Counseling Center",
+     "url": "https://www.georgiasouthern.edu/students/counseling/"
+    }
+   ],
+   "tags": [
+    "wellness"
+   ]
+  },
+  {
+   "id": "tutoring",
+   "title": "Free tutoring, including nights and Sundays",
+   "what": "The Academic Success Center tutors in person Mon–Thu noon–8 PM, and online Mon–Thu until 10 PM plus Sundays noon–5 PM. Success coaching is free too.",
+   "links": [
+    {
+     "label": "Academic Success Center",
+     "url": "https://www.georgiasouthern.edu/academics/student-success/success-center"
+    }
+   ],
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "writing",
+   "title": "Free help with any paper",
+   "what": "The Writing Center reviews essays, lab reports and applications at any stage, from brainstorming to final draft.",
+   "links": [
+    {
+     "label": "Writing Center",
+     "url": "https://www.georgiasouthern.edu/academics/student-success/writing-center"
+    }
+   ],
+   "tags": [
+    "academic",
+    "writing"
+   ]
+  },
+  {
+   "id": "dean",
+   "title": "Sick or facing an emergency? The Dean of Students can notify your professors",
+   "what": "If illness or an emergency keeps you out of class, the Dean of Students Office can send your instructors an official notice. They also help with hardship withdrawals and grade appeals. Statesboro 912-478-3326 · Armstrong 912-344-2514.",
+   "links": [
+    {
+     "label": "Request faculty notification",
+     "url": "https://www.georgiasouthern.edu/student-life/dean/resources/notification-to-faculty"
+    },
+    {
+     "label": "Withdrawal options",
+     "url": "https://www.georgiasouthern.edu/student-life/dean/resources/withdrawal-procedures"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "id": "ccampis",
+   "title": "Childcare help for student parents",
+   "what": "CCAMPIS is a federally funded program that supports student parents with childcare so they can stay in school.",
+   "links": [
+    {
+     "label": "CCAMPIS on Eagle Engage",
+     "url": "https://georgiasouthern.presence.io/organization/childcare-access-means-parents-in-school-ccampis"
+    }
+   ],
+   "tags": [
+    "parents"
+   ]
+  },
+  {
+   "id": "sarc",
+   "title": "Classroom and testing accommodations",
+   "what": "The Student Accessibility Resource Center sets up accommodations for students with documented disabilities and health conditions.",
+   "links": [
+    {
+     "label": "Student Accessibility Resource Center",
+     "url": "http://students.georgiasouthern.edu/sarc/"
+    }
+   ],
+   "tags": [
+    "access"
+   ]
+  },
+  {
+   "id": "money",
+   "title": "Free financial counseling",
+   "what": "The Financial Literacy program offers money workshops and one-on-one financial counseling for students.",
+   "links": [
+    {
+     "label": "Financial Literacy on Eagle Engage",
+     "url": "https://georgiasouthern.presence.io/organization/financial-aid-financial-literacy"
+    },
+    {
+     "label": "Financial Aid",
+     "url": "https://www.georgiasouthern.edu/admissions-aid/financial-aid"
+    }
+   ],
+   "tags": [
+    "finance"
+   ]
+  },
+  {
+   "id": "jobs",
+   "title": "On-campus jobs",
+   "what": "The Student Employment Center lists student jobs on campus.",
+   "links": [
+    {
+     "label": "Student Employment Center",
+     "url": "https://georgiasouthern.presence.io/organization/student-employment-center-4"
+    }
+   ],
+   "tags": [
+    "career"
+   ]
+  },
+  {
+   "id": "careers",
+   "title": "Résumé reviews and career coaching",
+   "what": "Career & Professional Development reviews résumés, runs mock interviews and posts internships on Handshake.",
+   "links": [
+    {
+     "label": "Career & Professional Development",
+     "url": "https://ocpd.georgiasouthern.edu/"
+    },
+    {
+     "label": "Handshake",
+     "url": "https://ocpd.georgiasouthern.edu/resources/handshake/"
+    }
+   ],
+   "tags": [
+    "career"
+   ]
+  },
+  {
+   "id": "veterans",
+   "title": "Support for veterans and military families",
+   "what": "Military & Veteran Services helps student veterans, service members and their families with benefits and the transition to school.",
+   "links": [
+    {
+     "label": "Military & Veteran Services",
+     "url": "https://georgiasouthern.presence.io/organization/department-of-military-veteran-services"
+    }
+   ],
+   "tags": [
+    "veterans"
+   ]
+  },
+  {
+   "id": "trio",
+   "title": "TRIO: extra support for first-gen students",
+   "what": "TRIO Student Support Services offers advising and mentoring for first-generation, income-eligible and disabled students.",
+   "links": [
+    {
+     "label": "TRIO Student Support Services",
+     "url": "https://www.georgiasouthern.edu/academics/student-success/trio-student-support-services"
+    }
+   ],
+   "tags": [
+    "firstgen"
+   ]
+  },
+  {
+   "id": "shuttle",
+   "title": "Free shuttle between Statesboro and Savannah",
+   "what": "The intercampus shuttle is free for students on class and exam days, with Wi-Fi on board. It leaves from the Russell Union lot and the Armstrong Sports Center lot.",
+   "links": [
+    {
+     "label": "Shuttle info",
+     "url": "https://www.georgiasouthern.edu/offices/parking-transportation/intercampus-shuttle"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "id": "recovery",
+   "title": "A recovery community on campus",
+   "what": "The Center for Addiction Recovery supports students in or seeking recovery, with community and events.",
+   "links": [
+    {
+     "label": "Center for Addiction Recovery",
+     "url": "https://www.georgiasouthern.edu/academics/student-success/addiction-recovery"
+    }
+   ],
+   "tags": [
+    "wellness"
+   ]
+  },
+  {
+   "id": "rooms",
+   "title": "Reserve a study room for free",
+   "what": "Henderson and Lane libraries let students book group study rooms online. You can also book a one-on-one research appointment with a librarian.",
+   "links": [
+    {
+     "label": "Reserve a room",
+     "url": "https://www.georgiasouthern.edu/library/reserve-a-room"
+    },
+    {
+     "label": "Research appointment",
+     "url": "https://georgiasouthern.libcal.com/appointments"
+    }
+   ],
+   "tags": [
+    "academic"
+   ]
+  }
+ ]
+}

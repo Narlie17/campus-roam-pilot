@@ -1,0 +1,2449 @@
+{
+ "generatedAt": "2026-10-30T02:34:59.834Z",
+ "source": "RSS feed snapshot + Eagle Engage (68) · https://calendar.georgiasouthern.edu",
+ "events": [
+  {
+   "id": "contemporary-gallery-ernest-shaw-intimate-frequencies-of-care-2026-10-29",
+   "title": "Contemporary Gallery: Ernest Shaw, Intimate Frequencies of Care",
+   "start": "2026-10-29T13:00:00.000Z",
+   "end": "2026-10-29T21:00:00.000Z",
+   "allDay": false,
+   "location": "Contemporary and University Art Galleries, Statesboro Campus",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/contemporary-gallery-ernest-shaw-intimate-frequencies-of-care",
+   "types": [],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "arts"
+   ],
+   "desc": "",
+   "free": null,
+   "colleges": [
+    "cah"
+   ]
+  },
+  {
+   "id": "university-gallery-drew-tetz-turnable-toons-2026-10-29",
+   "title": "University Gallery: Drew Tetz, Turnable Toons",
+   "start": "2026-10-29T13:00:00.000Z",
+   "end": "2026-10-29T21:00:00.000Z",
+   "allDay": false,
+   "location": "Contemporary and University Art Galleries, Statesboro Campus",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/university-gallery-drew-tetz-turnable-toons",
+   "types": [],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "arts"
+   ],
+   "desc": "",
+   "free": null,
+   "colleges": [
+    "cah"
+   ]
+  },
+  {
+   "id": "tory-schendel-vyvoda-navigating-the-molecular-the-collective-i-series-2026-10-29",
+   "title": "Tory Schendel-Vyvoda, Navigating the Molecular: The Collective I Series",
+   "start": "2026-10-29T13:00:00.000Z",
+   "end": "2026-10-29T21:00:00.000Z",
+   "allDay": false,
+   "location": "Fine Arts Hall, Armstrong Campus",
+   "campus": "armstrong",
+   "url": "https://calendar.georgiasouthern.edu/event/tory-schendel-vyvoda-navigating-the-molecular-the-collective-i-series",
+   "types": [],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "arts",
+    "science"
+   ],
+   "desc": "",
+   "free": null,
+   "colleges": [
+    "cah",
+    "cosm"
+   ]
+  },
+  {
+   "id": "class-project-2026-10-29",
+   "title": "Class Project (Folk Art Gallery)",
+   "start": "2026-10-29T13:00:00.000Z",
+   "end": "2026-10-29T21:00:00.000Z",
+   "allDay": false,
+   "location": "Folk Art Gallery, Statesboro Campus",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/class-project",
+   "types": [],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "arts",
+    "academic"
+   ],
+   "desc": "",
+   "free": null,
+   "colleges": [
+    "cah"
+   ]
+  },
+  {
+   "id": "conversation-hour-2026-10-29",
+   "title": "Conversation Hour",
+   "start": "2026-10-29T20:00:00.000Z",
+   "end": "2026-10-29T21:00:00.000Z",
+   "allDay": false,
+   "location": "Interdisciplinary Academic Building, Statesboro Campus",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/conversation-hour",
+   "types": [],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "culture"
+   ],
+   "desc": "",
+   "free": null,
+   "colleges": [
+    "cah"
+   ]
+  },
+  {
+   "id": "georgia-southern-symphonic-wind-ensemble-and-wind-symphony-concert-1835-2026-10-29",
+   "title": "Symphonic Wind Ensemble and Wind Symphony Concert",
+   "start": "2026-10-29T23:30:00.000Z",
+   "end": "2026-10-30T01:00:00.000Z",
+   "allDay": false,
+   "location": "Performing Arts Center, Statesboro Campus",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/georgia-southern-symphonic-wind-ensemble-and-wind-symphony-concert-1835",
+   "types": [],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "arts"
+   ],
+   "desc": "",
+   "free": null,
+   "colleges": [
+    "cah"
+   ]
+  },
+  {
+   "id": "contemporary-gallery-ernest-shaw-intimate-frequencies-of-care-2026-10-30",
+   "title": "Contemporary Gallery: Ernest Shaw, Intimate Frequencies of Care",
+   "start": "2026-10-30T13:00:00.000Z",
+   "end": "2026-10-30T21:00:00.000Z",
+   "allDay": false,
+   "location": "Contemporary and University Art Galleries, Statesboro Campus",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/contemporary-gallery-ernest-shaw-intimate-frequencies-of-care",
+   "types": [],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "arts"
+   ],
+   "desc": "",
+   "free": null,
+   "colleges": [
+    "cah"
+   ]
+  },
+  {
+   "id": "university-gallery-drew-tetz-turnable-toons-2026-10-30",
+   "title": "University Gallery: Drew Tetz, Turnable Toons",
+   "start": "2026-10-30T13:00:00.000Z",
+   "end": "2026-10-30T21:00:00.000Z",
+   "allDay": false,
+   "location": "Contemporary and University Art Galleries, Statesboro Campus",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/university-gallery-drew-tetz-turnable-toons",
+   "types": [],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "arts"
+   ],
+   "desc": "",
+   "free": null,
+   "colleges": [
+    "cah"
+   ]
+  },
+  {
+   "id": "tory-schendel-vyvoda-navigating-the-molecular-the-collective-i-series-2026-10-30",
+   "title": "Tory Schendel-Vyvoda, Navigating the Molecular: The Collective I Series",
+   "start": "2026-10-30T13:00:00.000Z",
+   "end": "2026-10-30T21:00:00.000Z",
+   "allDay": false,
+   "location": "Fine Arts Hall, Armstrong Campus",
+   "campus": "armstrong",
+   "url": "https://calendar.georgiasouthern.edu/event/tory-schendel-vyvoda-navigating-the-molecular-the-collective-i-series",
+   "types": [],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "arts",
+    "science"
+   ],
+   "desc": "",
+   "free": null,
+   "colleges": [
+    "cah",
+    "cosm"
+   ]
+  },
+  {
+   "id": "class-project-2026-10-30",
+   "title": "Class Project (Folk Art Gallery)",
+   "start": "2026-10-30T13:00:00.000Z",
+   "end": "2026-10-30T21:00:00.000Z",
+   "allDay": false,
+   "location": "Folk Art Gallery, Statesboro Campus",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/class-project",
+   "types": [],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "arts",
+    "academic"
+   ],
+   "desc": "",
+   "free": null,
+   "colleges": [
+    "cah"
+   ]
+  },
+  {
+   "id": "engage-serve912-weekly-trip-ksbb-community-garden-10-30",
+   "title": "Serve912 Weekly Trip - KSBB Community Garden",
+   "start": "2026-10-30T13:00:00.000Z",
+   "end": "2026-10-30T15:00:00.000Z",
+   "allDay": false,
+   "location": "Russell Union Room 1056",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/serve912-weekly-trip-ksbb-community-garden-10-30",
+   "types": [
+    "Serve912 Weekly Trip",
+    "Service"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "service"
+   ],
+   "desc": "",
+   "free": null,
+   "org": "Office of Leadership and Community Engagement",
+   "orgUri": "office-of-leadership-and-community-engagement-2",
+   "colleges": []
+  },
+  {
+   "id": "bookstore-halloween-costume-contest-barnes-noble-georgia-southern-2026-10-30",
+   "title": "Bookstore Halloween Costume Contest",
+   "start": "2026-10-30T14:00:00.000Z",
+   "end": "2026-10-30T15:00:00.000Z",
+   "allDay": false,
+   "location": "Barnes & Noble @ Georgia Southern Bookstore, Statesboro Campus",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/bookstore-halloween-costume-contest-barnes-noble-georgia-southern",
+   "types": [],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "social"
+   ],
+   "desc": "",
+   "free": null,
+   "colleges": []
+  },
+  {
+   "id": "engage-sav-student-appreciation",
+   "title": "SAV - Student Appreciation",
+   "start": "2026-10-30T14:00:00.000Z",
+   "end": "2026-10-30T19:01:00.000Z",
+   "allDay": false,
+   "location": "Savannah Campus Starbucks",
+   "campus": "armstrong",
+   "url": "https://georgiasouthern.presence.io/event/sav-student-appreciation",
+   "types": [
+    "Free Food"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "food"
+   ],
+   "desc": "",
+   "free": null,
+   "org": "University Housing - Armstrong Campus",
+   "orgUri": "university-housing-armstrong-campus-2",
+   "colleges": []
+  },
+  {
+   "id": "german-lunch-at-lakeside-2026-10-30",
+   "title": "German Lunch at Lakeside",
+   "start": "2026-10-30T15:00:00.000Z",
+   "end": "2026-10-30T17:00:00.000Z",
+   "allDay": false,
+   "location": "Lakeside Dining Commons, Statesboro Campus",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/german-lunch-at-lakeside",
+   "types": [],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "culture",
+    "food"
+   ],
+   "desc": "",
+   "free": null,
+   "colleges": [
+    "cah"
+   ]
+  },
+  {
+   "id": "engage-navigating-friendships-11",
+   "title": "Navigating Friendships",
+   "start": "2026-10-30T15:00:00.000Z",
+   "end": "2026-10-30T16:00:00.000Z",
+   "allDay": false,
+   "location": "Counseling Center",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/navigating-friendships-11",
+   "types": [
+    "Health & Wellness"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "wellness"
+   ],
+   "desc": "",
+   "free": null,
+   "org": "Counseling Center",
+   "orgUri": "counseling-center",
+   "colleges": []
+  },
+  {
+   "id": "engage-serve912-weekly-trip-statesboro-food-bank-10-30-fridays",
+   "title": "Serve912 Weekly Trip - Statesboro Food Bank",
+   "start": "2026-10-30T15:00:00.000Z",
+   "end": "2026-10-30T17:00:00.000Z",
+   "allDay": false,
+   "location": "Russell Union Room 1056",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/serve912-weekly-trip-statesboro-food-bank-10-30-fridays",
+   "types": [
+    "Serve912 Weekly Trip",
+    "Service"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "food",
+    "service"
+   ],
+   "desc": "",
+   "free": null,
+   "org": "Office of Leadership and Community Engagement",
+   "orgUri": "office-of-leadership-and-community-engagement-2",
+   "colleges": []
+  },
+  {
+   "id": "engage-my-costume-is-not-consent-7",
+   "title": "My Costume is not Consent",
+   "start": "2026-10-30T15:00:00.000Z",
+   "end": "2026-10-30T17:00:00.000Z",
+   "allDay": false,
+   "location": "Forest Drive Classroom Building",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/my-costume-is-not-consent-7",
+   "types": [
+    "Health & Wellness"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "wellness",
+    "social",
+    "service"
+   ],
+   "desc": "",
+   "free": null,
+   "org": "Student Wellness and Health Promotion",
+   "orgUri": "student-wellness-and-health-promotion",
+   "colleges": []
+  },
+  {
+   "id": "erpsim-business-competition-2026-10-30",
+   "title": "ERPsim Business Competition",
+   "start": "2026-10-30T19:00:00.000Z",
+   "end": "2026-10-30T21:00:00.000Z",
+   "allDay": false,
+   "location": "Information Technology Building, Statesboro Campus",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/erpsim-business-competition",
+   "types": [],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "business"
+   ],
+   "desc": "",
+   "free": null,
+   "colleges": [
+    "cec",
+    "parker"
+   ]
+  },
+  {
+   "id": "engage-mindreader-halloween-party",
+   "title": "Mindreader Halloween Party",
+   "start": "2026-10-30T20:00:00.000Z",
+   "end": "2026-10-30T22:00:00.000Z",
+   "allDay": false,
+   "location": "Newton Building Outdoor Amphitheater",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/mindreader-halloween-party",
+   "types": [
+    "Social Event"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "social"
+   ],
+   "desc": "",
+   "free": null,
+   "org": "The George-Anne Media Group (Student Media)",
+   "orgUri": "the-george-anne-media-group-student-media",
+   "colleges": [
+    "cah"
+   ]
+  },
+  {
+   "id": "engage-little-pumpkin-jamboree",
+   "title": "Little Pumpkin Jamboree",
+   "start": "2026-10-30T21:00:00.000Z",
+   "end": "2026-10-30T22:00:00.000Z",
+   "allDay": false,
+   "location": "SSC Lobby",
+   "campus": "armstrong",
+   "url": "https://georgiasouthern.presence.io/event/little-pumpkin-jamboree",
+   "types": [],
+   "depts": [],
+   "source": "engage",
+   "tags": [],
+   "desc": "",
+   "free": null,
+   "org": "Childcare Access Means Parents in School - CCAMPIS",
+   "orgUri": "childcare-access-means-parents-in-school-ccampis",
+   "colleges": []
+  },
+  {
+   "id": "engage-general-body-meeting-147",
+   "title": "UPB General Body Meeting",
+   "start": "2026-10-30T21:30:00.000Z",
+   "end": "2026-10-30T22:30:00.000Z",
+   "allDay": false,
+   "location": "Skidaway Conference Room",
+   "campus": "armstrong",
+   "url": "https://georgiasouthern.presence.io/event/general-body-meeting-147",
+   "types": [],
+   "depts": [],
+   "source": "engage",
+   "tags": [],
+   "desc": "",
+   "free": null,
+   "org": "University Programming Board - Armstrong Campus",
+   "orgUri": "university-programming-board-armstrong-campus-3",
+   "colleges": []
+  },
+  {
+   "id": "a-graduation-recital-edan-killough-clarinet-2026-10-30",
+   "title": "Graduation Recital: Edan Killough, clarinet",
+   "start": "2026-10-30T23:30:00.000Z",
+   "end": "2026-10-31T00:30:00.000Z",
+   "allDay": false,
+   "location": "Foy Building, Statesboro Campus",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/a-graduation-recital-edan-killough-clarinet",
+   "types": [],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "arts"
+   ],
+   "desc": "",
+   "free": null,
+   "colleges": [
+    "cah"
+   ]
+  },
+  {
+   "id": "engage-serve912-weekly-trip-fumc-soup-kitchen-10-31",
+   "title": "Serve912 Weekly Trip - FUMC Soup Kitchen",
+   "start": "2026-10-31T13:00:00.000Z",
+   "end": "2026-10-31T16:00:00.000Z",
+   "allDay": false,
+   "location": "Russell Union Room 1056",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/serve912-weekly-trip-fumc-soup-kitchen-10-31",
+   "types": [
+    "Serve912 Weekly Trip",
+    "Service"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "service"
+   ],
+   "desc": "",
+   "free": null,
+   "org": "Office of Leadership and Community Engagement",
+   "orgUri": "office-of-leadership-and-community-engagement-2",
+   "colleges": []
+  },
+  {
+   "id": "engage-southern-pride-marching-band-home-football-vs-app-state",
+   "title": "Southern Pride Marching Band (Home football vs App State)",
+   "start": "2026-10-31T23:00:00.000Z",
+   "end": "2026-11-01T01:01:00.000Z",
+   "allDay": false,
+   "location": "Allen E. Paulson Stadium",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/southern-pride-marching-band-home-football-vs-app-state",
+   "types": [
+    "Art & Music",
+    "Sports/Fitness"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "arts",
+    "sports"
+   ],
+   "desc": "",
+   "free": null,
+   "org": "Fred and Dinah Gretsch School of Music",
+   "orgUri": "fred-and-dinah-gretsch-school-of-music",
+   "colleges": [
+    "cah"
+   ]
+  },
+  {
+   "id": "engage-georgia-southern-womens-soccer-vs-james-madison-2",
+   "title": "Women's Soccer vs. James Madison",
+   "start": "2026-11-01T17:30:00.000Z",
+   "end": "2026-11-01T20:00:00.000Z",
+   "allDay": false,
+   "location": "Bo Pitts Field",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/georgia-southern-womens-soccer-vs-james-madison-2",
+   "types": [
+    "Sports/Fitness"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "sports"
+   ],
+   "desc": "",
+   "free": null,
+   "org": "Georgia Southern Athletics",
+   "orgUri": "georgia-southern-athletics-2",
+   "colleges": []
+  },
+  {
+   "id": "santa-gus-augusta-2026-2026-11-01",
+   "title": "Santa GUS: Augusta 2026",
+   "start": "2026-11-01T20:00:00.000Z",
+   "end": "2026-11-01T22:00:00.000Z",
+   "allDay": false,
+   "location": "West Lake Country Club, Augusta",
+   "campus": "other",
+   "url": "https://calendar.georgiasouthern.edu/event/santa-gus-augusta-2026",
+   "types": [],
+   "depts": [],
+   "source": "calendar",
+   "tags": [],
+   "desc": "",
+   "free": null,
+   "colleges": []
+  },
+  {
+   "id": "engage-sculpt-it-canned-food-challenge-2026",
+   "title": "Sculpt-It! Canned Food Challenge 2026",
+   "start": "2026-11-01T20:00:00.000Z",
+   "end": "2026-11-01T23:00:00.000Z",
+   "allDay": false,
+   "location": "Russell Union",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/sculpt-it-canned-food-challenge-2026",
+   "types": [
+    "Homecoming",
+    "Service"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "food",
+    "social",
+    "service"
+   ],
+   "desc": "",
+   "free": null,
+   "org": "Office of Leadership and Community Engagement",
+   "orgUri": "office-of-leadership-and-community-engagement-2",
+   "colleges": []
+  },
+  {
+   "id": "engage-mens-basketball-vs-ball-state-2",
+   "title": "Men's Basketball vs Ball State",
+   "start": "2026-11-02T12:00:00.000Z",
+   "end": "2026-11-02T14:00:00.000Z",
+   "allDay": false,
+   "location": "Jack and Ruth Ann Hill Convocation Center",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/mens-basketball-vs-ball-state-2",
+   "types": [
+    "Free Stuff",
+    "Social Event",
+    "Sports/Fitness"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "sports",
+    "social"
+   ],
+   "desc": "",
+   "free": null,
+   "org": "Georgia Southern Athletics",
+   "orgUri": "georgia-southern-athletics-2",
+   "colleges": []
+  },
+  {
+   "id": "contemporary-gallery-ernest-shaw-intimate-frequencies-of-care-2026-11-02",
+   "title": "Contemporary Gallery: Ernest Shaw, Intimate Frequencies of Care",
+   "start": "2026-11-02T14:00:00.000Z",
+   "end": "2026-11-02T22:00:00.000Z",
+   "allDay": false,
+   "location": "Contemporary and University Art Galleries, Statesboro Campus",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/contemporary-gallery-ernest-shaw-intimate-frequencies-of-care",
+   "types": [],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "arts"
+   ],
+   "desc": "",
+   "free": null,
+   "colleges": [
+    "cah"
+   ]
+  },
+  {
+   "id": "university-gallery-drew-tetz-turnable-toons-2026-11-02",
+   "title": "University Gallery: Drew Tetz, Turnable Toons",
+   "start": "2026-11-02T14:00:00.000Z",
+   "end": "2026-11-02T22:00:00.000Z",
+   "allDay": false,
+   "location": "Contemporary and University Art Galleries, Statesboro Campus",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/university-gallery-drew-tetz-turnable-toons",
+   "types": [],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "arts"
+   ],
+   "desc": "",
+   "free": null,
+   "colleges": [
+    "cah"
+   ]
+  },
+  {
+   "id": "tory-schendel-vyvoda-navigating-the-molecular-the-collective-i-series-2026-11-02",
+   "title": "Tory Schendel-Vyvoda, Navigating the Molecular: The Collective I Series",
+   "start": "2026-11-02T14:00:00.000Z",
+   "end": "2026-11-02T22:00:00.000Z",
+   "allDay": false,
+   "location": "Fine Arts Hall, Armstrong Campus",
+   "campus": "armstrong",
+   "url": "https://calendar.georgiasouthern.edu/event/tory-schendel-vyvoda-navigating-the-molecular-the-collective-i-series",
+   "types": [],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "arts",
+    "science"
+   ],
+   "desc": "",
+   "free": null,
+   "colleges": [
+    "cah",
+    "cosm"
+   ]
+  },
+  {
+   "id": "class-project-exhibition-2026-11-02",
+   "title": "Class Project Exhibition",
+   "start": "2026-11-02T14:00:00.000Z",
+   "end": "2026-11-02T22:00:00.000Z",
+   "allDay": false,
+   "location": "Folk Art Gallery, Statesboro Campus",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/class-project-exhibition",
+   "types": [],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "arts",
+    "academic"
+   ],
+   "desc": "",
+   "free": null,
+   "colleges": [
+    "cah"
+   ]
+  },
+  {
+   "id": "engage-monthly-meeting-7",
+   "title": "HSO Monthly Meeting",
+   "start": "2026-11-02T14:00:00.000Z",
+   "end": "2026-11-02T15:00:00.000Z",
+   "allDay": false,
+   "location": "Solms 103",
+   "campus": "armstrong",
+   "url": "https://georgiasouthern.presence.io/event/monthly-meeting-7",
+   "types": [
+    "Free Food"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "food"
+   ],
+   "desc": "",
+   "free": null,
+   "org": "Honors Student Organization - Armstrong",
+   "orgUri": "honors-student-organization-armstrong",
+   "colleges": []
+  },
+  {
+   "id": "ethics-awareness-week-2026-when-judgment-matters-ethics-leadership-in-the-real-world-2026-11-02",
+   "title": "Ethics Awareness Week: When Judgment Matters, Ethics & Leadership in the Real World",
+   "start": "2026-11-02T15:00:00.000Z",
+   "end": "2026-11-02T16:00:00.000Z",
+   "allDay": false,
+   "location": "Location on event page",
+   "campus": "",
+   "url": "https://calendar.georgiasouthern.edu/event/ethics-awareness-week-2026-when-judgment-matters-ethics-leadership-in-the-real-world",
+   "types": [],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "career"
+   ],
+   "desc": "",
+   "free": null,
+   "colleges": []
+  },
+  {
+   "id": "engage-mental-health-mondays-9",
+   "title": "Mental Health Mondays",
+   "start": "2026-11-02T16:00:00.000Z",
+   "end": "2026-11-02T17:00:00.000Z",
+   "allDay": false,
+   "location": "Counseling Center",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/mental-health-mondays-9",
+   "types": [
+    "Health & Wellness"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "wellness"
+   ],
+   "desc": "",
+   "free": null,
+   "org": "Counseling Center",
+   "orgUri": "counseling-center",
+   "colleges": []
+  },
+  {
+   "id": "engage-a-trip-down-memory-lane-with-student-media",
+   "title": "A Trip Down Memory Lane with Student Media",
+   "start": "2026-11-02T17:00:00.000Z",
+   "end": "2026-11-02T19:00:00.000Z",
+   "allDay": false,
+   "location": "Russell Union Rotunda",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/a-trip-down-memory-lane-with-student-media",
+   "types": [
+    "Free Stuff",
+    "Student Org. Event"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [],
+   "desc": "",
+   "free": null,
+   "org": "The George-Anne Media Group (Student Media)",
+   "orgUri": "the-george-anne-media-group-student-media",
+   "colleges": []
+  },
+  {
+   "id": "homecoming-parade-2026-11-02",
+   "title": "Homecoming Parade (lineup 4 PM, parade 5 PM)",
+   "start": "2026-11-02T22:00:00.000Z",
+   "end": "2026-11-02T23:30:00.000Z",
+   "allDay": false,
+   "location": "Sweetheart Circle, Statesboro Campus",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/homecoming-parade",
+   "types": [],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "social"
+   ],
+   "desc": "",
+   "free": null,
+   "colleges": []
+  },
+  {
+   "id": "film-the-count-of-monte-cristo-2026-11-02",
+   "title": "French Week Film: The Count of Monte Cristo",
+   "start": "2026-11-02T22:00:00.000Z",
+   "end": "2026-11-03T00:30:00.000Z",
+   "allDay": false,
+   "location": "Russell Union, Statesboro Campus",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/film-the-count-of-monte-cristo",
+   "types": [],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "arts",
+    "culture"
+   ],
+   "desc": "",
+   "free": null,
+   "colleges": [
+    "cah"
+   ]
+  },
+  {
+   "id": "homecoming-block-party-kick-off-2026-11-02",
+   "title": "Homecoming Block Party Kick-Off",
+   "start": "2026-11-02T22:00:00.000Z",
+   "end": "2026-11-03T00:00:00.000Z",
+   "allDay": false,
+   "location": "Russell Union Rotunda, Statesboro Campus",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/homecoming-block-party-kick-off",
+   "types": [],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "social"
+   ],
+   "desc": "",
+   "free": null,
+   "colleges": []
+  },
+  {
+   "id": "engage-make-your-own-nicho-2",
+   "title": "Make Your Own Nicho",
+   "start": "2026-11-02T22:00:00.000Z",
+   "end": "2026-11-02T23:00:00.000Z",
+   "allDay": false,
+   "location": "IAB 2030",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/make-your-own-nicho-2",
+   "types": [
+    "Cultural Awareness",
+    "Student Org. Event"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "culture"
+   ],
+   "desc": "",
+   "free": null,
+   "org": "Spanish Club",
+   "orgUri": "spanish-club",
+   "colleges": []
+  },
+  {
+   "id": "engage-day-of-the-dead-3",
+   "title": "Day of the Dead",
+   "start": "2026-11-02T22:00:00.000Z",
+   "end": "2026-11-03T00:00:00.000Z",
+   "allDay": false,
+   "location": "Student Union Skidaway Room",
+   "campus": "armstrong",
+   "url": "https://georgiasouthern.presence.io/event/day-of-the-dead-3",
+   "types": [
+    "Art & Music",
+    "Cultural Awareness"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "arts",
+    "culture"
+   ],
+   "desc": "",
+   "free": null,
+   "org": "University Programming Board - Armstrong Campus",
+   "orgUri": "university-programming-board-armstrong-campus-3",
+   "colleges": [
+    "cah"
+   ]
+  },
+  {
+   "id": "engage-abstract-night-armstrong-online",
+   "title": "Abstract Night @ Armstrong & Online",
+   "start": "2026-11-02T22:30:00.000Z",
+   "end": "2026-11-02T23:30:00.000Z",
+   "allDay": false,
+   "location": "Hawes 203",
+   "campus": "armstrong",
+   "url": "https://georgiasouthern.presence.io/event/abstract-night-armstrong-online",
+   "types": [
+    "Virtual"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [],
+   "desc": "",
+   "free": null,
+   "org": "Department of History",
+   "orgUri": "department-of-history",
+   "colleges": []
+  },
+  {
+   "id": "contemporary-gallery-ernest-shaw-intimate-frequencies-of-care-2026-11-03",
+   "title": "Contemporary Gallery: Ernest Shaw, Intimate Frequencies of Care",
+   "start": "2026-11-03T14:00:00.000Z",
+   "end": "2026-11-03T22:00:00.000Z",
+   "allDay": false,
+   "location": "Contemporary and University Art Galleries, Statesboro Campus",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/contemporary-gallery-ernest-shaw-intimate-frequencies-of-care",
+   "types": [],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "arts"
+   ],
+   "desc": "",
+   "free": null,
+   "colleges": [
+    "cah"
+   ]
+  },
+  {
+   "id": "university-gallery-drew-tetz-turnable-toons-2026-11-03",
+   "title": "University Gallery: Drew Tetz, Turnable Toons",
+   "start": "2026-11-03T14:00:00.000Z",
+   "end": "2026-11-03T22:00:00.000Z",
+   "allDay": false,
+   "location": "Contemporary and University Art Galleries, Statesboro Campus",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/university-gallery-drew-tetz-turnable-toons",
+   "types": [],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "arts"
+   ],
+   "desc": "",
+   "free": null,
+   "colleges": [
+    "cah"
+   ]
+  },
+  {
+   "id": "tory-schendel-vyvoda-navigating-the-molecular-the-collective-i-series-2026-11-03",
+   "title": "Tory Schendel-Vyvoda, Navigating the Molecular: The Collective I Series",
+   "start": "2026-11-03T14:00:00.000Z",
+   "end": "2026-11-03T22:00:00.000Z",
+   "allDay": false,
+   "location": "Fine Arts Hall, Armstrong Campus",
+   "campus": "armstrong",
+   "url": "https://calendar.georgiasouthern.edu/event/tory-schendel-vyvoda-navigating-the-molecular-the-collective-i-series",
+   "types": [],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "arts",
+    "science"
+   ],
+   "desc": "",
+   "free": null,
+   "colleges": [
+    "cah",
+    "cosm"
+   ]
+  },
+  {
+   "id": "class-project-exhibition-2026-11-03",
+   "title": "Class Project Exhibition",
+   "start": "2026-11-03T14:00:00.000Z",
+   "end": "2026-11-03T22:00:00.000Z",
+   "allDay": false,
+   "location": "Folk Art Gallery, Statesboro Campus",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/class-project-exhibition",
+   "types": [],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "arts",
+    "academic"
+   ],
+   "desc": "",
+   "free": null,
+   "colleges": [
+    "cah"
+   ]
+  },
+  {
+   "id": "engage-fall-into-accessibility-sarc-resource-table-armstrong",
+   "title": "Fall into Accessibility: SARC Resource Table",
+   "start": "2026-11-03T14:30:00.000Z",
+   "end": "2026-11-03T16:30:00.000Z",
+   "allDay": false,
+   "location": "Residential Plaza",
+   "campus": "armstrong",
+   "url": "https://georgiasouthern.presence.io/event/fall-into-accessibility-sarc-resource-table-armstrong",
+   "types": [
+    "Free Food",
+    "Info Table/Session"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "food"
+   ],
+   "desc": "",
+   "free": null,
+   "org": "Student Accessibility Resource Center",
+   "orgUri": "student-accessibility-resource-center",
+   "colleges": []
+  },
+  {
+   "id": "food-trucks-at-the-yard-on-chandler-2026-11-03",
+   "title": "Food Trucks at The Yard on Chandler",
+   "start": "2026-11-03T16:00:00.000Z",
+   "end": "2026-11-03T19:00:00.000Z",
+   "allDay": false,
+   "location": "The Yard on Chandler (Lot 29), Statesboro Campus",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/food-trucks-at-the-yard-on-chandler",
+   "types": [],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "food"
+   ],
+   "desc": "",
+   "free": null,
+   "colleges": []
+  },
+  {
+   "id": "engage-t-shirt-grab-16",
+   "title": "Leggo Grab a T-shirt",
+   "start": "2026-11-03T16:00:00.000Z",
+   "end": "2026-11-03T17:00:00.000Z",
+   "allDay": false,
+   "location": "IT Building",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/t-shirt-grab-16",
+   "types": [
+    "Homecoming"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "social"
+   ],
+   "desc": "",
+   "free": null,
+   "org": "University Programming Board - Statesboro Campus",
+   "orgUri": "university-programming-board-statesboro-campus-4",
+   "colleges": [
+    "cec"
+   ]
+  },
+  {
+   "id": "build-your-southern-self-2026-11-03",
+   "title": "Build Your Southern Self",
+   "start": "2026-11-03T17:00:00.000Z",
+   "end": "2026-11-03T18:00:00.000Z",
+   "allDay": false,
+   "location": "Russell Union Rotunda, Statesboro Campus",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/build-your-southern-self",
+   "types": [],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "social"
+   ],
+   "desc": "",
+   "free": null,
+   "colleges": []
+  },
+  {
+   "id": "mesa-de-conversacion-2607-2026-11-03",
+   "title": "Mesa de conversación",
+   "start": "2026-11-03T17:15:00.000Z",
+   "end": "2026-11-03T18:15:00.000Z",
+   "allDay": false,
+   "location": "Interdisciplinary Academic Building, Statesboro Campus",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/mesa-de-conversacion-2607",
+   "types": [],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "culture"
+   ],
+   "desc": "",
+   "free": null,
+   "colleges": [
+    "cah"
+   ]
+  },
+  {
+   "id": "engage-self-care-clinic-95",
+   "title": "Self Care Clinic",
+   "start": "2026-11-03T18:15:00.000Z",
+   "end": "2026-11-03T19:45:00.000Z",
+   "allDay": false,
+   "location": "Henderson Library 2nd Floor",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/self-care-clinic-95",
+   "types": [
+    "Health & Wellness"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "academic",
+    "wellness"
+   ],
+   "desc": "",
+   "free": null,
+   "org": "Counseling Center",
+   "orgUri": "counseling-center",
+   "colleges": []
+  },
+  {
+   "id": "france-and-the-american-revolution-from-the-global-to-the-local-2026-11-03",
+   "title": "France and the American Revolution: From the Global to the Local",
+   "start": "2026-11-03T21:00:00.000Z",
+   "end": "2026-11-03T22:00:00.000Z",
+   "allDay": false,
+   "location": "Interdisciplinary Academic Building, Statesboro Campus",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/france-and-the-american-revolution-from-the-global-to-the-local",
+   "types": [],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "culture"
+   ],
+   "desc": "",
+   "free": null,
+   "colleges": [
+    "cah"
+   ]
+  },
+  {
+   "id": "engage-meditation-7",
+   "title": "Meditation",
+   "start": "2026-11-03T21:00:00.000Z",
+   "end": "2026-11-03T22:00:00.000Z",
+   "allDay": false,
+   "location": "Counseling Center",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/meditation-7",
+   "types": [
+    "Health & Wellness"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "wellness"
+   ],
+   "desc": "",
+   "free": null,
+   "org": "Counseling Center",
+   "orgUri": "counseling-center",
+   "colleges": []
+  },
+  {
+   "id": "engage-learn-to-play-castle-panic-the-lc",
+   "title": "Learn to Play \"Castle Panic\" @ the LC",
+   "start": "2026-11-03T22:30:00.000Z",
+   "end": "2026-11-04T00:30:00.000Z",
+   "allDay": false,
+   "location": "Learning Commons, Room 122",
+   "campus": "armstrong",
+   "url": "https://georgiasouthern.presence.io/event/learn-to-play-castle-panic-the-lc",
+   "types": [
+    "eSports and Gaming",
+    "Social Event"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "social"
+   ],
+   "desc": "",
+   "free": null,
+   "org": "Georgia Southern University Libraries",
+   "orgUri": "georgia-southern-university-libraries-3",
+   "colleges": []
+  },
+  {
+   "id": "returning-eagles-discussions-with-french-alumni-2026-11-03",
+   "title": "Returning Eagles: Discussions with French Alumni",
+   "start": "2026-11-03T23:00:00.000Z",
+   "end": "2026-11-04T00:00:00.000Z",
+   "allDay": false,
+   "location": "Interdisciplinary Academic Building, Statesboro Campus",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/returning-eagles-discussions-with-french-alumni",
+   "types": [],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "culture"
+   ],
+   "desc": "",
+   "free": null,
+   "colleges": [
+    "cah"
+   ]
+  },
+  {
+   "id": "the-human-advantage-skill-building-and-leadership-in-the-ai-age-2026-11-03",
+   "title": "The Human Advantage: Skill Building and Leadership in the AI Age",
+   "start": "2026-11-03T23:00:00.000Z",
+   "end": "2026-11-04T00:30:00.000Z",
+   "allDay": false,
+   "location": "Parker College of Business Building, Statesboro Campus",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/the-human-advantage-skill-building-and-leadership-in-the-ai-age",
+   "types": [],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "career",
+    "business"
+   ],
+   "desc": "",
+   "free": null,
+   "colleges": [
+    "parker"
+   ]
+  },
+  {
+   "id": "contemporary-gallery-ernest-shaw-intimate-frequencies-of-care-2026-11-04",
+   "title": "Contemporary Gallery: Ernest Shaw, Intimate Frequencies of Care",
+   "start": "2026-11-04T14:00:00.000Z",
+   "end": "2026-11-04T22:00:00.000Z",
+   "allDay": false,
+   "location": "Contemporary and University Art Galleries, Statesboro Campus",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/contemporary-gallery-ernest-shaw-intimate-frequencies-of-care",
+   "types": [],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "arts"
+   ],
+   "desc": "",
+   "free": null,
+   "colleges": [
+    "cah"
+   ]
+  },
+  {
+   "id": "university-gallery-drew-tetz-turnable-toons-2026-11-04",
+   "title": "University Gallery: Drew Tetz, Turnable Toons",
+   "start": "2026-11-04T14:00:00.000Z",
+   "end": "2026-11-04T22:00:00.000Z",
+   "allDay": false,
+   "location": "Contemporary and University Art Galleries, Statesboro Campus",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/university-gallery-drew-tetz-turnable-toons",
+   "types": [],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "arts"
+   ],
+   "desc": "",
+   "free": null,
+   "colleges": [
+    "cah"
+   ]
+  },
+  {
+   "id": "tory-schendel-vyvoda-navigating-the-molecular-the-collective-i-series-2026-11-04",
+   "title": "Tory Schendel-Vyvoda, Navigating the Molecular: The Collective I Series",
+   "start": "2026-11-04T14:00:00.000Z",
+   "end": "2026-11-04T22:00:00.000Z",
+   "allDay": false,
+   "location": "Fine Arts Hall, Armstrong Campus",
+   "campus": "armstrong",
+   "url": "https://calendar.georgiasouthern.edu/event/tory-schendel-vyvoda-navigating-the-molecular-the-collective-i-series",
+   "types": [],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "arts",
+    "science"
+   ],
+   "desc": "",
+   "free": null,
+   "colleges": [
+    "cah",
+    "cosm"
+   ]
+  },
+  {
+   "id": "class-project-exhibition-2026-11-04",
+   "title": "Class Project Exhibition",
+   "start": "2026-11-04T14:00:00.000Z",
+   "end": "2026-11-04T22:00:00.000Z",
+   "allDay": false,
+   "location": "Folk Art Gallery, Statesboro Campus",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/class-project-exhibition",
+   "types": [],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "arts",
+    "academic"
+   ],
+   "desc": "",
+   "free": null,
+   "colleges": [
+    "cah"
+   ]
+  },
+  {
+   "id": "engage-fall-into-accessibility-sarc-resource-table-statesboro-campus",
+   "title": "Fall into Accessibility: SARC Resource Table",
+   "start": "2026-11-04T14:30:00.000Z",
+   "end": "2026-11-04T16:30:00.000Z",
+   "allDay": false,
+   "location": "Russell Union Rotunda",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/fall-into-accessibility-sarc-resource-table-statesboro-campus",
+   "types": [
+    "Free Food",
+    "Info Table/Session"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "food"
+   ],
+   "desc": "",
+   "free": null,
+   "org": "Student Accessibility Resource Center",
+   "orgUri": "student-accessibility-resource-center",
+   "colleges": []
+  },
+  {
+   "id": "food-trucks-at-the-yard-on-chandler-2026-11-04",
+   "title": "Food Trucks at The Yard on Chandler",
+   "start": "2026-11-04T16:00:00.000Z",
+   "end": "2026-11-04T19:00:00.000Z",
+   "allDay": false,
+   "location": "The Yard on Chandler (Lot 29), Statesboro Campus",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/food-trucks-at-the-yard-on-chandler",
+   "types": [],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "food"
+   ],
+   "desc": "",
+   "free": null,
+   "colleges": []
+  },
+  {
+   "id": "engage-brain-booth-special-event-mindful-chair-yoga-workshop-22",
+   "title": "Mindful Chair Yoga Workshop",
+   "start": "2026-11-04T16:00:00.000Z",
+   "end": "2026-11-04T16:45:00.000Z",
+   "allDay": false,
+   "location": "Henderson Library, 2nd Floor Brain Booth",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/brain-booth-special-event-mindful-chair-yoga-workshop-22",
+   "types": [
+    "Free Food",
+    "Health & Wellness"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "sports",
+    "academic",
+    "food",
+    "wellness"
+   ],
+   "desc": "",
+   "free": null,
+   "org": "Georgia Southern University Libraries",
+   "orgUri": "georgia-southern-university-libraries-3",
+   "colleges": []
+  },
+  {
+   "id": "engage-stress-free-day-11",
+   "title": "Stress Free Day",
+   "start": "2026-11-04T16:00:00.000Z",
+   "end": "2026-11-04T19:00:00.000Z",
+   "allDay": false,
+   "location": "The ARC",
+   "campus": "armstrong",
+   "url": "https://georgiasouthern.presence.io/event/stress-free-day-11",
+   "types": [
+    "Health & Wellness"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "wellness"
+   ],
+   "desc": "",
+   "free": null,
+   "org": "Campus Recreation and Intramurals",
+   "orgUri": "campus-recreation-and-intramurals",
+   "colleges": []
+  },
+  {
+   "id": "-2026-11-04",
+   "title": "Brick City BBQ: True Blue Tailgate",
+   "start": "2026-11-04T18:00:00.000Z",
+   "end": "2026-11-04T20:00:00.000Z",
+   "allDay": false,
+   "location": "Russell Union Rotunda, Statesboro Campus",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/calendar",
+   "types": [],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "sports",
+    "food",
+    "social"
+   ],
+   "desc": "",
+   "free": null,
+   "colleges": []
+  },
+  {
+   "id": "engage-thesis-talk-8",
+   "title": "Thesis Talk",
+   "start": "2026-11-04T21:30:00.000Z",
+   "end": "2026-11-04T23:00:00.000Z",
+   "allDay": false,
+   "location": "Russell Union Room 2041",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/thesis-talk-8",
+   "types": [
+    "Career Development",
+    "Free Food",
+    "Social Event"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "career",
+    "food",
+    "social"
+   ],
+   "desc": "",
+   "free": null,
+   "org": "Honors Student Organization - Statesboro",
+   "orgUri": "honors-student-organization-statesboro",
+   "colleges": [
+    "grad"
+   ]
+  },
+  {
+   "id": "engage-quest-for-the-white-house",
+   "title": "Quest for The White House",
+   "start": "2026-11-04T21:30:00.000Z",
+   "end": "2026-11-04T22:30:00.000Z",
+   "allDay": false,
+   "location": "Carroll Building Room 2272",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/quest-for-the-white-house",
+   "types": [
+    "Cultural Awareness"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "culture"
+   ],
+   "desc": "",
+   "free": null,
+   "org": "Political Science Club",
+   "orgUri": "political-science-club-2",
+   "colleges": [
+    "cbss"
+   ]
+  },
+  {
+   "id": "engage-november-4th-gamer-guilds-meeting",
+   "title": "Gamers Guild Meeting",
+   "start": "2026-11-04T22:00:00.000Z",
+   "end": "2026-11-05T01:30:00.000Z",
+   "allDay": false,
+   "location": "Learning Commons Studio M",
+   "campus": "armstrong",
+   "url": "https://georgiasouthern.presence.io/event/november-4th-gamer-guilds-meeting",
+   "types": [
+    "eSports and Gaming",
+    "Social Event"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "social"
+   ],
+   "desc": "",
+   "free": null,
+   "org": "Gamers Guild at Armstrong",
+   "orgUri": "gamers-guild-at-armstrong",
+   "colleges": []
+  },
+  {
+   "id": "engage-naba-proudly-welcome-draffin-tucker",
+   "title": "NABA Welcomes Draffin & Tucker",
+   "start": "2026-11-04T23:00:00.000Z",
+   "end": "2026-11-05T00:00:00.000Z",
+   "allDay": false,
+   "location": "IT Building 1005",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/naba-proudly-welcome-draffin-tucker",
+   "types": [
+    "Career Development"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "career"
+   ],
+   "desc": "",
+   "free": null,
+   "org": "National Association of Black Accountants Chapter at Georgia Southern University",
+   "orgUri": "national-association-of-black-accountants-chapter-at-georgia-southern-university",
+   "colleges": [
+    "cec"
+   ]
+  },
+  {
+   "id": "engage-legoo-my-eggo-movie-night",
+   "title": "Leggo MY Eggo: Movie Night",
+   "start": "2026-11-04T23:00:00.000Z",
+   "end": "2026-11-05T02:00:00.000Z",
+   "allDay": false,
+   "location": "Williams Center Multipurpose Room",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/legoo-my-eggo-movie-night",
+   "types": [
+    "Homecoming"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "social"
+   ],
+   "desc": "",
+   "free": null,
+   "org": "University Programming Board - Statesboro Campus",
+   "orgUri": "university-programming-board-statesboro-campus-4",
+   "colleges": []
+  },
+  {
+   "id": "engage-burning-swamp-7",
+   "title": "Burning Swamp",
+   "start": "2026-11-04T23:30:00.000Z",
+   "end": "2026-11-05T00:30:00.000Z",
+   "allDay": false,
+   "location": "Center for Art and Theatre, Room 2002",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/burning-swamp-7",
+   "types": [
+    "Art & Music"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "arts"
+   ],
+   "desc": "",
+   "free": null,
+   "org": "Department of English",
+   "orgUri": "department-of-english",
+   "colleges": [
+    "cah"
+   ]
+  },
+  {
+   "id": "engage-percussion-ensemble-recital",
+   "title": "Percussion Ensemble Recital",
+   "start": "2026-11-05T00:30:00.000Z",
+   "end": "2026-11-05T02:00:00.000Z",
+   "allDay": false,
+   "location": "Carter Recital Hall, Foy Building",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/percussion-ensemble-recital",
+   "types": [
+    "Art & Music"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "arts"
+   ],
+   "desc": "",
+   "free": null,
+   "org": "Fred and Dinah Gretsch School of Music",
+   "orgUri": "fred-and-dinah-gretsch-school-of-music",
+   "colleges": [
+    "cah"
+   ]
+  },
+  {
+   "id": "engage-holiday-helper-tree-2026-kickoff-statesboro",
+   "title": "Holiday Helper Tree 2026 Kickoff",
+   "start": "2026-11-05T15:00:00.000Z",
+   "end": "2026-11-05T16:00:00.000Z",
+   "allDay": false,
+   "location": "Russell Union Common Area",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/holiday-helper-tree-2026-kickoff-statesboro",
+   "types": [
+    "Free Food",
+    "Service"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "food",
+    "service"
+   ],
+   "desc": "",
+   "free": null,
+   "org": "Office of Leadership and Community Engagement",
+   "orgUri": "office-of-leadership-and-community-engagement-2",
+   "colleges": []
+  },
+  {
+   "id": "engage-georgia-southern-volleyball-vs-georgia-state",
+   "title": "Volleyball vs. Georgia State",
+   "start": "2026-11-05T22:30:00.000Z",
+   "end": "2026-11-06T01:00:00.000Z",
+   "allDay": false,
+   "location": "Hanner Fieldhouse",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/georgia-southern-volleyball-vs-georgia-state",
+   "types": [
+    "Sports/Fitness"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "sports"
+   ],
+   "desc": "",
+   "free": null,
+   "org": "Georgia Southern Athletics",
+   "orgUri": "georgia-southern-athletics-2",
+   "colleges": [
+    "wchp"
+   ]
+  },
+  {
+   "id": "engage-hso-november-meeting",
+   "title": "HSO November Meeting",
+   "start": "2026-11-05T22:30:00.000Z",
+   "end": "2026-11-05T23:30:00.000Z",
+   "allDay": false,
+   "location": "IAB 2025",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/hso-november-meeting",
+   "types": [
+    "Social Event"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "social"
+   ],
+   "desc": "",
+   "free": null,
+   "org": "Honors Student Organization - Statesboro",
+   "orgUri": "honors-student-organization-statesboro",
+   "colleges": []
+  },
+  {
+   "id": "engage-jls-meeting-2",
+   "title": "Justice & Law Society Meeting",
+   "start": "2026-11-05T22:30:00.000Z",
+   "end": "2026-11-05T23:30:00.000Z",
+   "allDay": false,
+   "location": "Carroll 2262",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/jls-meeting-2",
+   "types": [
+    "Social Event"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "social"
+   ],
+   "desc": "",
+   "free": null,
+   "org": "Justice & Law Society",
+   "orgUri": "justice-law-society",
+   "colleges": []
+  },
+  {
+   "id": "engage-a-streetcar-named-desire-1951-75th-anniversary-screening",
+   "title": "A Streetcar Named Desire (1951) Screening",
+   "start": "2026-11-06T00:00:00.000Z",
+   "end": "2026-11-06T02:30:00.000Z",
+   "allDay": false,
+   "location": "Sanford 1002",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/a-streetcar-named-desire-1951-75th-anniversary-screening",
+   "types": [
+    "Art & Music",
+    "Film"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "arts"
+   ],
+   "desc": "",
+   "free": null,
+   "org": "Department of Communication Arts",
+   "orgUri": "department-of-communication-arts",
+   "colleges": [
+    "cah"
+   ]
+  },
+  {
+   "id": "engage-doo-dah-dance-and-step-show-13",
+   "title": "Doo-Dah Dance and Step Show",
+   "start": "2026-11-06T00:00:00.000Z",
+   "end": "2026-11-06T03:00:00.000Z",
+   "allDay": false,
+   "location": "Hill Convocation Center",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/doo-dah-dance-and-step-show-13",
+   "types": [
+    "Homecoming",
+    "Dance"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "arts",
+    "social"
+   ],
+   "desc": "",
+   "free": null,
+   "org": "University Programming Board - Statesboro Campus",
+   "orgUri": "university-programming-board-statesboro-campus-4",
+   "colleges": []
+  },
+  {
+   "id": "engage-georgia-southern-brass-quintet-concert",
+   "title": "Brass Quintet Concert",
+   "start": "2026-11-06T00:30:00.000Z",
+   "end": "2026-11-06T01:30:00.000Z",
+   "allDay": false,
+   "location": "Carter Recital Hall, Foy Building",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/georgia-southern-brass-quintet-concert",
+   "types": [
+    "Art & Music"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "arts"
+   ],
+   "desc": "",
+   "free": null,
+   "org": "Fred and Dinah Gretsch School of Music",
+   "orgUri": "fred-and-dinah-gretsch-school-of-music",
+   "colleges": [
+    "cah"
+   ]
+  },
+  {
+   "id": "engage-homecoming-26-concert",
+   "title": "Homecoming '26 Concert",
+   "start": "2026-11-07T00:00:00.000Z",
+   "end": "2026-11-07T02:30:00.000Z",
+   "allDay": false,
+   "location": "The Hill",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/homecoming-26-concert",
+   "types": [
+    "Art & Music",
+    "Homecoming"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "arts",
+    "social"
+   ],
+   "desc": "",
+   "free": null,
+   "org": "Office of Student Activities",
+   "orgUri": "office-of-student-activities-3",
+   "colleges": [
+    "cah"
+   ]
+  },
+  {
+   "id": "engage-southern-pride-marching-band-home-football-vs-marshall",
+   "title": "Southern Pride Marching Band (Home football vs Marshall)",
+   "start": "2026-11-08T00:00:00.000Z",
+   "end": "2026-11-08T01:01:00.000Z",
+   "allDay": false,
+   "location": "Allen E. Paulson Stadium",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/southern-pride-marching-band-home-football-vs-marshall",
+   "types": [
+    "Art & Music",
+    "Sports/Fitness"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "arts",
+    "sports"
+   ],
+   "desc": "",
+   "free": null,
+   "org": "Fred and Dinah Gretsch School of Music",
+   "orgUri": "fred-and-dinah-gretsch-school-of-music",
+   "colleges": [
+    "cah"
+   ]
+  },
+  {
+   "id": "engage-first-to-soar-first-gen-celebration",
+   "title": "First to Soar: First Gen Celebration",
+   "start": "2026-11-09T16:00:00.000Z",
+   "end": "2026-11-09T18:00:00.000Z",
+   "allDay": false,
+   "location": "Residential Plaza",
+   "campus": "armstrong",
+   "url": "https://georgiasouthern.presence.io/event/first-to-soar-first-gen-celebration",
+   "types": [
+    "Free Food",
+    "Social Event"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "food",
+    "social"
+   ],
+   "desc": "",
+   "free": null,
+   "org": "Office of Student Engagement and Support",
+   "orgUri": "office-of-student-engagement-and-support",
+   "colleges": []
+  },
+  {
+   "id": "engage-geff-davis-georgia-poetry-circuit",
+   "title": "Geff Davis: Georgia Poetry Circuit",
+   "start": "2026-11-09T20:00:00.000Z",
+   "end": "2026-11-09T21:00:00.000Z",
+   "allDay": false,
+   "location": "Center for Art & Theatre, Gallery 2002",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/geff-davis-georgia-poetry-circuit",
+   "types": [
+    "Poetry"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "arts"
+   ],
+   "desc": "",
+   "free": null,
+   "org": "Department of English",
+   "orgUri": "department-of-english",
+   "colleges": [
+    "cah"
+   ]
+  },
+  {
+   "id": "engage-georgia-southern-womens-basketball-vs-savannah-state",
+   "title": "Women's Basketball vs. Savannah State",
+   "start": "2026-11-09T22:00:00.000Z",
+   "end": "2026-11-10T01:00:00.000Z",
+   "allDay": false,
+   "location": "Hill Convocation Center",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/georgia-southern-womens-basketball-vs-savannah-state",
+   "types": [
+    "Free Stuff",
+    "Sports/Fitness"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "sports"
+   ],
+   "desc": "",
+   "free": null,
+   "org": "Georgia Southern Athletics",
+   "orgUri": "georgia-southern-athletics-2",
+   "colleges": []
+  },
+  {
+   "id": "engage-quick-caricatures-for-quarters",
+   "title": "Quick Caricatures For Quarters",
+   "start": "2026-11-10T15:30:00.000Z",
+   "end": "2026-11-10T19:00:00.000Z",
+   "allDay": false,
+   "location": "Russell Union Rotunda",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/quick-caricatures-for-quarters",
+   "types": [
+    "Art & Music",
+    "Fundraiser"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "arts"
+   ],
+   "desc": "",
+   "free": null,
+   "org": "Circle K International",
+   "orgUri": "circle-k-international-3",
+   "colleges": [
+    "cah"
+   ]
+  },
+  {
+   "id": "engage-fall-2026-criminal-justice-career-internship-fair-statesboro",
+   "title": "Criminal Justice Career & Internship Fair",
+   "start": "2026-11-10T16:00:00.000Z",
+   "end": "2026-11-10T19:00:00.000Z",
+   "allDay": false,
+   "location": "Carroll Building",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/fall-2026-criminal-justice-career-internship-fair-statesboro",
+   "types": [
+    "Career Development"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "career"
+   ],
+   "desc": "",
+   "free": null,
+   "org": "Office of Career and Professional Development",
+   "orgUri": "office-of-career-and-professional-development-2",
+   "colleges": [
+    "cbss"
+   ]
+  },
+  {
+   "id": "engage-southern-leaders-high-ropes-course-2",
+   "title": "Southern Leaders High Ropes Course",
+   "start": "2026-11-10T20:00:00.000Z",
+   "end": "2026-11-10T22:00:00.000Z",
+   "allDay": false,
+   "location": "Southern Adventures",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/southern-leaders-high-ropes-course-2",
+   "types": [
+    "Leadership"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "career"
+   ],
+   "desc": "",
+   "free": null,
+   "org": "Southern Leaders",
+   "orgUri": "southern-leaders-2",
+   "colleges": []
+  },
+  {
+   "id": "engage-connecting-coursework-with-careers-2",
+   "title": "Connecting Coursework with Careers",
+   "start": "2026-11-10T22:00:00.000Z",
+   "end": "2026-11-10T23:00:00.000Z",
+   "allDay": false,
+   "location": "IT Building 3202",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/connecting-coursework-with-careers-2",
+   "types": [
+    "Career Development",
+    "Free Food"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "career",
+    "food"
+   ],
+   "desc": "",
+   "free": null,
+   "org": "Georgia Student Logistics Association",
+   "orgUri": "georgia-student-logistics-association",
+   "colleges": [
+    "cec"
+   ]
+  },
+  {
+   "id": "engage-five-lights-a-diwali-community-celebration",
+   "title": "Five Lights: A Diwali Community Celebration",
+   "start": "2026-11-10T22:00:00.000Z",
+   "end": "2026-11-11T00:00:00.000Z",
+   "allDay": false,
+   "location": "Williams Center Plaza",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/five-lights-a-diwali-community-celebration",
+   "types": [
+    "Cultural Awareness"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "culture",
+    "social"
+   ],
+   "desc": "",
+   "free": null,
+   "org": "University Programming Board - Statesboro Campus",
+   "orgUri": "university-programming-board-statesboro-campus-4",
+   "colleges": []
+  },
+  {
+   "id": "engage-escape-room-3",
+   "title": "Escape Room",
+   "start": "2026-11-10T22:00:00.000Z",
+   "end": "2026-11-11T00:00:00.000Z",
+   "allDay": false,
+   "location": "Student Union Ballroom",
+   "campus": "armstrong",
+   "url": "https://georgiasouthern.presence.io/event/escape-room-3",
+   "types": [
+    "Social Event"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "social"
+   ],
+   "desc": "",
+   "free": null,
+   "org": "University Programming Board - Armstrong Campus",
+   "orgUri": "university-programming-board-armstrong-campus-3",
+   "colleges": []
+  },
+  {
+   "id": "engage-etiquette-dinner-3",
+   "title": "Etiquette Dinner",
+   "start": "2026-11-10T23:00:00.000Z",
+   "end": "2026-11-11T00:30:00.000Z",
+   "allDay": false,
+   "location": "Williams Center MPR",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/etiquette-dinner-3",
+   "types": [
+    "Free Food",
+    "Career Development"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "career",
+    "food"
+   ],
+   "desc": "",
+   "free": null,
+   "org": "University Housing - Statesboro Campus",
+   "orgUri": "university-housing-statesboro-campus",
+   "colleges": []
+  },
+  {
+   "id": "engage-mens-basketball-vs-mercer",
+   "title": "Men's Basketball vs Mercer",
+   "start": "2026-11-11T00:00:00.000Z",
+   "end": "2026-11-11T02:00:00.000Z",
+   "allDay": false,
+   "location": "Hill Convocation Center",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/mens-basketball-vs-mercer",
+   "types": [
+    "Free Stuff",
+    "Sports/Fitness"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "sports"
+   ],
+   "desc": "",
+   "free": null,
+   "org": "Georgia Southern Athletics",
+   "orgUri": "georgia-southern-athletics-2",
+   "colleges": []
+  },
+  {
+   "id": "engage-hola-general-body-meeting-3",
+   "title": "HOLA General Body Meeting",
+   "start": "2026-11-11T23:00:00.000Z",
+   "end": "2026-11-12T00:00:00.000Z",
+   "allDay": false,
+   "location": "IAB 2030",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/hola-general-body-meeting-3",
+   "types": [
+    "Cultural Awareness"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "culture"
+   ],
+   "desc": "",
+   "free": null,
+   "org": "Hispanic Outreach & Leadership Achievement",
+   "orgUri": "hispanic-outreach-leadership-achievement",
+   "colleges": []
+  },
+  {
+   "id": "engage-pajamas-popcorn-powerpoints",
+   "title": "Pajamas, Popcorn, & PowerPoints",
+   "start": "2026-11-12T23:00:00.000Z",
+   "end": "2026-11-13T01:00:00.000Z",
+   "allDay": false,
+   "location": "IAB 2041",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/pajamas-popcorn-powerpoints",
+   "types": [
+    "Free Food",
+    "Social Event"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "food",
+    "social"
+   ],
+   "desc": "",
+   "free": null,
+   "org": "Honors Student Organization - Statesboro",
+   "orgUri": "honors-student-organization-statesboro",
+   "colleges": []
+  },
+  {
+   "id": "engage-eagle-grad-bash",
+   "title": "Eagle Grad Bash",
+   "start": "2026-11-12T23:00:00.000Z",
+   "end": "2026-11-13T01:00:00.000Z",
+   "allDay": false,
+   "location": "Williams Center Plaza",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/eagle-grad-bash",
+   "types": [
+    "Social Event"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "social"
+   ],
+   "desc": "",
+   "free": null,
+   "org": "University Programming Board - Statesboro Campus",
+   "orgUri": "university-programming-board-statesboro-campus-4",
+   "colleges": []
+  },
+  {
+   "id": "engage-the-glass-menagerie-by-tennessee-williams",
+   "title": "The Glass Menagerie by Tennessee Williams",
+   "start": "2026-11-13T00:30:00.000Z",
+   "end": "2026-11-13T03:00:00.000Z",
+   "allDay": false,
+   "location": "Performing Arts Center",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/the-glass-menagerie-by-tennessee-williams",
+   "types": [
+    "Art & Music",
+    "Theater"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "arts"
+   ],
+   "desc": "",
+   "free": null,
+   "org": "Department of Communication Arts",
+   "orgUri": "department-of-communication-arts",
+   "colleges": [
+    "cah"
+   ]
+  },
+  {
+   "id": "engage-georgia-southern-womens-basketball-vs-wofford",
+   "title": "Women's Basketball vs. Wofford",
+   "start": "2026-11-14T15:00:00.000Z",
+   "end": "2026-11-14T18:00:00.000Z",
+   "allDay": false,
+   "location": "Hill Convocation Center",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/georgia-southern-womens-basketball-vs-wofford",
+   "types": [
+    "Free Stuff",
+    "Sports/Fitness"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "sports"
+   ],
+   "desc": "",
+   "free": null,
+   "org": "Georgia Southern Athletics",
+   "orgUri": "georgia-southern-athletics-2",
+   "colleges": []
+  },
+  {
+   "id": "engage-thankfull-for-our-organizations",
+   "title": "THANKFULL for our organizations",
+   "start": "2026-11-16T16:00:00.000Z",
+   "end": "2026-11-16T18:00:00.000Z",
+   "allDay": false,
+   "location": "Williams Center MPR",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/thankfull-for-our-organizations",
+   "types": [
+    "Free Food",
+    "Leadership Development"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "career",
+    "food"
+   ],
+   "desc": "",
+   "free": null,
+   "org": "Office of Student Activities",
+   "orgUri": "office-of-student-activities-3",
+   "colleges": []
+  },
+  {
+   "id": "engage-friendsgiving-potluck-2",
+   "title": "Friendsgiving Potluck",
+   "start": "2026-11-16T22:00:00.000Z",
+   "end": "2026-11-16T23:00:00.000Z",
+   "allDay": false,
+   "location": "IAB 2030",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/friendsgiving-potluck-2",
+   "types": [
+    "Cultural Awareness"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "culture"
+   ],
+   "desc": "",
+   "free": null,
+   "org": "Spanish Club",
+   "orgUri": "spanish-club",
+   "colleges": []
+  },
+  {
+   "id": "engage-sga-org-body-meeting-11",
+   "title": "SGA Org Body Meeting",
+   "start": "2026-11-17T22:30:00.000Z",
+   "end": "2026-11-17T23:30:00.000Z",
+   "allDay": false,
+   "location": "Russell Union 2048",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/sga-org-body-meeting-11",
+   "types": [
+    "Leadership"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "career"
+   ],
+   "desc": "",
+   "free": null,
+   "org": "Student Government Association",
+   "orgUri": "student-government-association-3",
+   "colleges": []
+  },
+  {
+   "id": "engage-lighting-of-sweetheart-circle-4",
+   "title": "Lighting of Sweetheart Circle",
+   "start": "2026-11-17T23:00:00.000Z",
+   "end": "2026-11-18T01:00:00.000Z",
+   "allDay": false,
+   "location": "Sweetheart Circle & Williams Center Plaza",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/lighting-of-sweetheart-circle-4",
+   "types": [
+    "Social Event"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "social"
+   ],
+   "desc": "",
+   "free": null,
+   "org": "University Programming Board - Statesboro Campus",
+   "orgUri": "university-programming-board-statesboro-campus-4",
+   "colleges": []
+  },
+  {
+   "id": "engage-southern-leaders-winter-soiree",
+   "title": "Southern Leaders Winter Soiree",
+   "start": "2026-11-17T23:00:00.000Z",
+   "end": "2026-11-18T01:00:00.000Z",
+   "allDay": false,
+   "location": "Russell Union Ballroom",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/southern-leaders-winter-soiree",
+   "types": [
+    "Social Event"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "social"
+   ],
+   "desc": "",
+   "free": null,
+   "org": "Southern Leaders",
+   "orgUri": "southern-leaders-2",
+   "colleges": []
+  },
+  {
+   "id": "engage-karaoke-afternoon-3",
+   "title": "Karaoke Afternoon",
+   "start": "2026-11-18T20:00:00.000Z",
+   "end": "2026-11-18T22:00:00.000Z",
+   "allDay": false,
+   "location": "Russell Union Rotunda",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/karaoke-afternoon-3",
+   "types": [
+    "Art & Music"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "arts"
+   ],
+   "desc": "",
+   "free": null,
+   "org": "Student Union Facilities and Event Services",
+   "orgUri": "student-union-facilities-and-event-services",
+   "colleges": [
+    "cah"
+   ]
+  },
+  {
+   "id": "engage-english-1101-work-showcase-2",
+   "title": "English 1101 @ Work Showcase",
+   "start": "2026-11-19T20:00:00.000Z",
+   "end": "2026-11-19T22:00:00.000Z",
+   "allDay": false,
+   "location": "IAB Lobby",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/english-1101-work-showcase-2",
+   "types": [],
+   "depts": [],
+   "source": "engage",
+   "tags": [],
+   "desc": "",
+   "free": null,
+   "org": "Department of English",
+   "orgUri": "department-of-english",
+   "colleges": [
+    "cah"
+   ]
+  },
+  {
+   "id": "engage-georgia-southern-womens-basketball-vs-florida-gulf-coast",
+   "title": "Women's Basketball vs. Florida Gulf Coast",
+   "start": "2026-11-20T22:00:00.000Z",
+   "end": "2026-11-21T01:00:00.000Z",
+   "allDay": false,
+   "location": "Hill Convocation Center",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/georgia-southern-womens-basketball-vs-florida-gulf-coast",
+   "types": [
+    "Sports/Fitness"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "sports"
+   ],
+   "desc": "",
+   "free": null,
+   "org": "Georgia Southern Athletics",
+   "orgUri": "georgia-southern-athletics-2",
+   "colleges": []
+  }
+ ]
+}

@@ -1,0 +1,4398 @@
+{
+ "generatedAt": "2026-10-30T02:34:59.844Z",
+ "source": "Eagle Engage (https://georgiasouthern.presence.io)",
+ "base": "https://georgiasouthern.presence.io",
+ "orgs": [
+  {
+   "name": "Academic Success Center",
+   "uri": "academic-success-center",
+   "cats": [
+    "Armstrong Campus",
+    "Statesboro Campus",
+    "Campus Department",
+    "Academic"
+   ],
+   "members": 23,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Adult and Online Learning",
+   "uri": "adult-and-online-learning",
+   "cats": [
+    "Campus Department"
+   ],
+   "members": 4,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "African Student Association",
+   "uri": "african-student-association-2",
+   "cats": [
+    "Statesboro Campus",
+    "Diversity Education and Advocacy",
+    "Cultural"
+   ],
+   "members": 25,
+   "meets": "7PM · On-campus",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Africana Studies",
+   "uri": "africana-studies",
+   "cats": [
+    "Diversity Education and Advocacy",
+    "Cultural",
+    "Campus Department",
+    "Armstrong Campus"
+   ],
+   "members": 5,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Agape College Council",
+   "uri": "agape-college-council",
+   "cats": [
+    "Spiritual"
+   ],
+   "members": 10,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Alpha Delta Pi",
+   "uri": "alpha-delta-pi-2",
+   "cats": [
+    "Social Fraternities and Sororities",
+    "Statesboro Campus"
+   ],
+   "members": 318,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Alpha Kappa Alpha Sorority Inc.",
+   "uri": "alpha-kappa-alpha-sorority-inc-3",
+   "cats": [
+    "Social Fraternities and Sororities"
+   ],
+   "members": 14,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Alpha Kappa Alpha Sorority Incorporated - Sigma Tau Chapter",
+   "uri": "alpha-kappa-alpha-sorority-incorporated-sigma-tau-chapter",
+   "cats": [
+    "Social Fraternities and Sororities",
+    "Armstrong Campus"
+   ],
+   "members": 4,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Alpha Omicron Pi",
+   "uri": "alpha-omicron-pi-2",
+   "cats": [
+    "Social Fraternities and Sororities",
+    "Statesboro Campus"
+   ],
+   "members": 23,
+   "meets": "6:30pm · Alpha Omicron Pi House",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Alpha Phi Alpha Fraternity, Inc.",
+   "uri": "alpha-phi-alpha-fraternity-inc-2",
+   "cats": [
+    "Statesboro Campus",
+    "Social Fraternities and Sororities"
+   ],
+   "members": 10,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Alpha Phi Omega National Service Fraternity, Inc.",
+   "uri": "alpha-phi-omega-national-service-fraternity-inc-2",
+   "cats": [
+    "Statesboro Campus",
+    "Professional",
+    "Service"
+   ],
+   "members": 15,
+   "meets": "7:25",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Alpha Psi Omega",
+   "uri": "alpha-psi-omega-2",
+   "cats": [
+    "Service",
+    "Creative & Performing Arts",
+    "Statesboro Campus",
+    "Honorary",
+    "Special Interest"
+   ],
+   "members": 11,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Alpha Sigma Tau",
+   "uri": "alpha-sigma-tau-2",
+   "cats": [
+    "Social Fraternities and Sororities",
+    "Armstrong Campus"
+   ],
+   "members": 9,
+   "meets": "7:00 PM · On Campus / In Person",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Alpha Tau Omega Fraternity",
+   "uri": "alpha-tau-omega-fraternity-2",
+   "cats": [
+    "Statesboro Campus",
+    "Social Fraternities and Sororities"
+   ],
+   "members": 2,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Alternative Endeavors Association",
+   "uri": "alternative-endeavors-association",
+   "cats": [
+    "Creative & Performing Arts",
+    "Special Interest"
+   ],
+   "members": 14,
+   "meets": "To Be Decided · On-Campus",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "American Society of Biochemistry and Molecular Biology",
+   "uri": "american-society-of-biochemistry-and-molecular-biology",
+   "cats": [
+    "Academic"
+   ],
+   "members": 4,
+   "meets": "7:00 P.M. · Nursing/Chem Building",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "American Society of Civil Engineers",
+   "uri": "american-society-of-civil-engineers-2",
+   "cats": [
+    "Statesboro Campus",
+    "Academic",
+    "Professional"
+   ],
+   "members": 73,
+   "meets": "7:00 PM · Engineering Building (Room 2117)",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "American Society of Mechanical Engineers",
+   "uri": "american-society-of-mechanical-engineers-2",
+   "cats": [
+    "Statesboro Campus"
+   ],
+   "members": 40,
+   "meets": "5:30pm · Engineering Building",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Anime Crew",
+   "uri": "anime-crew-2",
+   "cats": [
+    "Cultural"
+   ],
+   "members": 50,
+   "meets": "Wed 5–8pm, Thu 6:30–11pm · Russell Union 2047 / IAB 1020",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Anime x Manga Alliance 2026-2027",
+   "uri": "anime-x-manga-alliance-2026-2027",
+   "cats": [
+    "Special Interest"
+   ],
+   "members": 3,
+   "meets": "5:00 pm · Room J503 in the Library",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Arabic Club",
+   "uri": "arabic-club-2",
+   "cats": [
+    "Cultural",
+    "Academic",
+    "Statesboro Campus"
+   ],
+   "members": 9,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Armstrong Campus",
+   "uri": "armstrong-campus",
+   "cats": [
+    "Armstrong Campus"
+   ],
+   "members": 14,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Armstrong Pre-Dental Society",
+   "uri": "armstrong-pre-dental-society",
+   "cats": [
+    "Professional",
+    "Armstrong Campus"
+   ],
+   "members": 3,
+   "meets": "3:30 · Armstrong on-campus",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Aspiring Educators of Georgia Southern University",
+   "uri": "aspiring-educators-of-georgia-southern-university",
+   "cats": [
+    "Professional",
+    "Service"
+   ],
+   "members": 65,
+   "meets": "6:00pm - 7:00pm · College of Education",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Association for Computing Machinery",
+   "uri": "association-for-computing-machinery-2",
+   "cats": [
+    "Academic",
+    "Statesboro Campus",
+    "Professional"
+   ],
+   "members": 46,
+   "meets": "6:30pm · IT Building, Room 1203",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Association of Latino Professionals for America Chapter at Georgia Southern University",
+   "uri": "association-of-latino-professionals-for-america-chapter-at-georgia-southern-university-2",
+   "cats": [
+    "Cultural",
+    "Professional"
+   ],
+   "members": 10,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Bangladeshi Students Association of GSU",
+   "uri": "bangladeshi-students-association-of-gsu",
+   "cats": [
+    "Sports",
+    "Professional",
+    "Statesboro Campus",
+    "Academic"
+   ],
+   "members": 1,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Baptist Collegiate Ministries",
+   "uri": "baptist-collegiate-ministries-2",
+   "cats": [
+    "Statesboro Campus",
+    "Spiritual"
+   ],
+   "members": 25,
+   "meets": "Tuesdays 8 pm · 12376 US-301 Statesboro",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Baptist Collegiate Ministry of Armstrong",
+   "uri": "baptist-collegiate-ministry-of-armstrong-4",
+   "cats": [
+    "Armstrong Campus",
+    "Spiritual"
+   ],
+   "members": 10,
+   "meets": "Mondays 7-8, Wednesdays 11:30-1:30 · BCM Building, Armstrong",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Baseball Club",
+   "uri": "baseball-club-2",
+   "cats": [
+    "Club Sports/Intramurals",
+    "Statesboro Campus"
+   ],
+   "members": 3,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Best Buddies @ Georgia Southern",
+   "uri": "best-buddies-georgia-southern",
+   "cats": [
+    "Diversity Education and Advocacy"
+   ],
+   "members": 39,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Beta Beta Beta Biological Honor Society",
+   "uri": "beta-beta-beta-biological-honor-society-2",
+   "cats": [
+    "Honorary",
+    "Academic",
+    "Statesboro Campus"
+   ],
+   "members": 23,
+   "meets": "7pm · Biological Sciences Building",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Beta Upsilon Chi",
+   "uri": "beta-upsilon-chi",
+   "cats": [
+    "Social Fraternities and Sororities"
+   ],
+   "members": 4,
+   "meets": "6:00pm · First United Methodist Church Statesboro",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Betty Foy Sanders Department of Art",
+   "uri": "betty-foy-sanders-department-of-art",
+   "cats": [
+    "Campus Department Sponsored",
+    "Campus Department"
+   ],
+   "members": 7,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Biology Club of Armstrong",
+   "uri": "biology-club-of-armstrong-2",
+   "cats": [
+    "Armstrong Campus"
+   ],
+   "members": 15,
+   "meets": "5:15pm · Science Center 1405",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Biology Organization of Graduate Students",
+   "uri": "biology-organization-of-graduate-students-3",
+   "cats": [
+    "Academic"
+   ],
+   "members": 8,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Biomedical Sciences Organization",
+   "uri": "biomedical-sciences-organization",
+   "cats": [
+    "Professional",
+    "Academic"
+   ],
+   "members": 12,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Black Educators Association",
+   "uri": "black-educators-association",
+   "cats": [
+    "Professional",
+    "Diversity Education and Advocacy"
+   ],
+   "members": 2,
+   "meets": "5p-6p · On-Campus",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Black Student Alliance",
+   "uri": "black-student-alliance-4",
+   "cats": [
+    "Statesboro Campus"
+   ],
+   "members": 37,
+   "meets": "6:00 PM-8:00 PM · College of Business; Room 1124",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Black Student Nursing Association",
+   "uri": "black-student-nursing-association-2",
+   "cats": [
+    "Cultural",
+    "Statesboro Campus",
+    "Academic"
+   ],
+   "members": 33,
+   "meets": "5:00 pm · Nursing/Chem Building Room 1002",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Botanic Garden at Georgia Southern University",
+   "uri": "botanic-garden-at-georgia-southern-university",
+   "cats": [
+    "Campus Department Sponsored",
+    "Campus Department"
+   ],
+   "members": 34,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Bridge",
+   "uri": "bridge",
+   "cats": [
+    "Statesboro Campus",
+    "Service",
+    "Political Action",
+    "Social Action"
+   ],
+   "members": 2,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Business Innovation Group",
+   "uri": "business-innovation-group-2",
+   "cats": [
+    "Statesboro Campus"
+   ],
+   "members": 24,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Cadet Association of Georgia Southern University",
+   "uri": "cadet-association-of-georgia-southern-university-2",
+   "cats": [
+    "Statesboro Campus",
+    "Service",
+    "Special Interest"
+   ],
+   "members": 106,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Campus Crusade for Christ",
+   "uri": "campus-crusade-for-christ-4",
+   "cats": [
+    "Spiritual",
+    "Statesboro Campus"
+   ],
+   "members": 55,
+   "meets": "8pm · Pittman Park UMC",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Campus Ministry International of Statesboro",
+   "uri": "campus-ministry-international-of-statesboro",
+   "cats": [
+    "Spiritual"
+   ],
+   "members": 8,
+   "meets": "6:30 pm - 8:00pm · On-Campus",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Campus Outreach",
+   "uri": "campus-outreach-2",
+   "cats": [
+    "Statesboro Campus",
+    "Spiritual"
+   ],
+   "members": 13,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Campus Recreation and Intramurals",
+   "uri": "campus-recreation-and-intramurals",
+   "cats": [
+    "Statesboro Campus",
+    "Campus Department",
+    "Armstrong Campus"
+   ],
+   "members": 47,
+   "meets": "",
+   "desc": "",
+   "upcoming": 1
+  },
+  {
+   "name": "Cardiovascular Interventional Science Program",
+   "uri": "cardiovascular-interventional-science-program",
+   "cats": [
+    "Academic",
+    "Service"
+   ],
+   "members": 19,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Caribbean Student Association",
+   "uri": "caribbean-student-association-2",
+   "cats": [
+    "Statesboro Campus",
+    "Diversity Education and Advocacy",
+    "Cultural"
+   ],
+   "members": 22,
+   "meets": "6:30 pm · Interdisciplinary Academic Building",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Catholic Eagles",
+   "uri": "catholic-eagles-2",
+   "cats": [
+    "Spiritual",
+    "Statesboro Campus",
+    "Service"
+   ],
+   "members": 48,
+   "meets": "7:30pm · St. Matthew Catholic Church",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Centennial Place",
+   "uri": "centennial-place-2",
+   "cats": [
+    "Statesboro Campus",
+    "University Housing"
+   ],
+   "members": 8,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Chess Club",
+   "uri": "chess-club",
+   "cats": [
+    "Special Interest",
+    "Armstrong Campus"
+   ],
+   "members": 10,
+   "meets": "5:30pm · Outside the Armstrong Galley",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Chi Omega",
+   "uri": "chi-omega-2",
+   "cats": [
+    "Statesboro Campus",
+    "Social Fraternities and Sororities"
+   ],
+   "members": 341,
+   "meets": "6:00 pm · Chi Omega",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Chi Sigma Iota--Gamma Sigma Chapter",
+   "uri": "chi-sigma-iota-gamma-sigma-chapter",
+   "cats": [
+    "Professional",
+    "Academic"
+   ],
+   "members": 4,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Childcare Access Means Parents in School - CCAMPIS",
+   "uri": "childcare-access-means-parents-in-school-ccampis",
+   "cats": [
+    "Campus Department"
+   ],
+   "members": 35,
+   "meets": "",
+   "desc": "",
+   "upcoming": 1
+  },
+  {
+   "name": "Chinese Language Club",
+   "uri": "chinese-language-club",
+   "cats": [
+    "Special Interest",
+    "Cultural",
+    "Peer Mentorship",
+    "Academic"
+   ],
+   "members": 1,
+   "meets": "6:00-7:00pm · On Campus",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Christian Campus Fellowship",
+   "uri": "christian-campus-fellowship-2",
+   "cats": [
+    "Spiritual",
+    "Service",
+    "Statesboro Campus"
+   ],
+   "members": 17,
+   "meets": "7:30 PM · 1206 Fair Rd.",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Circle K International",
+   "uri": "circle-k-international-3",
+   "cats": [
+    "Service"
+   ],
+   "members": 20,
+   "meets": "6:00 P.M.",
+   "desc": "",
+   "upcoming": 1
+  },
+  {
+   "name": "Climbing Club",
+   "uri": "climbing-club-2",
+   "cats": [
+    "Statesboro Campus",
+    "Sports",
+    "Special Interest"
+   ],
+   "members": 12,
+   "meets": "7:00 PM-10:00 PM · RAC Climbing Wall",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Club Mud Savannah",
+   "uri": "club-mud-savannah-2",
+   "cats": [
+    "Creative & Performing Arts"
+   ],
+   "members": 40,
+   "meets": "5:30-7:30 · Annex II",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Coastal Georgia Section of the American Society of Nondestructive Testing",
+   "uri": "coastal-georgia-section-of-the-american-society-of-nondestructive-testing",
+   "cats": [
+    "Academic",
+    "Professional"
+   ],
+   "members": 5,
+   "meets": "5:30pm · ERB RM 3000",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "College of Education",
+   "uri": "college-of-education",
+   "cats": [
+    "Campus Department"
+   ],
+   "members": 9,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "College of Graduate Studies",
+   "uri": "college-of-graduate-studies",
+   "cats": [
+    "Campus Department",
+    "Campus Department Sponsored"
+   ],
+   "members": 3,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "College of Science and Mathematics",
+   "uri": "college-of-science-and-mathematics",
+   "cats": [
+    "Campus Department Sponsored",
+    "Campus Department"
+   ],
+   "members": 329,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "College Panhellenic - Armstrong Campus",
+   "uri": "college-panhellenic-armstrong-campus-3",
+   "cats": [
+    "Social Fraternities and Sororities",
+    "Armstrong Campus"
+   ],
+   "members": 8,
+   "meets": "4:30pm · On-Campus",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Collegians For Christ",
+   "uri": "collegians-for-christ",
+   "cats": [
+    "Statesboro Campus"
+   ],
+   "members": 5,
+   "meets": "7pm",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Collegiate 100 of Georgia Southern University",
+   "uri": "collegiate-100-of-georgia-southern-university-2",
+   "cats": [
+    "Statesboro Campus",
+    "Service",
+    "Professional"
+   ],
+   "members": 37,
+   "meets": "6:00PM · On-Campus",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Communication Sciences and Disorders Program",
+   "uri": "communication-sciences-and-disorders-program",
+   "cats": [
+    "Campus Department",
+    "Academic"
+   ],
+   "members": 54,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Community Bible Church College Ministry",
+   "uri": "community-bible-church-college-ministry",
+   "cats": [
+    "Spiritual",
+    "Armstrong Campus"
+   ],
+   "members": 6,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Compass Point",
+   "uri": "compass-point",
+   "cats": [
+    "Campus Department",
+    "Armstrong Campus",
+    "University Housing"
+   ],
+   "members": 1,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Construction Management Guild",
+   "uri": "construction-management-guild",
+   "cats": [
+    "Special Interest",
+    "Professional"
+   ],
+   "members": 12,
+   "meets": "12-1pm or 6-7pm · Engineering Building",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Counseling Center",
+   "uri": "counseling-center",
+   "cats": [
+    "Campus Department",
+    "Statesboro Campus",
+    "Armstrong Campus"
+   ],
+   "members": 5,
+   "meets": "",
+   "desc": "",
+   "upcoming": 4
+  },
+  {
+   "name": "Creative Writing Club at Armstrong",
+   "uri": "creative-writing-club-at-armstrong-2",
+   "cats": [
+    "Armstrong Campus",
+    "Creative & Performing Arts"
+   ],
+   "members": 19,
+   "meets": "12pm - 1:30pm · Writing Center, Armstrong Library",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Dance Team at Georgia Southern",
+   "uri": "dance-team-at-georgia-southern-2",
+   "cats": [
+    "Special Interest",
+    "Club Sports/Intramurals",
+    "Statesboro Campus"
+   ],
+   "members": 7,
+   "meets": "Tue/Thu 6-8pm, Sun 4-7pm · RAC",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Dean of Students",
+   "uri": "dean-of-students",
+   "cats": [
+    "Armstrong Campus",
+    "Statesboro Campus",
+    "Campus Department"
+   ],
+   "members": 9,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Delight Ministries at Georgia Southern University",
+   "uri": "delight-ministries-at-georgia-southern-university-2",
+   "cats": [
+    "Statesboro Campus",
+    "Service",
+    "Spiritual"
+   ],
+   "members": 37,
+   "meets": "7:00 p.m. · Russell Union",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Delta Chi Fraternity",
+   "uri": "delta-chi-fraternity-4",
+   "cats": [
+    "Social Fraternities and Sororities"
+   ],
+   "members": 0,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Delta Sigma Pi",
+   "uri": "delta-sigma-pi-2",
+   "cats": [
+    "Service",
+    "Professional"
+   ],
+   "members": 11,
+   "meets": "6:00 PM · PCOB 1107",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Delta Sigma Theta Sorority, Inc. Tau Alpha Chapter",
+   "uri": "delta-sigma-theta-sorority-inc-tau-alpha-chapter-2",
+   "cats": [
+    "Armstrong Campus",
+    "Social Fraternities and Sororities"
+   ],
+   "members": 11,
+   "meets": "In person",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Delta Sigma Theta Sorority, Inc. Xi Eta Chapter",
+   "uri": "delta-sigma-theta-sorority-inc-xi-eta-chapter-2",
+   "cats": [
+    "Social Fraternities and Sororities",
+    "Statesboro Campus"
+   ],
+   "members": 22,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Department of Biochemistry, Chemistry and Physics",
+   "uri": "department-of-biochemistry-chemistry-and-physics",
+   "cats": [
+    "Campus Department Sponsored",
+    "Campus Department"
+   ],
+   "members": 9,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Department of Biology",
+   "uri": "department-of-biology-2",
+   "cats": [
+    "Campus Department"
+   ],
+   "members": 32,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Department of Biomedical Sciences",
+   "uri": "department-of-biomedical-sciences",
+   "cats": [
+    "Campus Department"
+   ],
+   "members": 11,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Department of Biostatistics, Epidemiology, and Environmental Health Sciences",
+   "uri": "department-of-biostatistics-epidemiology-and-environmental-health-sciences",
+   "cats": [
+    "Campus Department Sponsored",
+    "Campus Department"
+   ],
+   "members": 2,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Department of Clinical Sciences",
+   "uri": "department-of-clinical-sciences",
+   "cats": [
+    "Campus Department",
+    "Academic",
+    "Campus Department Sponsored"
+   ],
+   "members": 4,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Department of Communication Arts",
+   "uri": "department-of-communication-arts",
+   "cats": [
+    "Campus Department"
+   ],
+   "members": 9,
+   "meets": "",
+   "desc": "",
+   "upcoming": 2
+  },
+  {
+   "name": "Department of Criminal Justice and Criminology",
+   "uri": "department-of-criminal-justice-and-criminology",
+   "cats": [
+    "Campus Department",
+    "Academic"
+   ],
+   "members": 16,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Department of Curriculum, Foundations, and Reading",
+   "uri": "department-of-curriculum-foundations-and-reading",
+   "cats": [
+    "Campus Department Sponsored",
+    "Campus Department"
+   ],
+   "members": 0,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Department of Electrical and Computer Engineering",
+   "uri": "department-of-electrical-and-computer-engineering",
+   "cats": [
+    "Campus Department",
+    "Campus Department Sponsored"
+   ],
+   "members": 20,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Department of English",
+   "uri": "department-of-english",
+   "cats": [
+    "Campus Department",
+    "Campus Department Sponsored"
+   ],
+   "members": 5,
+   "meets": "",
+   "desc": "",
+   "upcoming": 3
+  },
+  {
+   "name": "Department of Geology and Geography",
+   "uri": "department-of-geology-and-geography",
+   "cats": [
+    "Campus Department",
+    "Campus Department Sponsored"
+   ],
+   "members": 0,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Department of Health Sciences and Kinesiology",
+   "uri": "department-of-health-sciences-and-kinesiology",
+   "cats": [
+    "Campus Department"
+   ],
+   "members": 16,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Department of History",
+   "uri": "department-of-history",
+   "cats": [
+    "Campus Department",
+    "Campus Department Sponsored"
+   ],
+   "members": 11,
+   "meets": "",
+   "desc": "",
+   "upcoming": 1
+  },
+  {
+   "name": "Department of Information Technology",
+   "uri": "department-of-information-technology",
+   "cats": [
+    "Campus Department Sponsored",
+    "Campus Department"
+   ],
+   "members": 6,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Department of Mathematical Sciences",
+   "uri": "department-of-mathematical-sciences",
+   "cats": [
+    "Campus Department"
+   ],
+   "members": 5,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Department of Mechanical Engineering",
+   "uri": "department-of-mechanical-engineering",
+   "cats": [
+    "Campus Department Sponsored",
+    "Campus Department"
+   ],
+   "members": 3,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Department of Middle Grades and Secondary Education",
+   "uri": "department-of-middle-grades-and-secondary-education",
+   "cats": [
+    "Campus Department Sponsored",
+    "Campus Department"
+   ],
+   "members": 4,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Department of Military & Veteran Services",
+   "uri": "department-of-military-veteran-services",
+   "cats": [
+    "Campus Department Sponsored",
+    "Campus Department"
+   ],
+   "members": 10,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Department of Military Science",
+   "uri": "department-of-military-science",
+   "cats": [
+    "Campus Department Sponsored",
+    "Campus Department"
+   ],
+   "members": 2,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Department of Philosophy and Religious Studies",
+   "uri": "department-of-philosophy-and-religious-studies",
+   "cats": [
+    "Campus Department Sponsored",
+    "Campus Department"
+   ],
+   "members": 3,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Department of Political Science and International Studies",
+   "uri": "department-of-political-science-and-international-studies",
+   "cats": [
+    "Campus Department Sponsored",
+    "Campus Department"
+   ],
+   "members": 17,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Department of Public and Nonprofit Studies",
+   "uri": "department-of-public-and-nonprofit-studies",
+   "cats": [
+    "Campus Department",
+    "Campus Department Sponsored"
+   ],
+   "members": 2,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Department of Sociology and Anthropology",
+   "uri": "department-of-sociology-and-anthropology",
+   "cats": [
+    "Campus Department",
+    "Campus Department Sponsored"
+   ],
+   "members": 6,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Department of World Languages and Cultures",
+   "uri": "department-of-world-languages-and-cultures",
+   "cats": [
+    "Campus Department Sponsored",
+    "Campus Department"
+   ],
+   "members": 6,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Diverse Educators Association",
+   "uri": "diverse-educators-association-2",
+   "cats": [
+    "Diversity Education and Advocacy",
+    "Professional",
+    "Service"
+   ],
+   "members": 17,
+   "meets": "5:30pm-6:30pm · College of Education",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Diversity Peer Educators",
+   "uri": "diversity-peer-educators-2",
+   "cats": [
+    "Cultural",
+    "Statesboro Campus",
+    "Campus Department"
+   ],
+   "members": 0,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Divine Deliverance Worship Center-College Ministry",
+   "uri": "divine-deliverance-worship-center-college-ministry-2",
+   "cats": [
+    "Statesboro Campus",
+    "Spiritual"
+   ],
+   "members": 3,
+   "meets": "7pm",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Division of Enrollment, Marketing, and Student Success",
+   "uri": "division-of-enrollment-marketing-and-student-success",
+   "cats": [
+    "Campus Department"
+   ],
+   "members": 5,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Division of Student Affairs",
+   "uri": "division-of-student-affairs",
+   "cats": [
+    "Armstrong Campus",
+    "Campus Department",
+    "Statesboro Campus"
+   ],
+   "members": 0,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Dodgeball Club",
+   "uri": "dodgeball-club-2",
+   "cats": [
+    "Club Sports/Intramurals",
+    "Special Interest",
+    "Statesboro Campus"
+   ],
+   "members": 3,
+   "meets": "6-8 pm · AUX Gym in the RAC",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Eagle Esports",
+   "uri": "eagle-esports-4",
+   "cats": [
+    "Club Sports/Intramurals",
+    "Sports",
+    "Statesboro Campus"
+   ],
+   "members": 8,
+   "meets": "Virtual Collaboration Center (Statesboro)",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Eagle Ethics Bowl Team",
+   "uri": "eagle-ethics-bowl-team",
+   "cats": [
+    "Statesboro Campus",
+    "Academic"
+   ],
+   "members": 9,
+   "meets": "2:30 · Newton 1108",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Eagle Experience Committee",
+   "uri": "eagle-experience-committee",
+   "cats": [
+    "Campus Department"
+   ],
+   "members": 13,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Eagle Space Initiative",
+   "uri": "eagle-space-initiative",
+   "cats": [
+    "Special Interest",
+    "Academic",
+    "Statesboro Campus"
+   ],
+   "members": 28,
+   "meets": "1:30pm · Engineering Research Building 2031",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Eagle Village",
+   "uri": "eagle-village-2",
+   "cats": [
+    "University Housing",
+    "Statesboro Campus"
+   ],
+   "members": 1,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Eagles Economics Society",
+   "uri": "eagles-economics-society-3",
+   "cats": [
+    "Professional",
+    "Academic"
+   ],
+   "members": 32,
+   "meets": "4:30-5:30PM · Parker College of Business 1120",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Eco Advocates",
+   "uri": "eco-advocates",
+   "cats": [
+    "Special Interest",
+    "Social Action",
+    "Armstrong Campus"
+   ],
+   "members": 27,
+   "meets": "Campus community garden, Armstrong",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Enterprise Systems and Analytics",
+   "uri": "enterprise-systems-and-analytics",
+   "cats": [
+    "Campus Department",
+    "Campus Department Sponsored"
+   ],
+   "members": 1,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Epsilon Tau Pi",
+   "uri": "epsilon-tau-pi-4",
+   "cats": [
+    "Service",
+    "Social Fraternities and Sororities"
+   ],
+   "members": 6,
+   "meets": "7:00PM · Statesboro Campus",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Equestrian Team",
+   "uri": "equestrian-team-3",
+   "cats": [
+    "Club Sports/Intramurals",
+    "Special Interest"
+   ],
+   "members": 6,
+   "meets": "Evermore Farms",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Fiber Arts Club at Armstrong",
+   "uri": "fiber-arts-club-at-armstrong-3",
+   "cats": [
+    "Armstrong Campus",
+    "Creative & Performing Arts"
+   ],
+   "members": 15,
+   "meets": "5pm-7pm · Lane Library First Floor",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Finance Association",
+   "uri": "finance-association-2",
+   "cats": [
+    "Professional",
+    "Academic",
+    "Statesboro Campus"
+   ],
+   "members": 70,
+   "meets": "5:30-6:30 · PCOB 1104",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Financial Aid & Financial Literacy",
+   "uri": "financial-aid-financial-literacy",
+   "cats": [
+    "Campus Department"
+   ],
+   "members": 1,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "First and Second Year Experience",
+   "uri": "first-and-second-year-experience",
+   "cats": [
+    "Armstrong Campus",
+    "Statesboro Campus",
+    "Campus Department"
+   ],
+   "members": 6,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "First Generation at Georgia Southern",
+   "uri": "first-generation-at-georgia-southern",
+   "cats": [
+    "Statesboro Campus",
+    "Diversity Education and Advocacy",
+    "Peer Mentorship"
+   ],
+   "members": 19,
+   "meets": "6pm · Russell Union",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Flight Crew",
+   "uri": "flight-crew",
+   "cats": [
+    "Sports",
+    "Special Interest"
+   ],
+   "members": 3,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "For Women By Women",
+   "uri": "for-women-by-women",
+   "cats": [
+    "Service",
+    "Professional",
+    "Diversity Education and Advocacy"
+   ],
+   "members": 22,
+   "meets": "2pm · On Campus",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Fraternity and Sorority Life Ambassadors",
+   "uri": "fraternity-and-sorority-life-ambassadors-2",
+   "cats": [
+    "Statesboro Campus",
+    "Campus Department"
+   ],
+   "members": 6,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Fred and Dinah Gretsch School of Music",
+   "uri": "fred-and-dinah-gretsch-school-of-music",
+   "cats": [
+    "Campus Department",
+    "Campus Department Sponsored",
+    "Armstrong Campus"
+   ],
+   "members": 7,
+   "meets": "",
+   "desc": "",
+   "upcoming": 4
+  },
+  {
+   "name": "Freedom's Landing",
+   "uri": "freedoms-landing-2",
+   "cats": [
+    "Statesboro Campus",
+    "University Housing"
+   ],
+   "members": 2,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "French Club at Georgia Southern",
+   "uri": "french-club-at-georgia-southern-2",
+   "cats": [
+    "Statesboro Campus",
+    "Academic",
+    "Cultural"
+   ],
+   "members": 12,
+   "meets": "6:00 pm · IAB 2029",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Future Pharmacists Association at Georgia Southern",
+   "uri": "future-pharmacists-association-at-georgia-southern",
+   "cats": [
+    "Statesboro Campus",
+    "Armstrong Campus",
+    "Special Interest",
+    "Diversity Education and Advocacy"
+   ],
+   "members": 5,
+   "meets": "noon · Statesboro and Armstrong",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Future Veterinarian's Society",
+   "uri": "future-veterinarians-society-2",
+   "cats": [
+    "Service",
+    "Professional",
+    "Statesboro Campus"
+   ],
+   "members": 31,
+   "meets": "6:30 PM · Russell Union 2041",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Gamers Guild at Armstrong",
+   "uri": "gamers-guild-at-armstrong",
+   "cats": [
+    "Special Interest",
+    "Armstrong Campus",
+    "Academic"
+   ],
+   "members": 44,
+   "meets": "5pm - 9pm · On-Campus",
+   "desc": "",
+   "upcoming": 1
+  },
+  {
+   "name": "Geeks 'n' Gamers",
+   "uri": "geeks-n-gamers-2",
+   "cats": [
+    "Statesboro Campus",
+    "Special Interest"
+   ],
+   "members": 59,
+   "meets": "7pm-11:30pm · Virtual Collaboration Center",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Gender and Sexuality Alliance",
+   "uri": "gender-and-sexuality-alliance-2",
+   "cats": [
+    "Diversity Education and Advocacy"
+   ],
+   "members": 46,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Georgia Southern Athletics",
+   "uri": "georgia-southern-athletics-2",
+   "cats": [
+    "Sports",
+    "Campus Department",
+    "Statesboro Campus"
+   ],
+   "members": 43,
+   "meets": "",
+   "desc": "",
+   "upcoming": 7
+  },
+  {
+   "name": "Georgia Southern University Alumni Association",
+   "uri": "georgia-southern-university-alumni-association",
+   "cats": [
+    "Campus Department",
+    "Campus Department Sponsored"
+   ],
+   "members": 4,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Georgia Southern University Libraries",
+   "uri": "georgia-southern-university-libraries-3",
+   "cats": [
+    "Armstrong Campus",
+    "Campus Department Sponsored",
+    "Campus Department",
+    "Statesboro Campus"
+   ],
+   "members": 32,
+   "meets": "",
+   "desc": "",
+   "upcoming": 2
+  },
+  {
+   "name": "Georgia Southern University Museum",
+   "uri": "georgia-southern-university-museum",
+   "cats": [
+    "Campus Department Sponsored",
+    "Campus Department"
+   ],
+   "members": 3,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Georgia Student Logistics Association",
+   "uri": "georgia-student-logistics-association",
+   "cats": [
+    "Professional",
+    "Statesboro Campus",
+    "Academic"
+   ],
+   "members": 62,
+   "meets": "5:00 PM · On-Campus",
+   "desc": "",
+   "upcoming": 1
+  },
+  {
+   "name": "Get Psych'd",
+   "uri": "get-psychd-2",
+   "cats": [
+    "Armstrong Campus",
+    "Service",
+    "Special Interest"
+   ],
+   "members": 44,
+   "meets": "4:00 - 5:00PM · Science Center",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Ghanaian Students Association",
+   "uri": "ghanaian-students-association-2",
+   "cats": [
+    "Academic",
+    "Statesboro Campus",
+    "Cultural"
+   ],
+   "members": 2,
+   "meets": "On-campus",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Girls Who Code at Georgia Southern University",
+   "uri": "girls-who-code-at-georgia-southern-university",
+   "cats": [
+    "Academic",
+    "Diversity Education and Advocacy"
+   ],
+   "members": 10,
+   "meets": "6:30 pm · IT Building 1201",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Gospel Choir at Georgia Southern",
+   "uri": "gospel-choir-at-georgia-southern",
+   "cats": [
+    "Creative & Performing Arts",
+    "Statesboro Campus",
+    "Spiritual"
+   ],
+   "members": 18,
+   "meets": "7PM · Foy Building 4030",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Graduate Student Organization",
+   "uri": "graduate-student-organization-2",
+   "cats": [
+    "Statesboro Campus",
+    "Academic",
+    "Special Interest"
+   ],
+   "members": 7,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Gullah Geechee Cultural Heritage Center",
+   "uri": "gullah-geechee-cultural-heritage-center",
+   "cats": [
+    "Campus Department"
+   ],
+   "members": 0,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Habitat for Humanity",
+   "uri": "habitat-for-humanity-3",
+   "cats": [
+    "Service",
+    "Statesboro Campus"
+   ],
+   "members": 18,
+   "meets": "6:30 PM - 7:30 PM · On-Campus",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Health and Physical Education Club",
+   "uri": "health-and-physical-education-club-4",
+   "cats": [
+    "Professional",
+    "Academic",
+    "Statesboro Campus",
+    "Sports"
+   ],
+   "members": 4,
+   "meets": "11am-12 noon · On-Campus or Virtual",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Health Science Student Association",
+   "uri": "health-science-student-association-2",
+   "cats": [
+    "Academic",
+    "Armstrong Campus"
+   ],
+   "members": 32,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Health Services",
+   "uri": "health-services-2",
+   "cats": [
+    "Campus Department",
+    "Statesboro Campus",
+    "Armstrong Campus"
+   ],
+   "members": 1,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Hermandad de Sigma Iota Alpha, Inc. - Alpha Tau Chapter",
+   "uri": "hermandad-de-sigma-iota-alpha-inc-alpha-tau-chapter",
+   "cats": [
+    "Social Fraternities and Sororities"
+   ],
+   "members": 7,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Hispanic Outreach & Leadership Achievement",
+   "uri": "hispanic-outreach-leadership-achievement",
+   "cats": [
+    "Cultural",
+    "Service"
+   ],
+   "members": 13,
+   "meets": "6:00 PM · IAB 2030",
+   "desc": "",
+   "upcoming": 1
+  },
+  {
+   "name": "Honors Student Organization - Armstrong",
+   "uri": "honors-student-organization-armstrong",
+   "cats": [
+    "Academic",
+    "Armstrong Campus",
+    "Service"
+   ],
+   "members": 104,
+   "meets": "12:30pm-1:30pm · Solms 103",
+   "desc": "",
+   "upcoming": 1
+  },
+  {
+   "name": "Honors Student Organization - Statesboro",
+   "uri": "honors-student-organization-statesboro",
+   "cats": [
+    "Academic",
+    "Statesboro Campus",
+    "Special Interest"
+   ],
+   "members": 643,
+   "meets": "5:30 · IAB 1012",
+   "desc": "",
+   "upcoming": 3
+  },
+  {
+   "name": "Institute for Operations Research and the Management Sciences",
+   "uri": "institute-for-operations-research-and-the-management-sciences",
+   "cats": [
+    "Academic",
+    "Statesboro Campus"
+   ],
+   "members": 6,
+   "meets": "6:00 PM · Parker College of Business",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Institute of Electrical and Electronics Engineers",
+   "uri": "institute-of-electrical-and-electronics-engineers-2",
+   "cats": [
+    "Statesboro Campus",
+    "Professional",
+    "Armstrong Campus",
+    "Campus Department Sponsored"
+   ],
+   "members": 74,
+   "meets": "5:00 PM · Carruth Building 1002",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Institute of Transportation Engineers",
+   "uri": "institute-of-transportation-engineers-3",
+   "cats": [
+    "Professional",
+    "Statesboro Campus"
+   ],
+   "members": 9,
+   "meets": "7-8 pm · Engineering 1130",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Interfraternity Council",
+   "uri": "interfraternity-council-2",
+   "cats": [
+    "Social Fraternities and Sororities",
+    "Statesboro Campus"
+   ],
+   "members": 8,
+   "meets": "6:30 PM · Williams Center Conference Room",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Interior Design Association",
+   "uri": "interior-design-association-2",
+   "cats": [
+    "Professional",
+    "Statesboro Campus",
+    "Academic"
+   ],
+   "members": 46,
+   "meets": "Monthly",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "International Ambassadors",
+   "uri": "international-ambassadors-2",
+   "cats": [
+    "Campus Department",
+    "Statesboro Campus"
+   ],
+   "members": 2,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "International Studies Society",
+   "uri": "international-studies-society-2",
+   "cats": [
+    "Statesboro Campus",
+    "Academic",
+    "Special Interest"
+   ],
+   "members": 13,
+   "meets": "5:00pm-6:15pm · Carroll 1022",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Iota Phi Theta Fraternity, Incorporated",
+   "uri": "iota-phi-theta-fraternity-incorporated-2",
+   "cats": [
+    "Social Fraternities and Sororities",
+    "Statesboro Campus"
+   ],
+   "members": 4,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Japanese Club",
+   "uri": "japanese-club-3",
+   "cats": [
+    "Academic",
+    "Cultural"
+   ],
+   "members": 20,
+   "meets": "5:00 PM · IAB 2026",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Jiann-Ping Hsu College of Public Health",
+   "uri": "jiann-ping-hsu-college-of-public-health",
+   "cats": [
+    "Campus Department",
+    "Campus Department Sponsored"
+   ],
+   "members": 1,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Justice & Law Society",
+   "uri": "justice-law-society",
+   "cats": [
+    "Statesboro Campus",
+    "Academic",
+    "Professional"
+   ],
+   "members": 42,
+   "meets": "5:30-6:30 pm · Statesboro Campus",
+   "desc": "",
+   "upcoming": 1
+  },
+  {
+   "name": "K-pop Culture and Appreciation",
+   "uri": "k-pop-culture-and-appreciation",
+   "cats": [
+    "Creative & Performing Arts",
+    "Special Interest"
+   ],
+   "members": 10,
+   "meets": "5:30 · Russell Union",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Kappa Alpha Order",
+   "uri": "kappa-alpha-order-2",
+   "cats": [
+    "Statesboro Campus",
+    "Social Fraternities and Sororities"
+   ],
+   "members": 2,
+   "meets": "7:00 · KA House",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Kappa Delta",
+   "uri": "kappa-delta-2",
+   "cats": [
+    "Social Fraternities and Sororities",
+    "Statesboro Campus"
+   ],
+   "members": 143,
+   "meets": "6:30 · Kappa Delta house or Zoom",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Kappa Kappa Gamma",
+   "uri": "kappa-kappa-gamma-2",
+   "cats": [
+    "Statesboro Campus",
+    "Social Fraternities and Sororities"
+   ],
+   "members": 1,
+   "meets": "7 pm · Kappa Kappa Gamma House",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Kappa Kappa Psi",
+   "uri": "kappa-kappa-psi-2",
+   "cats": [
+    "Honorary",
+    "Statesboro Campus",
+    "Service"
+   ],
+   "members": 2,
+   "meets": "6:00 PM · Foy Building",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Kappa Sigma Fraternity",
+   "uri": "kappa-sigma-fraternity-2",
+   "cats": [
+    "Social Fraternities and Sororities",
+    "Statesboro Campus"
+   ],
+   "members": 2,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Korean Pop Dance Cover Club",
+   "uri": "korean-pop-dance-cover-club",
+   "cats": [
+    "Creative & Performing Arts"
+   ],
+   "members": 15,
+   "meets": "Armstrong ARC",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Latin Rhythm Dance Group",
+   "uri": "latin-rhythm-dance-group-2",
+   "cats": [
+    "Cultural",
+    "Statesboro Campus",
+    "Creative & Performing Arts"
+   ],
+   "members": 5,
+   "meets": "6:30pm-7:30pm · IAB or RAC",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Latter-day Saints Student Association",
+   "uri": "latter-day-saints-student-association",
+   "cats": [
+    "Spiritual",
+    "Statesboro Campus"
+   ],
+   "members": 2,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Liberty Center",
+   "uri": "liberty-center",
+   "cats": [
+    "Campus Department",
+    "Liberty Campus"
+   ],
+   "members": 0,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Logistics & Supply Chain Management",
+   "uri": "logistics-supply-chain-management",
+   "cats": [
+    "Campus Department"
+   ],
+   "members": 5,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Masquers",
+   "uri": "masquers-3",
+   "cats": [
+    "Creative & Performing Arts",
+    "Armstrong Campus"
+   ],
+   "members": 39,
+   "meets": "Jenkins Hall",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Master of Public Administration Student Association",
+   "uri": "master-of-public-administration-student-association-at-georgia-sothern-university",
+   "cats": [
+    "Statesboro Campus"
+   ],
+   "members": 4,
+   "meets": "5-6 · On-Campus",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Men of Vision and Excellence",
+   "uri": "men-of-vision-and-excellence-2",
+   "cats": [
+    "Professional",
+    "Peer Mentorship"
+   ],
+   "members": 14,
+   "meets": "7:00PM · Williams Center 2015",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Men's Ice Hockey at Georgia Southern",
+   "uri": "mens-ice-hockey-at-georgia-southern",
+   "cats": [
+    "Sports",
+    "Statesboro Campus"
+   ],
+   "members": 5,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Men's Lacrosse Club",
+   "uri": "mens-lacrosse-club-3",
+   "cats": [
+    "Statesboro Campus",
+    "Club Sports/Intramurals"
+   ],
+   "members": 6,
+   "meets": "7-9 PM · RAC Fields",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Men's Soccer Club (Blue)",
+   "uri": "mens-soccer-club-blue-2",
+   "cats": [
+    "Club Sports/Intramurals",
+    "Statesboro Campus"
+   ],
+   "members": 5,
+   "meets": "6-10 PM · RAC North Fields",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Men's Volleyball Club",
+   "uri": "mens-volleyball-club-2",
+   "cats": [
+    "Club Sports/Intramurals",
+    "Statesboro Campus"
+   ],
+   "members": 3,
+   "meets": "7:30-10pm · RAC Aux Gym",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Mens Ultimate Frisbee Club",
+   "uri": "mens-ultimate-frisbee-club-2",
+   "cats": [
+    "Statesboro Campus",
+    "Club Sports/Intramurals"
+   ],
+   "members": 3,
+   "meets": "6:00-9:00pm · RAC",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Minority Advisement Program",
+   "uri": "minority-advisement-program-2",
+   "cats": [
+    "Statesboro Campus",
+    "Peer Mentorship",
+    "Student Affairs Sponsored"
+   ],
+   "members": 28,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Miracle",
+   "uri": "miracle-2",
+   "cats": [
+    "Special Interest",
+    "Statesboro Campus",
+    "Service"
+   ],
+   "members": 93,
+   "meets": "6:00pm · Russell Union",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Model Arab League",
+   "uri": "model-arab-league-2",
+   "cats": [
+    "Cultural",
+    "Academic"
+   ],
+   "members": 6,
+   "meets": "6 pm · On-Campus",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Modern Army Combatives",
+   "uri": "modern-army-combatives",
+   "cats": [
+    "Statesboro Campus",
+    "Special Interest"
+   ],
+   "members": 2,
+   "meets": "Mon/Tue 6-8pm, Thu 6:30-8pm",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Moot Court Association",
+   "uri": "moot-court-association-2",
+   "cats": [
+    "Academic",
+    "Professional",
+    "Armstrong Campus"
+   ],
+   "members": 18,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "National Association for Music Education",
+   "uri": "national-association-for-music-education",
+   "cats": [
+    "Professional",
+    "Creative & Performing Arts",
+    "Statesboro Campus"
+   ],
+   "members": 11,
+   "meets": "7:00pm · Foy 4030",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "National Association For the Advancement of Colored People",
+   "uri": "national-association-for-the-advancement-of-colored-people-3",
+   "cats": [
+    "Service",
+    "Statesboro Campus",
+    "Social Action"
+   ],
+   "members": 53,
+   "meets": "On-Campus",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "National Association of Black Accountants Chapter at Georgia Southern University",
+   "uri": "national-association-of-black-accountants-chapter-at-georgia-southern-university",
+   "cats": [
+    "Professional",
+    "Statesboro Campus",
+    "Cultural"
+   ],
+   "members": 38,
+   "meets": "6:00pm - 7:00pm · IT Building 1005",
+   "desc": "",
+   "upcoming": 1
+  },
+  {
+   "name": "National Council of Negro Women",
+   "uri": "national-council-of-negro-women-2",
+   "cats": [
+    "Professional",
+    "Cultural"
+   ],
+   "members": 13,
+   "meets": "6:00 PM · On Campus",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "National Council of Negro Women Armstrong Section",
+   "uri": "national-council-of-negro-women-armstrong-section",
+   "cats": [
+    "Cultural",
+    "Armstrong Campus"
+   ],
+   "members": 12,
+   "meets": "University Hall 103",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "National Pan-Hellenic Council",
+   "uri": "national-pan-hellenic-council",
+   "cats": [
+    "Social Fraternities and Sororities",
+    "Statesboro Campus"
+   ],
+   "members": 8,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "National Society of Black Engineers",
+   "uri": "national-society-of-black-engineers-2",
+   "cats": [
+    "Academic",
+    "Professional"
+   ],
+   "members": 52,
+   "meets": "7:00pm · On-Campus",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "National Society of Black Women in Medicine",
+   "uri": "national-society-of-black-women-in-medicine",
+   "cats": [
+    "Cultural",
+    "Professional"
+   ],
+   "members": 55,
+   "meets": "6:00-7:30 PM · On-Campus",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "National Student Speech-Language Hearing Association",
+   "uri": "national-student-speech-language-hearing-association-3",
+   "cats": [
+    "Special Interest",
+    "Armstrong Campus"
+   ],
+   "members": 43,
+   "meets": "1:30 · Ogeechee Theatre",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "New Covenant Young Adults on Campus",
+   "uri": "new-covenant-young-adults-on-campus",
+   "cats": [
+    "Service",
+    "Spiritual"
+   ],
+   "members": 6,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Nigerian Students Association",
+   "uri": "nigerian-students-association",
+   "cats": [
+    "Diversity Education and Advocacy",
+    "Cultural",
+    "Statesboro Campus"
+   ],
+   "members": 7,
+   "meets": "6:00pm · Statesboro campus",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Office of Career and Professional Development",
+   "uri": "office-of-career-and-professional-development-2",
+   "cats": [
+    "Campus Department",
+    "Statesboro Campus",
+    "Armstrong Campus",
+    "Liberty Campus"
+   ],
+   "members": 6,
+   "meets": "",
+   "desc": "",
+   "upcoming": 1
+  },
+  {
+   "name": "Office of Fraternity and Sorority Life",
+   "uri": "office-of-fraternity-and-sorority-life",
+   "cats": [
+    "Armstrong Campus",
+    "Statesboro Campus",
+    "Campus Department"
+   ],
+   "members": 6,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Office of Global Engagement",
+   "uri": "office-of-global-engagement",
+   "cats": [
+    "Armstrong Campus",
+    "Campus Department Sponsored",
+    "Statesboro Campus",
+    "Campus Department"
+   ],
+   "members": 0,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Office of Inclusive Excellence",
+   "uri": "office-of-inclusive-excellence",
+   "cats": [
+    "Armstrong Campus",
+    "Campus Department Sponsored",
+    "Statesboro Campus",
+    "Campus Department",
+    "Liberty Campus"
+   ],
+   "members": 1,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Office of International Student Admissions and Programs",
+   "uri": "office-of-international-student-admissions-and-programs",
+   "cats": [
+    "Campus Department Sponsored",
+    "Campus Department"
+   ],
+   "members": 67,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Office of Leadership and Community Engagement",
+   "uri": "office-of-leadership-and-community-engagement-2",
+   "cats": [
+    "Armstrong Campus",
+    "Campus Department",
+    "Statesboro Campus"
+   ],
+   "members": 150,
+   "meets": "",
+   "desc": "",
+   "upcoming": 5
+  },
+  {
+   "name": "Office of Multicultural Affairs",
+   "uri": "office-of-multicultural-affairs-2",
+   "cats": [
+    "Armstrong Campus",
+    "Campus Department",
+    "Statesboro Campus",
+    "Cultural"
+   ],
+   "members": 11,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Office of Research",
+   "uri": "office-of-research",
+   "cats": [
+    "Campus Department Sponsored",
+    "Campus Department",
+    "Academic"
+   ],
+   "members": 1,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Office of Student Activities",
+   "uri": "office-of-student-activities-3",
+   "cats": [
+    "Armstrong Campus",
+    "Campus Department",
+    "Statesboro Campus"
+   ],
+   "members": 31,
+   "meets": "",
+   "desc": "",
+   "upcoming": 2
+  },
+  {
+   "name": "Office of Student Engagement and Support",
+   "uri": "office-of-student-engagement-and-support",
+   "cats": [
+    "Campus Department"
+   ],
+   "members": 4,
+   "meets": "",
+   "desc": "",
+   "upcoming": 1
+  },
+  {
+   "name": "Omega Phi Alpha",
+   "uri": "omega-phi-alpha-2",
+   "cats": [
+    "Service",
+    "Social Fraternities and Sororities"
+   ],
+   "members": 30,
+   "meets": "5:30-7 · On-Campus",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Omega Psi Phi Fraternity, Inc. Zeta Delta Delta Chapter",
+   "uri": "omega-psi-phi-fraternity-inc-zeta-delta-delta-chapter-2",
+   "cats": [
+    "Social Fraternities and Sororities",
+    "Statesboro Campus"
+   ],
+   "members": 4,
+   "meets": "7:00 pm",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "OSIMA",
+   "uri": "osima",
+   "cats": [
+    "Statesboro Campus",
+    "Creative & Performing Arts"
+   ],
+   "members": 7,
+   "meets": "6:00 · IAB",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Panhellenic Association",
+   "uri": "panhellenic-association-2",
+   "cats": [
+    "Social Fraternities and Sororities",
+    "Statesboro Campus"
+   ],
+   "members": 30,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Parker College of Business",
+   "uri": "parker-college-of-business",
+   "cats": [
+    "Campus Department Sponsored",
+    "Campus Department"
+   ],
+   "members": 4,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Phi Beta Sigma Fraternity, Inc.",
+   "uri": "phi-beta-sigma-fraternity-inc-2",
+   "cats": [
+    "Statesboro Campus",
+    "Social Fraternities and Sororities"
+   ],
+   "members": 9,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Phi Delta Epsilon Medical Fraternity",
+   "uri": "phi-delta-epsilon-medical-fraternity-2",
+   "cats": [
+    "Statesboro Campus",
+    "Professional",
+    "Service"
+   ],
+   "members": 15,
+   "meets": "6:30 P.M. · On-Campus",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Phi Delta Theta",
+   "uri": "phi-delta-theta-3",
+   "cats": [
+    "Statesboro Campus",
+    "Social Fraternities and Sororities"
+   ],
+   "members": 12,
+   "meets": "6:30 · 110 Olympic Boulevard",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Phi Eta Sigma",
+   "uri": "phi-eta-sigma-3",
+   "cats": [
+    "Academic",
+    "Honorary"
+   ],
+   "members": 16,
+   "meets": "6:00 pm · On-Campus",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Phi Eta Sigma - Armstrong Chapter",
+   "uri": "phi-eta-sigma-armstrong-chapter",
+   "cats": [
+    "Armstrong Campus",
+    "Academic",
+    "Honorary"
+   ],
+   "members": 3,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Phi Mu",
+   "uri": "phi-mu-2",
+   "cats": [
+    "Statesboro Campus",
+    "Social Fraternities and Sororities"
+   ],
+   "members": 76,
+   "meets": "7:00pm · Phi Mu House",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Phi Mu Alpha Sinfonia Fraternity of America",
+   "uri": "phi-mu-alpha-sinfonia-fraternity-of-america-2",
+   "cats": [
+    "Creative & Performing Arts",
+    "Service",
+    "Statesboro Campus"
+   ],
+   "members": 4,
+   "meets": "On-campus",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Phi Sigma Kappa",
+   "uri": "phi-sigma-kappa-2",
+   "cats": [
+    "Social Fraternities and Sororities",
+    "Statesboro Campus"
+   ],
+   "members": 1,
+   "meets": "7:00pm",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Phi Sigma Pi National Honors Fraternity",
+   "uri": "phi-sigma-pi-national-honors-fraternity",
+   "cats": [
+    "Academic",
+    "Social Fraternities and Sororities"
+   ],
+   "members": 18,
+   "meets": "7:00 pm · On Campus",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Phi Sigma Tau Georgia Eta Chapter",
+   "uri": "phi-sigma-tau-georgia-eta-chapter",
+   "cats": [
+    "Statesboro Campus",
+    "Academic",
+    "Honorary",
+    "Special Interest",
+    "Peer Mentorship"
+   ],
+   "members": 4,
+   "meets": "5:30-6:30PM · Newton 1111",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Physical Therapy Club at Georgia Southern University",
+   "uri": "physical-therapy-club-at-georgia-southern-university-2",
+   "cats": [
+    "Academic",
+    "Professional",
+    "Armstrong Campus"
+   ],
+   "members": 67,
+   "meets": "12:30pm · On-Campus",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Pi Kappa Alpha",
+   "uri": "pi-kappa-alpha-3",
+   "cats": [
+    "Social Fraternities and Sororities",
+    "Statesboro Campus"
+   ],
+   "members": 4,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Pi Sigma Epsilon",
+   "uri": "pi-sigma-epsilon-2",
+   "cats": [
+    "Statesboro Campus",
+    "Professional",
+    "Peer Mentorship"
+   ],
+   "members": 11,
+   "meets": "6-7pm · PCOB 3319A",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Political Science Club",
+   "uri": "political-science-club-2",
+   "cats": [
+    "Statesboro Campus",
+    "Political Action"
+   ],
+   "members": 19,
+   "meets": "4:30 PM · Carroll 2221",
+   "desc": "",
+   "upcoming": 1
+  },
+  {
+   "name": "Powerlifting Club at Georgia Southern University",
+   "uri": "powerlifting-club-at-georgia-southern-university",
+   "cats": [
+    "Club Sports/Intramurals",
+    "Sports"
+   ],
+   "members": 12,
+   "meets": "Tue 7-9pm & Sat 1-3pm · RAC",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Pre-Anesthesia Association",
+   "uri": "pre-anesthesia-association",
+   "cats": [
+    "Service",
+    "Professional",
+    "Statesboro Campus",
+    "Peer Mentorship"
+   ],
+   "members": 12,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Pre-Anesthesia Club",
+   "uri": "pre-anesthesia-club",
+   "cats": [
+    "Academic",
+    "Armstrong Campus"
+   ],
+   "members": 2,
+   "meets": "6:00 pm · HPAB 210",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Pre-Dental Society",
+   "uri": "pre-dental-society-2",
+   "cats": [
+    "Professional",
+    "Academic",
+    "Statesboro Campus"
+   ],
+   "members": 20,
+   "meets": "6:30-7:30 PM · On-Campus",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Pre-Dental Society Armstrong",
+   "uri": "pre-dental-society-armstrong",
+   "cats": [
+    "Professional",
+    "Armstrong Campus"
+   ],
+   "members": 8,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Pre-Law Student Association",
+   "uri": "pre-law-student-association",
+   "cats": [
+    "Statesboro Campus",
+    "Professional",
+    "Peer Mentorship"
+   ],
+   "members": 55,
+   "meets": "6:00pm · Carroll Building 2262",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Pre-Med Association",
+   "uri": "pre-med-association",
+   "cats": [
+    "Special Interest",
+    "Service",
+    "Academic",
+    "Statesboro Campus"
+   ],
+   "members": 62,
+   "meets": "6:00 PM · IAB 1012",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Pre-Medical Association",
+   "uri": "pre-medical-association-2",
+   "cats": [
+    "Academic",
+    "Professional",
+    "Armstrong Campus"
+   ],
+   "members": 23,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Pre-Physician Assistant Association",
+   "uri": "pre-physician-assistant-association-2",
+   "cats": [
+    "Professional",
+    "Statesboro Campus",
+    "Special Interest"
+   ],
+   "members": 44,
+   "meets": "6:00 PM",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Progressive Black Men",
+   "uri": "progressive-black-men",
+   "cats": [
+    "Peer Mentorship",
+    "Statesboro Campus",
+    "Academic",
+    "Professional"
+   ],
+   "members": 3,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Psi Chi International Honor Society",
+   "uri": "psi-chi-international-honor-society-3",
+   "cats": [
+    "Honorary",
+    "Academic"
+   ],
+   "members": 23,
+   "meets": "5:00 pm · Virtual",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Public Health Student Association",
+   "uri": "public-health-student-association-2",
+   "cats": [
+    "Professional",
+    "Statesboro Campus",
+    "Social Action"
+   ],
+   "members": 15,
+   "meets": "5:00pm · Hendricks Hall Lobby",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Public Relations Student Society of America",
+   "uri": "public-relations-student-society-of-america-3",
+   "cats": [
+    "Academic",
+    "Professional"
+   ],
+   "members": 6,
+   "meets": "6 p.m. · Sanford Hall",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Recreation Students Association",
+   "uri": "recreation-students-association",
+   "cats": [
+    "Service",
+    "Statesboro Campus",
+    "Academic"
+   ],
+   "members": 2,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Red Cross Eagles",
+   "uri": "red-cross-eagles-2",
+   "cats": [
+    "Service"
+   ],
+   "members": 21,
+   "meets": "Interdisciplinary Academic Building",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Reformed University Fellowship",
+   "uri": "reformed-university-fellowship-2",
+   "cats": [
+    "Statesboro Campus",
+    "Service",
+    "Spiritual"
+   ],
+   "members": 6,
+   "meets": "7 pm · Russell Union",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Residence Hall Association - Armstrong Campus",
+   "uri": "residence-hall-association-armstrong-campus",
+   "cats": [
+    "Student Affairs Sponsored",
+    "Special Interest",
+    "Armstrong Campus"
+   ],
+   "members": 1,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Resourceful Ambassadors of Medicine",
+   "uri": "resourceful-ambassadors-of-medicine",
+   "cats": [
+    "Service",
+    "Social Action"
+   ],
+   "members": 37,
+   "meets": "6:00-7:00 PM · IAB 1015",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Restoring the Breach, Inc.",
+   "uri": "restoring-the-breach-inc-2",
+   "cats": [
+    "Service",
+    "Statesboro Campus"
+   ],
+   "members": 22,
+   "meets": "On-Campus/Virtual",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "RoyalGen Campus Ministry",
+   "uri": "royalgen-campus-ministry",
+   "cats": [
+    "Spiritual",
+    "Peer Mentorship",
+    "Statesboro Campus"
+   ],
+   "members": 12,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Saba M. Jallow Model African Union",
+   "uri": "saba-m-jallow-model-african-union",
+   "cats": [
+    "Diversity Education and Advocacy",
+    "Political Action"
+   ],
+   "members": 11,
+   "meets": "5:30PM",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "SAE Eagle Motorsports",
+   "uri": "sae-eagle-motorsports-2",
+   "cats": [
+    "Professional",
+    "Special Interest"
+   ],
+   "members": 22,
+   "meets": "6:00pm · Carruth Building",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "School of Accountancy",
+   "uri": "school-of-accountancy",
+   "cats": [
+    "Campus Department",
+    "Campus Department Sponsored"
+   ],
+   "members": 5,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "School of Earth, Environment and Sustainability",
+   "uri": "school-of-earth-environment-and-sustainability",
+   "cats": [
+    "Campus Department Sponsored",
+    "Campus Department"
+   ],
+   "members": 6,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "School of Human Ecology",
+   "uri": "school-of-human-ecology",
+   "cats": [
+    "Campus Department"
+   ],
+   "members": 0,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "School of Nursing",
+   "uri": "school-of-nursing",
+   "cats": [
+    "Campus Department Sponsored",
+    "Campus Department"
+   ],
+   "members": 23,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "School Psychology Student Association",
+   "uri": "school-psychology-student-association-2",
+   "cats": [
+    "Statesboro Campus",
+    "Professional",
+    "Special Interest"
+   ],
+   "members": 30,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Service Learning Ambassador",
+   "uri": "service-learning-ambassador",
+   "cats": [
+    "Statesboro Campus",
+    "Service"
+   ],
+   "members": 1,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Shooting Sports Club at Georgia Southern",
+   "uri": "shooting-sports-club-at-georgia-southern-2",
+   "cats": [
+    "Special Interest",
+    "Club Sports/Intramurals",
+    "Statesboro Campus"
+   ],
+   "members": 22,
+   "meets": "7:00-9:00pm · Shooting Sports Education Center",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Sigma Alpha Epsilon - Georgia Alpha",
+   "uri": "sigma-alpha-epsilon-georgia-alpha-2",
+   "cats": [
+    "Social Fraternities and Sororities",
+    "Service",
+    "Statesboro Campus"
+   ],
+   "members": 1,
+   "meets": "7:00 pm · SAE House",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Sigma Alpha Iota",
+   "uri": "sigma-alpha-iota-3",
+   "cats": [
+    "Social Fraternities and Sororities",
+    "Statesboro Campus",
+    "Creative & Performing Arts"
+   ],
+   "members": 6,
+   "meets": "6:45-7:45 · Foy 4027",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Sigma Chi Fraternity",
+   "uri": "sigma-chi-fraternity-2",
+   "cats": [
+    "Social Fraternities and Sororities",
+    "Statesboro Campus"
+   ],
+   "members": 3,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Sigma Gamma Rho Sorority, Inc.",
+   "uri": "sigma-gamma-rho-sorority-inc-2",
+   "cats": [
+    "Statesboro Campus",
+    "Social Fraternities and Sororities"
+   ],
+   "members": 11,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Sigma Lambda Gamma National Sorority Inc.",
+   "uri": "sigma-lambda-gamma-national-sorority-inc-2",
+   "cats": [
+    "Statesboro Campus",
+    "Cultural",
+    "Social Fraternities and Sororities"
+   ],
+   "members": 3,
+   "meets": "6:00 pm · Russell Union 2001B",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Sigma Nu Fraternity",
+   "uri": "sigma-nu-fraternity",
+   "cats": [
+    "Social Fraternities and Sororities",
+    "Statesboro Campus"
+   ],
+   "members": 0,
+   "meets": "103 Olympic Blvd.",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Sigma Sigma Sigma",
+   "uri": "sigma-sigma-sigma-2",
+   "cats": [
+    "Armstrong Campus",
+    "Social Fraternities and Sororities"
+   ],
+   "members": 5,
+   "meets": "7:00pm · University Hall",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "SISTUHS Inc",
+   "uri": "sistuhs-inc-2",
+   "cats": [
+    "Service"
+   ],
+   "members": 15,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "SOAR - Orientation",
+   "uri": "soar-orientation-2",
+   "cats": [
+    "Statesboro Campus",
+    "Campus Department"
+   ],
+   "members": 1,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Society for Human Resource Management",
+   "uri": "society-for-human-resource-management-3",
+   "cats": [
+    "Professional",
+    "Academic"
+   ],
+   "members": 9,
+   "meets": "5pm · Parker College of Business 1107",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Society of Hispanic Professional Engineers",
+   "uri": "society-of-hispanic-professional-engineers",
+   "cats": [
+    "Academic",
+    "Statesboro Campus",
+    "Professional"
+   ],
+   "members": 2,
+   "meets": "7 pm · Engineering Building",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Society of Innovative Collegiate Engineers",
+   "uri": "society-of-innovative-collegiate-engineers",
+   "cats": [
+    "Honorary",
+    "Professional"
+   ],
+   "members": 3,
+   "meets": "2:30PM · On-Campus",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Society of Physics Students",
+   "uri": "society-of-physics-students-2",
+   "cats": [
+    "Academic",
+    "Professional"
+   ],
+   "members": 18,
+   "meets": "6:30pm · Math/Physics 2023",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Society of Women Engineers",
+   "uri": "society-of-women-engineers-2",
+   "cats": [
+    "Statesboro Campus",
+    "Academic"
+   ],
+   "members": 11,
+   "meets": "7:00 · On-Campus",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Southern Ambassadors",
+   "uri": "southern-ambassadors-2",
+   "cats": [
+    "Statesboro Campus",
+    "Campus Department"
+   ],
+   "members": 11,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Southern Bass Anglers",
+   "uri": "southern-bass-anglers-2",
+   "cats": [
+    "Statesboro Campus",
+    "Club Sports/Intramurals"
+   ],
+   "members": 3,
+   "meets": "5:30 · RAC",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Southern Clay Target Team",
+   "uri": "southern-clay-target-team-2",
+   "cats": [
+    "Sports",
+    "Special Interest"
+   ],
+   "members": 7,
+   "meets": "5-7 pm · Shooting Sports Education Center",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Southern Eagles Archery",
+   "uri": "southern-eagles-archery-2",
+   "cats": [
+    "Statesboro Campus",
+    "Sports"
+   ],
+   "members": 10,
+   "meets": "7:30-9:00 · Shooting Sports Education Center",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Southern Exercise Science Club",
+   "uri": "southern-exercise-science-club-2",
+   "cats": [
+    "Academic",
+    "Service",
+    "Statesboro Campus"
+   ],
+   "members": 64,
+   "meets": "6:00 P.M. · Monthly, on campus",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Southern Furs and Feathers",
+   "uri": "southern-furs-and-feathers",
+   "cats": [
+    "Cultural",
+    "Special Interest",
+    "Creative & Performing Arts",
+    "Statesboro Campus"
+   ],
+   "members": 10,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Southern Investment Association",
+   "uri": "southern-investment-association-2",
+   "cats": [
+    "Academic",
+    "Professional"
+   ],
+   "members": 7,
+   "meets": "5:00-6:15 · Parker College of Business 1120",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Southern Leaders",
+   "uri": "southern-leaders-2",
+   "cats": [
+    "Campus Department",
+    "Statesboro Campus",
+    "Student Affairs Sponsored"
+   ],
+   "members": 83,
+   "meets": "",
+   "desc": "",
+   "upcoming": 2
+  },
+  {
+   "name": "Southern Robotics",
+   "uri": "southern-robotics",
+   "cats": [
+    "Special Interest"
+   ],
+   "members": 12,
+   "meets": "6:00-8:00 pm · On-Campus",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Southern Social Club",
+   "uri": "southern-social-club",
+   "cats": [
+    "Social Action"
+   ],
+   "members": 5,
+   "meets": "5pm-8pm · On-Campus",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Spades Club",
+   "uri": "spades-club",
+   "cats": [
+    "Cultural",
+    "Diversity Education and Advocacy",
+    "Statesboro Campus"
+   ],
+   "members": 10,
+   "meets": "5pm · IAB 1012",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Spanish Club",
+   "uri": "spanish-club",
+   "cats": [
+    "Special Interest",
+    "Cultural",
+    "Statesboro Campus"
+   ],
+   "members": 35,
+   "meets": "5:00-6:00 · IAB 2030",
+   "desc": "",
+   "upcoming": 2
+  },
+  {
+   "name": "Spanish Club Armstrong",
+   "uri": "spanish-club-armstrong",
+   "cats": [
+    "Armstrong Campus",
+    "Cultural"
+   ],
+   "members": 37,
+   "meets": "Gamble Hall 120",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Speech and debate",
+   "uri": "speech-and-debate",
+   "cats": [
+    "Statesboro Campus",
+    "Social Action",
+    "Special Interest"
+   ],
+   "members": 22,
+   "meets": "6:00pm-7:30pm · On-campus",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Sport and Exercise Psychology Club",
+   "uri": "sport-and-exercise-psychology-club-2",
+   "cats": [
+    "Academic",
+    "Special Interest"
+   ],
+   "members": 10,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Sport Management Majors Club",
+   "uri": "sport-management-majors-club",
+   "cats": [
+    "Statesboro Campus",
+    "Academic",
+    "Sports"
+   ],
+   "members": 14,
+   "meets": "4:30pm · Education Building 1127",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Student Academy of Audiology",
+   "uri": "student-academy-of-audiology-3",
+   "cats": [
+    "Armstrong Campus",
+    "Professional"
+   ],
+   "members": 10,
+   "meets": "1 pm · On-Campus",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Student Accessibility Resource Center",
+   "uri": "student-accessibility-resource-center",
+   "cats": [
+    "Campus Department"
+   ],
+   "members": 0,
+   "meets": "",
+   "desc": "",
+   "upcoming": 2
+  },
+  {
+   "name": "Student Affiliates of the American Chemical Society",
+   "uri": "student-affiliates-of-the-american-chemical-society-2",
+   "cats": [
+    "Academic",
+    "Statesboro Campus",
+    "Professional"
+   ],
+   "members": 27,
+   "meets": "6:00 p.m. · Nursing/Chemistry 3228",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Student Alumni Association",
+   "uri": "student-alumni-association",
+   "cats": [
+    "Special Interest",
+    "Campus Department",
+    "Campus Department Sponsored"
+   ],
+   "members": 5,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Student Employment Center",
+   "uri": "student-employment-center-4",
+   "cats": [
+    "Campus Department",
+    "Campus Department Sponsored"
+   ],
+   "members": 3,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Student Government Association",
+   "uri": "student-government-association-3",
+   "cats": [
+    "Campus Department Sponsored"
+   ],
+   "members": 20,
+   "meets": "5:30-7:30 pm · Russell Union Ballroom",
+   "desc": "",
+   "upcoming": 1
+  },
+  {
+   "name": "Student Nurses' Association",
+   "uri": "student-nurses-association-3",
+   "cats": [
+    "Service",
+    "Academic",
+    "Statesboro Campus"
+   ],
+   "members": 46,
+   "meets": "5:00 PM · Nursing/Chemistry 3022",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Student Nurses' Association of Georgia Southern University - Armstrong",
+   "uri": "student-nurses-association-of-georgia-southern-university-armstrong-2",
+   "cats": [
+    "Service",
+    "Professional",
+    "Armstrong Campus"
+   ],
+   "members": 20,
+   "meets": "Varies with nursing schedules",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Student Pokemon Association",
+   "uri": "student-pokemon-association",
+   "cats": [
+    "Special Interest",
+    "Statesboro Campus"
+   ],
+   "members": 15,
+   "meets": "6-8 PM · On-Campus",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Student Union Facilities and Event Services",
+   "uri": "student-union-facilities-and-event-services",
+   "cats": [
+    "Campus Department",
+    "Statesboro Campus",
+    "Campus Department Sponsored"
+   ],
+   "members": 1,
+   "meets": "",
+   "desc": "",
+   "upcoming": 1
+  },
+  {
+   "name": "Student Veterans of America: Statesboro Chapter",
+   "uri": "student-veterans-of-america-statesboro-chapter",
+   "cats": [
+    "Special Interest",
+    "Statesboro Campus"
+   ],
+   "members": 22,
+   "meets": "3:00PM · Military Resource Center",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Student Wellness and Health Promotion",
+   "uri": "student-wellness-and-health-promotion",
+   "cats": [
+    "Armstrong Campus",
+    "Statesboro Campus",
+    "Campus Department"
+   ],
+   "members": 10,
+   "meets": "",
+   "desc": "",
+   "upcoming": 2
+  },
+  {
+   "name": "Students with Disabilities Advocacy Group",
+   "uri": "students-with-disabilities-advocacy-group",
+   "cats": [
+    "Social Action",
+    "Diversity Education and Advocacy"
+   ],
+   "members": 11,
+   "meets": "5:00pm · IAB and virtual",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Surveying and Mapping Society of Georgia - Georgia Southern Chapter",
+   "uri": "surveying-and-mapping-society-of-georgia-georgia-southern-chapter",
+   "cats": [
+    "Special Interest",
+    "Professional"
+   ],
+   "members": 8,
+   "meets": "6:00pm-7:00pm · On Campus",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Swim Club",
+   "uri": "swim-club-2",
+   "cats": [
+    "Statesboro Campus",
+    "Club Sports/Intramurals"
+   ],
+   "members": 6,
+   "meets": "6:30-8:30 · RAC",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Tau Beta Pi",
+   "uri": "tau-beta-pi-2",
+   "cats": [
+    "Statesboro Campus",
+    "Professional",
+    "Honorary"
+   ],
+   "members": 16,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Tau Kappa Epsilon (TKE)",
+   "uri": "tau-kappa-epsilon-tke",
+   "cats": [
+    "Statesboro Campus",
+    "Professional",
+    "Social Fraternities and Sororities"
+   ],
+   "members": 4,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Tau Sigma National Honor Society",
+   "uri": "tau-sigma-national-honor-society-2",
+   "cats": [
+    "Statesboro Campus",
+    "Academic",
+    "Campus Department",
+    "Honorary"
+   ],
+   "members": 3,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Tennis Club",
+   "uri": "tennis-club-2",
+   "cats": [
+    "Club Sports/Intramurals",
+    "Statesboro Campus"
+   ],
+   "members": 9,
+   "meets": "6:30-8:00 · Hanner Fieldhouse",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "The 5ive Star Elite Stomp N Shake University",
+   "uri": "the-5ive-star-elite-stomp-n-shake-university",
+   "cats": [
+    "Club Sports/Intramurals"
+   ],
+   "members": 6,
+   "meets": "6pm-8pm · RAC",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "The Black Book Club",
+   "uri": "the-black-book-club",
+   "cats": [
+    "Diversity Education and Advocacy",
+    "Cultural"
+   ],
+   "members": 14,
+   "meets": "6 pm · IT Building 1206",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "The Blue Print",
+   "uri": "the-blue-print",
+   "cats": [
+    "Statesboro Campus",
+    "Creative & Performing Arts",
+    "Sports",
+    "Cultural"
+   ],
+   "members": 17,
+   "meets": "Tue & Thu 6-8pm, Sat 12-2:30pm",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "The Department of Leadership, Technology and Human Development",
+   "uri": "the-department-of-leadership-technology-and-human-development",
+   "cats": [
+    "Campus Department",
+    "Campus Department Sponsored"
+   ],
+   "members": 2,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "The Department of Management",
+   "uri": "the-department-of-management",
+   "cats": [
+    "Campus Department Sponsored",
+    "Campus Department"
+   ],
+   "members": 0,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "The Department of Psychology",
+   "uri": "the-department-of-psychology",
+   "cats": [
+    "Campus Department Sponsored",
+    "Campus Department"
+   ],
+   "members": 6,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "The George-Anne Media Group (Student Media)",
+   "uri": "the-george-anne-media-group-student-media",
+   "cats": [
+    "Armstrong Campus",
+    "Statesboro Campus",
+    "Creative & Performing Arts"
+   ],
+   "members": 72,
+   "meets": "",
+   "desc": "",
+   "upcoming": 2
+  },
+  {
+   "name": "The Honors College",
+   "uri": "the-honors-college",
+   "cats": [
+    "Campus Department",
+    "Statesboro Campus",
+    "Armstrong Campus"
+   ],
+   "members": 1039,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "The Institute for Health Logistics & Analytics",
+   "uri": "the-institute-for-health-logistics-analytics",
+   "cats": [
+    "Campus Department"
+   ],
+   "members": 0,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "The Manufacturing Engineering Department",
+   "uri": "the-manufacturing-engineering-department",
+   "cats": [
+    "Campus Department",
+    "Campus Department Sponsored"
+   ],
+   "members": 1,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "The McNair Scholars Program",
+   "uri": "the-mcnair-scholars-program",
+   "cats": [
+    "Campus Department",
+    "Campus Department Sponsored"
+   ],
+   "members": 0,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "The Ultimate Chess Club",
+   "uri": "the-ultimate-chess-club",
+   "cats": [
+    "Special Interest",
+    "Armstrong Campus"
+   ],
+   "members": 2,
+   "meets": "Lane Library",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Theatre South",
+   "uri": "theatre-south-2",
+   "cats": [
+    "Special Interest",
+    "Creative & Performing Arts",
+    "Statesboro Campus"
+   ],
+   "members": 28,
+   "meets": "5:30pm · On-Campus",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Theta Xi Fraternity",
+   "uri": "theta-xi-fraternity-2",
+   "cats": [
+    "Statesboro Campus",
+    "Social Fraternities and Sororities"
+   ],
+   "members": 1,
+   "meets": "7:00 PM · 111 Olympic Blvd",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "This is Your Sign",
+   "uri": "this-is-your-sign",
+   "cats": [
+    "Statesboro Campus",
+    "Armstrong Campus",
+    "Diversity Education and Advocacy"
+   ],
+   "members": 11,
+   "meets": "Armstrong 6:00 pm, Statesboro 6:15 pm",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Trio Student Support Services-Armstrong",
+   "uri": "trio-student-support-services-armstrong-2",
+   "cats": [
+    "Armstrong Campus",
+    "Campus Department"
+   ],
+   "members": 9,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "True Blue Recovery at the Center for Addiction Recovery",
+   "uri": "true-blue-recovery-at-the-center-for-addiction-recovery",
+   "cats": [
+    "Campus Department",
+    "Statesboro Campus"
+   ],
+   "members": 3,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Turkish Club",
+   "uri": "turkish-club",
+   "cats": [
+    "Cultural"
+   ],
+   "members": 3,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Turning Point USA",
+   "uri": "turning-point-usa",
+   "cats": [
+    "Spiritual",
+    "Social Action",
+    "Service",
+    "Professional",
+    "Statesboro Campus"
+   ],
+   "members": 13,
+   "meets": "6:00 pm · Parker College of Business 1111",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "UKirk Campus Ministry",
+   "uri": "ukirk-campus-ministry",
+   "cats": [
+    "Spiritual",
+    "Statesboro Campus"
+   ],
+   "members": 6,
+   "meets": "6:30-8 pm · First Presbyterian Church",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Unity",
+   "uri": "unity",
+   "cats": [
+    "Special Interest",
+    "Social Action"
+   ],
+   "members": 25,
+   "meets": "5:00 PM to 6:30 PM",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "University Housing - Armstrong Campus",
+   "uri": "university-housing-armstrong-campus-2",
+   "cats": [
+    "Armstrong Campus",
+    "Campus Department"
+   ],
+   "members": 1,
+   "meets": "",
+   "desc": "",
+   "upcoming": 1
+  },
+  {
+   "name": "University Housing - Statesboro Campus",
+   "uri": "university-housing-statesboro-campus",
+   "cats": [
+    "Statesboro Campus",
+    "Campus Department",
+    "Armstrong Campus"
+   ],
+   "members": 1,
+   "meets": "",
+   "desc": "",
+   "upcoming": 1
+  },
+  {
+   "name": "University Programming Board - Armstrong Campus",
+   "uri": "university-programming-board-armstrong-campus-3",
+   "cats": [
+    "Armstrong Campus",
+    "Student Affairs Sponsored"
+   ],
+   "members": 25,
+   "meets": "5:00pm · Skidaway Conference Room",
+   "desc": "",
+   "upcoming": 3
+  },
+  {
+   "name": "University Programming Board - Statesboro Campus",
+   "uri": "university-programming-board-statesboro-campus-4",
+   "cats": [
+    "Student Affairs Sponsored",
+    "Special Interest",
+    "Statesboro Campus"
+   ],
+   "members": 238,
+   "meets": "6-7:30 p.m. · On-Campus",
+   "desc": "",
+   "upcoming": 6
+  },
+  {
+   "name": "University Store",
+   "uri": "university-store",
+   "cats": [
+    "Campus Department"
+   ],
+   "members": 1,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Vida Volunteer",
+   "uri": "vida-volunteer-2",
+   "cats": [
+    "Service",
+    "Professional"
+   ],
+   "members": 9,
+   "meets": "6:30pm · Russell Union 2075",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Virtual Collaboration Center",
+   "uri": "virtual-collaboration-center",
+   "cats": [
+    "Campus Department",
+    "Statesboro Campus"
+   ],
+   "members": 3,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Visage Fashion Company",
+   "uri": "visage-fashion-company-3",
+   "cats": [
+    "Creative & Performing Arts",
+    "Cultural"
+   ],
+   "members": 21,
+   "meets": "7pm - 9pm · Hollis Building",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Waters College of Health Professions",
+   "uri": "waters-college-of-health-professions",
+   "cats": [
+    "Campus Department Sponsored",
+    "Campus Department"
+   ],
+   "members": 2,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Waters College of Health Professions Advisement Center",
+   "uri": "waters-college-of-health-professions-advisement-center",
+   "cats": [
+    "Campus Department Sponsored",
+    "Campus Department"
+   ],
+   "members": 0,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Watson Hall",
+   "uri": "watson-hall-2",
+   "cats": [
+    "Statesboro Campus",
+    "University Housing"
+   ],
+   "members": 1,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Wesley Foundation, Inc.",
+   "uri": "wesley-foundation-inc-2",
+   "cats": [
+    "Spiritual",
+    "Service",
+    "Statesboro Campus"
+   ],
+   "members": 3,
+   "meets": "7:30 · 103 Herty Drive",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Women Impacting Supply Chain Excellence at Parker College of Business",
+   "uri": "women-impacting-supply-chain-excellence-at-parker-college-of-business",
+   "cats": [
+    "Statesboro Campus",
+    "Professional",
+    "Peer Mentorship"
+   ],
+   "members": 32,
+   "meets": "12:00PM/5:00PM · PCOB",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Women In Business",
+   "uri": "women-in-business-3",
+   "cats": [
+    "Professional",
+    "Academic"
+   ],
+   "members": 62,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Women in Technology Campus at Georgia Southern University",
+   "uri": "women-in-technology-campus-at-georgia-southern-university",
+   "cats": [
+    "Statesboro Campus",
+    "Academic",
+    "Professional",
+    "Special Interest"
+   ],
+   "members": 6,
+   "meets": "6:40/7:00pm · IT Building 2202",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Women's Club Soccer",
+   "uri": "womens-club-soccer-2",
+   "cats": [
+    "Club Sports/Intramurals",
+    "Statesboro Campus"
+   ],
+   "members": 6,
+   "meets": "RAC fields",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Women's Club Ultimate Frisbee",
+   "uri": "womens-club-ultimate-frisbee-2",
+   "cats": [
+    "Statesboro Campus",
+    "Sports"
+   ],
+   "members": 4,
+   "meets": "6:30-8:30pm · North Fields",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Women's Club Volleyball",
+   "uri": "womens-club-volleyball-2",
+   "cats": [
+    "Club Sports/Intramurals",
+    "Statesboro Campus"
+   ],
+   "members": 7,
+   "meets": "8-10 PM · AUX Gym in the RAC",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Women's Flag Football Club",
+   "uri": "womens-flag-football-club",
+   "cats": [
+    "Club Sports/Intramurals",
+    "Statesboro Campus"
+   ],
+   "members": 1,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Women's Ice Hockey Club",
+   "uri": "womens-ice-hockey-club",
+   "cats": [
+    "Club Sports/Intramurals"
+   ],
+   "members": 4,
+   "meets": "9:30-10:30 · Ice Cove",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Women's, Gender, and Sexuality Studies Program",
+   "uri": "womens-gender-and-sexuality-studies-program-2",
+   "cats": [
+    "Statesboro Campus",
+    "Academic",
+    "Campus Department"
+   ],
+   "members": 2,
+   "meets": "",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Young Democratic Socialists of Georgia Southern",
+   "uri": "young-democratic-socialists-of-georgia-southern",
+   "cats": [
+    "Statesboro Campus",
+    "Political Action"
+   ],
+   "members": 16,
+   "meets": "5:30 · Newton",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Young Democrats of Georgia Southern",
+   "uri": "young-democrats-of-georgia-southern-2",
+   "cats": [
+    "Social Action",
+    "Political Action"
+   ],
+   "members": 5,
+   "meets": "6:30pm · On-Campus",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Young Life",
+   "uri": "young-life-2",
+   "cats": [
+    "Spiritual",
+    "Statesboro Campus",
+    "Service"
+   ],
+   "members": 32,
+   "meets": "8:00pm · 124 Savannah Ave Suite 1H",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Youth Fellowship International",
+   "uri": "youth-fellowship-international-2",
+   "cats": [
+    "Statesboro Campus"
+   ],
+   "members": 7,
+   "meets": "6-7 P.M. · Carroll Building 2226",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Zeta Phi Beta Sorority Inc. Epsilon Xi Chapter",
+   "uri": "zeta-phi-beta-sorority-inc-epsilon-xi-chapter",
+   "cats": [
+    "Statesboro Campus",
+    "Social Fraternities and Sororities"
+   ],
+   "members": 11,
+   "meets": "7:20pm · Interdisciplinary Academic Building",
+   "desc": "",
+   "upcoming": 0
+  },
+  {
+   "name": "Zeta Tau Alpha",
+   "uri": "zeta-tau-alpha-2",
+   "cats": [
+    "Academic",
+    "Service",
+    "Social Fraternities and Sororities",
+    "Statesboro Campus"
+   ],
+   "members": 101,
+   "meets": "7:00 pm · Zeta Tau Alpha House",
+   "desc": "",
+   "upcoming": 0
+  }
+ ]
+}

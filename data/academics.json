@@ -1,0 +1,1165 @@
+{
+ "source": "Georgia Southern degrees, colleges and advisement-location pages, checked 2026-10-29",
+ "advisingArmstrong": {
+  "name": "Armstrong Campus Advising",
+  "where": "Student Success Complex, Armstrong Campus",
+  "phone": "912-344-2570",
+  "email": "advisearmstrong@georgiasouthern.edu",
+  "url": "https://www.georgiasouthern.edu/academics/advising/advisement-locations/armstrong"
+ },
+ "advisingLinks": [
+  {
+   "label": "Schedule an advising appointment",
+   "url": "https://georgiasouthern.edu/academics/advising/scheduling-an-appointment/"
+  },
+  {
+   "label": "Are you on track?",
+   "url": "https://georgiasouthern.edu/academics/advising/are-you-on-track/"
+  },
+  {
+   "label": "Academics 101",
+   "url": "https://georgiasouthern.edu/academics/advising/academics-101/"
+  },
+  {
+   "label": "Minors",
+   "url": "https://georgiasouthern.edu/academics/advising/minors/"
+  },
+  {
+   "label": "Course catalogs",
+   "url": "https://www.georgiasouthern.edu/em/registrar/resources/catalogs/"
+  },
+  {
+   "label": "Register for classes",
+   "url": "https://www.georgiasouthern.edu/register/"
+  }
+ ],
+ "colleges": [
+  {
+   "id": "cec",
+   "name": "Allen E. Paulson College of Engineering & Computing",
+   "short": "Engineering & Computing",
+   "home": "https://georgiasouthern.edu/colleges/engineering-computing/",
+   "newsPage": "https://www.georgiasouthern.edu/tag/allen-e-paulson-college-of-engineering-and-computing",
+   "newsFeed": "https://www.georgiasouthern.edu/tag/allen-e-paulson-college-of-engineering-and-computing/feed/",
+   "advising": {
+    "name": "Engineering & Computing Advising",
+    "where": "IT Building, Suite 1208",
+    "phone": "912-478-4877",
+    "email": "cecstudentservices@georgiasouthern.edu",
+    "url": "https://www.georgiasouthern.edu/academics/advising/advisement-locations/statesboro/engineering-computing"
+   },
+   "departments": [
+    {
+     "id": "civil",
+     "name": "Civil Engineering & Construction",
+     "url": "https://georgiasouthern.edu/colleges/engineering-computing/departments/civil-engineering-construction/"
+    },
+    {
+     "id": "cs",
+     "name": "Computer Science",
+     "url": "https://georgiasouthern.edu/colleges/engineering-computing/departments/computer-science/"
+    },
+    {
+     "id": "ece",
+     "name": "Electrical & Computer Engineering",
+     "url": "https://georgiasouthern.edu/colleges/engineering-computing/departments/electrical-computer-engineering/"
+    },
+    {
+     "id": "it",
+     "name": "Information Technology",
+     "url": "https://georgiasouthern.edu/colleges/engineering-computing/departments/information-technology/"
+    },
+    {
+     "id": "mfg",
+     "name": "Manufacturing Engineering",
+     "url": "https://georgiasouthern.edu/colleges/engineering-computing/departments/manufacturing-engineering/"
+    },
+    {
+     "id": "me",
+     "name": "Mechanical Engineering",
+     "url": "https://georgiasouthern.edu/colleges/engineering-computing/departments/mechanical-engineering/"
+    }
+   ],
+   "resources": [
+    {
+     "label": "College student resources",
+     "url": "https://georgiasouthern.edu/colleges/engineering-computing/students"
+    }
+   ],
+   "keywords": [
+    "engineering",
+    "computing",
+    "computer science",
+    "information technology",
+    "robot",
+    "Engineering Building",
+    "Engineering and Research",
+    "Information Technology Building",
+    "IT Building",
+    "cyber",
+    "coding",
+    "hackathon"
+   ]
+  },
+  {
+   "id": "cah",
+   "name": "College of Arts & Humanities",
+   "short": "Arts & Humanities",
+   "home": "https://georgiasouthern.edu/colleges/arts-humanities/",
+   "newsPage": "https://www.georgiasouthern.edu/tag/college-of-arts-and-humanities",
+   "newsFeed": "https://www.georgiasouthern.edu/tag/college-of-arts-and-humanities/feed/",
+   "advising": {
+    "name": "Arts & Humanities Advising",
+    "where": "Interdisciplinary Academic Building, Room 1040",
+    "phone": "912-478-7740",
+    "email": "cah-advisor@georgiasouthern.edu",
+    "url": "https://www.georgiasouthern.edu/academics/advising/advisement-locations/statesboro/arts-humanities"
+   },
+   "departments": [
+    {
+     "id": "art",
+     "name": "Betty Foy Sanders Department of Art",
+     "url": "https://georgiasouthern.edu/colleges/arts-humanities/departments/art/"
+    },
+    {
+     "id": "comm",
+     "name": "Communication Arts",
+     "url": "https://georgiasouthern.edu/colleges/arts-humanities/departments/communication-arts/"
+    },
+    {
+     "id": "english",
+     "name": "English",
+     "url": "https://georgiasouthern.edu/colleges/arts-humanities/departments/english/"
+    },
+    {
+     "id": "history",
+     "name": "History",
+     "url": "https://georgiasouthern.edu/colleges/arts-humanities/departments/history/"
+    },
+    {
+     "id": "music",
+     "name": "Fred & Dinah Gretsch School of Music",
+     "url": "https://georgiasouthern.edu/colleges/arts-humanities/departments/music/"
+    },
+    {
+     "id": "phil",
+     "name": "Philosophy & Religious Studies",
+     "url": "https://georgiasouthern.edu/colleges/arts-humanities/departments/philosophy/"
+    },
+    {
+     "id": "lang",
+     "name": "World Languages & Cultures",
+     "url": "https://georgiasouthern.edu/colleges/arts-humanities/departments/languages/"
+    }
+   ],
+   "resources": [
+    {
+     "label": "College student resources",
+     "url": "https://georgiasouthern.edu/colleges/arts-humanities/student-resources/"
+    }
+   ],
+   "keywords": [
+    "gallery",
+    "exhibit",
+    "recital",
+    "concert",
+    "ensemble",
+    "symphon",
+    "music",
+    "theatre",
+    "theater",
+    "film",
+    "french",
+    "german",
+    "spanish",
+    "conversation",
+    "mesa de",
+    "history",
+    "english",
+    "philosophy",
+    "Interdisciplinary Academic Building",
+    "Foy Building",
+    "Performing Arts Center",
+    "Center for Art and Theatre",
+    "Fine Arts"
+   ]
+  },
+  {
+   "id": "cbss",
+   "name": "College of Behavioral & Social Sciences",
+   "short": "Behavioral & Social Sciences",
+   "home": "https://georgiasouthern.edu/colleges/behavioral-social-sciences/",
+   "newsPage": "https://www.georgiasouthern.edu/tag/college-of-behavioral-and-social-sciences",
+   "newsFeed": "https://www.georgiasouthern.edu/tag/college-of-behavioral-and-social-sciences/feed/",
+   "advising": {
+    "name": "Behavioral & Social Sciences Advising",
+    "where": "Carroll Building, Room 2288 & Suite 2244",
+    "phone": "912-478-6901",
+    "email": "cbss-advisement@georgiasouthern.edu",
+    "url": "https://www.georgiasouthern.edu/academics/advising/advisement-locations/statesboro/behavioral-social-sciences"
+   },
+   "departments": [
+    {
+     "id": "cj",
+     "name": "Criminal Justice & Criminology",
+     "url": "https://georgiasouthern.edu/colleges/behavioral-social-sciences/departments/criminal-justice-criminology"
+    },
+    {
+     "id": "polisci",
+     "name": "Political Science & International Studies",
+     "url": "https://georgiasouthern.edu/colleges/behavioral-social-sciences/departments/political-science-international"
+    },
+    {
+     "id": "pns",
+     "name": "Public & Nonprofit Studies",
+     "url": "https://georgiasouthern.edu/colleges/behavioral-social-sciences/departments/public-nonprofit-studies"
+    },
+    {
+     "id": "psych",
+     "name": "Psychology",
+     "url": "https://georgiasouthern.edu/colleges/behavioral-social-sciences/departments/psychology"
+    },
+    {
+     "id": "socanth",
+     "name": "Sociology & Anthropology",
+     "url": "https://georgiasouthern.edu/colleges/behavioral-social-sciences/departments/sociology-anthropology"
+    },
+    {
+     "id": "humeco",
+     "name": "Human Ecology",
+     "url": "https://georgiasouthern.edu/colleges/behavioral-social-sciences/departments/human-ecology"
+    }
+   ],
+   "resources": [
+    {
+     "label": "College student resources",
+     "url": "https://georgiasouthern.edu/colleges/behavioral-social-sciences/student-resources"
+    }
+   ],
+   "keywords": [
+    "psychology",
+    "sociology",
+    "anthropology",
+    "political",
+    "criminal justice",
+    "criminology",
+    "fashion",
+    "interior",
+    "human development",
+    "nonprofit",
+    "Carroll Building",
+    "Hollis"
+   ]
+  },
+  {
+   "id": "coe",
+   "name": "College of Education",
+   "short": "Education",
+   "home": "https://georgiasouthern.edu/colleges/education/",
+   "newsPage": "https://www.georgiasouthern.edu/tag/coe",
+   "newsFeed": "https://www.georgiasouthern.edu/tag/coe/feed/",
+   "advising": {
+    "name": "COE Advisement Center",
+    "where": "College of Education, Room 1107",
+    "phone": "912-478-0698",
+    "email": "coeadvising@georgiasouthern.edu",
+    "url": "https://www.georgiasouthern.edu/academics/advising/advisement-locations/statesboro/education"
+   },
+   "departments": [
+    {
+     "id": "cfr",
+     "name": "Curriculum, Foundations & Reading",
+     "url": "https://georgiasouthern.edu/colleges/education/departments/curriculum-foundations-reading"
+    },
+    {
+     "id": "ese",
+     "name": "Elementary & Special Education",
+     "url": "https://georgiasouthern.edu/colleges/education/departments/elementary-special-education"
+    },
+    {
+     "id": "lthd",
+     "name": "Leadership, Technology & Human Development",
+     "url": "https://georgiasouthern.edu/colleges/education/departments/leadership-technology-human-development"
+    },
+    {
+     "id": "mgse",
+     "name": "Middle Grades & Secondary Education",
+     "url": "https://georgiasouthern.edu/colleges/education/departments/middle-grades-secondary-education"
+    }
+   ],
+   "resources": [
+    {
+     "label": "College student resources",
+     "url": "https://georgiasouthern.edu/colleges/education/student-resources"
+    },
+    {
+     "label": "Instructional Support & Resources Center",
+     "url": "https://www.georgiasouthern.edu/coe/isrc/"
+    },
+    {
+     "label": "Undergraduate advising",
+     "url": "https://www.georgiasouthern.edu/coe/advisement/"
+    }
+   ],
+   "keywords": [
+    "education",
+    "teacher",
+    "teaching",
+    "literacy",
+    "College of Education"
+   ]
+  },
+  {
+   "id": "cosm",
+   "name": "College of Science & Mathematics",
+   "short": "Science & Mathematics",
+   "home": "https://georgiasouthern.edu/colleges/science-mathematics/",
+   "newsPage": "https://www.georgiasouthern.edu/tag/college-of-science-and-mathematics",
+   "newsFeed": "https://www.georgiasouthern.edu/tag/college-of-science-and-mathematics/feed/",
+   "advising": {
+    "name": "Science & Mathematics Advising",
+    "where": "Engineering Building, Room 1116",
+    "phone": "912-478-0649",
+    "email": "cosm-advisor@georgiasouthern.edu",
+    "url": "https://www.georgiasouthern.edu/academics/advising/advisement-locations/statesboro/science-mathematics"
+   },
+   "departments": [
+    {
+     "id": "bcp",
+     "name": "Biochemistry, Chemistry & Physics",
+     "url": "https://www.georgiasouthern.edu/colleges/science-mathematics/departments/biochemistry-chemistry-physics"
+    },
+    {
+     "id": "bio",
+     "name": "Biology",
+     "url": "https://www.georgiasouthern.edu/colleges/science-mathematics/departments/biology"
+    },
+    {
+     "id": "biomed",
+     "name": "Biomedical Sciences",
+     "url": "https://www.georgiasouthern.edu/colleges/science-mathematics/departments/biomedical-sciences"
+    },
+    {
+     "id": "ees",
+     "name": "Earth, Environment & Sustainability",
+     "url": "https://www.georgiasouthern.edu/colleges/science-mathematics/departments/earth-environment-sustainability"
+    },
+    {
+     "id": "math",
+     "name": "Mathematical Sciences",
+     "url": "https://www.georgiasouthern.edu/colleges/science-mathematics/departments/mathematics"
+    },
+    {
+     "id": "rotc",
+     "name": "Military Science (ROTC)",
+     "url": "https://www.georgiasouthern.edu/colleges/science-mathematics/departments/military-science-rotc"
+    }
+   ],
+   "resources": [
+    {
+     "label": "College student resources",
+     "url": "https://www.georgiasouthern.edu/colleges/science-mathematics/student-resources"
+    },
+    {
+     "label": "SMART Center (tutoring)",
+     "url": "https://georgiasouthern.edu/colleges/science-mathematics/student-resources/smart-center/"
+    },
+    {
+     "label": "Pre-health advising",
+     "url": "https://ocpd.georgiasouthern.edu/channels/pre-health/"
+    }
+   ],
+   "keywords": [
+    "science",
+    "biology",
+    "chemistry",
+    "physics",
+    "math",
+    "molecular",
+    "planetarium",
+    "forensic",
+    "sustainab",
+    "geolog",
+    "Biological Sciences",
+    "Math/Physics",
+    "Natural Sciences",
+    "Nursing/Chemistry",
+    "Science Center"
+   ]
+  },
+  {
+   "id": "jphcoph",
+   "name": "Jiann-Ping Hsu College of Public Health",
+   "short": "Public Health",
+   "home": "https://georgiasouthern.edu/colleges/public-health/",
+   "newsPage": "https://www.georgiasouthern.edu/news",
+   "newsFeed": "https://www.georgiasouthern.edu/news/feed/",
+   "advising": {
+    "name": "Public Health Advising",
+    "where": "Hollis Building, Rooms 0101 & 2105",
+    "phone": "912-478-2674",
+    "email": "",
+    "url": "https://www.georgiasouthern.edu/academics/advising/advisement-locations/statesboro/public-health"
+   },
+   "departments": [
+    {
+     "id": "beehs",
+     "name": "Biostatistics, Epidemiology & Environmental Health Sciences",
+     "url": "https://georgiasouthern.edu/colleges/public-health/departments/biostatistics-epidemiology-environmental-health"
+    },
+    {
+     "id": "hpch",
+     "name": "Health Policy & Community Health",
+     "url": "https://georgiasouthern.edu/colleges/public-health/departments/health-policy-community"
+    }
+   ],
+   "resources": [
+    {
+     "label": "Current BSPH students",
+     "url": "https://www.georgiasouthern.edu/colleges/public-health/current-bsph-students"
+    }
+   ],
+   "keywords": [
+    "public health",
+    "epidemiolog",
+    "community health",
+    "board of health",
+    "Hendricks Hall"
+   ]
+  },
+  {
+   "id": "parker",
+   "name": "Parker College of Business",
+   "short": "Business",
+   "home": "https://georgiasouthern.edu/colleges/parker-business/",
+   "newsPage": "https://www.georgiasouthern.edu/tag/parker-business",
+   "newsFeed": "https://www.georgiasouthern.edu/tag/parker-business/feed/",
+   "advising": {
+    "name": "Parker College of Business Advising",
+    "where": "Forest Drive Building, Room 1139",
+    "phone": "912-478-0085",
+    "email": "business-ssc@georgiasouthern.edu",
+    "url": "https://www.georgiasouthern.edu/academics/advising/advisement-locations/statesboro/business"
+   },
+   "departments": [
+    {
+     "id": "acct",
+     "name": "School of Accountancy",
+     "url": "https://www.georgiasouthern.edu/colleges/parker-business/departments/school-of-accountancy"
+    },
+    {
+     "id": "econ",
+     "name": "Economics",
+     "url": "https://www.georgiasouthern.edu/colleges/parker-business/departments/economics"
+    },
+    {
+     "id": "fin",
+     "name": "Finance",
+     "url": "https://www.georgiasouthern.edu/colleges/parker-business/departments/finance"
+    },
+    {
+     "id": "isa",
+     "name": "Information Systems & Analytics",
+     "url": "https://www.georgiasouthern.edu/colleges/parker-business/departments/information-systems-analytics"
+    },
+    {
+     "id": "lscm",
+     "name": "Logistics & Supply Chain Management",
+     "url": "https://www.georgiasouthern.edu/colleges/parker-business/departments/logistics-supply-chain-management"
+    },
+    {
+     "id": "mgmt",
+     "name": "Management",
+     "url": "https://www.georgiasouthern.edu/colleges/parker-business/departments/management"
+    },
+    {
+     "id": "mkt",
+     "name": "Marketing",
+     "url": "https://www.georgiasouthern.edu/colleges/parker-business/departments/marketing"
+    }
+   ],
+   "resources": [
+    {
+     "label": "College student resources",
+     "url": "https://georgiasouthern.edu/colleges/parker-business/student-resources/"
+    },
+    {
+     "label": "Advising appointments",
+     "url": "https://www.georgiasouthern.edu/parker/ssc/advising-appointments/"
+    },
+    {
+     "label": "Parker Career Services",
+     "url": "https://www.georgiasouthern.edu/parker/student-resources/cs/"
+    }
+   ],
+   "keywords": [
+    "business",
+    "entrepreneur",
+    "erpsim",
+    "accounting",
+    "finance",
+    "marketing",
+    "supply chain",
+    "logistics",
+    "economics",
+    "sales",
+    "Parker College",
+    "College of Business",
+    "Business Innovation",
+    "incubat"
+   ]
+  },
+  {
+   "id": "wchp",
+   "name": "Waters College of Health Professions",
+   "short": "Health Professions",
+   "home": "https://georgiasouthern.edu/colleges/health-professions/",
+   "newsPage": "https://www.georgiasouthern.edu/tag/waters-college-of-health-professions",
+   "newsFeed": "https://www.georgiasouthern.edu/tag/waters-college-of-health-professions/feed/",
+   "advising": {
+    "name": "Health Professions Advising",
+    "where": "Hollis Building, Rooms 0101 & 2105",
+    "phone": "912-478-1931",
+    "email": "WCHPAdvisement@georgiasouthern.edu",
+    "url": "https://www.georgiasouthern.edu/academics/advising/advisement-locations/statesboro/health-professions"
+   },
+   "departments": [
+    {
+     "id": "clin",
+     "name": "Clinical Sciences",
+     "url": "https://www.georgiasouthern.edu/colleges/health-professions/departments/clinical"
+    },
+    {
+     "id": "hsk",
+     "name": "Health Sciences & Kinesiology",
+     "url": "https://www.georgiasouthern.edu/colleges/health-professions/departments/health-sciences-kinesiology"
+    },
+    {
+     "id": "nursing",
+     "name": "Nursing",
+     "url": "https://www.georgiasouthern.edu/colleges/health-professions/departments/nursing"
+    }
+   ],
+   "resources": [
+    {
+     "label": "College student resources",
+     "url": "https://georgiasouthern.edu/colleges/health-professions/student-resources/"
+    },
+    {
+     "label": "WCHP advisement",
+     "url": "https://www.georgiasouthern.edu/chp/ssc/get-advised/"
+    }
+   ],
+   "keywords": [
+    "nursing",
+    "kinesiology",
+    "exercise",
+    "athletic training",
+    "nutrition",
+    "radiolog",
+    "respiratory",
+    "sport management",
+    "physical therap",
+    "health sciences",
+    "Hanner",
+    "Nursing/Chemistry",
+    "Hollis"
+   ]
+  },
+  {
+   "id": "explore",
+   "name": "Exploratory (Undeclared)",
+   "short": "Exploratory",
+   "home": "https://georgiasouthern.edu/academics/advising/exploratory-students/",
+   "newsPage": "https://www.georgiasouthern.edu/news",
+   "newsFeed": "https://www.georgiasouthern.edu/news/feed/",
+   "advising": {
+    "name": "Exploratory Advising (CARC)",
+    "where": "Parker College of Business, Room 1101",
+    "phone": "912-478-3939",
+    "email": "advising@georgiasouthern.edu",
+    "url": "https://www.georgiasouthern.edu/academics/advising/advisement-locations/statesboro/exploratory"
+   },
+   "departments": [],
+   "resources": [
+    {
+     "label": "Career exploration",
+     "url": "https://www.georgiasouthern.edu/academics/career-exploration"
+    },
+    {
+     "label": "Focus areas",
+     "url": "https://georgiasouthern.edu/academics/advising/focus-areas/"
+    },
+    {
+     "label": "All degrees",
+     "url": "https://www.georgiasouthern.edu/degrees"
+    }
+   ],
+   "keywords": [
+    "career",
+    "exploration",
+    "majors fair",
+    "advising"
+   ]
+  },
+  {
+   "id": "grad",
+   "name": "Jack N. Averitt College of Graduate Studies",
+   "short": "Graduate Studies",
+   "home": "https://georgiasouthern.edu/colleges/graduate-studies/",
+   "newsPage": "https://www.georgiasouthern.edu/news",
+   "newsFeed": "https://www.georgiasouthern.edu/news/feed/",
+   "advising": {
+    "name": "Your graduate program director",
+    "where": "Listed on your program's page",
+    "phone": "",
+    "email": "",
+    "url": "https://georgiasouthern.edu/colleges/graduate-studies/"
+   },
+   "departments": [],
+   "resources": [
+    {
+     "label": "Graduate Studies home",
+     "url": "https://georgiasouthern.edu/colleges/graduate-studies/"
+    },
+    {
+     "label": "All degrees & programs",
+     "url": "https://www.georgiasouthern.edu/degrees"
+    }
+   ],
+   "keywords": [
+    "graduate",
+    "thesis",
+    "dissertation",
+    "doctoral",
+    "master's"
+   ]
+  }
+ ],
+ "majors": [
+  {
+   "id": "accounting-bba",
+   "name": "Accounting (BBA)",
+   "college": "parker",
+   "dept": "acct",
+   "url": "https://www.georgiasouthern.edu/degrees/bba-accounting"
+  },
+  {
+   "id": "anthropology-ba",
+   "name": "Anthropology (BA)",
+   "college": "cbss",
+   "dept": "socanth",
+   "url": "https://www.georgiasouthern.edu/degrees/anthropology-major"
+  },
+  {
+   "id": "art-ba",
+   "name": "Art (BA)",
+   "college": "cah",
+   "dept": "art",
+   "url": "https://www.georgiasouthern.edu/degrees/ba-in-art"
+  },
+  {
+   "id": "art-bfa",
+   "name": "Art (BFA)",
+   "college": "cah",
+   "dept": "art",
+   "url": "https://www.georgiasouthern.edu/degrees/bachelor-of-fine-arts"
+  },
+  {
+   "id": "biochemistry-bs",
+   "name": "Biochemistry (BS)",
+   "college": "cosm",
+   "dept": "bcp",
+   "url": "https://www.georgiasouthern.edu/degrees/bs-biochemistry"
+  },
+  {
+   "id": "biology-ba-bs",
+   "name": "Biology (BA/BS)",
+   "college": "cosm",
+   "dept": "bio",
+   "url": "https://www.georgiasouthern.edu/degrees/biology-major"
+  },
+  {
+   "id": "chemistry-bs",
+   "name": "Chemistry (BS)",
+   "college": "cosm",
+   "dept": "bcp",
+   "url": "https://www.georgiasouthern.edu/degrees/bs-chemistry"
+  },
+  {
+   "id": "civil-engineering-bsce",
+   "name": "Civil Engineering (BSCE)",
+   "college": "cec",
+   "dept": "civil",
+   "url": "https://www.georgiasouthern.edu/degrees/bs-in-civil-engineering"
+  },
+  {
+   "id": "communication-sciences-and-disorders-bs",
+   "name": "Communication Sciences and Disorders (BS)",
+   "college": "wchp",
+   "dept": null,
+   "url": "https://www.georgiasouthern.edu/degrees/bs-in-communication-sciences-and-disorders"
+  },
+  {
+   "id": "communication-studies-bs",
+   "name": "Communication Studies (BS)",
+   "college": "cah",
+   "dept": "comm",
+   "url": "https://www.georgiasouthern.edu/degrees/communication-studies-major"
+  },
+  {
+   "id": "computer-engineering-bscpe",
+   "name": "Computer Engineering (BSCpE)",
+   "college": "cec",
+   "dept": "ece",
+   "url": "https://www.georgiasouthern.edu/degrees/bs-computer-engineering"
+  },
+  {
+   "id": "computer-science-bs",
+   "name": "Computer Science (BS)",
+   "college": "cec",
+   "dept": "cs",
+   "url": "https://www.georgiasouthern.edu/degrees/bs-in-computer-science"
+  },
+  {
+   "id": "construction-engineering-bscone",
+   "name": "Construction Engineering (BSConE)",
+   "college": "cec",
+   "dept": "civil",
+   "url": "https://www.georgiasouthern.edu/degrees/bs-in-construction-engineering"
+  },
+  {
+   "id": "construction-management-bs",
+   "name": "Construction Management (BS)",
+   "college": "cec",
+   "dept": "civil",
+   "url": "https://www.georgiasouthern.edu/degrees/bs-in-construction"
+  },
+  {
+   "id": "criminal-justice-and-criminology-bs",
+   "name": "Criminal Justice and Criminology (BS)",
+   "college": "cbss",
+   "dept": "cj",
+   "url": "https://www.georgiasouthern.edu/degrees/bachelor-criminal-justice-criminology"
+  },
+  {
+   "id": "economics-bba",
+   "name": "Economics (BBA)",
+   "college": "parker",
+   "dept": "econ",
+   "url": "https://www.georgiasouthern.edu/degrees/business-economics-major"
+  },
+  {
+   "id": "electrical-engineering-bsee",
+   "name": "Electrical Engineering (BSEE)",
+   "college": "cec",
+   "dept": "ece",
+   "url": "https://www.georgiasouthern.edu/degrees/bs-electrical-engineering"
+  },
+  {
+   "id": "english-ba",
+   "name": "English (BA)",
+   "college": "cah",
+   "dept": "english",
+   "url": "https://www.georgiasouthern.edu/degrees/english-major"
+  },
+  {
+   "id": "exercise-science-bsk",
+   "name": "Exercise Science (BSK)",
+   "college": "wchp",
+   "dept": "hsk",
+   "url": "https://www.georgiasouthern.edu/degrees/bs-kinesiology-exercise-science"
+  },
+  {
+   "id": "fashion-merchandising-and-apparel-design-bs",
+   "name": "Fashion Merchandising and Apparel Design (BS)",
+   "college": "cbss",
+   "dept": "humeco",
+   "url": "https://www.georgiasouthern.edu/degrees/bs-fashion-merchandising-apparel-design"
+  },
+  {
+   "id": "finance-bba",
+   "name": "Finance (BBA)",
+   "college": "parker",
+   "dept": "fin",
+   "url": "https://www.georgiasouthern.edu/degrees/finance-major"
+  },
+  {
+   "id": "geosciences-bs",
+   "name": "Geosciences (BS)",
+   "college": "cosm",
+   "dept": "ees",
+   "url": "https://www.georgiasouthern.edu/degrees/geoscience-degree"
+  },
+  {
+   "id": "graphic-design-bfa",
+   "name": "Graphic Design (BFA)",
+   "college": "cah",
+   "dept": "art",
+   "url": "https://www.georgiasouthern.edu/degrees/bachelor-of-fine-arts-graphic-design"
+  },
+  {
+   "id": "health-sciences-bhs",
+   "name": "Health Sciences (BHS)",
+   "college": "wchp",
+   "dept": "hsk",
+   "url": "https://www.georgiasouthern.edu/degrees/bachelor-health-science-online"
+  },
+  {
+   "id": "health-and-physical-education-bsed",
+   "name": "Health and Physical Education (BSEd)",
+   "college": "coe",
+   "dept": null,
+   "url": "https://www.georgiasouthern.edu/degrees/bsed-health-physical-education"
+  },
+  {
+   "id": "history-ba",
+   "name": "History (BA)",
+   "college": "cah",
+   "dept": "history",
+   "url": "https://www.georgiasouthern.edu/degrees/history-major"
+  },
+  {
+   "id": "human-development-and-family-science-bs",
+   "name": "Human Development and Family Science (BS)",
+   "college": "cbss",
+   "dept": "humeco",
+   "url": "https://www.georgiasouthern.edu/degrees/bs-human-development-family-science"
+  },
+  {
+   "id": "information-systems-bba",
+   "name": "Information Systems (BBA)",
+   "college": "parker",
+   "dept": "isa",
+   "url": "https://www.georgiasouthern.edu/degrees/business-information-systems"
+  },
+  {
+   "id": "information-technology-bsit",
+   "name": "Information Technology (BSIT)",
+   "college": "cec",
+   "dept": "it",
+   "url": "https://www.georgiasouthern.edu/degrees/bachelor-of-science-in-information-technology"
+  },
+  {
+   "id": "information-technology-online-bit",
+   "name": "Information Technology Online (BIT)",
+   "college": "cec",
+   "dept": "it",
+   "url": "https://www.georgiasouthern.edu/degrees/bachelor-of-information-technology-online"
+  },
+  {
+   "id": "interior-architecture-and-design-bs",
+   "name": "Interior Architecture and Design (BS)",
+   "college": "cbss",
+   "dept": "humeco",
+   "url": "https://www.georgiasouthern.edu/degrees/bs-interior-design"
+  },
+  {
+   "id": "international-studies-ba",
+   "name": "International Studies (BA)",
+   "college": "cbss",
+   "dept": "polisci",
+   "url": "https://www.georgiasouthern.edu/degrees/international-studies-major"
+  },
+  {
+   "id": "management-bba",
+   "name": "Management (BBA)",
+   "college": "parker",
+   "dept": "mgmt",
+   "url": "https://www.georgiasouthern.edu/degrees/bachelors-in-management-degree"
+  },
+  {
+   "id": "manufacturing-engineering-bsmfge",
+   "name": "Manufacturing Engineering (BSMfgE)",
+   "college": "cec",
+   "dept": "mfg",
+   "url": "https://www.georgiasouthern.edu/degrees/bs-in-manufacturing-engineering"
+  },
+  {
+   "id": "marketing-bba",
+   "name": "Marketing (BBA)",
+   "college": "parker",
+   "dept": "mkt",
+   "url": "https://www.georgiasouthern.edu/degrees/bba-in-marketing"
+  },
+  {
+   "id": "mathematical-sciences-bs",
+   "name": "Mathematical Sciences (BS)",
+   "college": "cosm",
+   "dept": "math",
+   "url": "https://www.georgiasouthern.edu/degrees/mathematics-major"
+  },
+  {
+   "id": "mechanical-engineering-bsme",
+   "name": "Mechanical Engineering (BSME)",
+   "college": "cec",
+   "dept": "me",
+   "url": "https://www.georgiasouthern.edu/degrees/bs-in-mechanical-engineering"
+  },
+  {
+   "id": "medical-laboratory-science-bsmls",
+   "name": "Medical Laboratory Science (BSMLS)",
+   "college": "wchp",
+   "dept": "clin",
+   "url": "https://www.georgiasouthern.edu/degrees/bs-medical-laboratory-science"
+  },
+  {
+   "id": "middle-grades-education-bsed",
+   "name": "Middle Grades Education (BSEd)",
+   "college": "coe",
+   "dept": "mgse",
+   "url": "https://www.georgiasouthern.edu/degrees/bsed-middle-grades-education"
+  },
+  {
+   "id": "multimedia-journalism-bs",
+   "name": "Multimedia Journalism (BS)",
+   "college": "cah",
+   "dept": "comm",
+   "url": "https://www.georgiasouthern.edu/degrees/multimedia-journalism-major"
+  },
+  {
+   "id": "multimedia-and-film-production-bs",
+   "name": "Multimedia and Film Production (BS)",
+   "college": "cah",
+   "dept": "comm",
+   "url": "https://www.georgiasouthern.edu/degrees/multimedia-film-production-major"
+  },
+  {
+   "id": "music-ba",
+   "name": "Music (BA)",
+   "college": "cah",
+   "dept": "music",
+   "url": "https://www.georgiasouthern.edu/degrees/bachelor-of-arts-in-music"
+  },
+  {
+   "id": "music-bm",
+   "name": "Music (BM)",
+   "college": "cah",
+   "dept": "music",
+   "url": "https://www.georgiasouthern.edu/degrees/bachelor-music"
+  },
+  {
+   "id": "nursing-bsn",
+   "name": "Nursing (BSN)",
+   "college": "wchp",
+   "dept": "nursing",
+   "url": "https://www.georgiasouthern.edu/degrees/bachelor-of-science-in-nursing-bsn"
+  },
+  {
+   "id": "nursing-accelerated-bsn",
+   "name": "Nursing, Accelerated (BSN)",
+   "college": "wchp",
+   "dept": "nursing",
+   "url": "https://www.georgiasouthern.edu/degrees/accelerated-nursing-absn-program"
+  },
+  {
+   "id": "nursing-rn-to-bsn",
+   "name": "Nursing, RN to BSN",
+   "college": "wchp",
+   "dept": "nursing",
+   "url": "https://www.georgiasouthern.edu/degrees/rn-bsn-program"
+  },
+  {
+   "id": "nutrition-and-food-science-bs",
+   "name": "Nutrition and Food Science (BS)",
+   "college": "wchp",
+   "dept": null,
+   "url": "https://www.georgiasouthern.edu/degrees/bs-nutrition-food-science"
+  },
+  {
+   "id": "philosophy-ba",
+   "name": "Philosophy (BA)",
+   "college": "cah",
+   "dept": "phil",
+   "url": "https://www.georgiasouthern.edu/degrees/philosophy-major"
+  },
+  {
+   "id": "physics-bs",
+   "name": "Physics (BS)",
+   "college": "cosm",
+   "dept": "bcp",
+   "url": "https://www.georgiasouthern.edu/degrees/bs-physics"
+  },
+  {
+   "id": "political-science-ba",
+   "name": "Political Science (BA)",
+   "college": "cbss",
+   "dept": "polisci",
+   "url": "https://www.georgiasouthern.edu/degrees/ba-political-science"
+  },
+  {
+   "id": "psychology-bs",
+   "name": "Psychology (BS)",
+   "college": "cbss",
+   "dept": "psych",
+   "url": "https://www.georgiasouthern.edu/degrees/bachelors-in-psychology"
+  },
+  {
+   "id": "public-health-bsph",
+   "name": "Public Health (BSPH)",
+   "college": "jphcoph",
+   "dept": null,
+   "url": "https://www.georgiasouthern.edu/degrees/bsph-online"
+  },
+  {
+   "id": "public-relations-bs",
+   "name": "Public Relations (BS)",
+   "college": "cah",
+   "dept": "comm",
+   "url": "https://www.georgiasouthern.edu/degrees/public-relations-major"
+  },
+  {
+   "id": "radiologic-sciences-bsrs",
+   "name": "Radiologic Sciences (BSRS)",
+   "college": "wchp",
+   "dept": "clin",
+   "url": "https://www.georgiasouthern.edu/degrees/bs-radiologic-sciences"
+  },
+  {
+   "id": "recreation-tourism-and-event-management-bs",
+   "name": "Recreation, Tourism and Event Management (BS)",
+   "college": "cbss",
+   "dept": null,
+   "url": "https://www.georgiasouthern.edu/degrees/bs-recreation-tourism-event-management"
+  },
+  {
+   "id": "respiratory-therapy-bsrt",
+   "name": "Respiratory Therapy (BSRT)",
+   "college": "wchp",
+   "dept": "clin",
+   "url": "https://www.georgiasouthern.edu/degrees/bs-respiratory-therapy"
+  },
+  {
+   "id": "secondary-education-bsed",
+   "name": "Secondary Education (BSEd)",
+   "college": "coe",
+   "dept": "mgse",
+   "url": "https://www.georgiasouthern.edu/degrees/bsed-secondary-education"
+  },
+  {
+   "id": "sociology-bs",
+   "name": "Sociology (BS)",
+   "college": "cbss",
+   "dept": "socanth",
+   "url": "https://www.georgiasouthern.edu/degrees/online-bachelors-in-sociology"
+  },
+  {
+   "id": "sport-management-bs",
+   "name": "Sport Management (BS)",
+   "college": "wchp",
+   "dept": "hsk",
+   "url": "https://www.georgiasouthern.edu/degrees/bs-sport-management"
+  },
+  {
+   "id": "supply-chain-management-bba",
+   "name": "Supply Chain Management (BBA)",
+   "college": "parker",
+   "dept": "lscm",
+   "url": "https://www.georgiasouthern.edu/degrees/bba-supply-chain-management"
+  },
+  {
+   "id": "sustainability-science-bs",
+   "name": "Sustainability Science (BS)",
+   "college": "cosm",
+   "dept": "ees",
+   "url": "https://www.georgiasouthern.edu/degrees/bs-sustainability-science"
+  },
+  {
+   "id": "theatre-ba",
+   "name": "Theatre (BA)",
+   "college": "cah",
+   "dept": "comm",
+   "url": "https://www.georgiasouthern.edu/degrees/theatre-major"
+  },
+  {
+   "id": "world-languages-and-cultures-ba",
+   "name": "World Languages and Cultures (BA)",
+   "college": "cah",
+   "dept": "lang",
+   "url": "https://www.georgiasouthern.edu/degrees/ba-world-languages"
+  },
+  {
+   "id": "exploratory",
+   "name": "Exploratory / Undecided",
+   "college": "explore",
+   "dept": null,
+   "url": "https://georgiasouthern.edu/academics/advising/exploratory-students/"
+  },
+  {
+   "id": "associate",
+   "name": "Associate degree (AA / AS)",
+   "college": "explore",
+   "dept": null,
+   "url": "https://www.georgiasouthern.edu/degrees"
+  },
+  {
+   "id": "graduate",
+   "name": "Graduate program (master's / doctoral)",
+   "college": "grad",
+   "dept": null,
+   "url": "https://www.georgiasouthern.edu/degrees"
+  },
+  {
+   "id": "other",
+   "name": "Other / not listed",
+   "college": "explore",
+   "dept": null,
+   "url": "https://www.georgiasouthern.edu/degrees"
+  }
+ ],
+ "quickLinks": [
+  {
+   "id": "mygs",
+   "label": "MyGS",
+   "sub": "Portal, email, Folio",
+   "url": "https://my.georgiasouthern.edu/"
+  },
+  {
+   "id": "folio",
+   "label": "Folio",
+   "sub": "Open through MyGS",
+   "url": "https://my.georgiasouthern.edu/",
+   "help": "https://www.georgiasouthern.edu/offices/it-services/departments/learning-technology-support/folio#students"
+  },
+  {
+   "id": "wings",
+   "label": "WINGS",
+   "sub": "Register, grades, bills",
+   "url": "https://my.georgiasouthern.edu/portal/portal.php"
+  },
+  {
+   "id": "handshake",
+   "label": "Handshake",
+   "sub": "Jobs & internships",
+   "url": "https://ocpd.georgiasouthern.edu/resources/handshake/"
+  },
+  {
+   "id": "engage",
+   "label": "Eagle Engage",
+   "sub": "Orgs & events",
+   "url": "https://georgiasouthern.presence.io/"
+  },
+  {
+   "id": "bus",
+   "label": "Bus tracker",
+   "sub": "Passio GO live map",
+   "url": "https://georgiasouthern.passiogo.com/"
+  },
+  {
+   "id": "map",
+   "label": "Campus map",
+   "sub": "Find a building",
+   "url": "https://www.georgiasouthern.edu/map"
+  },
+  {
+   "id": "directory",
+   "label": "Directory",
+   "sub": "Find a person",
+   "url": "https://directory.georgiasouthern.edu/"
+  }
+ ],
+ "itHelp": {
+  "phone": "912-478-2287",
+  "email": "helpdesk@georgiasouthern.edu"
+ }
+}

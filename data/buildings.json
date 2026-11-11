@@ -1,0 +1,265 @@
+{
+ "generatedAt": "2026-10-29T15:00:00Z",
+ "note": "Coordinates fill in automatically from the university calendar's places list and OpenStreetMap on each refresh.",
+ "buildings": [
+  {
+   "name": "Academic Success Center",
+   "campus": "statesboro"
+  },
+  {
+   "name": "Admissions - Lewis Hall",
+   "campus": "statesboro"
+  },
+  {
+   "name": "Allen E. Paulson Stadium",
+   "campus": "statesboro"
+  },
+  {
+   "name": "Anderson Hall",
+   "campus": "statesboro"
+  },
+  {
+   "name": "Arts Building",
+   "campus": "statesboro"
+  },
+  {
+   "name": "Biological Sciences Building",
+   "campus": "statesboro"
+  },
+  {
+   "name": "Brannen Hall",
+   "campus": "statesboro"
+  },
+  {
+   "name": "Carroll Building",
+   "campus": "statesboro"
+  },
+  {
+   "name": "Carruth Building",
+   "campus": "statesboro"
+  },
+  {
+   "name": "Carter Recital Hall",
+   "campus": "statesboro"
+  },
+  {
+   "name": "Center for Art and Theatre",
+   "campus": "statesboro"
+  },
+  {
+   "name": "College of Business",
+   "campus": "statesboro"
+  },
+  {
+   "name": "College of Education",
+   "campus": "statesboro"
+  },
+  {
+   "name": "Cone Hall",
+   "campus": "statesboro"
+  },
+  {
+   "name": "Counseling Center",
+   "campus": "statesboro"
+  },
+  {
+   "name": "Dining Commons",
+   "campus": "statesboro"
+  },
+  {
+   "name": "Eidson House: Honors College",
+   "campus": "statesboro"
+  },
+  {
+   "name": "Engineering Building",
+   "campus": "statesboro"
+  },
+  {
+   "name": "Engineering and Research Building",
+   "campus": "statesboro"
+  },
+  {
+   "name": "Fielding D. Russell Union",
+   "campus": "statesboro"
+  },
+  {
+   "name": "Forest Drive Classroom Building",
+   "campus": "statesboro"
+  },
+  {
+   "name": "Foy Building",
+   "campus": "statesboro"
+  },
+  {
+   "name": "Georgia Southern Museum",
+   "campus": "statesboro"
+  },
+  {
+   "name": "Hanner Complex-Fieldhouse/Kinesiology Lab",
+   "campus": "statesboro"
+  },
+  {
+   "name": "Health Center",
+   "campus": "statesboro"
+  },
+  {
+   "name": "Hendricks Hall",
+   "campus": "statesboro"
+  },
+  {
+   "name": "Herty Building",
+   "campus": "statesboro"
+  },
+  {
+   "name": "Hollis Building",
+   "campus": "statesboro",
+   "lat": 32.427185,
+   "lon": -81.780727,
+   "source": "calendar.georgiasouthern.edu"
+  },
+  {
+   "name": "Information Technology Building",
+   "campus": "statesboro"
+  },
+  {
+   "name": "Interdisciplinary Academic Building",
+   "campus": "statesboro"
+  },
+  {
+   "name": "Jack and Ruth Hill Convocation Center",
+   "campus": "statesboro"
+  },
+  {
+   "name": "Kennedy Hall",
+   "campus": "statesboro"
+  },
+  {
+   "name": "Lakeside Dining Commons",
+   "campus": "statesboro"
+  },
+  {
+   "name": "Marvin Pittman Administration Building",
+   "campus": "statesboro"
+  },
+  {
+   "name": "Math/Physics Building",
+   "campus": "statesboro"
+  },
+  {
+   "name": "Military Science Building",
+   "campus": "statesboro"
+  },
+  {
+   "name": "Natural Sciences Building",
+   "campus": "statesboro"
+  },
+  {
+   "name": "Newton Building",
+   "campus": "statesboro"
+  },
+  {
+   "name": "Nursing/Chemistry Building",
+   "campus": "statesboro"
+  },
+  {
+   "name": "Performing Arts Center",
+   "campus": "statesboro"
+  },
+  {
+   "name": "Planetarium",
+   "campus": "statesboro"
+  },
+  {
+   "name": "Recreation Activity Center",
+   "campus": "statesboro"
+  },
+  {
+   "name": "Rosenwald Building",
+   "campus": "statesboro"
+  },
+  {
+   "name": "Sanford Hall",
+   "campus": "statesboro"
+  },
+  {
+   "name": "Veazey Hall",
+   "campus": "statesboro"
+  },
+  {
+   "name": "Watson Hall",
+   "campus": "statesboro"
+  },
+  {
+   "name": "Williams Center",
+   "campus": "statesboro"
+  },
+  {
+   "name": "Zach S. Henderson Library",
+   "campus": "statesboro"
+  },
+  {
+   "name": "Student Union",
+   "campus": "armstrong"
+  },
+  {
+   "name": "Student Success Complex",
+   "campus": "armstrong"
+  },
+  {
+   "name": "Science Center",
+   "campus": "armstrong"
+  },
+  {
+   "name": "Lane Library",
+   "campus": "armstrong"
+  },
+  {
+   "name": "Fine Arts Hall",
+   "campus": "armstrong"
+  },
+  {
+   "name": "Fine Arts Auditorium",
+   "campus": "armstrong"
+  },
+  {
+   "name": "University Hall",
+   "campus": "armstrong"
+  },
+  {
+   "name": "Solms Hall",
+   "campus": "armstrong"
+  },
+  {
+   "name": "Ashmore Hall",
+   "campus": "armstrong"
+  },
+  {
+   "name": "Gamble Hall",
+   "campus": "armstrong"
+  },
+  {
+   "name": "Hawes Hall",
+   "campus": "armstrong"
+  },
+  {
+   "name": "Jenkins Hall",
+   "campus": "armstrong"
+  },
+  {
+   "name": "MCC (Memorial College Center)",
+   "campus": "armstrong"
+  },
+  {
+   "name": "Sports Center",
+   "campus": "armstrong"
+  },
+  {
+   "name": "Compass Point",
+   "campus": "armstrong"
+  },
+  {
+   "name": "Waters College of Health Professions",
+   "campus": "armstrong"
+  }
+ ]
+}
