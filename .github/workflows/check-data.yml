@@ -1,0 +1,29 @@
+name: Weekly data check
+# Opens (or updates) a GitHub issue named "ROAM data check" when links break,
+# data goes stale, or it's time to add next term's dates.
+on:
+  schedule:
+    - cron: "23 13 * * 1"   # Mondays, 8:23 AM Eastern
+  workflow_dispatch: {}
+permissions:
+  contents: read
+  issues: write
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Run checks
+        run: node scripts/check-data.mjs > report.md || true
+      - name: Open or update issue if needed
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cat report.md
+          if grep -q "NEEDS ATTENTION" report.md; then
+            n=$(gh issue list --state open --search "ROAM data check in:title" --json number --jq '.[0].number')
+            if [ -n "$n" ]; then gh issue comment "$n" --body-file report.md; else gh issue create --title "ROAM data check" --body-file report.md; fi
+          fi

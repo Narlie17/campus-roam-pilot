@@ -1,0 +1,35 @@
+name: Refresh campus data
+# Pulls Georgia Southern's public events, Eagle Engage orgs/events, library hours,
+# college news and building locations, then rebuilds data.js. GitHub Pages
+# republishes the site automatically after each commit.
+on:
+  schedule:
+    - cron: "17 3,9,15,21 * * *"   # every 6 hours (11:17 PM, 5:17 AM, 11:17 AM, 5:17 PM Eastern)
+  workflow_dispatch: {}
+permissions:
+  contents: write
+concurrency:
+  group: refresh-data
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Refresh public data (each source keeps its last good copy if it fails)
+        run: node scripts/refresh-data.mjs || echo "Some sources failed; keeping last good data."
+      - name: Rebuild data.js for the app
+        run: node scripts/build-data.mjs data
+      - name: Commit if anything changed
+        run: |
+          if git diff --quiet data/ data.js; then echo "No changes."; exit 0; fi
+          sed -i "s/const BUILD = \".*\";/const BUILD = \"$(date -u +%Y%m%d%H%M)\";/" sw.js
+          git config user.name "roam-data-bot"
+          git config user.email "roam-data-bot@users.noreply.github.com"
+          git add data/ data.js sw.js
+          git commit -m "Refresh campus data $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
