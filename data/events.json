@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-11T16:06:48.525Z",
- "source": "Localist API + Eagle Engage (168) · https://calendar.georgiasouthern.edu",
+ "generatedAt": "2026-11-11T21:36:24.827Z",
+ "source": "Localist API + Eagle Engage (158) · https://calendar.georgiasouthern.edu",
  "events": [
   {
    "id": "54487402753735-54487402754760",
@@ -135,79 +135,6 @@
    ]
   },
   {
-   "id": "engage-serve912-weekly-trip-csm-thrift-store-11-11",
-   "title": "Serve912 Weekly Trip - CSM Thrift Store (11/11)",
-   "start": "2026-11-11T14:30:00.000Z",
-   "end": "2026-11-11T16:30:00.000Z",
-   "allDay": false,
-   "location": "Russell Union Room 1056",
-   "campus": "statesboro",
-   "url": "https://georgiasouthern.presence.io/event/serve912-weekly-trip-csm-thrift-store-11-11",
-   "types": [
-    "Serve912 Weekly Trip",
-    "Service"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "service"
-   ],
-   "desc": "Volunteers will help with organizing, putting out merchandise, cleaning and with occasional events",
-   "free": null,
-   "org": "Office of Leadership and Community Engagement",
-   "orgUri": "office-of-leadership-and-community-engagement-2",
-   "colleges": []
-  },
-  {
-   "id": "engage-arm-coastal-pet-rescue-weekly-trip-serve912-12",
-   "title": "ARM Coastal Pet Rescue Weekly Trip SERVE912",
-   "start": "2026-11-11T15:00:00.000Z",
-   "end": "2026-11-11T17:00:00.000Z",
-   "allDay": false,
-   "location": "Memorial College Center",
-   "campus": "armstrong",
-   "url": "https://georgiasouthern.presence.io/event/arm-coastal-pet-rescue-weekly-trip-serve912-12",
-   "types": [
-    "Serve912 Weekly Trip",
-    "Service"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "animals",
-    "service"
-   ],
-   "desc": "Join us to volunteer from 10am to 12pm! Serve at Coastal Pet Rescue by cleaning up after and playing with animals.",
-   "free": null,
-   "org": "Office of Leadership and Community Engagement",
-   "orgUri": "office-of-leadership-and-community-engagement-2",
-   "colleges": []
-  },
-  {
-   "id": "engage-celebrating-philanthropy-in-action",
-   "title": "Celebrating Philanthropy In Action",
-   "start": "2026-11-11T15:30:00.000Z",
-   "end": "2026-11-11T17:30:00.000Z",
-   "allDay": false,
-   "location": "Williams Center Plaza",
-   "campus": "statesboro",
-   "url": "https://georgiasouthern.presence.io/event/celebrating-philanthropy-in-action",
-   "types": [
-    "Free Food"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "food",
-    "service"
-   ],
-   "desc": "Come out and explore different community partners! Stamp your passport, sign up for service / volunteer hours, and enjoy a waffle bar from Waffle House! At 12:00pm, you will be able to find out which two student organizations are our $750 prize winners!",
-   "free": null,
-   "org": "Georgia Southern University Alumni Association",
-   "orgUri": "georgia-southern-university-alumni-association",
-   "colleges": []
-  },
-  {
    "id": "54290269249352-54290269250377",
    "title": "First to Soar: First Gen Celebration",
    "start": "2026-11-11T16:00:00.000Z",
@@ -277,169 +204,6 @@
    "colleges": []
   },
   {
-   "id": "engage-eagle-mentoring-thank-you-2",
-   "title": "Eagle Mentoring: Thank You!",
-   "start": "2026-11-11T16:00:00.000Z",
-   "end": "2026-11-11T18:00:00.000Z",
-   "allDay": false,
-   "location": "Memorial College Center 213",
-   "campus": "armstrong",
-   "url": "https://georgiasouthern.presence.io/event/eagle-mentoring-thank-you-2",
-   "types": [
-    "Free Food"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "food",
-    "social"
-   ],
-   "desc": "You’re invited to the Eagle Mentoring Program end-of-semester celebration, bringing mentors and mentees together to recognize each participant. Join us as we celebrate the connections, experiences, and accomplishments that have made this semester memorable. Enjoy an afternoon of food, fun, and time with the mentoring…",
-   "free": null,
-   "org": "Office of Student Engagement and Support",
-   "orgUri": "office-of-student-engagement-and-support",
-   "colleges": []
-  },
-  {
-   "id": "engage-jphcoph-grand-rounds-bsph-alumni-panel",
-   "title": "JPHCOPH Grand Rounds: BSPH Alumni Panel",
-   "start": "2026-11-11T16:00:00.000Z",
-   "end": "2026-11-11T17:00:00.000Z",
-   "allDay": false,
-   "location": "https://georgiasouthern.zoom.us/j/85950414318",
-   "campus": "other",
-   "url": "https://georgiasouthern.presence.io/event/jphcoph-grand-rounds-bsph-alumni-panel",
-   "types": [
-    "Virtual"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [],
-   "desc": "Attention BSPH Students - Please join us for the JPHCOPH Alumni Panel Speaker/Panelists: Diana Ewetola Jasmine Lewis DeMicha Luster Bradlie Nabours",
-   "free": null,
-   "org": "Jiann-Ping Hsu College of Public Health",
-   "orgUri": "jiann-ping-hsu-college-of-public-health",
-   "colleges": []
-  },
-  {
-   "id": "engage-health-hut-eat-well-sleep-well-be-well",
-   "title": "Health Hut - Eat Well, Sleep Well, Be Well",
-   "start": "2026-11-11T16:00:00.000Z",
-   "end": "2026-11-11T18:00:00.000Z",
-   "allDay": false,
-   "location": "Student Union Commons",
-   "campus": "armstrong",
-   "url": "https://georgiasouthern.presence.io/event/health-hut-eat-well-sleep-well-be-well",
-   "types": [
-    "Info Table/Session"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "wellness"
-   ],
-   "desc": "This Health Hut gives the Office of Student Wellness and Health Promotion an opportunity to educate students on the importance of healthy sleep habits and provide practical strategies for improving sleep quality, helping to address a common barrier to students’ academic performance and overall well-being.",
-   "free": null,
-   "org": "Student Wellness and Health Promotion",
-   "orgUri": "student-wellness-and-health-promotion",
-   "colleges": []
-  },
-  {
-   "id": "engage-registration-station-statesboro-campus",
-   "title": "Registration Station (Statesboro Campus)",
-   "start": "2026-11-11T16:00:57.000Z",
-   "end": "2026-11-11T18:00:00.000Z",
-   "allDay": false,
-   "location": "Centennial Place, Building 2 Lobby",
-   "campus": "statesboro",
-   "url": "https://georgiasouthern.presence.io/event/registration-station-statesboro-campus",
-   "types": [
-    "Free Stuff"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "academic",
-    "housing"
-   ],
-   "desc": "Join Academic Advising in the Centennial Place, Building 2 lobby to complete registration for Spring 2027.",
-   "free": null,
-   "org": "University Housing - Statesboro Campus",
-   "orgUri": "university-housing-statesboro-campus",
-   "colleges": []
-  },
-  {
-   "id": "engage-menstrual-health-tabling",
-   "title": "Menstrual Health Tabling",
-   "start": "2026-11-11T17:00:00.000Z",
-   "end": "2026-11-11T19:00:00.000Z",
-   "allDay": false,
-   "location": "Student Union Porch",
-   "campus": "armstrong",
-   "url": "https://georgiasouthern.presence.io/event/menstrual-health-tabling",
-   "types": [
-    "Free Stuff",
-    "Health & Wellness"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "wellness"
-   ],
-   "desc": "Join the office of Student Wellness and Health Promotion and Tri Sigma to learn about menstrual health and pick up free period products!",
-   "free": null,
-   "org": "Student Wellness and Health Promotion",
-   "orgUri": "student-wellness-and-health-promotion",
-   "colleges": []
-  },
-  {
-   "id": "engage-jphcoph-maternal-and-child-health-interest-group-5",
-   "title": "JPHCOPH Maternal and Child Health Interest Group",
-   "start": "2026-11-11T18:00:00.000Z",
-   "end": "2026-11-11T19:00:00.000Z",
-   "allDay": false,
-   "location": "https://www.google.com/url?",
-   "campus": "",
-   "url": "https://georgiasouthern.presence.io/event/jphcoph-maternal-and-child-health-interest-group-5",
-   "types": [
-    "Virtual"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "wellness"
-   ],
-   "desc": "Speaker: Hina Najmi Presentation Title: Transforming Adolescent Sexual Reproductive Health in Pakistan: A Holistic and Culturally Sensitive Strategy",
-   "free": null,
-   "org": "Jiann-Ping Hsu College of Public Health",
-   "orgUri": "jiann-ping-hsu-college-of-public-health",
-   "colleges": []
-  },
-  {
-   "id": "engage-the-mid-week-unwind-12",
-   "title": "The Mid Week Unwind",
-   "start": "2026-11-11T19:00:00.000Z",
-   "end": "2026-11-11T20:00:00.000Z",
-   "allDay": false,
-   "location": "Swainsboro Counseling Center",
-   "campus": "other",
-   "url": "https://georgiasouthern.presence.io/event/the-mid-week-unwind-12",
-   "types": [
-    "Health & Wellness"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "academic",
-    "wellness"
-   ],
-   "desc": "Are you Stressed, Pressed and in a Mess? Come join our weekly stress debriefer. This workshop is designed for students to gather freely to express frustration, stress and heavy emotions. In this workshop one will be able to review what happened, discuss what went poorly and learn how to improve for next time. This wor…",
-   "free": null,
-   "org": "Counseling Center",
-   "orgUri": "counseling-center",
-   "colleges": []
-  },
-  {
    "id": "engage-serve912-weekly-trip-restoring-the-breach-inc-11-11-wednesday",
    "title": "Serve912 Weekly Trip - Restoring the Breach, Inc. (11/11) - Wednesday",
    "start": "2026-11-11T19:30:00.000Z",
@@ -462,31 +226,6 @@
    "free": null,
    "org": "Office of Leadership and Community Engagement",
    "orgUri": "office-of-leadership-and-community-engagement-2",
-   "colleges": []
-  },
-  {
-   "id": "engage-holiday-hang-ups-counseling-center-workshop-2",
-   "title": "Holiday Hang Ups - Navigating Family Dynamics",
-   "start": "2026-11-11T20:00:00.000Z",
-   "end": "2026-11-11T21:00:00.000Z",
-   "allDay": false,
-   "location": "https://georgiasouthern-edu-telehealth.zoom.us/meeting/register/hItIicugTAGdv_1-BzmI1w",
-   "campus": "other",
-   "url": "https://georgiasouthern.presence.io/event/holiday-hang-ups-counseling-center-workshop-2",
-   "types": [
-    "Health & Wellness",
-    "Virtual"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "academic",
-    "wellness"
-   ],
-   "desc": "There’s no place like home for the holidays, until things get complicated. While the holidays are joyful for some, they can also bring up feelings of loneliness, stress, and emotional overwhelm. Whether you're grieving someone you've lost, feeling anxious about family gatherings, or spending the holidays on your own,…",
-   "free": null,
-   "org": "Counseling Center",
-   "orgUri": "counseling-center",
    "colleges": []
   },
   {
@@ -2586,24 +2325,24 @@
    ]
   },
   {
-   "id": "engage-lighting-ceremony-4",
+   "id": "54369869693036-54369869693037",
    "title": "Lighting Ceremony",
    "start": "2026-11-16T23:00:00.000Z",
    "end": "2026-11-16T23:01:00.000Z",
    "allDay": false,
    "location": "Burnett Lawn",
-   "campus": "armstrong",
-   "url": "https://georgiasouthern.presence.io/event/lighting-ceremony-4",
-   "types": [],
+   "campus": "",
+   "url": "https://calendar.georgiasouthern.edu/event/lighting-ceremony-7375",
+   "types": [
+    "Eagle Engage"
+   ],
    "depts": [],
-   "source": "engage",
+   "source": "calendar",
    "tags": [
     "social"
    ],
-   "desc": "Light up the season with UPB! ✨ Join us as we celebrate the holiday lights around Burnett Hall, then continue the festivities at Burnett Lawn with light refreshments, activities, and fellow Eagles. &#128197; Monday, November 16 ⏰ 6:00 PM &#128205;Burnett Hall & Lawn #LightingCeremony #GeorgiaSouthern #UPB #TrueBlue #A…",
-   "free": null,
-   "org": "University Programming Board - Armstrong Campus",
-   "orgUri": "university-programming-board-armstrong-campus-3",
+   "desc": "Light up the season with UPB! ✨ Join us as we celebrate the holiday lights around Burnett Hall, then continue the festivities at Burnett Lawn with light refreshments, activities, and fellow Eagles. 📅, Monday, November 16 ⏰ 6:00 PM 📍,Burnett Hall &amp, Lawn #LightingCeremony #GeorgiaSouthern #UPB #TrueBlue #Armstrong…",
+   "free": false,
    "colleges": []
   },
   {
@@ -2807,6 +2546,33 @@
    "free": false,
    "lat": 32.418824,
    "lon": -81.782889,
+   "colleges": []
+  },
+  {
+   "id": "engage-lunch-social-at-the-galley",
+   "title": "Lunch Social at the Galley",
+   "start": "2026-11-17T17:00:00.000Z",
+   "end": "2026-11-17T18:00:00.000Z",
+   "allDay": false,
+   "location": "ISAP Suite in Victor Hall",
+   "campus": "armstrong",
+   "url": "https://georgiasouthern.presence.io/event/lunch-social-at-the-galley",
+   "types": [
+    "Free Food",
+    "Social Event"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "culture",
+    "food",
+    "intl",
+    "social"
+   ],
+   "desc": "Have lunch with international students to socialize before Thanksgiving Break",
+   "free": null,
+   "org": "Office of International Student Admissions and Programs",
+   "orgUri": "office-of-international-student-admissions-and-programs",
    "colleges": []
   },
   {
@@ -4928,6 +4694,33 @@
    ]
   },
   {
+   "id": "engage-georgia-southern-football-vs-louisiana-tech",
+   "title": "Georgia Southern Football vs Louisiana Tech",
+   "start": "2026-11-28T20:30:00.000Z",
+   "end": "2026-11-29T00:30:00.000Z",
+   "allDay": false,
+   "location": "Paulson Stadium",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/georgia-southern-football-vs-louisiana-tech",
+   "types": [
+    "Free Stuff",
+    "Social Event",
+    "Sports/Fitness"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "sports",
+    "fitness",
+    "social"
+   ],
+   "desc": "Come cheer on the Eagles in Paulson Stadium! Kickoff is at 3:30 PM",
+   "free": null,
+   "org": "Georgia Southern Athletics",
+   "orgUri": "georgia-southern-athletics-2",
+   "colleges": []
+  },
+  {
    "id": "engage-southern-pride-marching-band-home-football-vs-louisiana-tech",
    "title": "Southern Pride Marching Band (Home football vs Louisiana Tech)",
    "start": "2026-11-29T00:00:00.000Z",
@@ -5247,6 +5040,30 @@
    "colleges": [
     "parker"
    ]
+  },
+  {
+   "id": "54488685510639-54488685511664",
+   "title": "Barry Joyner Retirement Reception",
+   "start": "2026-12-03T19:30:00.000Z",
+   "end": "2026-12-03T21:30:00.000Z",
+   "allDay": false,
+   "location": "Jack and Ruth Ann Hill Convocation Center",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/barry-joyner-retirement-reception",
+   "types": [
+    "Recognition"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "science",
+    "wellness"
+   ],
+   "desc": "Please Join Us for a retirement reception honoring Barry Joyner, Ph.D. Hosted by the Department of Health Sciences and Kinesiology and the Waters College of Health Professions. December 3, 2026 2:30 - 4:30 p.m. Jack and Ruth Ann Hill Convocation Center",
+   "free": false,
+   "lat": 32.405866,
+   "lon": -81.782931,
+   "colleges": []
   },
   {
    "id": "54487402753735-54487402792671",
@@ -5574,6 +5391,1343 @@
    "colleges": [
     "parker"
    ]
+  },
+  {
+   "id": "51276827316642-51276827319716",
+   "title": "Visit Enchanting Christmas Markets | Georgia Southern Alumni and Friends Travel Program",
+   "start": "2026-12-11T05:00:00.000Z",
+   "end": "2026-12-11T06:00:00.000Z",
+   "allDay": true,
+   "location": "Germany, France, and Switzerland",
+   "campus": "",
+   "url": "https://calendar.georgiasouthern.edu/event/visit-enchanting-christmas-markets-georgia-southern-alumni-and-friends-travel-program",
+   "types": [
+    "Arts, Culture and Entertainment",
+    "University Advancement",
+    "Alumni"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "arts"
+   ],
+   "desc": "Join Georgia Southern Alumni and Friends at the Enchanting Christmas Markets December 10 – 18, 2026! Discover the holiday spirit throughout Germany, France, and Switzerland on a festive tour of Christmas markets. Immerse yourself in the traditions and joys of the season across the region’s most enchanting destinations…",
+   "free": false,
+   "colleges": [
+    "cah"
+   ]
+  },
+  {
+   "id": "54487402753735-54487402800870",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2026-12-11T14:00:00.000Z",
+   "end": "2026-12-11T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
+   ]
+  },
+  {
+   "id": "51276827316642-51276827322789",
+   "title": "Visit Enchanting Christmas Markets | Georgia Southern Alumni and Friends Travel Program",
+   "start": "2026-12-12T05:00:00.000Z",
+   "end": "2026-12-12T06:00:00.000Z",
+   "allDay": true,
+   "location": "Germany, France, and Switzerland",
+   "campus": "",
+   "url": "https://calendar.georgiasouthern.edu/event/visit-enchanting-christmas-markets-georgia-southern-alumni-and-friends-travel-program",
+   "types": [
+    "Arts, Culture and Entertainment",
+    "University Advancement",
+    "Alumni"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "arts"
+   ],
+   "desc": "Join Georgia Southern Alumni and Friends at the Enchanting Christmas Markets December 10 – 18, 2026! Discover the holiday spirit throughout Germany, France, and Switzerland on a festive tour of Christmas markets. Immerse yourself in the traditions and joys of the season across the region’s most enchanting destinations…",
+   "free": false,
+   "colleges": [
+    "cah"
+   ]
+  },
+  {
+   "id": "54487402753735-54487402802919",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2026-12-12T14:00:00.000Z",
+   "end": "2026-12-12T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
+   ]
+  },
+  {
+   "id": "engage-georgia-southern-womens-basketball-vs-fiu",
+   "title": "Georgia Southern Women's Basketball vs. FIU",
+   "start": "2026-12-12T17:00:00.000Z",
+   "end": "2026-12-12T20:00:00.000Z",
+   "allDay": false,
+   "location": "Jack and Ruth Ann Hill Convocation Center",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/georgia-southern-womens-basketball-vs-fiu",
+   "types": [
+    "Free Stuff",
+    "Social Event",
+    "Sports/Fitness"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "sports",
+    "fitness",
+    "women",
+    "social"
+   ],
+   "desc": "Hoops & Holly Wear your ugly Sweater! Candy Canes upon entrance. Celebrate the season with festive cheer and a great time with Eagles Basketball.",
+   "free": null,
+   "org": "Georgia Southern Athletics",
+   "orgUri": "georgia-southern-athletics-2",
+   "colleges": []
+  },
+  {
+   "id": "engage-georgia-southern-vs-uncw",
+   "title": "Georgia Southern Vs UNCW",
+   "start": "2026-12-12T22:00:00.000Z",
+   "end": "2026-12-13T00:00:00.000Z",
+   "allDay": false,
+   "location": "Jack and Ruth Ann Hill convocation center",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/georgia-southern-vs-uncw",
+   "types": [
+    "Free Stuff",
+    "Social Event",
+    "Sports/Fitness"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "sports",
+    "fitness",
+    "social"
+   ],
+   "desc": "Hoops & Holly Double the basketball, double the fun! Come enjoy a Night Out at The Hill - Ugly Sweater Contest... Yes! Candy Canes.... Yes! Holiday vibes..... Yes! Celebrate the season with festive cheer and great time with Eagles Basketball!",
+   "free": null,
+   "org": "Georgia Southern Athletics",
+   "orgUri": "georgia-southern-athletics-2",
+   "colleges": []
+  },
+  {
+   "id": "51276827316642-51276827324838",
+   "title": "Visit Enchanting Christmas Markets | Georgia Southern Alumni and Friends Travel Program",
+   "start": "2026-12-13T05:00:00.000Z",
+   "end": "2026-12-13T06:00:00.000Z",
+   "allDay": true,
+   "location": "Germany, France, and Switzerland",
+   "campus": "",
+   "url": "https://calendar.georgiasouthern.edu/event/visit-enchanting-christmas-markets-georgia-southern-alumni-and-friends-travel-program",
+   "types": [
+    "Arts, Culture and Entertainment",
+    "University Advancement",
+    "Alumni"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "arts"
+   ],
+   "desc": "Join Georgia Southern Alumni and Friends at the Enchanting Christmas Markets December 10 – 18, 2026! Discover the holiday spirit throughout Germany, France, and Switzerland on a festive tour of Christmas markets. Immerse yourself in the traditions and joys of the season across the region’s most enchanting destinations…",
+   "free": false,
+   "colleges": [
+    "cah"
+   ]
+  },
+  {
+   "id": "54487402753735-54487402803944",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2026-12-13T14:00:00.000Z",
+   "end": "2026-12-13T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
+   ]
+  },
+  {
+   "id": "51276827316642-51276827327911",
+   "title": "Visit Enchanting Christmas Markets | Georgia Southern Alumni and Friends Travel Program",
+   "start": "2026-12-14T05:00:00.000Z",
+   "end": "2026-12-14T06:00:00.000Z",
+   "allDay": true,
+   "location": "Germany, France, and Switzerland",
+   "campus": "",
+   "url": "https://calendar.georgiasouthern.edu/event/visit-enchanting-christmas-markets-georgia-southern-alumni-and-friends-travel-program",
+   "types": [
+    "Arts, Culture and Entertainment",
+    "University Advancement",
+    "Alumni"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "arts"
+   ],
+   "desc": "Join Georgia Southern Alumni and Friends at the Enchanting Christmas Markets December 10 – 18, 2026! Discover the holiday spirit throughout Germany, France, and Switzerland on a festive tour of Christmas markets. Immerse yourself in the traditions and joys of the season across the region’s most enchanting destinations…",
+   "free": false,
+   "colleges": [
+    "cah"
+   ]
+  },
+  {
+   "id": "54487402753735-54487402804969",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2026-12-14T14:00:00.000Z",
+   "end": "2026-12-14T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
+   ]
+  },
+  {
+   "id": "51276827316642-51276827329960",
+   "title": "Visit Enchanting Christmas Markets | Georgia Southern Alumni and Friends Travel Program",
+   "start": "2026-12-15T05:00:00.000Z",
+   "end": "2026-12-15T06:00:00.000Z",
+   "allDay": true,
+   "location": "Germany, France, and Switzerland",
+   "campus": "",
+   "url": "https://calendar.georgiasouthern.edu/event/visit-enchanting-christmas-markets-georgia-southern-alumni-and-friends-travel-program",
+   "types": [
+    "Arts, Culture and Entertainment",
+    "University Advancement",
+    "Alumni"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "arts"
+   ],
+   "desc": "Join Georgia Southern Alumni and Friends at the Enchanting Christmas Markets December 10 – 18, 2026! Discover the holiday spirit throughout Germany, France, and Switzerland on a festive tour of Christmas markets. Immerse yourself in the traditions and joys of the season across the region’s most enchanting destinations…",
+   "free": false,
+   "colleges": [
+    "cah"
+   ]
+  },
+  {
+   "id": "54487402753735-54487402805994",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2026-12-15T14:00:00.000Z",
+   "end": "2026-12-15T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
+   ]
+  },
+  {
+   "id": "engage-georgia-southern-womens-basketball-vs-college-of-charleston-2",
+   "title": "Georgia Southern Women's Basketball vs. College of Charleston",
+   "start": "2026-12-15T22:00:00.000Z",
+   "end": "2026-12-16T01:00:00.000Z",
+   "allDay": false,
+   "location": "Jack and Ruth Ann Hill Convocation Center",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/georgia-southern-womens-basketball-vs-college-of-charleston-2",
+   "types": [
+    "Free Stuff",
+    "Social Event",
+    "Sports/Fitness"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "sports",
+    "fitness",
+    "women",
+    "social"
+   ],
+   "desc": "Check Ball Bring the energy, all gas no brakes, no excuses, STRAIGHT UP HOOPS!",
+   "free": null,
+   "org": "Georgia Southern Athletics",
+   "orgUri": "georgia-southern-athletics-2",
+   "colleges": []
+  },
+  {
+   "id": "53931616462810-53931616463835",
+   "title": "Jim Curry presents John Denver’s: A Rocky Mountain Christmas",
+   "start": "2026-12-16T00:30:00.000Z",
+   "end": "2026-12-16T01:30:00.000Z",
+   "allDay": false,
+   "location": "Performing Arts Center (PAC)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/jim-curry-presents-john-denvers-a-rocky-mountain-christmas",
+   "types": [
+    "Arts, Culture and Entertainment"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "arts",
+    "music",
+    "social"
+   ],
+   "desc": "A family holiday tradition comes to life in “A Rocky Mountain Christmas” as Jim Curry performs the music from John Denver’s many Christmas Television specials and Christmas Music collections. Memorable melodies that speak to the heart of the holidays like “Silver Bells”, “Silent Night” and “O Holy Night” along with Jo…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "cah"
+   ]
+  },
+  {
+   "id": "51276827316642-51276827333033",
+   "title": "Visit Enchanting Christmas Markets | Georgia Southern Alumni and Friends Travel Program",
+   "start": "2026-12-16T05:00:00.000Z",
+   "end": "2026-12-16T06:00:00.000Z",
+   "allDay": true,
+   "location": "Germany, France, and Switzerland",
+   "campus": "",
+   "url": "https://calendar.georgiasouthern.edu/event/visit-enchanting-christmas-markets-georgia-southern-alumni-and-friends-travel-program",
+   "types": [
+    "Arts, Culture and Entertainment",
+    "University Advancement",
+    "Alumni"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "arts"
+   ],
+   "desc": "Join Georgia Southern Alumni and Friends at the Enchanting Christmas Markets December 10 – 18, 2026! Discover the holiday spirit throughout Germany, France, and Switzerland on a festive tour of Christmas markets. Immerse yourself in the traditions and joys of the season across the region’s most enchanting destinations…",
+   "free": false,
+   "colleges": [
+    "cah"
+   ]
+  },
+  {
+   "id": "54487402753735-54487402808043",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2026-12-16T14:00:00.000Z",
+   "end": "2026-12-16T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
+   ]
+  },
+  {
+   "id": "52613453170650-52613453180905",
+   "title": "SHRM Certification Prep+",
+   "start": "2026-12-16T23:00:00.000Z",
+   "end": "2026-12-17T02:00:00.000Z",
+   "allDay": false,
+   "location": "",
+   "campus": "",
+   "url": "https://calendar.georgiasouthern.edu/event/shrm-certification-prep",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "leadership"
+   ],
+   "desc": "Earning your SHRM-CP or SHRM-SCP credential sets you apart as an expert in the HR field and a strategic partner in your organization. This program is designed to help you: Deepen your HR knowledge and leadership skills Increase your chances of passing the SHRM-CP or SHRM-SCP exam Strengthen your value and impact in to…",
+   "free": false,
+   "colleges": []
+  },
+  {
+   "id": "engage-mens-basketball-vs-coastal-carolina-7",
+   "title": "Men's Basketball vs Coastal Carolina",
+   "start": "2026-12-17T00:00:00.000Z",
+   "end": "2026-12-17T02:00:00.000Z",
+   "allDay": false,
+   "location": "Jack and Ruth Ann Hill convocation center",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/mens-basketball-vs-coastal-carolina-7",
+   "types": [
+    "Free Stuff",
+    "Social Event",
+    "Sports/Fitness"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "sports",
+    "fitness",
+    "lgbtq",
+    "social"
+   ],
+   "desc": "Community & Family Night Bring the whole family to The Hill for a night of exciting basketball, unforgettable memories, and Eagle pride as we cheer on our Georgia Southern Eagles together!",
+   "free": null,
+   "org": "Georgia Southern Athletics",
+   "orgUri": "georgia-southern-athletics-2",
+   "colleges": []
+  },
+  {
+   "id": "51276827316642-51276827337130",
+   "title": "Visit Enchanting Christmas Markets | Georgia Southern Alumni and Friends Travel Program",
+   "start": "2026-12-17T05:00:00.000Z",
+   "end": "2026-12-17T06:00:00.000Z",
+   "allDay": true,
+   "location": "Germany, France, and Switzerland",
+   "campus": "",
+   "url": "https://calendar.georgiasouthern.edu/event/visit-enchanting-christmas-markets-georgia-southern-alumni-and-friends-travel-program",
+   "types": [
+    "Arts, Culture and Entertainment",
+    "University Advancement",
+    "Alumni"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "arts"
+   ],
+   "desc": "Join Georgia Southern Alumni and Friends at the Enchanting Christmas Markets December 10 – 18, 2026! Discover the holiday spirit throughout Germany, France, and Switzerland on a festive tour of Christmas markets. Immerse yourself in the traditions and joys of the season across the region’s most enchanting destinations…",
+   "free": false,
+   "colleges": [
+    "cah"
+   ]
+  },
+  {
+   "id": "54487402753735-54487402809068",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2026-12-17T14:00:00.000Z",
+   "end": "2026-12-17T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
+   ]
+  },
+  {
+   "id": "51276827316642-51276827344299",
+   "title": "Visit Enchanting Christmas Markets | Georgia Southern Alumni and Friends Travel Program",
+   "start": "2026-12-18T05:00:00.000Z",
+   "end": "2026-12-18T06:00:00.000Z",
+   "allDay": true,
+   "location": "Germany, France, and Switzerland",
+   "campus": "",
+   "url": "https://calendar.georgiasouthern.edu/event/visit-enchanting-christmas-markets-georgia-southern-alumni-and-friends-travel-program",
+   "types": [
+    "Arts, Culture and Entertainment",
+    "University Advancement",
+    "Alumni"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "arts"
+   ],
+   "desc": "Join Georgia Southern Alumni and Friends at the Enchanting Christmas Markets December 10 – 18, 2026! Discover the holiday spirit throughout Germany, France, and Switzerland on a festive tour of Christmas markets. Immerse yourself in the traditions and joys of the season across the region’s most enchanting destinations…",
+   "free": false,
+   "colleges": [
+    "cah"
+   ]
+  },
+  {
+   "id": "54487402753735-54487402811117",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2026-12-18T14:00:00.000Z",
+   "end": "2026-12-18T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
+   ]
+  },
+  {
+   "id": "54487402753735-54487402813166",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2026-12-19T14:00:00.000Z",
+   "end": "2026-12-19T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
+   ]
+  },
+  {
+   "id": "54487402753735-54487402814191",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2026-12-20T14:00:00.000Z",
+   "end": "2026-12-20T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
+   ]
+  },
+  {
+   "id": "54487402753735-54487402816240",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2026-12-21T14:00:00.000Z",
+   "end": "2026-12-21T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
+   ]
+  },
+  {
+   "id": "54487402753735-54487402817265",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2026-12-22T14:00:00.000Z",
+   "end": "2026-12-22T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
+   ]
+  },
+  {
+   "id": "54487402753735-54487402818290",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2026-12-23T14:00:00.000Z",
+   "end": "2026-12-23T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
+   ]
+  },
+  {
+   "id": "53617800373551-54104470739022",
+   "title": "HSO Munch and Mingle",
+   "start": "2026-12-23T16:00:00.000Z",
+   "end": "2026-12-23T16:01:00.000Z",
+   "allDay": false,
+   "location": "Solms Hall (Armstrong Campus), 103",
+   "campus": "armstrong",
+   "url": "https://calendar.georgiasouthern.edu/event/hso-munch-and-mingle",
+   "types": [
+    "Eagle Engage",
+    "Student Organizations"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "honors",
+    "food"
+   ],
+   "desc": "Come and eat some lunch with other Honors Students! Make some friends while eating yummy food catered by the Chick-Fil-A on campus! Learn more at http://georgiasouthern.presence.io/event/hso-munch-and-mingle",
+   "free": false,
+   "lat": 31.980157,
+   "lon": -81.163739,
+   "colleges": []
+  },
+  {
+   "id": "54487402753735-54487402821363",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2026-12-24T14:00:00.000Z",
+   "end": "2026-12-24T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
+   ]
+  },
+  {
+   "id": "54487402753735-54487402822388",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2026-12-25T14:00:00.000Z",
+   "end": "2026-12-25T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
+   ]
+  },
+  {
+   "id": "54487402753735-54487402824437",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2026-12-26T14:00:00.000Z",
+   "end": "2026-12-26T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
+   ]
+  },
+  {
+   "id": "54487402753735-54487402825462",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2026-12-27T14:00:00.000Z",
+   "end": "2026-12-27T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
+   ]
+  },
+  {
+   "id": "54487402753735-54487402827511",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2026-12-28T14:00:00.000Z",
+   "end": "2026-12-28T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
+   ]
+  },
+  {
+   "id": "54487402753735-54487402828536",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2026-12-29T14:00:00.000Z",
+   "end": "2026-12-29T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
+   ]
+  },
+  {
+   "id": "54487402753735-54487402829561",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2026-12-30T14:00:00.000Z",
+   "end": "2026-12-30T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
+   ]
+  },
+  {
+   "id": "54487402753735-54487402831610",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2026-12-31T14:00:00.000Z",
+   "end": "2026-12-31T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
+   ]
+  },
+  {
+   "id": "engage-mens-basketball-vs-louisiana-2",
+   "title": "Men's Basketball Vs Louisiana",
+   "start": "2026-12-31T20:00:00.000Z",
+   "end": "2026-12-31T22:00:00.000Z",
+   "allDay": false,
+   "location": "Jack and Ruth Ann Hill convocation center",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/mens-basketball-vs-louisiana-2",
+   "types": [
+    "Free Stuff",
+    "Social Event",
+    "Sports/Fitness"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "sports",
+    "fitness",
+    "social"
+   ],
+   "desc": "Ball Drop at The Hill Need something to do during the day for NYE? Don't worry we have you covered come out to The Hill and watch us take on Louisiana!",
+   "free": null,
+   "org": "Georgia Southern Athletics",
+   "orgUri": "georgia-southern-athletics-2",
+   "colleges": []
+  },
+  {
+   "id": "54487402753735-54487402832635",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2027-01-01T14:00:00.000Z",
+   "end": "2027-01-01T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
+   ]
+  },
+  {
+   "id": "54487402753735-54487402833660",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2027-01-02T14:00:00.000Z",
+   "end": "2027-01-02T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
+   ]
+  },
+  {
+   "id": "engage-mens-basketball-vs-southern-miss",
+   "title": "Men's Basketball Vs Southern Miss",
+   "start": "2027-01-02T20:00:00.000Z",
+   "end": "2027-01-02T22:00:00.000Z",
+   "allDay": false,
+   "location": "Jack and Ruth Ann Hill convocation center",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/mens-basketball-vs-southern-miss",
+   "types": [
+    "Free Food",
+    "Social Event",
+    "Sports/Fitness"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "sports",
+    "fitness",
+    "food",
+    "lgbtq",
+    "social"
+   ],
+   "desc": "Statesboro Appreciation Day Celebrate the heart of our hometown at The Hill for Statesboro Appreciation Day as we honor our community and show our Eagle pride with a day full of basketball, hometown spirit, and Southern hospitality!",
+   "free": null,
+   "org": "Georgia Southern Athletics",
+   "orgUri": "georgia-southern-athletics-2",
+   "colleges": []
+  },
+  {
+   "id": "54487402753735-54487402834685",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2027-01-03T14:00:00.000Z",
+   "end": "2027-01-03T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
+   ]
+  },
+  {
+   "id": "54487402753735-54487402835710",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2027-01-04T14:00:00.000Z",
+   "end": "2027-01-04T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
+   ]
+  },
+  {
+   "id": "54487402753735-54487402837759",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2027-01-05T14:00:00.000Z",
+   "end": "2027-01-05T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
+   ]
+  },
+  {
+   "id": "54487402753735-54487402838784",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2027-01-06T14:00:00.000Z",
+   "end": "2027-01-06T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
+   ]
+  },
+  {
+   "id": "engage-georgia-southern-womens-basketball-vs-south-alabama",
+   "title": "Georgia Southern Women's Basketball vs. South Alabama",
+   "start": "2027-01-06T22:00:00.000Z",
+   "end": "2027-01-07T01:00:00.000Z",
+   "allDay": false,
+   "location": "Jack and Ruth Ann Hill Convocation Center",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/georgia-southern-womens-basketball-vs-south-alabama",
+   "types": [
+    "Free Stuff",
+    "Social Event",
+    "Sports/Fitness"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "sports",
+    "fitness",
+    "women",
+    "social"
+   ],
+   "desc": "Humpday Hoops Basketball on a Wednesday? Doesn't get any better than that!",
+   "free": null,
+   "org": "Georgia Southern Athletics",
+   "orgUri": "georgia-southern-athletics-2",
+   "colleges": []
+  },
+  {
+   "id": "54487402753735-54487402840833",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2027-01-07T14:00:00.000Z",
+   "end": "2027-01-07T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
+   ]
+  },
+  {
+   "id": "54487402753735-54487402841858",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2027-01-08T14:00:00.000Z",
+   "end": "2027-01-08T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
+   ]
+  },
+  {
+   "id": "54487402753735-54487402844931",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2027-01-09T14:00:00.000Z",
+   "end": "2027-01-09T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
+   ]
+  },
+  {
+   "id": "engage-georgia-southern-womens-basketball-vs-troy",
+   "title": "Georgia Southern Women's Basketball vs. Troy",
+   "start": "2027-01-09T18:00:00.000Z",
+   "end": "2027-01-09T21:00:00.000Z",
+   "allDay": false,
+   "location": "Jack and Ruth Ann Hill Convocation Center",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/georgia-southern-womens-basketball-vs-troy",
+   "types": [
+    "Free Stuff",
+    "Social Event",
+    "Sports/Fitness"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "sports",
+    "fitness",
+    "women",
+    "social"
+   ],
+   "desc": "Camper Appreciation Day grab your crew a &#65279;nd join us for a day of hoops, fun, and Eagles energy as we celebrate all the amazing campers in our community!",
+   "free": null,
+   "org": "Georgia Southern Athletics",
+   "orgUri": "georgia-southern-athletics-2",
+   "colleges": []
   }
  ]
 }

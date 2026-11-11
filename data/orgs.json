@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-11T16:06:48.947Z",
+ "generatedAt": "2026-11-11T21:36:25.088Z",
  "source": "Eagle Engage (https://georgiasouthern.presence.io)",
  "base": "https://georgiasouthern.presence.io",
  "orgs": [
@@ -289,7 +289,7 @@
     "Professional",
     "Service"
    ],
-   "members": 65,
+   "members": 66,
    "meets": "6:00pm - 7:00pm · College of Education",
    "desc": "The Aspiring Educators of Georgia Southern University members are undergraduate and graduate students pursuing education degrees or planning to enter the education profession.We focus on professional development through…",
    "upcoming": 0
@@ -886,7 +886,7 @@
    "members": 5,
    "meets": "",
    "desc": "The Counseling Center at Georgia Southern University is a place where students can go to receive services and participate in programs that are designed to help them handle day-to-day challenges and encourage their perso…",
-   "upcoming": 8
+   "upcoming": 6
   },
   {
    "name": "Creative Writing Club at Armstrong",
@@ -1004,7 +1004,7 @@
    "cats": [
     "Campus Department"
    ],
-   "members": 32,
+   "members": 33,
    "meets": "",
    "desc": "The Department of Biology, through the shared resources of multiple campuses, offers study in the field of biological sciences to provide students with a broad, foundational education through authentic learning experien…",
    "upcoming": 1
@@ -1690,7 +1690,7 @@
    "members": 43,
    "meets": "",
    "desc": "The official page of the Georgia Southern Eagles and the Georgia Southern Athletic Department. Follow along for upcoming games and events, game information, and more!",
-   "upcoming": 27
+   "upcoming": 28
   },
   {
    "name": "Georgia Southern University",
@@ -1714,7 +1714,7 @@
    "members": 4,
    "meets": "",
    "desc": "The Georgia Southern Alumni Association fosters relationships with alumni and friends through programs that promote the growth, progress, and welfare of the newly consolidated Georgia Southern University.",
-   "upcoming": 1
+   "upcoming": 0
   },
   {
    "name": "Georgia Southern University Libraries",
@@ -2063,7 +2063,7 @@
    "members": 1,
    "meets": "",
    "desc": "The mission of the Jiann-Ping Hsu College of Public Health (JPHCOPH) is to improve health, eliminate health disparities and health inequities of rural communities and underserved populations globally through excellence…",
-   "upcoming": 2
+   "upcoming": 0
   },
   {
    "name": "Justice & Law Society",
@@ -2626,7 +2626,7 @@
    "members": 67,
    "meets": "",
    "desc": "International Student Admissions and Programs(ISAP) champions and supports the international student community of GS. ISAP seeks to recruit, retain and graduate international students while broadening global awareness o…",
-   "upcoming": 0
+   "upcoming": 1
   },
   {
    "name": "Office of Leadership and Community Engagement",
@@ -2639,7 +2639,7 @@
    "members": 150,
    "meets": "",
    "desc": "Our office is dedicated to helping students develop both in and out of the classroom through:LeadershipA strong co-curricular leadership program of workshops, seminars, conferences, and nationally recognized speakers.Co…",
-   "upcoming": 16
+   "upcoming": 14
   },
   {
    "name": "Office of Multicultural Affairs",
@@ -2703,7 +2703,7 @@
    "members": 4,
    "meets": "",
    "desc": "The Office of Student Engagement and Support develops and coordinates high-impact programs for mentoring, outreach, and support. The office implements data-informed outreach strategies to connect with students and suppo…",
-   "upcoming": 6
+   "upcoming": 4
   },
   {
    "name": "Office of the Dean - College of Behavioral and Social Sciences",
@@ -2984,7 +2984,7 @@
     "Statesboro Campus",
     "Political Action"
    ],
-   "members": 20,
+   "members": 21,
    "meets": "4:30 PM · Carroll 2221",
    "desc": "We, the members of the Political Science Club, create a space where students can discuss their political opinions without judgment, stay informed on current political issues/events through non-partisan news outlets and…",
    "upcoming": 0
@@ -3968,7 +3968,7 @@
    "members": 11,
    "meets": "",
    "desc": "Student Wellness & Health Promotion strives to help students identify positive behaviors and coping strategies related to Emotional Wellbeing, Physical Wellbeing, Interpersonal Violence, and more. Through interacting wi…",
-   "upcoming": 2
+   "upcoming": 0
   },
   {
    "name": "Students with Disabilities Advocacy Group",
@@ -4383,7 +4383,7 @@
    "members": 1,
    "meets": "",
    "desc": "To provide a residential environment conducive to the educational success and personal development of our students. We care. We engage. We educate.",
-   "upcoming": 1
+   "upcoming": 0
   },
   {
    "name": "University Programming Board - Armstrong Campus",
