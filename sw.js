@@ -2,7 +2,7 @@
 // Network-first for everything on this site, so students always get today's data when
 // they have signal, and the last good copy when they don't. BUILD is bumped by the
 // refresh workflow so old caches are cleared after each data update.
-const BUILD = "202611111020";
+const BUILD = "202611111611";
 const CACHE = "roam-" + BUILD;
 const SHELL = ["./", "index.html", "styles.css", "config.js", "data.js", "shared.js", "student.js", "manifest.webmanifest", "icons/icon-192.png", "icons/compass.svg"];
 

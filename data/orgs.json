@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-11T10:14:41.240Z",
+ "generatedAt": "2026-11-11T16:06:48.947Z",
  "source": "Eagle Engage (https://georgiasouthern.presence.io)",
  "base": "https://georgiasouthern.presence.io",
  "orgs": [
@@ -1007,18 +1007,7 @@
    "members": 32,
    "meets": "",
    "desc": "The Department of Biology, through the shared resources of multiple campuses, offers study in the field of biological sciences to provide students with a broad, foundational education through authentic learning experien…",
-   "upcoming": 0
-  },
-  {
-   "name": "Department of Biomedical Sciences",
-   "uri": "department-of-biomedical-sciences",
-   "cats": [
-    "Campus Department"
-   ],
-   "members": 11,
-   "meets": "",
-   "desc": "The Department of Biomedical Sciences at Georgia Southern offers a BS in Biomedical Sciences and is designed for students interested in medicine, pharmacology, forensic science or biotechnical engineering—students passi…",
-   "upcoming": 0
+   "upcoming": 1
   },
   {
    "name": "Department of Biomedical Sciences",
@@ -1030,6 +1019,17 @@
    "members": 0,
    "meets": "",
    "desc": "The BS in Biomedical Sciences at Georgia Southern is designed for students interested in medicine, pharmacology, forensic science or biotechnical engineering—students passionate about solving complex medical problems an…",
+   "upcoming": 0
+  },
+  {
+   "name": "Department of Biomedical Sciences",
+   "uri": "department-of-biomedical-sciences",
+   "cats": [
+    "Campus Department"
+   ],
+   "members": 11,
+   "meets": "",
+   "desc": "The Department of Biomedical Sciences at Georgia Southern offers a BS in Biomedical Sciences and is designed for students interested in medicine, pharmacology, forensic science or biotechnical engineering—students passi…",
    "upcoming": 0
   },
   {
@@ -2679,7 +2679,7 @@
    "members": 30,
    "meets": "",
    "desc": "The Office of Student Activities supports the mission of Georgia Southern University by providing and enhancing diverse involvement opportunities beyond the classroom. In a student-centered and engaging environment, we…",
-   "upcoming": 8
+   "upcoming": 7
   },
   {
    "name": "Office of Student Conduct",
@@ -3968,7 +3968,7 @@
    "members": 11,
    "meets": "",
    "desc": "Student Wellness & Health Promotion strives to help students identify positive behaviors and coping strategies related to Emotional Wellbeing, Physical Wellbeing, Interpersonal Violence, and more. Through interacting wi…",
-   "upcoming": 0
+   "upcoming": 2
   },
   {
    "name": "Students with Disabilities Advocacy Group",
@@ -4666,6 +4666,18 @@
    "members": 2,
    "meets": "",
    "desc": "The mission of the Women’s, Gender, and Sexuality Studies (WGSS) program at Georgia Southern University promotes a learning-centered culture that engages students in the definitions, theories, and methodologies in the s…",
+   "upcoming": 0
+  },
+  {
+   "name": "WVGS 91.9 FM",
+   "uri": "wvgs-91-9-fm-2",
+   "cats": [
+    "Statesboro Campus",
+    "Creative & Performing Arts"
+   ],
+   "members": 6,
+   "meets": "Sanford Hall, Room 1025",
+   "desc": "Eagle Nation! WVGS 91.9 is YOUR VOICE of Georgia Southern!We provide students and faculty with a creative outlet to share your favorite music and deepest thoughts with a loyal listener base local to Statesboro, GA. Stay…",
    "upcoming": 0
   },
   {

@@ -1,52 +1,34 @@
 {
- "generatedAt": "2026-11-11T10:14:40.806Z",
- "source": "Localist API + Eagle Engage (166) · https://calendar.georgiasouthern.edu",
+ "generatedAt": "2026-11-11T16:06:48.525Z",
+ "source": "Localist API + Eagle Engage (168) · https://calendar.georgiasouthern.edu",
  "events": [
   {
-   "id": "54071341184639-54071341185664",
-   "title": "Eagle Fast Pitch Competition",
-   "start": "2026-11-11T05:00:00.000Z",
-   "end": "2026-11-11T06:00:00.000Z",
-   "allDay": true,
-   "location": "Russell Union (Statesboro Campus), Ballroom",
+   "id": "54487402753735-54487402754760",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2026-11-11T14:00:00.000Z",
+   "end": "2026-11-11T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
    "campus": "statesboro",
-   "url": "https://calendar.georgiasouthern.edu/event/eagle-fast-pitch-competition",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
    "types": [
     "Conferences and Workshops"
    ],
    "depts": [],
    "source": "calendar",
    "tags": [
-    "academic"
+    "academic",
+    "career",
+    "business",
+    "tech"
    ],
-   "desc": "Compete for seed funding and state-level recognition at the Eagle Fast Pitch Competition. Make your five-minute presentation. Cash prizes will be awarded to the three best pitches.",
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
    "free": false,
-   "lat": 32.424956,
-   "lon": -81.77974,
-   "colleges": []
-  },
-  {
-   "id": "52613469647986-52613469656186",
-   "title": "Taste, Tour, and Learn: A Georgia Southern Adventure Through Tuscany",
-   "start": "2026-11-11T05:00:00.000Z",
-   "end": "2026-11-11T06:00:00.000Z",
-   "allDay": true,
-   "location": "Tuscany, Italy",
-   "campus": "other",
-   "url": "https://calendar.georgiasouthern.edu/event/taste-tour-and-learn-a-georgia-southern-adventure-through-tuscany-4108",
-   "types": [
-    "Arts, Culture and Entertainment"
-   ],
-   "depts": [],
-   "source": "calendar",
-   "tags": [
-    "culture",
-    "arts",
-    "food"
-   ],
-   "desc": "Immerse yourself in the flavors, sights, and culture of Italy with hands-on cooking classes, guided tours of historic towns, and Italian language lessons. From the rolling hills of Chianti to the charming streets of Siena, this non-credit program offers a week full of unforgettable experiences designed for lifelong le…",
-   "free": false,
-   "colleges": []
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
+   ]
   },
   {
    "id": "53860792382816-53860792391016",
@@ -340,6 +322,29 @@
    "colleges": []
   },
   {
+   "id": "engage-health-hut-eat-well-sleep-well-be-well",
+   "title": "Health Hut - Eat Well, Sleep Well, Be Well",
+   "start": "2026-11-11T16:00:00.000Z",
+   "end": "2026-11-11T18:00:00.000Z",
+   "allDay": false,
+   "location": "Student Union Commons",
+   "campus": "armstrong",
+   "url": "https://georgiasouthern.presence.io/event/health-hut-eat-well-sleep-well-be-well",
+   "types": [
+    "Info Table/Session"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "wellness"
+   ],
+   "desc": "This Health Hut gives the Office of Student Wellness and Health Promotion an opportunity to educate students on the importance of healthy sleep habits and provide practical strategies for improving sleep quality, helping to address a common barrier to students’ academic performance and overall well-being.",
+   "free": null,
+   "org": "Student Wellness and Health Promotion",
+   "orgUri": "student-wellness-and-health-promotion",
+   "colleges": []
+  },
+  {
    "id": "engage-registration-station-statesboro-campus",
    "title": "Registration Station (Statesboro Campus)",
    "start": "2026-11-11T16:00:57.000Z",
@@ -361,6 +366,30 @@
    "free": null,
    "org": "University Housing - Statesboro Campus",
    "orgUri": "university-housing-statesboro-campus",
+   "colleges": []
+  },
+  {
+   "id": "engage-menstrual-health-tabling",
+   "title": "Menstrual Health Tabling",
+   "start": "2026-11-11T17:00:00.000Z",
+   "end": "2026-11-11T19:00:00.000Z",
+   "allDay": false,
+   "location": "Student Union Porch",
+   "campus": "armstrong",
+   "url": "https://georgiasouthern.presence.io/event/menstrual-health-tabling",
+   "types": [
+    "Free Stuff",
+    "Health & Wellness"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "wellness"
+   ],
+   "desc": "Join the office of Student Wellness and Health Promotion and Tri Sigma to learn about menstrual health and pick up free period products!",
+   "free": null,
+   "org": "Student Wellness and Health Promotion",
+   "orgUri": "student-wellness-and-health-promotion",
    "colleges": []
   },
   {
@@ -749,6 +778,34 @@
    "desc": "Immerse yourself in the flavors, sights, and culture of Italy with hands-on cooking classes, guided tours of historic towns, and Italian language lessons. From the rolling hills of Chianti to the charming streets of Siena, this non-credit program offers a week full of unforgettable experiences designed for lifelong le…",
    "free": false,
    "colleges": []
+  },
+  {
+   "id": "54487402753735-54487402757833",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2026-11-12T14:00:00.000Z",
+   "end": "2026-11-12T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
+   ]
   },
   {
    "id": "53860792382816-53860792392041",
@@ -1497,6 +1554,34 @@
    "colleges": []
   },
   {
+   "id": "54487402753735-54487402760906",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2026-11-13T14:00:00.000Z",
+   "end": "2026-11-13T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
+   ]
+  },
+  {
    "id": "53860792382816-53860792393066",
    "title": "Class Project Exhibition",
    "start": "2026-11-13T14:00:00.000Z",
@@ -1945,6 +2030,34 @@
    ]
   },
   {
+   "id": "54487402753735-54487402763979",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2026-11-14T14:00:00.000Z",
+   "end": "2026-11-14T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
+   ]
+  },
+  {
    "id": "engage-serve912-weekly-trip-fumc-soup-kitchen-11-14",
    "title": "Serve912 Weekly Trip - FUMC Soup Kitchen (11/14)",
    "start": "2026-11-14T14:00:00.000Z",
@@ -2049,14 +2162,14 @@
    ]
   },
   {
-   "id": "53931518409427-53931518410452",
+   "id": "53568130452848-53568130454899",
    "title": "The Glass Menagerie",
    "start": "2026-11-15T00:30:00.000Z",
-   "end": "2026-11-15T01:30:00.000Z",
+   "end": "2026-11-15T03:00:00.000Z",
    "allDay": false,
-   "location": "Performing Arts Center (PAC)",
+   "location": "Performing Arts Center (PAC), Theatre",
    "campus": "statesboro",
-   "url": "https://calendar.georgiasouthern.edu/event/the-glass-menagerie-4347",
+   "url": "https://calendar.georgiasouthern.edu/event/the-glass-menagerie",
    "types": [
     "Arts, Culture and Entertainment"
    ],
@@ -2065,10 +2178,9 @@
    "tags": [
     "arts",
     "theatre",
-    "animals",
-    "social"
+    "animals"
    ],
-   "desc": "Considered a landmark of American Theatre, The Glass Menagerie is Tennessee Williams’s semi-autobiographical “memory play” about the Wingfield family in 1930s St. Louis, focusing on the narrator Tom’s escape from his overbearing mother, Amanda, and his painfully shy, physically disabled sister, Laura, who finds solace…",
+   "desc": "The Glass Menagerie by Tennessee Williams Considered a landmark of American Theatre, The Glass Menagerie is Tennessee Williams's semi-autobiographical \"memory play\" about the Wingfield family in 1930s St. Louis, focusing on the narrator Tom's escape from his overbearing mother, Amanda, and his painfully shy, physicall…",
    "free": false,
    "lat": 32.420313,
    "lon": -81.783089,
@@ -2133,6 +2245,62 @@
    "desc": "Immerse yourself in the flavors, sights, and culture of Italy with hands-on cooking classes, guided tours of historic towns, and Italian language lessons. From the rolling hills of Chianti to the charming streets of Siena, this non-credit program offers a week full of unforgettable experiences designed for lifelong le…",
    "free": false,
    "colleges": []
+  },
+  {
+   "id": "54487402753735-54487402766028",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2026-11-15T14:00:00.000Z",
+   "end": "2026-11-15T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
+   ]
+  },
+  {
+   "id": "54487402753735-54487402768077",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2026-11-16T14:00:00.000Z",
+   "end": "2026-11-16T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
+   ]
   },
   {
    "id": "53860792382816-53860792395115",
@@ -2287,6 +2455,29 @@
    "colleges": []
   },
   {
+   "id": "engage-biology-seminar-dr-jose-rolando",
+   "title": "Biology Seminar - Dr. Jose Rolando",
+   "start": "2026-11-16T16:30:00.000Z",
+   "end": "2026-11-16T17:30:00.000Z",
+   "allDay": false,
+   "location": "RM 1109 - https://georgiasouthern.zoom.us/j/89040053748?pwd=HDIV8zwbwBzbLle6CfEDVoqDXAmNz8.1",
+   "campus": "armstrong",
+   "url": "https://georgiasouthern.presence.io/event/biology-seminar-dr-jose-rolando",
+   "types": [],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "science"
+   ],
+   "desc": "Please join us online at 11:30 on Monday November 16, when Dr. Jose Rolando will be discussing &#34;Plant–microbe symbioses as drivers of coastal ecosystem function.&#34; Hope to see you there!",
+   "free": null,
+   "org": "Department of Biology",
+   "orgUri": "department-of-biology-2",
+   "colleges": [
+    "cosm"
+   ]
+  },
+  {
    "id": "engage-reach-financial-literacy-ways-to-make-money-in-college",
    "title": "REACH - Financial literacy - Ways to make money in college",
    "start": "2026-11-16T20:00:02.000Z",
@@ -2414,6 +2605,34 @@
    "org": "University Programming Board - Armstrong Campus",
    "orgUri": "university-programming-board-armstrong-campus-3",
    "colleges": []
+  },
+  {
+   "id": "54487402753735-54487402770126",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2026-11-17T14:00:00.000Z",
+   "end": "2026-11-17T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
+   ]
   },
   {
    "id": "53860792382816-53860792396140",
@@ -2954,6 +3173,34 @@
    "org": "Georgia Southern Athletics",
    "orgUri": "georgia-southern-athletics-2",
    "colleges": []
+  },
+  {
+   "id": "54487402753735-54487402771151",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2026-11-18T14:00:00.000Z",
+   "end": "2026-11-18T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
+   ]
   },
   {
    "id": "53860792382816-53860792397165",
@@ -3547,6 +3794,34 @@
    "colleges": []
   },
   {
+   "id": "54487402753735-54487402773200",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2026-11-19T14:00:00.000Z",
+   "end": "2026-11-19T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
+   ]
+  },
+  {
    "id": "53860792382816-53860792398190",
    "title": "Class Project Exhibition",
    "start": "2026-11-19T14:00:00.000Z",
@@ -3858,6 +4133,34 @@
    ]
   },
   {
+   "id": "54487402753735-54487402775249",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2026-11-20T14:00:00.000Z",
+   "end": "2026-11-20T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
+   ]
+  },
+  {
    "id": "53860792382816-53860792399215",
    "title": "Class Project Exhibition",
    "start": "2026-11-20T14:00:00.000Z",
@@ -4017,6 +4320,90 @@
    ]
   },
   {
+   "id": "54487402753735-54487402776274",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2026-11-21T14:00:00.000Z",
+   "end": "2026-11-21T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
+   ]
+  },
+  {
+   "id": "54487402753735-54487402777299",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2026-11-22T14:00:00.000Z",
+   "end": "2026-11-22T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
+   ]
+  },
+  {
+   "id": "54487402753735-54487402779348",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2026-11-23T14:00:00.000Z",
+   "end": "2026-11-23T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
+   ]
+  },
+  {
    "id": "53860792382816-53860792401264",
    "title": "Class Project Exhibition",
    "start": "2026-11-23T14:00:00.000Z",
@@ -4121,6 +4508,34 @@
    ]
   },
   {
+   "id": "54487402753735-54487402780373",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2026-11-24T14:00:00.000Z",
+   "end": "2026-11-24T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
+   ]
+  },
+  {
    "id": "53860792382816-53860792402289",
    "title": "Class Project Exhibition",
    "start": "2026-11-24T14:00:00.000Z",
@@ -4222,6 +4637,34 @@
    "lon": -81.785535,
    "colleges": [
     "cah"
+   ]
+  },
+  {
+   "id": "54487402753735-54487402781398",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2026-11-25T14:00:00.000Z",
+   "end": "2026-11-25T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
    ]
   },
   {
@@ -4351,6 +4794,34 @@
    "colleges": []
   },
   {
+   "id": "54487402753735-54487402782423",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2026-11-26T14:00:00.000Z",
+   "end": "2026-11-26T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
+   ]
+  },
+  {
    "id": "53860792382816-53860792404339",
    "title": "Class Project Exhibition",
    "start": "2026-11-26T14:00:00.000Z",
@@ -4376,6 +4847,34 @@
    ]
   },
   {
+   "id": "54487402753735-54487402783448",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2026-11-27T14:00:00.000Z",
+   "end": "2026-11-27T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
+   ]
+  },
+  {
    "id": "53860792382816-53860792405364",
    "title": "Class Project Exhibition",
    "start": "2026-11-27T14:00:00.000Z",
@@ -4398,6 +4897,34 @@
    "lon": -81.785556,
    "colleges": [
     "cah"
+   ]
+  },
+  {
+   "id": "54487402753735-54487402785497",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2026-11-28T14:00:00.000Z",
+   "end": "2026-11-28T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
    ]
   },
   {
@@ -4429,6 +4956,62 @@
    ]
   },
   {
+   "id": "54487402753735-54487402786522",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2026-11-29T14:00:00.000Z",
+   "end": "2026-11-29T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
+   ]
+  },
+  {
+   "id": "54487402753735-54487402787547",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2026-11-30T14:00:00.000Z",
+   "end": "2026-11-30T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
+   ]
+  },
+  {
    "id": "53860792382816-53860792406389",
    "title": "Class Project Exhibition",
    "start": "2026-11-30T14:00:00.000Z",
@@ -4451,6 +5034,34 @@
    "lon": -81.785556,
    "colleges": [
     "cah"
+   ]
+  },
+  {
+   "id": "54487402753735-54487402788572",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2026-12-01T14:00:00.000Z",
+   "end": "2026-12-01T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
    ]
   },
   {
@@ -4478,6 +5089,34 @@
    "org": "Georgia Southern University Libraries",
    "orgUri": "georgia-southern-university-libraries-3",
    "colleges": []
+  },
+  {
+   "id": "54487402753735-54487402789597",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2026-12-02T14:00:00.000Z",
+   "end": "2026-12-02T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
+   ]
   },
   {
    "id": "engage-brain-booth-special-event-mindful-chair-yoga-workshop-24",
@@ -4582,6 +5221,90 @@
    "colleges": []
   },
   {
+   "id": "54487402753735-54487402791646",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2026-12-03T14:00:00.000Z",
+   "end": "2026-12-03T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
+   ]
+  },
+  {
+   "id": "54487402753735-54487402792671",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2026-12-04T14:00:00.000Z",
+   "end": "2026-12-04T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
+   ]
+  },
+  {
+   "id": "54487402753735-54487402793696",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2026-12-05T14:00:00.000Z",
+   "end": "2026-12-05T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
+   ]
+  },
+  {
    "id": "engage-mens-basketball-vs-john-c-smith",
    "title": "Men's Basketball Vs John C. Smith",
    "start": "2026-12-05T18:00:00.000Z",
@@ -4607,6 +5330,62 @@
    "org": "Georgia Southern Athletics",
    "orgUri": "georgia-southern-athletics-2",
    "colleges": []
+  },
+  {
+   "id": "54487402753735-54487402794721",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2026-12-06T14:00:00.000Z",
+   "end": "2026-12-06T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
+   ]
+  },
+  {
+   "id": "54487402753735-54487402795746",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2026-12-07T14:00:00.000Z",
+   "end": "2026-12-07T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
+   ]
   },
   {
    "id": "engage-georgia-southern-womens-basketball-vs-charleston-southern",
@@ -4666,6 +5445,62 @@
    ]
   },
   {
+   "id": "54487402753735-54487402796771",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2026-12-08T14:00:00.000Z",
+   "end": "2026-12-08T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
+   ]
+  },
+  {
+   "id": "54487402753735-54487402797796",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2026-12-09T14:00:00.000Z",
+   "end": "2026-12-09T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
+   ]
+  },
+  {
    "id": "52613453170650-52613453180904",
    "title": "SHRM Certification Prep+",
    "start": "2026-12-09T23:00:00.000Z",
@@ -4710,6 +5545,34 @@
    "free": false,
    "colleges": [
     "cah"
+   ]
+  },
+  {
+   "id": "54487402753735-54487402799845",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2026-12-10T14:00:00.000Z",
+   "end": "2026-12-10T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
    ]
   }
  ]
