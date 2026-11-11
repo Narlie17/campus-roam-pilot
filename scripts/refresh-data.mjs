@@ -15,10 +15,10 @@ import path from "node:path";
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const P = (f) => path.join(ROOT, "data", f);
 const CAL = "https://calendar.georgiasouthern.edu";
-const DAYS_AHEAD = 30;
+const DAYS_AHEAD = 60;
 const UA = "CampusROAM/1.1 (student pilot; reads public pages)";
 const args = process.argv.slice(2);
-const only = (args[args.indexOf("--only") + 1] || "events,orgs,library,news,buildings").split(",");
+const only = (args[args.indexOf("--only") + 1] || "events,orgs,library,news,buildings,courses").split(",");
 const run = (k) => args.indexOf("--only") < 0 || only.includes(k);
 
 const campus = JSON.parse(await readFile(P("campus.json"), "utf8"));
@@ -250,8 +250,39 @@ async function refreshBuildings() {
   console.log(`buildings: ${list.filter((b) => b.lat).length}/${list.length} with coordinates`);
 }
 
+// ---------- course directory (public Acalog widget API) ----------
+// Powers "Find your course" in Classes. Refreshed at most once a week.
+const CATALOG = "https://catalog.georgiasouthern.edu/widget-api/catalog/9/courses/";
+async function refreshCourses() {
+  const out = path.join(ROOT, "courses.js");
+  try {
+    const prev = await readFile(out, "utf8");
+    const at = (prev.match(/"generatedAt":"([^"]+)"/) || [])[1];
+    if (at && Date.now() - new Date(at).getTime() < 6.5 * 864e5 && !args.includes("--force")) { console.log("courses: fresh, skipped"); return; }
+  } catch {}
+  const ent = (t) => t.replace(/&amp;/g, "&").replace(/&#39;|&rsquo;/g, "'").replace(/&quot;/g, '"').replace(/&nbsp;|\u00a0/g, " ");
+  const seen = new Set(), list = [];
+  for (let page = 1; page < 120; page++) {
+    const j = JSON.parse(await get(`${CATALOG}?page-size=100&page=${page}`, { headers: { Accept: "application/json" } }));
+    const L = j["course-list"] || [];
+    if (!L.length) break;
+    for (const c of L) {
+      const m = ent(String(c.title || "")).match(/^([A-Z]{2,5})\s+(\d{4}[A-Z]?)\s+-\s+(.*?)(?:\s+\([\d.\- to]+\s+Credit Hours?\))?$/);
+      if (!m) continue;
+      const code = `${m[1]} ${m[2]}`;
+      if (seen.has(code)) continue;
+      seen.add(code); list.push([code, m[3].trim()]);
+    }
+    await new Promise((r) => setTimeout(r, 400));
+  }
+  if (list.length < 1000) throw new Error(`only ${list.length} courses; keeping previous file`);
+  const body = JSON.stringify({ catalog: "2026-2027 Undergraduate & Graduate", source: "catalog.georgiasouthern.edu", generatedAt: new Date().toISOString(), courses: list });
+  await writeFile(out, `window.ROAM_COURSES=${body};\n`);
+  console.log(`courses: ${list.length}`);
+}
+
 // ---------- run ----------
-for (const [k, fn] of [["events", refreshEvents], ["orgs", refreshOrgs], ["library", refreshLibrary], ["news", refreshNews], ["buildings", refreshBuildings]]) {
+for (const [k, fn] of [["events", refreshEvents], ["orgs", refreshOrgs], ["library", refreshLibrary], ["news", refreshNews], ["buildings", refreshBuildings], ["courses", refreshCourses]]) {
   if (!run(k)) continue;
   try { await fn(); } catch (e) { console.warn(`${k}: ${e.message} (kept previous data)`); }
 }
