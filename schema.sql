@@ -22,6 +22,20 @@ create table if not exists public.profiles (
   created_at timestamptz not null default now(),
   updated_at timestamptz not null default now()
 );
+-- Upgrade older ROAM databases in place (adds anything missing, keeps existing data).
+alter table public.profiles
+  add column if not exists school text not null default 'georgia-southern',
+  add column if not exists email text,
+  add column if not exists campus text,
+  add column if not exists is_admin boolean not null default false,
+  add column if not exists updated_at timestamptz not null default now();
+
+-- Admins can also be listed here (used by older ROAM setups).
+create table if not exists public.admin_users (
+  user_id uuid primary key references auth.users (id) on delete cascade,
+  created_at timestamptz not null default now()
+);
+alter table public.admin_users enable row level security;
 
 -- Create the profile automatically when someone signs up.
 create or replace function public.handle_new_user() returns trigger
@@ -37,6 +51,7 @@ begin
   on conflict (id) do nothing;
   return new;
 end $$;
+drop trigger if exists roam_profile_created on auth.users;  -- older setups: replaced by the trigger below
 drop trigger if exists on_auth_user_created on auth.users;
 create trigger on_auth_user_created after insert on auth.users
   for each row execute function public.handle_new_user();
@@ -60,6 +75,7 @@ create trigger protect_profile before update on public.profiles
 create or replace function public.is_admin() returns boolean
 language sql stable security definer set search_path = public as $$
   select coalesce((select is_admin from public.profiles where id = auth.uid()), false)
+      or exists (select 1 from public.admin_users where user_id = auth.uid())
 $$;
 
 -- ---------- student-owned data ----------
@@ -111,6 +127,9 @@ create table if not exists public.campus_events (
   created_by uuid references auth.users (id) on delete set null,
   created_at timestamptz not null default now()
 );
+alter table public.campus_events
+  add column if not exists school text not null default 'georgia-southern',
+  add column if not exists created_by uuid references auth.users (id) on delete set null;
 create index if not exists campus_events_upcoming on public.campus_events (published, ends_at);
 
 create table if not exists public.saved_events (
@@ -133,6 +152,11 @@ create table if not exists public.announcements (
   created_by uuid references auth.users (id) on delete set null,
   created_at timestamptz not null default now()
 );
+alter table public.announcements
+  add column if not exists school text not null default 'georgia-southern',
+  add column if not exists link text,
+  add column if not exists starts_at timestamptz not null default now(),
+  add column if not exists created_by uuid references auth.users (id) on delete set null;
 
 -- ---------- pilot research ----------
 create table if not exists public.pilot_feedback (
@@ -205,6 +229,14 @@ begin
   end loop;
 end $$;
 
+-- ---------- API access ----------
+-- Signed-in students reach the tables through Supabase's API; the policies above decide which rows.
+-- Visitors who are not signed in get no table access at all.
+grant usage on schema public to anon, authenticated;
+grant select, insert, update, delete on all tables in schema public to authenticated;
+grant usage, select on all sequences in schema public to authenticated;
+revoke all on all tables in schema public from anon;
+
 -- ---------- "Delete my account" button ----------
 create or replace function public.delete_my_account() returns void
 language plpgsql security definer set search_path = public, auth as $$
@@ -216,4 +248,4 @@ revoke all on function public.delete_my_account() from public, anon;
 grant execute on function public.delete_my_account() to authenticated;
 
 -- To make yourself an admin after you sign up, run this once (replace the email):
--- update public.profiles set is_admin = true where email = 'you@georgiasouthern.edu';
+-- update public.profiles set is_admin = true where id = (select id from auth.users where email = 'you@georgiasouthern.edu');
