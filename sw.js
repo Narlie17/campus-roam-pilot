@@ -3,7 +3,7 @@
 // and the last good copy right away when the network is slow, down, or returns an error
 // (so the home-screen app never opens to a blank screen). BUILD is bumped by the
 // refresh workflow so old caches are cleared after each data update.
-const BUILD = "202611121625";
+const BUILD = "202611122204";
 const CACHE = "roam-" + BUILD;
 const SHELL = ["./", "index.html", "styles.css", "config.js", "data.js", "shared.js", "student.js", "manifest.webmanifest", "icons/icon-192.png", "icons/compass.svg"];
 const TIMEOUT_MS = 2500;

@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-12T16:19:33.694Z",
+ "generatedAt": "2026-11-12T21:59:56.894Z",
  "source": "Eagle Engage (https://georgiasouthern.presence.io)",
  "base": "https://georgiasouthern.presence.io",
  "orgs": [
@@ -219,7 +219,7 @@
    "cats": [
     "Academic"
    ],
-   "members": 0,
+   "members": 1,
    "meets": "",
    "desc": "The Student Branch of ASHRAE at Georgia Southern is a Registered Student Organization dedicated to advancing the arts and sciences of heating, ventilation, air conditioning, and refrigeration (HVAC&R) to serve humanity…",
    "upcoming": 0
@@ -1077,7 +1077,7 @@
    "members": 9,
    "meets": "",
    "desc": "The mission of the Department of Communication Arts is to provide students with a broad-based, comprehensive, and interdisciplinary study of human communication. Within Georgia Southern University’s culture of engagemen…",
-   "upcoming": 13
+   "upcoming": 12
   },
   {
    "name": "Department of Criminal Justice and Criminology",
@@ -1125,7 +1125,7 @@
    "members": 5,
    "meets": "",
    "desc": "The Department of English at Georgia Southern University offers undergraduate degrees of a major and a minor in English. We seek to motivate our students for the pursuit of academic excellence and cultivate in them the…",
-   "upcoming": 9
+   "upcoming": 8
   },
   {
    "name": "Department of Geology and Geography",
@@ -1255,7 +1255,7 @@
    "members": 17,
    "meets": "",
    "desc": "The Department of Political Science and International Studies mission at Georgia Southern University is to foster the development of civically engaged students who will become productive citizens dedicated to serving th…",
-   "upcoming": 0
+   "upcoming": 1
   },
   {
    "name": "Department of Public and Nonprofit Studies",
@@ -1739,7 +1739,7 @@
    "members": 32,
    "meets": "",
    "desc": "The Zach S. Henderson Library serves more than 4,000 people daily with resources that support a comprehensive array of degrees, disciplines, research activity and learning objectives. With more than 400 hard-wired compu…",
-   "upcoming": 8
+   "upcoming": 9
   },
   {
    "name": "Georgia Southern University Museum",
@@ -2596,7 +2596,7 @@
    "members": 6,
    "meets": "",
    "desc": "The mission of the Office of Fraternity and Sorority Life at Georgia Southern University is to enhance student development by creating an environment that fosters and supports leadership, civic engagement, brotherhood/s…",
-   "upcoming": 2
+   "upcoming": 1
   },
   {
    "name": "Office of Global Engagement",
@@ -2650,7 +2650,7 @@
    "members": 151,
    "meets": "",
    "desc": "Our office is dedicated to helping students develop both in and out of the classroom through:LeadershipA strong co-curricular leadership program of workshops, seminars, conferences, and nationally recognized speakers.Co…",
-   "upcoming": 12
+   "upcoming": 25
   },
   {
    "name": "Office of Multicultural Affairs",
@@ -2714,7 +2714,7 @@
    "members": 4,
    "meets": "",
    "desc": "The Office of Student Engagement and Support develops and coordinates high-impact programs for mentoring, outreach, and support. The office implements data-informed outreach strategies to connect with students and suppo…",
-   "upcoming": 4
+   "upcoming": 3
   },
   {
    "name": "Office of the Dean - College of Behavioral and Social Sciences",
@@ -3845,7 +3845,7 @@
    "members": 10,
    "meets": "1 pm · On-Campus",
    "desc": "The Student Academy of Audiology's mission at Armstrong is to serve as a collective voice for students within the chapter area and advance the interest and welfare of students pursuing careers in Audiology. Chapters wil…",
-   "upcoming": 1
+   "upcoming": 0
   },
   {
    "name": "Student Accessibility Resource Center",
@@ -3991,7 +3991,7 @@
    "members": 11,
    "meets": "",
    "desc": "Student Wellness & Health Promotion strives to help students identify positive behaviors and coping strategies related to Emotional Wellbeing, Physical Wellbeing, Interpersonal Violence, and more. Through interacting wi…",
-   "upcoming": 1
+   "upcoming": 0
   },
   {
    "name": "Students with Disabilities Advocacy Group",
@@ -4165,6 +4165,17 @@
    "meets": "",
    "desc": "The George-Anne Media Group is a award-winning, student-run media organization, connecting the Statesboro and Armstrong campuses through bold storytelling and innovative communication. Our network of content&#65279; inc…",
    "upcoming": 1
+  },
+  {
+   "name": "The Golden Sensation",
+   "uri": "the-golden-sensation",
+   "cats": [
+    "Statesboro Campus"
+   ],
+   "members": 4,
+   "meets": "TBD · TBD",
+   "desc": "Our reason for establishing this organization is to bring people together through dance. We are wanting to share our passionate ad talent for dance with others and to grow an organization that will make a difference. Th…",
+   "upcoming": 0
   },
   {
    "name": "The Honors College",
@@ -4382,7 +4393,7 @@
    "members": 1,
    "meets": "",
    "desc": "Campus Department | Armstrong Campus",
-   "upcoming": 2
+   "upcoming": 0
   },
   {
    "name": "University Housing - East Georgia Campus",
@@ -4418,7 +4429,7 @@
    "members": 24,
    "meets": "5:00pm · Skidway Conference Room",
    "desc": "The University Programming Board at Georgia Southern University enhances campus life by providing safe, inclusive, and diverse events for the student body, creating a TRUE BLUE experience. Click Here for a Calendar of E…",
-   "upcoming": 3
+   "upcoming": 2
   },
   {
    "name": "University Programming Board - Statesboro Campus",
@@ -4574,7 +4585,7 @@
     "Professional",
     "Peer Mentorship"
    ],
-   "members": 35,
+   "members": 36,
    "meets": "12:00PM/5:00PM · On Campus- PCOB",
    "desc": "WISE promotes the field by:sparking an interest in supply chain management/logistics to a diverse group of studentsserving as a networking and mentoring opportunity with high-level industry members from well-known corpo…",
    "upcoming": 0

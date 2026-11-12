@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-12T16:19:33.346Z",
- "source": "Localist API + Eagle Engage (151) · https://calendar.georgiasouthern.edu",
+ "generatedAt": "2026-11-12T21:59:56.543Z",
+ "source": "Localist API + Eagle Engage (157) · https://calendar.georgiasouthern.edu",
  "events": [
   {
    "id": "54487402753735-54487402757833",
@@ -163,41 +163,6 @@
    ]
   },
   {
-   "id": "engage-the-glass-menagerie-by-tennessee-williams-3",
-   "title": "The Glass Menagerie by Tennessee Williams",
-   "start": "2026-11-12T15:00:00.000Z",
-   "end": "2026-11-12T17:30:00.000Z",
-   "allDay": false,
-   "location": "Performing Arts Center",
-   "campus": "statesboro",
-   "url": "https://georgiasouthern.presence.io/event/the-glass-menagerie-by-tennessee-williams-3",
-   "types": [
-    "Art & Music",
-    "Cultural Awareness",
-    "Eagles After Dark",
-    "Social Event",
-    "Theater"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "business",
-    "culture",
-    "arts",
-    "music",
-    "theatre",
-    "animals",
-    "social"
-   ],
-   "desc": "The Glass Menagerie by Tennessee Williams Considered a landmark of American Theatre, The Glass Menagerie is Tennessee Williams's semi-autobiographical &#34;memory play&#34; about the Wingfield family in 1930s St. Louis, focusing on the narrator Tom's escape from his overbearing mother, Amanda, and his painfully shy, p…",
-   "free": null,
-   "org": "Department of Communication Arts",
-   "orgUri": "department-of-communication-arts",
-   "colleges": [
-    "cah"
-   ]
-  },
-  {
    "id": "53931123853835-53931123853836",
    "title": "The Glass Menagerie",
    "start": "2026-11-12T15:30:00.000Z",
@@ -292,193 +257,6 @@
    "free": false,
    "lat": 32.418824,
    "lon": -81.782889,
-   "colleges": []
-  },
-  {
-   "id": "engage-registration-station-armstrong-campus",
-   "title": "Registration Station (Armstrong Campus)",
-   "start": "2026-11-12T16:00:00.000Z",
-   "end": "2026-11-12T18:00:00.000Z",
-   "allDay": false,
-   "location": "Windward Commons Lobby",
-   "campus": "armstrong",
-   "url": "https://georgiasouthern.presence.io/event/registration-station-armstrong-campus",
-   "types": [
-    "Free Stuff"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "academic",
-    "housing"
-   ],
-   "desc": "Join Academic Advising in the Windward Commons lobby to register for classes.",
-   "free": null,
-   "org": "University Housing - Armstrong Campus",
-   "orgUri": "university-housing-armstrong-campus-2",
-   "colleges": []
-  },
-  {
-   "id": "engage-alcohol-awareness-tabling-3",
-   "title": "Alcohol Awareness Tabling",
-   "start": "2026-11-12T16:00:00.000Z",
-   "end": "2026-11-12T17:30:00.000Z",
-   "allDay": false,
-   "location": "The Clubhouse",
-   "campus": "other",
-   "url": "https://georgiasouthern.presence.io/event/alcohol-awareness-tabling-3",
-   "types": [],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "wellness"
-   ],
-   "desc": "Come join the Office of Student Wellness and Health Promotion to learn more about facts pertaining to alcohol and how to stay safe!",
-   "free": null,
-   "org": "Student Wellness and Health Promotion",
-   "orgUri": "student-wellness-and-health-promotion",
-   "colleges": []
-  },
-  {
-   "id": "engage-mobile-advising",
-   "title": "Mobile Advising",
-   "start": "2026-11-12T16:00:13.000Z",
-   "end": "2026-11-12T18:00:00.000Z",
-   "allDay": false,
-   "location": "Armstrong Campus",
-   "campus": "armstrong",
-   "url": "https://georgiasouthern.presence.io/event/mobile-advising",
-   "types": [
-    "Free Stuff"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "academic",
-    "housing"
-   ],
-   "desc": "Academic Advising will hop on a golf cart to tell students about the registration station occurring in WC.",
-   "free": null,
-   "org": "University Housing - Armstrong Campus",
-   "orgUri": "university-housing-armstrong-campus-2",
-   "colleges": []
-  },
-  {
-   "id": "engage-thankful-for-greek-life-2",
-   "title": "Thankful for Greek Life",
-   "start": "2026-11-12T16:00:45.000Z",
-   "end": "2026-11-12T18:00:00.000Z",
-   "allDay": false,
-   "location": "Student Union Porch",
-   "campus": "armstrong",
-   "url": "https://georgiasouthern.presence.io/event/thankful-for-greek-life-2",
-   "types": [
-    "Free Food",
-    "Student Org. Event"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "food",
-    "greek"
-   ],
-   "desc": "Thankful for Greek Life is a gratitude focused tabling event designed to bring together Greek-affiliated and unaffiliated students while highlighting the positive impact of the Fraternity and Sorority community. Students will be invited to write something they are thankful for on a gratitude banner and enjoy free Dunk…",
-   "free": null,
-   "org": "Office of Fraternity and Sorority Life",
-   "orgUri": "office-of-fraternity-and-sorority-life",
-   "colleges": []
-  },
-  {
-   "id": "engage-word-play-friendsgiving",
-   "title": "Word Play: Friendsgiving",
-   "start": "2026-11-12T17:00:00.000Z",
-   "end": "2026-11-12T19:00:00.000Z",
-   "allDay": false,
-   "location": "Writing Center, First Floor, back right corner of the Lane Library",
-   "campus": "armstrong",
-   "url": "https://georgiasouthern.presence.io/event/word-play-friendsgiving",
-   "types": [],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "academic",
-    "engineering",
-    "theatre",
-    "writing",
-    "food"
-   ],
-   "desc": "Join the Department of English, the Writing Center, and the Lane Library for a Thursday Friendsgiving lunch. Free potluck food from noon to 2pm in the Writing Center space at the Lane Library on the Armstrong campus. We'll be in the Armstrong Writing Center, First Floor, back right corner of the Lane Library.",
-   "free": null,
-   "org": "Department of English",
-   "orgUri": "department-of-english",
-   "colleges": []
-  },
-  {
-   "id": "engage-student-academy-of-audiology-november-meeting",
-   "title": "Student Academy of Audiology November Meeting",
-   "start": "2026-11-12T18:00:00.000Z",
-   "end": "2026-11-12T19:00:00.000Z",
-   "allDay": false,
-   "location": "Studio M, Learning Commons",
-   "campus": "armstrong",
-   "url": "https://georgiasouthern.presence.io/event/student-academy-of-audiology-november-meeting",
-   "types": [],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "premed"
-   ],
-   "desc": "This will be our November Meeting",
-   "free": null,
-   "org": "Student Academy of Audiology",
-   "orgUri": "student-academy-of-audiology-3",
-   "colleges": []
-  },
-  {
-   "id": "engage-eagle-grad-bash-2",
-   "title": "Eagle Grad Bash",
-   "start": "2026-11-12T19:00:00.000Z",
-   "end": "2026-11-12T19:01:00.000Z",
-   "allDay": false,
-   "location": "Student Union Ballroom",
-   "campus": "armstrong",
-   "url": "https://georgiasouthern.presence.io/event/eagle-grad-bash-2",
-   "types": [],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "food",
-    "social"
-   ],
-   "desc": "Celebrate your next chapter with UPB! Join us Thursday, November 12, at 2:00 PM at the Student Union Ballroom for cap decorating, button making, food, and giveaways. &#129413; Bring your friends and get ready for a fun night celebrating our Eagles! #EagleGradBash #GeorgiaSouthern #UPB #StatesboroCampus #TrueBlue",
-   "free": null,
-   "org": "University Programming Board - Armstrong Campus",
-   "orgUri": "university-programming-board-armstrong-campus-3",
-   "colleges": []
-  },
-  {
-   "id": "engage-serve912-weekly-trip-retail-thrift-store-11-12",
-   "title": "Serve912 Weekly Trip - Retail Thrift Store (11/12)",
-   "start": "2026-11-12T19:00:00.000Z",
-   "end": "2026-11-12T21:00:00.000Z",
-   "allDay": false,
-   "location": "Russell Union Room 1056",
-   "campus": "statesboro",
-   "url": "https://georgiasouthern.presence.io/event/serve912-weekly-trip-retail-thrift-store-11-12",
-   "types": [
-    "Serve912 Weekly Trip",
-    "Service"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "animals",
-    "service"
-   ],
-   "desc": "Volunteer at ReTails Thrift Store by helping organize items, assist customers, and support a nonprofit whose shop proceeds help save the lives of local pets.",
-   "free": null,
-   "org": "Office of Leadership and Community Engagement",
-   "orgUri": "office-of-leadership-and-community-engagement-2",
    "colleges": []
   },
   {
@@ -974,6 +752,29 @@
    "free": null,
    "org": "Office of Leadership and Community Engagement",
    "orgUri": "office-of-leadership-and-community-engagement-2",
+   "colleges": []
+  },
+  {
+   "id": "engage-banned-books-pop-up-library-friday-the-13th-celebration-henderson-library-statesboro-campus",
+   "title": "Banned Books Pop-Up Library: Friday the 13th Celebration (Henderson Library, Statesboro Campus)",
+   "start": "2026-11-13T16:30:00.000Z",
+   "end": "2026-11-13T18:03:00.000Z",
+   "allDay": false,
+   "location": "Henderson Library",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/banned-books-pop-up-library-friday-the-13th-celebration-henderson-library-statesboro-campus",
+   "types": [],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "academic",
+    "writing",
+    "social"
+   ],
+   "desc": "Commonly banned books aren't bad luck! Join the University Libraries on Friday, November 13 for a pop-up library of books commonly banned throughout the United States.",
+   "free": null,
+   "org": "Georgia Southern University Libraries",
+   "orgUri": "georgia-southern-university-libraries-3",
    "colleges": []
   },
   {
@@ -1740,6 +1541,31 @@
    ]
   },
   {
+   "id": "engage-serve-912-weekly-trip-restoring-the-breach-inc-11-16-mondays",
+   "title": "Serve 912 Weekly Trip - Restoring the Breach, Inc. (11/16) - Mondays",
+   "start": "2026-11-16T19:30:00.000Z",
+   "end": "2026-11-16T22:30:00.000Z",
+   "allDay": false,
+   "location": "Russell Union Room 1056",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/serve-912-weekly-trip-restoring-the-breach-inc-11-16-mondays",
+   "types": [
+    "Serve912 Weekly Trip",
+    "Service"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "academic",
+    "service"
+   ],
+   "desc": "Students will assist with tutoring K-12 students primarily in Mathematics and English.",
+   "free": null,
+   "org": "Office of Leadership and Community Engagement",
+   "orgUri": "office-of-leadership-and-community-engagement-2",
+   "colleges": []
+  },
+  {
    "id": "engage-reach-financial-literacy-ways-to-make-money-in-college",
    "title": "REACH - Financial literacy - Ways to make money in college",
    "start": "2026-11-16T20:00:02.000Z",
@@ -2001,6 +1827,30 @@
    ]
   },
   {
+   "id": "engage-serve-912-weekly-trip-action-pact-11-17",
+   "title": "Serve 912 Weekly Trip - Action Pact (11/17)",
+   "start": "2026-11-17T14:00:00.000Z",
+   "end": "2026-11-17T16:00:00.000Z",
+   "allDay": false,
+   "location": "Russell Union Room 1056",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/serve-912-weekly-trip-action-pact-11-17",
+   "types": [
+    "Serve912 Weekly Trip",
+    "Service"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "service"
+   ],
+   "desc": "Volunteers will help with assisting residents during scheduled activities.",
+   "free": null,
+   "org": "Office of Leadership and Community Engagement",
+   "orgUri": "office-of-leadership-and-community-engagement-2",
+   "colleges": []
+  },
+  {
    "id": "engage-november-gratitude-pop-up-library",
    "title": "November Gratitude Pop-Up Library",
    "start": "2026-11-17T15:00:00.000Z",
@@ -2099,6 +1949,31 @@
    "colleges": []
   },
   {
+   "id": "engage-serve912-weekly-trip-statesboro-food-bank-11-17-tuesdays",
+   "title": "Serve912 Weekly Trip - Statesboro Food Bank (11/17) Tuesdays",
+   "start": "2026-11-17T17:00:00.000Z",
+   "end": "2026-11-17T19:00:00.000Z",
+   "allDay": false,
+   "location": "Russell Union Room 1056",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/serve912-weekly-trip-statesboro-food-bank-11-17-tuesdays",
+   "types": [
+    "Serve912 Weekly Trip",
+    "Service"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "food",
+    "service"
+   ],
+   "desc": "Volunteers will h elp in Sunshine Cafe or Pantry",
+   "free": null,
+   "org": "Office of Leadership and Community Engagement",
+   "orgUri": "office-of-leadership-and-community-engagement-2",
+   "colleges": []
+  },
+  {
    "id": "53886827262920-53886827263945",
    "title": "Mesa de conversación",
    "start": "2026-11-17T17:15:00.000Z",
@@ -2148,6 +2023,31 @@
    "free": null,
    "org": "Counseling Center",
    "orgUri": "counseling-center",
+   "colleges": []
+  },
+  {
+   "id": "engage-serve-912-weekly-trip-restoring-the-breach-inc-11-17-tuesdays",
+   "title": "Serve 912 Weekly Trip - Restoring the Breach, Inc. (11/17) - Tuesdays",
+   "start": "2026-11-17T19:30:00.000Z",
+   "end": "2026-11-17T22:30:00.000Z",
+   "allDay": false,
+   "location": "Russell Union Room 1056",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/serve-912-weekly-trip-restoring-the-breach-inc-11-17-tuesdays",
+   "types": [
+    "Serve912 Weekly Trip",
+    "Service"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "academic",
+    "service"
+   ],
+   "desc": "Students will assist with tutoring K-12 students primarily in Mathematics and English.",
+   "free": null,
+   "org": "Office of Leadership and Community Engagement",
+   "orgUri": "office-of-leadership-and-community-engagement-2",
    "colleges": []
   },
   {
@@ -2288,6 +2188,31 @@
    "colleges": [
     "cah"
    ]
+  },
+  {
+   "id": "engage-serve912-weekly-trip-next-generation-scholars-11-17-tuesdays",
+   "title": "Serve912 Weekly Trip - Next Generation Scholars (11/17) Tuesdays",
+   "start": "2026-11-17T22:00:00.000Z",
+   "end": "2026-11-17T23:30:00.000Z",
+   "allDay": false,
+   "location": "Russell Union Room 1056",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/serve912-weekly-trip-next-generation-scholars-11-17-tuesdays",
+   "types": [
+    "Serve912 Weekly Trip",
+    "Service"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "service",
+    "leadership"
+   ],
+   "desc": "Volunteers will support local youth through academic assistance, mentorship, and leadership development.",
+   "free": null,
+   "org": "Office of Leadership and Community Engagement",
+   "orgUri": "office-of-leadership-and-community-engagement-2",
+   "colleges": []
   },
   {
    "id": "engage-sga-org-body-meeting-11",
@@ -2624,6 +2549,30 @@
    ]
   },
   {
+   "id": "engage-serve912-weekly-trip-csm-thrift-store-11-18",
+   "title": "Serve912 Weekly Trip - CSM Thrift Store (11/18)",
+   "start": "2026-11-18T14:30:00.000Z",
+   "end": "2026-11-18T16:30:00.000Z",
+   "allDay": false,
+   "location": "Russell Union Room 1056",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/serve912-weekly-trip-csm-thrift-store-11-18",
+   "types": [
+    "Serve912 Weekly Trip",
+    "Service"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "service"
+   ],
+   "desc": "Volunteers will help with organizing, putting out merchandise, cleaning and with occasional events",
+   "free": null,
+   "org": "Office of Leadership and Community Engagement",
+   "orgUri": "office-of-leadership-and-community-engagement-2",
+   "colleges": []
+  },
+  {
    "id": "engage-arm-coastal-pet-rescue-weekly-trip-serve912-13",
    "title": "ARM Coastal Pet Rescue Weekly Trip SERVE912",
    "start": "2026-11-18T15:00:00.000Z",
@@ -2745,6 +2694,31 @@
    "free": null,
    "org": "Counseling Center",
    "orgUri": "counseling-center",
+   "colleges": []
+  },
+  {
+   "id": "engage-serve912-weekly-trip-restoring-the-breach-inc-11-18-wednesday",
+   "title": "Serve912 Weekly Trip - Restoring the Breach, Inc. (11/18) - Wednesday",
+   "start": "2026-11-18T19:30:00.000Z",
+   "end": "2026-11-18T22:30:00.000Z",
+   "allDay": false,
+   "location": "Russell Union Room 1056",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/serve912-weekly-trip-restoring-the-breach-inc-11-18-wednesday",
+   "types": [
+    "Serve912 Weekly Trip",
+    "Service"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "academic",
+    "service"
+   ],
+   "desc": "Students will assist with tutoring K-12 students primarily in Mathematics and English.",
+   "free": null,
+   "org": "Office of Leadership and Community Engagement",
+   "orgUri": "office-of-leadership-and-community-engagement-2",
    "colleges": []
   },
   {
@@ -2882,6 +2856,31 @@
    "colleges": [
     "cah",
     "coe"
+   ]
+  },
+  {
+   "id": "engage-political-science-club-35",
+   "title": "Political Science Club",
+   "start": "2026-11-18T21:30:00.000Z",
+   "end": "2026-11-18T22:30:00.000Z",
+   "allDay": false,
+   "location": "Carroll 2272",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/political-science-club-35",
+   "types": [],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "science",
+    "politics"
+   ],
+   "desc": "Political Science Club meets again!",
+   "free": null,
+   "org": "Department of Political Science and International Studies",
+   "orgUri": "department-of-political-science-and-international-studies",
+   "colleges": [
+    "cbss",
+    "cosm"
    ]
   },
   {
@@ -3339,6 +3338,56 @@
    "colleges": []
   },
   {
+   "id": "engage-serve912-weekly-trip-retail-thrift-store-11-19",
+   "title": "Serve912 Weekly Trip - Retail Thrift Store (11/19)",
+   "start": "2026-11-19T19:00:00.000Z",
+   "end": "2026-11-19T21:00:00.000Z",
+   "allDay": false,
+   "location": "Russell Union Room 1056",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/serve912-weekly-trip-retail-thrift-store-11-19",
+   "types": [
+    "Serve912 Weekly Trip",
+    "Service"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "animals",
+    "service"
+   ],
+   "desc": "Volunteer at ReTails Thrift Store by helping organize items, assist customers, and support a nonprofit whose shop proceeds help save the lives of local pets.",
+   "free": null,
+   "org": "Office of Leadership and Community Engagement",
+   "orgUri": "office-of-leadership-and-community-engagement-2",
+   "colleges": []
+  },
+  {
+   "id": "engage-serve912-weekly-trip-restoring-the-breach-inc-11-19-thursdays",
+   "title": "Serve912 Weekly Trip - Restoring the Breach, Inc. (11/19) - Thursdays",
+   "start": "2026-11-19T19:30:00.000Z",
+   "end": "2026-11-19T22:30:00.000Z",
+   "allDay": false,
+   "location": "Russell Union Room 1056",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/serve912-weekly-trip-restoring-the-breach-inc-11-19-thursdays",
+   "types": [
+    "Serve912 Weekly Trip",
+    "Service"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "academic",
+    "service"
+   ],
+   "desc": "Students will assist with tutoring K-12 students primarily in Mathematics and English.",
+   "free": null,
+   "org": "Office of Leadership and Community Engagement",
+   "orgUri": "office-of-leadership-and-community-engagement-2",
+   "colleges": []
+  },
+  {
    "id": "engage-english-1101-work-showcase-2",
    "title": "English 1101 @ Work Showcase",
    "start": "2026-11-19T20:00:13.000Z",
@@ -3362,6 +3411,30 @@
    "colleges": [
     "cah"
    ]
+  },
+  {
+   "id": "engage-serve912-weekly-trip-farmers-market-2-go-11-19",
+   "title": "Serve912 Weekly Trip - Farmers Market 2 Go (11/19)",
+   "start": "2026-11-19T20:30:00.000Z",
+   "end": "2026-11-19T23:00:00.000Z",
+   "allDay": false,
+   "location": "Russell Union Room 1056",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/serve912-weekly-trip-farmers-market-2-go-11-19",
+   "types": [
+    "Serve912 Weekly Trip",
+    "Service"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "service"
+   ],
+   "desc": "Volunteers will help in gathering and loading customer's farmers market orders.",
+   "free": null,
+   "org": "Office of Leadership and Community Engagement",
+   "orgUri": "office-of-leadership-and-community-engagement-2",
+   "colleges": []
   },
   {
    "id": "53931528373281-53931528374306",
@@ -3554,6 +3627,57 @@
    ]
   },
   {
+   "id": "engage-serve912-weekly-trip-ksbb-community-garden-11-20",
+   "title": "Serve912 Weekly Trip - KSBB Community Garden (11/20)",
+   "start": "2026-11-20T14:00:00.000Z",
+   "end": "2026-11-20T16:00:00.000Z",
+   "allDay": false,
+   "location": "Russell Union Room 1056",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/serve912-weekly-trip-ksbb-community-garden-11-20",
+   "types": [
+    "Serve912 Weekly Trip",
+    "Service"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "outdoors",
+    "service",
+    "environment"
+   ],
+   "desc": "Volunteers will help with tending to raised beds and garden plots in the Community Gardens; weeding, planting, caring for general area.",
+   "free": null,
+   "org": "Office of Leadership and Community Engagement",
+   "orgUri": "office-of-leadership-and-community-engagement-2",
+   "colleges": []
+  },
+  {
+   "id": "engage-serve912-weekly-trip-statesboro-food-bank-11-20-fridays",
+   "title": "Serve912 Weekly Trip - Statesboro Food Bank (11/20) Fridays",
+   "start": "2026-11-20T16:00:00.000Z",
+   "end": "2026-11-20T18:00:00.000Z",
+   "allDay": false,
+   "location": "Russell Union Room 1056",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/serve912-weekly-trip-statesboro-food-bank-11-20-fridays",
+   "types": [
+    "Serve912 Weekly Trip",
+    "Service"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "food",
+    "service"
+   ],
+   "desc": "Volunteers will h elp in Sunshine Cafe or Pantry",
+   "free": null,
+   "org": "Office of Leadership and Community Engagement",
+   "orgUri": "office-of-leadership-and-community-engagement-2",
+   "colleges": []
+  },
+  {
    "id": "engage-georgia-southern-womens-basketball-vs-florida-gulf-coast",
    "title": "Georgia Southern Women's Basketball vs. Florida Gulf Coast",
    "start": "2026-11-20T22:00:00.000Z",
@@ -3635,6 +3759,54 @@
    "colleges": [
     "parker"
    ]
+  },
+  {
+   "id": "engage-serve912-weekly-trip-fumc-soup-kitchen-11-21",
+   "title": "Serve912 Weekly Trip - FUMC Soup Kitchen (11/21)",
+   "start": "2026-11-21T14:00:00.000Z",
+   "end": "2026-11-21T17:00:00.000Z",
+   "allDay": false,
+   "location": "Russell Union Room 1056",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/serve912-weekly-trip-fumc-soup-kitchen-11-21",
+   "types": [
+    "Serve912 Weekly Trip",
+    "Service"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "service"
+   ],
+   "desc": "Volunteers will help plate and distribute meals, greet and socialize with guests, and clean up.",
+   "free": null,
+   "org": "Office of Leadership and Community Engagement",
+   "orgUri": "office-of-leadership-and-community-engagement-2",
+   "colleges": []
+  },
+  {
+   "id": "engage-serve912-weekly-trip-next-generation-scholars-11-21-saturdays",
+   "title": "Serve912 Weekly Trip - Next Generation Scholars (11/21) Saturdays",
+   "start": "2026-11-21T14:30:00.000Z",
+   "end": "2026-11-21T16:30:00.000Z",
+   "allDay": false,
+   "location": "Russell Union Room 1056",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/serve912-weekly-trip-next-generation-scholars-11-21-saturdays",
+   "types": [
+    "Serve912 Weekly Trip",
+    "Service"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "service"
+   ],
+   "desc": "Volunteers will help plate and distribute meals, greet and socialize with guests, and clean up.",
+   "free": null,
+   "org": "Office of Leadership and Community Engagement",
+   "orgUri": "office-of-leadership-and-community-engagement-2",
+   "colleges": []
   },
   {
    "id": "54487402753735-54487402777299",
