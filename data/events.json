@@ -1,500 +1,7 @@
 {
- "generatedAt": "2026-11-11T21:36:24.827Z",
- "source": "Localist API + Eagle Engage (158) · https://calendar.georgiasouthern.edu",
+ "generatedAt": "2026-11-12T04:11:12.958Z",
+ "source": "Localist API + Eagle Engage (150) · https://calendar.georgiasouthern.edu",
  "events": [
-  {
-   "id": "54487402753735-54487402754760",
-   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
-   "start": "2026-11-11T14:00:00.000Z",
-   "end": "2026-11-11T19:30:00.000Z",
-   "allDay": false,
-   "location": "Nessmith-Lane Center (Statesboro Campus)",
-   "campus": "statesboro",
-   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
-   "types": [
-    "Conferences and Workshops"
-   ],
-   "depts": [],
-   "source": "calendar",
-   "tags": [
-    "academic",
-    "career",
-    "business",
-    "tech"
-   ],
-   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
-   "free": false,
-   "lat": 32.420313,
-   "lon": -81.783089,
-   "colleges": [
-    "parker"
-   ]
-  },
-  {
-   "id": "53860792382816-53860792391016",
-   "title": "Class Project Exhibition",
-   "start": "2026-11-11T14:00:00.000Z",
-   "end": "2026-11-11T22:00:00.000Z",
-   "allDay": false,
-   "location": "Folk Art Gallery",
-   "campus": "",
-   "url": "https://calendar.georgiasouthern.edu/event/class-project-exhibition",
-   "types": [
-    "Arts, Culture and Entertainment"
-   ],
-   "depts": [],
-   "source": "calendar",
-   "tags": [
-    "arts"
-   ],
-   "desc": "Join us for a class project featuring students in Dr. Alt's class from November 1-30",
-   "free": true,
-   "lat": 32.425278,
-   "lon": -81.785556,
-   "colleges": [
-    "cah"
-   ]
-  },
-  {
-   "id": "53860707686680-53860707709231",
-   "title": "Contemporary Gallery: Ernest Shaw: Intimate Frequencies of Care",
-   "start": "2026-11-11T14:00:00.000Z",
-   "end": "2026-11-11T22:00:00.000Z",
-   "allDay": false,
-   "location": "Contemporary and University Art Galleries (Statesboro Campus)",
-   "campus": "statesboro",
-   "url": "https://calendar.georgiasouthern.edu/event/contemporary-gallery-ernest-shaw-intimate-frequencies-of-care",
-   "types": [
-    "Arts, Culture and Entertainment"
-   ],
-   "depts": [],
-   "source": "calendar",
-   "tags": [
-    "arts",
-    "food",
-    "social"
-   ],
-   "desc": "Guest Artist Ernest Shaw will have his work on display in the Contemporary Gallery from October 12 - November 25. With a special dinner party and reception with the Artist on November 5.",
-   "free": true,
-   "lat": 32.425244,
-   "lon": -81.785535,
-   "colleges": [
-    "cah"
-   ]
-  },
-  {
-   "id": "53860810128251-53860810147730",
-   "title": "Tory Schendel-Vyvoda, Navigating the Molecular: The Collective I Series",
-   "start": "2026-11-11T14:00:00.000Z",
-   "end": "2026-11-11T22:00:00.000Z",
-   "allDay": false,
-   "location": "Fine Arts Hall (Armstrong Campus)",
-   "campus": "armstrong",
-   "url": "https://calendar.georgiasouthern.edu/event/tory-schendel-vyvoda-navigating-the-molecular-the-collective-i-series",
-   "types": [
-    "Arts, Culture and Entertainment"
-   ],
-   "depts": [],
-   "source": "calendar",
-   "tags": [
-    "science",
-    "arts"
-   ],
-   "desc": "Guest Artist, Tory Schendel-Vyvoda, will be showing their work in the Fine Arts Gallery on October 12- November 25",
-   "free": true,
-   "lat": 31.980388,
-   "lon": -81.164779,
-   "colleges": [
-    "cah",
-    "cosm"
-   ]
-  },
-  {
-   "id": "53860725872511-53860725945238",
-   "title": "University Gallery: Drew Tetz, Turnable Toons",
-   "start": "2026-11-11T14:00:00.000Z",
-   "end": "2026-11-11T22:00:00.000Z",
-   "allDay": false,
-   "location": "Contemporary and University Art Galleries (Statesboro Campus)",
-   "campus": "statesboro",
-   "url": "https://calendar.georgiasouthern.edu/event/university-gallery-drew-tetz-turnable-toons",
-   "types": [
-    "Arts, Culture and Entertainment"
-   ],
-   "depts": [],
-   "source": "calendar",
-   "tags": [
-    "arts"
-   ],
-   "desc": "Artist Drew Tetz will be on exhibit from October 12- November 25 in the University Gallery. Reception will be held on October 14",
-   "free": true,
-   "lat": 32.425244,
-   "lon": -81.785535,
-   "colleges": [
-    "cah"
-   ]
-  },
-  {
-   "id": "54290269249352-54290269250377",
-   "title": "First to Soar: First Gen Celebration",
-   "start": "2026-11-11T16:00:00.000Z",
-   "end": "2026-11-11T18:00:00.000Z",
-   "allDay": false,
-   "location": "The Quad",
-   "campus": "",
-   "url": "https://calendar.georgiasouthern.edu/event/first-to-soar-first-gen-celebration-5129",
-   "types": [
-    "Eagle Engage"
-   ],
-   "depts": [],
-   "source": "calendar",
-   "tags": [
-    "lgbtq",
-    "firstgen",
-    "social"
-   ],
-   "desc": "Join us as we celebrate our First Generation Community with fun activities, creative experiences, photo opportunities, and treats! Whether you’re a first generation student or an ally cheering on your fellow Eagles, everyone is welcome to celebrate, connect, and show their Eagle pride as we honor what it means to be F…",
-   "free": false,
-   "colleges": []
-  },
-  {
-   "id": "53991467275701-53991467298253",
-   "title": "Food Trucks at The Yard",
-   "start": "2026-11-11T16:00:00.000Z",
-   "end": "2026-11-11T19:00:00.000Z",
-   "allDay": false,
-   "location": "The Yard on Chandler",
-   "campus": "statesboro",
-   "url": "https://calendar.georgiasouthern.edu/event/food-trucks-at-the-yard",
-   "types": [],
-   "depts": [],
-   "source": "calendar",
-   "tags": [
-    "food"
-   ],
-   "desc": "Catch a rotating lineup of local food trucks at The Yard on Chandler, serving up delicious lunch options right on campus! Stop by Tuesday through Thursday from 11:00 AM to 2:00 PM to grab a bite. Jump on the Gold Route campus bus for convenient access to The Yard! Take a break from campus, enjoy great food from a vari…",
-   "free": false,
-   "lat": 32.41911,
-   "lon": -81.78204,
-   "colleges": []
-  },
-  {
-   "id": "53930092485482-53930092505990",
-   "title": "Food Trucks at The Yard on Chandler",
-   "start": "2026-11-11T16:00:00.000Z",
-   "end": "2026-11-11T19:00:00.000Z",
-   "allDay": false,
-   "location": "Lot 29",
-   "campus": "statesboro",
-   "url": "https://calendar.georgiasouthern.edu/event/food-trucks-at-the-yard-on-chandler",
-   "types": [
-    "Arts, Culture and Entertainment"
-   ],
-   "depts": [],
-   "source": "calendar",
-   "tags": [
-    "arts",
-    "outdoors",
-    "food"
-   ],
-   "desc": "The Yard on Chandler is a food truck courtyard is located in Lot 29 on Chandler Rd. Enjoy rotating food trucks, outdoor seating and lunch from 11 a.m. to 2 p.m., Tuesdays through Thursdays. Jump on the Gold Route campus bus for convenient access to The Yard! Take a break from campus, enjoy great food from a variety of…",
-   "free": false,
-   "lat": 32.418824,
-   "lon": -81.782889,
-   "colleges": []
-  },
-  {
-   "id": "engage-serve912-weekly-trip-restoring-the-breach-inc-11-11-wednesday",
-   "title": "Serve912 Weekly Trip - Restoring the Breach, Inc. (11/11) - Wednesday",
-   "start": "2026-11-11T19:30:00.000Z",
-   "end": "2026-11-11T22:30:00.000Z",
-   "allDay": false,
-   "location": "Russell Union Room 1056",
-   "campus": "statesboro",
-   "url": "https://georgiasouthern.presence.io/event/serve912-weekly-trip-restoring-the-breach-inc-11-11-wednesday",
-   "types": [
-    "Serve912 Weekly Trip",
-    "Service"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "academic",
-    "service"
-   ],
-   "desc": "Students will assist with tutoring K-12 students primarily in Mathematics and English.",
-   "free": null,
-   "org": "Office of Leadership and Community Engagement",
-   "orgUri": "office-of-leadership-and-community-engagement-2",
-   "colleges": []
-  },
-  {
-   "id": "53886455372714-53886455378868",
-   "title": "Arabic Coffee Hour",
-   "start": "2026-11-11T21:00:00.000Z",
-   "end": "2026-11-11T22:00:00.000Z",
-   "allDay": false,
-   "location": "Interdisciplinary Academic Building, 3046",
-   "campus": "statesboro",
-   "url": "https://calendar.georgiasouthern.edu/event/arabic-coffee-hour-6788",
-   "types": [
-    "Arts, Culture and Entertainment",
-    "Outreach / Community Education"
-   ],
-   "depts": [],
-   "source": "calendar",
-   "tags": [
-    "education",
-    "culture",
-    "arts",
-    "food"
-   ],
-   "desc": "Learn about the cultures and traditions of the Arab World through food and activities.",
-   "free": false,
-   "lat": 32.424215,
-   "lon": -81.785158,
-   "colleges": [
-    "cah",
-    "coe"
-   ]
-  },
-  {
-   "id": "engage-political-science-club-34",
-   "title": "Political Science Club",
-   "start": "2026-11-11T21:30:00.000Z",
-   "end": "2026-11-11T22:30:00.000Z",
-   "allDay": false,
-   "location": "Carroll 2272",
-   "campus": "statesboro",
-   "url": "https://georgiasouthern.presence.io/event/political-science-club-34",
-   "types": [],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "science",
-    "politics"
-   ],
-   "desc": "Political Science Club meets again!",
-   "free": null,
-   "org": "Department of Political Science and International Studies",
-   "orgUri": "department-of-political-science-and-international-studies",
-   "colleges": [
-    "cbss",
-    "cosm"
-   ]
-  },
-  {
-   "id": "engage-gg-amendment-officer-confirmation-and-officer-commencement-night",
-   "title": "GG Amendment, Officer Confirmation, and Officer Commencement Night",
-   "start": "2026-11-11T22:00:00.000Z",
-   "end": "2026-11-12T01:30:00.000Z",
-   "allDay": false,
-   "location": "Learning Commons Studio M",
-   "campus": "armstrong",
-   "url": "https://georgiasouthern.presence.io/event/gg-amendment-officer-confirmation-and-officer-commencement-night",
-   "types": [
-    "eSports and Gaming",
-    "GS Libraries",
-    "Social Event"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "gaming",
-    "politics",
-    "social"
-   ],
-   "desc": "Come join us as we will celebrate our Vice President as she is graduating next month, followed by discussing amendments to our constitutions, our voters will vote on them, and then we have some candidates for Office that will be presented to our voters for confirmation. Doors open at 5:00 PM, come by and hang out with…",
-   "free": null,
-   "org": "Gamers Guild at Armstrong",
-   "orgUri": "gamers-guild-at-armstrong",
-   "colleges": []
-  },
-  {
-   "id": "54007148390412-54007148391437",
-   "title": "SOLD Series Workshop: Basic Life Skills Every College Student Should Know",
-   "start": "2026-11-11T22:30:00.000Z",
-   "end": "2026-11-11T23:30:00.000Z",
-   "allDay": false,
-   "location": "",
-   "campus": "",
-   "url": "https://calendar.georgiasouthern.edu/event/sold-series-workshop-basic-life-skills-every-college-student-should-know",
-   "types": [
-    "Eagle Engage",
-    "Conferences and Workshops",
-    "Virtual"
-   ],
-   "depts": [],
-   "source": "calendar",
-   "tags": [
-    "academic",
-    "leadership"
-   ],
-   "desc": "The Student and Organization Leadership Development (SOLD) workshop series is designed for any student seeking to develop their individual leadership capabilities and for students who currently or aspire to hold a leadership position within a student organization. This series is an excellent way for student organizati…",
-   "free": false,
-   "colleges": []
-  },
-  {
-   "id": "52613453170650-52613453177828",
-   "title": "SHRM Certification Prep+",
-   "start": "2026-11-11T23:00:00.000Z",
-   "end": "2026-11-12T02:00:00.000Z",
-   "allDay": false,
-   "location": "",
-   "campus": "",
-   "url": "https://calendar.georgiasouthern.edu/event/shrm-certification-prep",
-   "types": [
-    "Conferences and Workshops"
-   ],
-   "depts": [],
-   "source": "calendar",
-   "tags": [
-    "academic",
-    "leadership"
-   ],
-   "desc": "Earning your SHRM-CP or SHRM-SCP credential sets you apart as an expert in the HR field and a strategic partner in your organization. This program is designed to help you: Deepen your HR knowledge and leadership skills Increase your chances of passing the SHRM-CP or SHRM-SCP exam Strengthen your value and impact in to…",
-   "free": false,
-   "colleges": []
-  },
-  {
-   "id": "engage-etiquette-dinner-4",
-   "title": "Etiquette Dinner",
-   "start": "2026-11-11T23:00:00.000Z",
-   "end": "2026-11-12T00:30:00.000Z",
-   "allDay": false,
-   "location": "Student Union Ballroom",
-   "campus": "armstrong",
-   "url": "https://georgiasouthern.presence.io/event/etiquette-dinner-4",
-   "types": [
-    "Free Food",
-    "Oral/Written/Digital Communication"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "career",
-    "food",
-    "housing"
-   ],
-   "desc": "Join University Housing and the Office of Career and Professional Development for an interactive dinner designed to help you navigate dining situations with poise and professionalism. Learn essential etiquette skills that will leave a lasting impression at the table and beyond. Be on the lookout for the RSVP link to s…",
-   "free": null,
-   "org": "University Housing - Armstrong Campus",
-   "orgUri": "university-housing-armstrong-campus-2",
-   "colleges": []
-  },
-  {
-   "id": "engage-hot-chocolate-bombs",
-   "title": "Hot Chocolate Bombs",
-   "start": "2026-11-11T23:00:00.000Z",
-   "end": "2026-11-12T00:00:00.000Z",
-   "allDay": false,
-   "location": "Nursing/Chemistry Building Room 3228",
-   "campus": "statesboro",
-   "url": "https://georgiasouthern.presence.io/event/hot-chocolate-bombs",
-   "types": [
-    "Free Food",
-    "Social Event",
-    "Student Org. Event"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "premed",
-    "science",
-    "food",
-    "social"
-   ],
-   "desc": "☕❄️ Join SAACS for our last event of the semester! Come enjoy hot chocolate bombs, delicious food, fun games, and a cozy evening with friends as we wrap up the semester!✨",
-   "free": null,
-   "org": "Student Affiliates of the American Chemical Society",
-   "orgUri": "student-affiliates-of-the-american-chemical-society-2",
-   "colleges": [
-    "cosm",
-    "wchp"
-   ]
-  },
-  {
-   "id": "engage-history-clubs-thanksgiving-potluck-and-movie-night",
-   "title": "History Club's Thanksgiving Potluck and Movie Night",
-   "start": "2026-11-11T23:00:00.000Z",
-   "end": "2026-11-12T01:00:00.000Z",
-   "allDay": false,
-   "location": "unknown at this time",
-   "campus": "other",
-   "url": "https://georgiasouthern.presence.io/event/history-clubs-thanksgiving-potluck-and-movie-night",
-   "types": [
-    "Social Event"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "food",
-    "social"
-   ],
-   "desc": "Anyone interested in history is encouraged to attend!",
-   "free": null,
-   "org": "Department of History",
-   "orgUri": "department-of-history",
-   "colleges": [
-    "cah"
-   ]
-  },
-  {
-   "id": "engage-hola-general-body-meeting-3",
-   "title": "HOLA General Body Meeting",
-   "start": "2026-11-11T23:00:44.000Z",
-   "end": "2026-11-12T00:00:00.000Z",
-   "allDay": false,
-   "location": "IAB 2030",
-   "campus": "statesboro",
-   "url": "https://georgiasouthern.presence.io/event/hola-general-body-meeting-3",
-   "types": [
-    "Cultural Awareness"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "culture",
-    "latino"
-   ],
-   "desc": "A meeting for us to inform our members about the events and opportunities we have coming up.",
-   "free": null,
-   "org": "Hispanic Outreach & Leadership Achievement",
-   "orgUri": "hispanic-outreach-leadership-achievement",
-   "colleges": []
-  },
-  {
-   "id": "engage-mmfp-honors-thesis-screenplay-reading-hope-by-kathryn-elizabeth-lanham",
-   "title": "MMFP Honors Thesis Screenplay Reading: HOPE by Kathryn Elizabeth Lanham",
-   "start": "2026-11-12T00:00:00.000Z",
-   "end": "2026-11-12T03:00:00.000Z",
-   "allDay": false,
-   "location": "Sanford 1002",
-   "campus": "statesboro",
-   "url": "https://georgiasouthern.presence.io/event/mmfp-honors-thesis-screenplay-reading-hope-by-kathryn-elizabeth-lanham",
-   "types": [
-    "Cultural Awareness",
-    "Eagles After Dark",
-    "Oral/Written/Digital Communication",
-    "Personal Development",
-    "Theater"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "honors",
-    "culture",
-    "theatre"
-   ],
-   "desc": "A company of actors will read and interpret December 2026 Honors graduate Kathryn Elizabeth Lanham's thesis, a feature screenplay entitled Hope .",
-   "free": null,
-   "org": "Department of Communication Arts",
-   "orgUri": "department-of-communication-arts",
-   "colleges": [
-    "cah",
-    "grad"
-   ]
-  },
   {
    "id": "52613469647986-52613469657211",
    "title": "Taste, Tour, and Learn: A Georgia Southern Adventure Through Tuscany",
@@ -1125,6 +632,25 @@
    "colleges": [
     "cosm"
    ]
+  },
+  {
+   "id": "engage-jls-meeting-3",
+   "title": "JLS Meeting",
+   "start": "2026-11-12T22:30:00.000Z",
+   "end": "2026-11-12T23:00:00.000Z",
+   "allDay": false,
+   "location": "Carroll 2262",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/jls-meeting-3",
+   "types": [],
+   "depts": [],
+   "source": "engage",
+   "tags": [],
+   "desc": "End of the year closing event",
+   "free": null,
+   "org": "Justice & Law Society",
+   "orgUri": "justice-law-society",
+   "colleges": []
   },
   {
    "id": "54307942333505-54307942334530",
@@ -6728,6 +6254,34 @@
    "org": "Georgia Southern Athletics",
    "orgUri": "georgia-southern-athletics-2",
    "colleges": []
+  },
+  {
+   "id": "54487402753735-54487402845956",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2027-01-10T14:00:00.000Z",
+   "end": "2027-01-10T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
+   ]
   }
  ]
 }

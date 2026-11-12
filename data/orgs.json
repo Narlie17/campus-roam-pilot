@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-11T21:36:25.088Z",
+ "generatedAt": "2026-11-12T04:11:13.215Z",
  "source": "Eagle Engage (https://georgiasouthern.presence.io)",
  "base": "https://georgiasouthern.presence.io",
  "orgs": [
@@ -388,7 +388,7 @@
     "Academic",
     "Statesboro Campus"
    ],
-   "members": 23,
+   "members": 24,
    "meets": "7pm · Biological Sciences Building",
    "desc": "Beta Beta Beta (TriBeta) is an honor society for students, particularly undergraduates, dedicated to improving the understanding and appreciation of biological study and extending the boundaries of human knowledge throu…",
    "upcoming": 0
@@ -1066,7 +1066,7 @@
    "members": 9,
    "meets": "",
    "desc": "The mission of the Department of Communication Arts is to provide students with a broad-based, comprehensive, and interdisciplinary study of human communication. Within Georgia Southern University’s culture of engagemen…",
-   "upcoming": 14
+   "upcoming": 13
   },
   {
    "name": "Department of Criminal Justice and Criminology",
@@ -1149,7 +1149,7 @@
    "members": 11,
    "meets": "",
    "desc": "Through innovative teaching, excellence in scholarship, and dedicated service to the University, the community, and the historical profession, the Department of History serves Georgia Southern University students by off…",
-   "upcoming": 2
+   "upcoming": 1
   },
   {
    "name": "Department of Information Technology",
@@ -1244,7 +1244,7 @@
    "members": 17,
    "meets": "",
    "desc": "The Department of Political Science and International Studies mission at Georgia Southern University is to foster the development of civically engaged students who will become productive citizens dedicated to serving th…",
-   "upcoming": 1
+   "upcoming": 0
   },
   {
    "name": "Department of Public and Nonprofit Studies",
@@ -1654,7 +1654,7 @@
    "members": 44,
    "meets": "5pm - 9pm · On-Campus",
    "desc": "Academic | Special Interest | Armstrong CampusThe Gamer’s Guild at Armstrong is a student organization dedicated to the enjoyment of board, card, and video games, as well as the appreciation of their themes.",
-   "upcoming": 1
+   "upcoming": 0
   },
   {
    "name": "Geeks 'n' Gamers",
@@ -1902,7 +1902,7 @@
    "members": 13,
    "meets": "6:00 PM · Interdisciplinary Academic Building Room 2030",
    "desc": "Hispanic Outreach and Leadership Achievement is an organization that is dedicated to empowering students through community engagement, leadership development, and education. We strive to create a welcoming atmosphere fo…",
-   "upcoming": 1
+   "upcoming": 0
   },
   {
    "name": "Hispanic Outreach & Leadership Achievement",
@@ -2076,7 +2076,7 @@
    "members": 42,
    "meets": "5:30-6:30 pm · Statesboro Campus",
    "desc": "The purpose of the Justice & Law Society is to bring together students with an interest in Criminal Justice, Criminology, and related areas to advance the student's knowledge about the discipline and fields.",
-   "upcoming": 0
+   "upcoming": 1
   },
   {
    "name": "K-pop Culture and Appreciation",
@@ -2636,10 +2636,10 @@
     "Campus Department",
     "Statesboro Campus"
    ],
-   "members": 150,
+   "members": 151,
    "meets": "",
    "desc": "Our office is dedicated to helping students develop both in and out of the classroom through:LeadershipA strong co-curricular leadership program of workshops, seminars, conferences, and nationally recognized speakers.Co…",
-   "upcoming": 14
+   "upcoming": 13
   },
   {
    "name": "Office of Multicultural Affairs",
@@ -2679,7 +2679,7 @@
    "members": 30,
    "meets": "",
    "desc": "The Office of Student Activities supports the mission of Georgia Southern University by providing and enhancing diverse involvement opportunities beyond the classroom. In a student-centered and engaging environment, we…",
-   "upcoming": 7
+   "upcoming": 6
   },
   {
    "name": "Office of Student Conduct",
@@ -3846,7 +3846,7 @@
    "members": 27,
    "meets": "6:00 p.m. · On-Campus - Nursing/Chemistry 3228",
    "desc": "Student Affiliates of the American Chemical Society is an organization that fosters the love of exploring and understanding the world that we live in.",
-   "upcoming": 1
+   "upcoming": 0
   },
   {
    "name": "Student Alumni Association",
@@ -4359,7 +4359,7 @@
    "members": 1,
    "meets": "",
    "desc": "Campus Department | Armstrong Campus",
-   "upcoming": 3
+   "upcoming": 2
   },
   {
    "name": "University Housing - East Georgia Campus",
