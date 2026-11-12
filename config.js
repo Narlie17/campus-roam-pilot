@@ -19,5 +19,8 @@ window.ROAM_CONFIG = {
   // so events stay fresh without rebuilding data.js. Leave blank to use the bundled data.js.
   liveEventsUrl: '',
   // Hide new sign-ups after pilotEnd (existing participants can still sign in).
-  closeSignupsAfterEnd: true
+  closeSignupsAfterEnd: true,
+  // School branding: primary = headers and main buttons, accent = highlights.
+  // Text colors are picked automatically for contrast. Remove this to use the neutral Campus ROAM look.
+  theme: { name: 'Georgia Southern', primary: '#10284c', accent: '#e6b94a' }
 };

@@ -124,3 +124,56 @@ h1,h2{font-weight:700}h3,h4{font-weight:650}.btn,.chip,.eyebrow{font-weight:650}
 /* polish5: merged repeats, tighter cards */
 .item .repeat{color:var(--muted);font-size:13px;font-weight:600}
 .item .desc{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+
+/* polish6: calendar import and reminders */
+.icsrow{display:flex;gap:10px;align-items:flex-start;padding:10px 0;border-bottom:1px solid var(--line);font-size:14px;cursor:pointer}
+.icsrow input{width:20px;height:20px;margin-top:2px;flex:0 0 auto}
+.icsrow small{color:var(--muted)}
+.icsrow .warn{color:var(--red)}
+.checkline{display:flex;gap:9px;align-items:center;min-height:44px}
+
+/* polish7: accessibility (WCAG 2.2 AA) */
+.skip{position:absolute;left:-999px;top:8px;z-index:100;background:#fff;color:#10284c;padding:10px 14px;border-radius:10px;font-weight:650;box-shadow:var(--shadow)}
+.skip:focus{left:12px}
+#screen:focus{outline:none}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,summary:focus-visible,[tabindex]:focus-visible,.navbtn:focus-visible,.btn:focus-visible,.pillselect:focus-visible,.ql:focus-visible{outline:3px solid #2864ab;outline-offset:2px}
+[data-theme=dark] a:focus-visible,[data-theme=dark] button:focus-visible,[data-theme=dark] input:focus-visible,[data-theme=dark] select:focus-visible,[data-theme=dark] textarea:focus-visible,[data-theme=dark] summary:focus-visible,[data-theme=dark] .navbtn:focus-visible,[data-theme=dark] .btn:focus-visible{outline-color:#e6b94a}
+.panel .eyebrow{color:#7a5600}
+[data-theme=dark] .panel .eyebrow{color:#e6b94a}
+.pgseg button small{opacity:1}
+.pgseg button{color:#55647a}
+[data-theme=dark] .pgseg button{color:#b5c3d8}
+.orglink{min-height:24px;display:inline-flex;align-items:center;padding:2px 0}
+.daypick input,.checkline input,.checkline input[type=checkbox]{width:20px;height:20px}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
+
+/* polish8: school themes and Ask ROAM */
+.btn.gold{color:var(--on-gold,var(--navy))}
+.topbar{color:var(--on-navy,#fff)}
+.panel .eyebrow{color:color-mix(in srgb,var(--gold) 50%,#000)}
+[data-theme=dark] .panel .eyebrow{color:var(--gold)}
+.askbtn{display:inline-flex;align-items:center;gap:6px}
+.askbtn .asklabel{font-weight:650;font-size:13px}
+.askwrap{align-items:flex-start}
+.askpanel{width:min(640px,calc(100vw - 24px));max-height:calc(100vh - 48px);overflow:auto;margin-top:24px}
+.askpanel h2{margin:0;font-size:20px}
+.askpanel .row{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.askrow{display:flex;gap:8px}
+.askrow input{flex:1;min-width:0;font:inherit;font-size:16px;padding:12px;border:1px solid var(--line);border-radius:10px;background:var(--white);color:var(--ink)}
+.askrow .btn{flex:0 0 auto}
+.asksuggest{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 6px}
+.asksuggest .chip{cursor:pointer;min-height:32px;border:1px solid var(--line);font:inherit;font-size:13px}
+.askanswer{margin-top:14px}
+.asklead{font-size:16px;font-weight:600;margin:0 0 10px;color:var(--ink)}
+.asksrc{font-size:13px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:14px 0 6px}
+.asklist{list-style:none;margin:0;padding:0}
+.asklist li{display:flex;gap:12px;align-items:center;justify-content:space-between;padding:10px 0;border-top:1px solid var(--line)}
+.asklist li div{display:flex;flex-direction:column;gap:2px;min-width:0}
+.asklist span{font-size:14px;color:var(--ink)}
+.asklist small{font-size:12px;color:var(--muted)}
+.asklist .btn{flex:0 0 auto}
+@media (max-width:420px){.askbtn .asklabel{display:none}}
+.hero{background:linear-gradient(125deg,var(--navy),var(--navy2));color:var(--on-navy,#fff)}
+.mode{background:var(--gold);color:var(--on-gold,var(--navy))}
+html[data-theme=dark] .pagedots i.on{background:var(--gold)}
+@media (max-width:420px){.topbar .brand>span:last-child{white-space:nowrap}.topright{gap:6px}}

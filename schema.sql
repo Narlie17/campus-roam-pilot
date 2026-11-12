@@ -229,6 +229,67 @@ begin
   end loop;
 end $$;
 
+-- ---------- Posting access for campus offices and clubs ----------
+-- Admins grant a signed-up account the right to post for one organization or office.
+create table if not exists public.org_posters (
+  id uuid primary key default gen_random_uuid(),
+  user_id uuid not null references auth.users (id) on delete cascade,
+  organization text not null check (char_length(organization) between 1 and 200),
+  created_by uuid references auth.users (id) on delete set null,
+  created_at timestamptz not null default now(),
+  unique (user_id, organization)
+);
+alter table public.org_posters enable row level security;
+grant select, insert, update, delete on public.org_posters to authenticated;
+
+create or replace function public.can_post_for(org text) returns boolean
+language sql stable security definer set search_path = public as $$
+  select public.is_admin()
+      or exists (select 1 from public.org_posters where user_id = auth.uid() and organization = org)
+$$;
+
+drop policy if exists "poster read own" on public.org_posters;
+create policy "poster read own" on public.org_posters for select using (user_id = auth.uid() or public.is_admin());
+drop policy if exists "admin manage posters" on public.org_posters;
+create policy "admin manage posters" on public.org_posters for all using (public.is_admin()) with check (public.is_admin());
+
+-- Posters create and manage only their own posts, only for organizations they were granted.
+drop policy if exists "poster insert" on public.campus_events;
+create policy "poster insert" on public.campus_events for insert
+  with check (created_by = auth.uid() and public.can_post_for(organization));
+drop policy if exists "poster read own" on public.campus_events;
+create policy "poster read own" on public.campus_events for select using (created_by = auth.uid());
+drop policy if exists "poster update own" on public.campus_events;
+create policy "poster update own" on public.campus_events for update
+  using (created_by = auth.uid()) with check (created_by = auth.uid() and public.can_post_for(organization));
+drop policy if exists "poster delete own" on public.campus_events;
+create policy "poster delete own" on public.campus_events for delete using (created_by = auth.uid());
+
+-- Admin helper: grant posting access by email (the person must have signed up first).
+create or replace function public.grant_poster(p_email text, p_org text) returns void
+language plpgsql security definer set search_path = public, auth as $$
+declare uid uuid;
+begin
+  if not public.is_admin() then raise exception 'Only admins can grant posting access'; end if;
+  select id into uid from auth.users where lower(email) = lower(trim(p_email));
+  if uid is null then raise exception 'No ROAM account uses that email yet. Ask them to sign up first.'; end if;
+  insert into public.org_posters (user_id, organization, created_by) values (uid, trim(p_org), auth.uid())
+  on conflict (user_id, organization) do nothing;
+end $$;
+revoke all on function public.grant_poster(text, text) from public, anon;
+grant execute on function public.grant_poster(text, text) to authenticated;
+
+-- Admin helper: list posters with their email.
+create or replace function public.list_posters() returns table (id uuid, email text, organization text, created_at timestamptz)
+language sql stable security definer set search_path = public, auth as $$
+  select p.id, u.email::text, p.organization, p.created_at
+  from public.org_posters p join auth.users u on u.id = p.user_id
+  where public.is_admin()
+  order by p.organization, u.email
+$$;
+revoke all on function public.list_posters() from public, anon;
+grant execute on function public.list_posters() to authenticated;
+
 -- ---------- API access ----------
 -- Signed-in students reach the tables through Supabase's API; the policies above decide which rows.
 -- Visitors who are not signed in get no table access at all.

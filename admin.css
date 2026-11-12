@@ -1,0 +1,56 @@
+/* Campus ROAM admin */
+.skip{position:absolute;left:-999px;top:8px;z-index:50;background:var(--white);color:var(--ink);padding:10px 14px;border-radius:10px;font-weight:650}
+.skip:focus{left:12px}
+.adminbar .brand img{border-radius:9px}
+.adminbar .brand div{display:flex;flex-direction:column;line-height:1.15}
+.adminbar .brand span{font-size:12px;font-weight:500;opacity:.8}
+.adminbar .topactions{display:flex;gap:8px;align-items:center}
+.adminbar .btn{flex:0 0 auto}
+#main{outline:none}
+.wrap{max-width:980px;margin:0 auto;padding:22px 16px 60px;display:grid;gap:14px}
+.adminhead h1{margin:6px 0 2px;font-size:26px}
+.panel h2{margin:0 0 6px;font-size:19px}
+.panel h3{margin:0;font-size:15px}
+.narrow{max-width:520px;margin:30px auto}
+.admintabs{display:flex;flex-wrap:wrap;gap:4px;background:var(--cream);border:1px solid var(--line);border-radius:12px;padding:4px}
+.admintabs button{flex:1 1 auto;min-height:44px;border:0;background:transparent;border-radius:9px;padding:9px 12px;font-weight:650;font-size:14px;color:var(--muted);cursor:pointer}
+.admintabs button.on{background:var(--white);color:var(--ink);box-shadow:0 1px 4px rgba(16,40,76,.12)}
+.field input,.field select,.field textarea{font:inherit;font-weight:400;font-size:15px;padding:11px 12px;border:1px solid var(--line);border-radius:10px;background:var(--white);color:var(--ink)}
+.field textarea{resize:vertical}
+.tagset{border:1px solid var(--line);border-radius:12px;padding:10px 12px;margin:10px 0;display:flex;flex-wrap:wrap;gap:6px}
+.tagset legend{font-size:13px;font-weight:650;color:var(--muted);padding:0 4px}
+.tagpick{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);border-radius:999px;padding:6px 11px;font-size:13px;min-height:36px;cursor:pointer}
+.tagpick:has(input:checked){border-color:var(--navy);background:#edf3fa}
+.check{display:flex;gap:9px;align-items:center;margin:12px 0;font-size:14px;min-height:44px}
+.check input{width:20px;height:20px}
+.formmsg{min-height:1.2em;margin:6px 0 0;font-size:14px}
+.formmsg.error{color:var(--red);font-weight:600}
+.postrow{gap:12px;flex-wrap:wrap;align-items:center}
+.postrow>div:first-child{flex:1 1 280px;min-width:0}
+.postrow p{margin:3px 0 0;color:var(--muted);font-size:13.5px}
+.postrow .btnrow{margin-top:0}
+.livechip{background:#e3f4ec;color:#17694f}
+.draftchip{background:#fff3d6;color:#7a5200}
+.endedchip{background:#eef1f5;color:#4f5d70}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px}
+.kpi{display:flex;flex-direction:column;gap:2px}
+.kpi span{font-size:13px;color:var(--muted);font-weight:650}
+.kpi strong{font-size:34px;line-height:1.1}
+.kpi small{color:var(--muted)}
+table.stat{width:100%;border-collapse:collapse;font-size:14px}
+table.stat th{text-align:left;font-weight:500;color:var(--ink);padding:6px 10px 6px 0;width:34%;text-transform:capitalize}
+table.stat td{padding:6px 0}
+table.stat td.num{width:56px;text-align:right;font-variant-numeric:tabular-nums}
+.barfill{display:block;height:10px;border-radius:5px;background:var(--navy);min-width:4px}
+[data-theme=dark] .admintabs button.on{box-shadow:none}
+[data-theme=dark] .tagpick:has(input:checked){background:#1d2f4f;border-color:#8fb7ff}
+[data-theme=dark] .livechip{background:#163a2e;color:#7fe0b6}
+[data-theme=dark] .draftchip{background:#3a2f12;color:#f3cf7a}
+[data-theme=dark] .endedchip{background:#26324a;color:#b5c3d8}
+[data-theme=dark] .barfill{background:#8fb7ff}
+@media (max-width:560px){.wrap{padding:14px 10px 40px}.adminhead h1{font-size:22px}}
+.tagbox{border:1px solid var(--line);border-radius:12px;margin:10px 0}
+.tagbox>summary{cursor:pointer;padding:12px 14px;font-size:14px;font-weight:650;min-height:44px;display:flex;flex-wrap:wrap;gap:4px 8px;align-items:center}
+.tagbox>summary span{font-weight:400;color:var(--muted)}
+.tagbox .tagset{border:0;margin:0;padding:0 12px 12px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
