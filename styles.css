@@ -120,3 +120,7 @@ h1,h2{font-weight:700}h3,h4{font-weight:650}.btn,.chip,.eyebrow{font-weight:650}
 .coursehit b{font-weight:650;white-space:nowrap}.coursehit span{color:var(--muted)}
 .coursehit:hover,.coursehit:focus{border-color:var(--blue)}
 .exti{width:10px;height:10px;margin-left:3px;flex:0 0 auto;opacity:.7}
+
+/* polish5: merged repeats, tighter cards */
+.item .repeat{color:var(--muted);font-size:13px;font-weight:600}
+.item .desc{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}

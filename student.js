@@ -105,7 +105,7 @@
  const srcLabel=e=>e.source==='engage'?'Eagle Engage':e.source==='calendar'?'University calendar':'ROAM team';
  function eventCard(e,compact=false){
   const sc=score(e);const sv=isSaved(e);
-  return `<article class="item"><div class="row"><h4>${esc(e.title)}</h4><span>${newIds.has(e.id)?'<span class="chip greenchip">New</span>':''}<span class="chip ${sc>=3?'goldchip':''}">${sc>=3?'For you':'Campus'}</span></span></div><p>${esc(e.location||'Location TBA')} · ${esc(R.niceDate(e.start))} · ${e.allDay?'All day':esc(R.time(e.start))}${e.end&&!e.allDay?'–'+esc(R.time(e.end)):''}</p>${e.org?`<p>Hosted by ${(D.orgs?.orgs||[]).some(o=>o.name===e.org)?`<button type="button" class="orglink" data-org="${esc(e.org)}">${esc(e.org)}</button>`:esc(e.org)}</p>`:''}${!compact&&e.desc?`<p>${esc(e.desc.slice(0,260))}</p>`:''}<div class="itemmeta">${(e.tags||[]).slice(0,3).map(t=>`<span class="chip">${esc(interestLabel(t))}</span>`).join('')}<span class="chip">${esc(srcLabel(e))}</span></div><div class="sub">Why you're seeing this: ${esc(explain(e))}</div><div class="btnrow"><button class="btn small ${sv?'secondary':'gold'}" data-save="${esc(e.id)}">${sv?'✓ On my schedule':'+ Add to my schedule'}</button>${ext(gcal(e),'Add to Google Calendar','btn secondary small','data-gcal="1"')}${e.url?ext(e.url,'Event info','btn secondary small','data-eventlink="1"'):''}${compact?'':`<button class="btn secondary small" data-hide="${esc(e.id)}">Not for me</button>`}</div></article>`;
+  return `<article class="item"><div class="row"><h4>${esc(e.title)}</h4><span>${newIds.has(e.id)?'<span class="chip greenchip">New</span>':''}<span class="chip ${sc>=3?'goldchip':''}">${sc>=3?'For you':'Campus'}</span></span></div><p>${esc(e.location||'Location TBA')} · ${esc(R.niceDate(e.start))} · ${e.allDay?'All day':esc(R.time(e.start))}${e.end&&!e.allDay?'–'+esc(R.time(e.end)):''}</p>${e._n>1?`<p class="repeat">Runs ${e._n} dates through ${esc(R.niceDate(e._last))}</p>`:''}${e.org?`<p>Hosted by ${(D.orgs?.orgs||[]).some(o=>o.name===e.org)?`<button type="button" class="orglink" data-org="${esc(e.org)}">${esc(e.org)}</button>`:esc(e.org)}</p>`:''}${!compact&&e.desc?`<p class="desc">${esc(e.desc.slice(0,260))}</p>`:''}<div class="itemmeta">${(e.tags||[]).slice(0,3).map(t=>`<span class="chip">${esc(interestLabel(t))}</span>`).join('')}<span class="chip">${esc(srcLabel(e))}</span></div><div class="sub">Why you're seeing this: ${esc(explain(e))}</div><div class="btnrow"><button class="btn small ${sv?'secondary':'gold'}" data-save="${esc(e.id)}">${sv?'✓ On my schedule':'+ Add to my schedule'}</button>${ext(gcal(e),'Add to Google Calendar','btn secondary small','data-gcal="1"')}${e.url?ext(e.url,'Event info','btn secondary small','data-eventlink="1"'):''}${compact?'':`<button class="btn secondary small" data-hide="${esc(e.id)}">Not for me</button>`}</div></article>`;
  }
 
  /* ---------- classes & plan ---------- */
@@ -287,6 +287,13 @@
  function weekEndKey(){const now=new Date();const dow=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'].indexOf(new Intl.DateTimeFormat('en-US',{weekday:'short',timeZone:R.TZ}).format(now));return dkey(now.getTime()+(dow===0?7:7-dow)*864e5)}
  function mondayOf(k){const d=new Date(k+'T12:00:00Z');d.setUTCDate(d.getUTCDate()-((d.getUTCDay()+6)%7));return d}
  function grp(id,title,sub,body,count,force){if(!body)return '';const open=force||ui.open.has(id);return `<details class="grp" data-grp="${esc(id)}"${force?' data-forced="1"':''}${open?' open':''}><summary><span class="gtx"><span class="gt">${esc(title)}</span>${sub?`<span class="gs">${esc(sub)}</span>`:''}</span><span class="gc">${count}</span></summary><div class="gb">${body}</div></details>`}
+ function collapseRepeats(list){
+  const nk=e=>noEmoji(e.title).toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
+  const groups=new Map();list.forEach(e=>{const k=nk(e);if(!groups.has(k))groups.set(k,[]);groups.get(k).push(e)});
+  const keys=[...groups.keys()].sort((a,b)=>b.length-a.length);
+  for(const long of keys){for(const short of [...keys].reverse()){if(short===long||short.length<12||!groups.has(short)||!groups.has(long)||!long.startsWith(short+' '))continue;const ds=new Set(groups.get(short).map(e=>dkey(e.start)));if(groups.get(long).some(e=>ds.has(dkey(e.start)))){groups.get(short).push(...groups.get(long));groups.delete(long);break}}}
+  const pick=new Map();for(const g of groups.values()){const s=[...g].sort((x,y)=>String(x.start).localeCompare(String(y.start)));const r={...s[0],_n:new Set(s.map(e=>dkey(e.start))).size,_last:s[s.length-1].start};g.forEach(e=>pick.set(e.id,r))}
+  const seen=new Set(),out=[];list.forEach(e=>{const r=pick.get(e.id);if(r&&!seen.has(r.id)){seen.add(r.id);out.push(r)}});return out}
  function fyPaged(data){
   const def=ui.filter==='all'&&!ui.showNew&&!ui.showSaved&&!ui.q;if(!def)return forYou(data);
   const end=weekEndKey();const wk=data.filter(e=>dkey(e.start)<=end),later=data.filter(e=>dkey(e.start)>end);
@@ -331,7 +338,7 @@
   if(ui.showNew)data=data.filter(e=>newIds.has(e.id));
   if(ui.showSaved)data=[...adminEvents.map(fromAdmin),...publicEvents].filter(e=>isSaved(e)&&new Date(e.end||e.start)>new Date());
   if(ui.q){const q=ui.q.toLowerCase();data=data.filter(e=>[e.title,e.location,e.org,e.desc].join(' ').toLowerCase().includes(q))}
-  data=ranked(data);const mine=myInterests();
+  data=ranked(data);if(!ui.showSaved)data=collapseRepeats(data);const mine=myInterests();
   const opts=[...INTERESTS].sort((a,b)=>(mine.includes(b.id)-mine.includes(a.id))||a.label.localeCompare(b.label));
   $('#screen').innerHTML=`${head('For You','Picked for your major and interests','Public university calendar and Eagle Engage events, plus anything the ROAM team publishes — ranked for you.')}
   <div class="section-title"><h2>${ui.showSaved?'On your schedule':ui.showNew?'New for you':'Upcoming opportunities'}</h2><small>${data.length} event${data.length===1?'':'s'} · sorted by match and date</small></div>
