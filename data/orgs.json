@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-12T10:19:22.609Z",
+ "generatedAt": "2026-11-12T16:19:33.694Z",
  "source": "Eagle Engage (https://georgiasouthern.presence.io)",
  "base": "https://georgiasouthern.presence.io",
  "orgs": [
@@ -211,6 +211,17 @@
    "members": 73,
    "meets": "7:00 PM · Engineering Building (Room 2117)",
    "desc": "Academic | Campus-Department Sponsored | Professional | Service | Statesboro CampusThe mission of the ASCE Chapter is to assist Civil Engineering Students at GSU by facilitating valuable networking and relationships wit…",
+   "upcoming": 0
+  },
+  {
+   "name": "American Society of Heating Refrigeration and Air Conditioning Engineers at Georgia Southern",
+   "uri": "american-society-of-heating-refrigeration-and-air-conditioning-engineers-at-georgia-southern",
+   "cats": [
+    "Academic"
+   ],
+   "members": 0,
+   "meets": "",
+   "desc": "The Student Branch of ASHRAE at Georgia Southern is a Registered Student Organization dedicated to advancing the arts and sciences of heating, ventilation, air conditioning, and refrigeration (HVAC&R) to serve humanity…",
    "upcoming": 0
   },
   {
@@ -934,7 +945,7 @@
     "Service",
     "Spiritual"
    ],
-   "members": 37,
+   "members": 38,
    "meets": "7:00 p.m. · Russell Union",
    "desc": "Service | Spiritual | Statesboro Campus | Delight is a Christ-centered community for college women that fosters vulnerability and transforms stories through weekly bible study, service, worship, and fun events! We would…",
    "upcoming": 0
@@ -2626,7 +2637,7 @@
    "members": 67,
    "meets": "",
    "desc": "International Student Admissions and Programs(ISAP) champions and supports the international student community of GS. ISAP seeks to recruit, retain and graduate international students while broadening global awareness o…",
-   "upcoming": 1
+   "upcoming": 2
   },
   {
    "name": "Office of Leadership and Community Engagement",
@@ -2639,7 +2650,7 @@
    "members": 151,
    "meets": "",
    "desc": "Our office is dedicated to helping students develop both in and out of the classroom through:LeadershipA strong co-curricular leadership program of workshops, seminars, conferences, and nationally recognized speakers.Co…",
-   "upcoming": 13
+   "upcoming": 12
   },
   {
    "name": "Office of Multicultural Affairs",
@@ -3101,6 +3112,18 @@
    "members": 44,
    "meets": "6:00 PM · TBD",
    "desc": "Academic | Professional | Service | Special Interest | Statesboro Campus\\The Pre Physician Assistant Association is an opportunity for students interested in the career of a physician assistant to come together. This cl…",
+   "upcoming": 0
+  },
+  {
+   "name": "Pre-Veterinary Association",
+   "uri": "pre-veterinary-association",
+   "cats": [
+    "Special Interest",
+    "Armstrong Campus"
+   ],
+   "members": 1,
+   "meets": "TBD · On-Campus",
+   "desc": "The goal of the Pre-Veterinary Association is to help pre-veterinary students with navigating the process to becoming a veterinarian. We also want to introduce the veterinary profession to students as a career option wh…",
    "upcoming": 0
   },
   {
@@ -3968,7 +3991,7 @@
    "members": 11,
    "meets": "",
    "desc": "Student Wellness & Health Promotion strives to help students identify positive behaviors and coping strategies related to Emotional Wellbeing, Physical Wellbeing, Interpersonal Violence, and more. Through interacting wi…",
-   "upcoming": 0
+   "upcoming": 1
   },
   {
    "name": "Students with Disabilities Advocacy Group",

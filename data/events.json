@@ -1,30 +1,7 @@
 {
- "generatedAt": "2026-11-12T10:19:22.261Z",
- "source": "Localist API + Eagle Engage (150) · https://calendar.georgiasouthern.edu",
+ "generatedAt": "2026-11-12T16:19:33.346Z",
+ "source": "Localist API + Eagle Engage (151) · https://calendar.georgiasouthern.edu",
  "events": [
-  {
-   "id": "52613469647986-52613469657211",
-   "title": "Taste, Tour, and Learn: A Georgia Southern Adventure Through Tuscany",
-   "start": "2026-11-12T05:00:00.000Z",
-   "end": "2026-11-12T06:00:00.000Z",
-   "allDay": true,
-   "location": "Tuscany, Italy",
-   "campus": "other",
-   "url": "https://calendar.georgiasouthern.edu/event/taste-tour-and-learn-a-georgia-southern-adventure-through-tuscany-4108",
-   "types": [
-    "Arts, Culture and Entertainment"
-   ],
-   "depts": [],
-   "source": "calendar",
-   "tags": [
-    "culture",
-    "arts",
-    "food"
-   ],
-   "desc": "Immerse yourself in the flavors, sights, and culture of Italy with hands-on cooking classes, guided tours of historic towns, and Italian language lessons. From the rolling hills of Chianti to the charming streets of Siena, this non-credit program offers a week full of unforgettable experiences designed for lifelong le…",
-   "free": false,
-   "colleges": []
-  },
   {
    "id": "54487402753735-54487402757833",
    "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
@@ -156,32 +133,6 @@
    "colleges": [
     "cah"
    ]
-  },
-  {
-   "id": "engage-arm-serve912-weekly-trips-humane-society-11-12",
-   "title": "ARM Serve912 Weekly Trips - Humane Society 11/12",
-   "start": "2026-11-12T14:00:00.000Z",
-   "end": "2026-11-12T16:00:00.000Z",
-   "allDay": false,
-   "location": "Memorial College Center",
-   "campus": "armstrong",
-   "url": "https://georgiasouthern.presence.io/event/arm-serve912-weekly-trips-humane-society-11-12",
-   "types": [
-    "Certificate: Community Engagement",
-    "Serve912 Weekly Trip",
-    "Service"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "animals",
-    "service"
-   ],
-   "desc": "Join us to volunteer at the Humane Society!",
-   "free": null,
-   "org": "Office of Leadership and Community Engagement",
-   "orgUri": "office-of-leadership-and-community-engagement-2",
-   "colleges": []
   },
   {
    "id": "53947344045942-53947344046967",
@@ -368,6 +319,27 @@
    "colleges": []
   },
   {
+   "id": "engage-alcohol-awareness-tabling-3",
+   "title": "Alcohol Awareness Tabling",
+   "start": "2026-11-12T16:00:00.000Z",
+   "end": "2026-11-12T17:30:00.000Z",
+   "allDay": false,
+   "location": "The Clubhouse",
+   "campus": "other",
+   "url": "https://georgiasouthern.presence.io/event/alcohol-awareness-tabling-3",
+   "types": [],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "wellness"
+   ],
+   "desc": "Come join the Office of Student Wellness and Health Promotion to learn more about facts pertaining to alcohol and how to stay safe!",
+   "free": null,
+   "org": "Student Wellness and Health Promotion",
+   "orgUri": "student-wellness-and-health-promotion",
+   "colleges": []
+  },
+  {
    "id": "engage-mobile-advising",
    "title": "Mobile Advising",
    "start": "2026-11-12T16:00:13.000Z",
@@ -414,29 +386,6 @@
    "free": null,
    "org": "Office of Fraternity and Sorority Life",
    "orgUri": "office-of-fraternity-and-sorority-life",
-   "colleges": []
-  },
-  {
-   "id": "engage-fall-mixology-dirty-sodas-dirty-cocoa",
-   "title": "Fall Mixology: Dirty Sodas & Dirty Cocoa",
-   "start": "2026-11-12T17:00:00.000Z",
-   "end": "2026-11-12T19:00:00.000Z",
-   "allDay": false,
-   "location": "B314 JAM Breezeway & Clubroom",
-   "campus": "other",
-   "url": "https://georgiasouthern.presence.io/event/fall-mixology-dirty-sodas-dirty-cocoa",
-   "types": [
-    "Free Food"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "food"
-   ],
-   "desc": "Sweater weather is here, and it's time to mix up your perfect fall drink! Join us for Fall Mixology: Dirty Sodas & Dirty Cocoa , where you'll create and customize delicious seasonal beverages with fun flavors, syrups, creams, and toppings. Whether you're a fan of fizzy, flavor-packed dirty sodas or rich, cozy dirty co…",
-   "free": null,
-   "org": "Office of Student Activities",
-   "orgUri": "office-of-student-activities-3",
    "colleges": []
   },
   {
@@ -1028,6 +977,29 @@
    "colleges": []
   },
   {
+   "id": "engage-fall-mixology-dirty-sodas-dirty-cocoa",
+   "title": "Fall Mixology: Dirty Soda Event",
+   "start": "2026-11-13T18:00:00.000Z",
+   "end": "2026-11-13T20:00:00.000Z",
+   "allDay": false,
+   "location": "B314 JAM Breezeway & Clubroom",
+   "campus": "other",
+   "url": "https://georgiasouthern.presence.io/event/fall-mixology-dirty-sodas-dirty-cocoa",
+   "types": [
+    "Free Food"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "food"
+   ],
+   "desc": "Sweater weather is here, and it's time to mix up your perfect fall drink! Join us for Fall Mixology: Dirty Sodas , where you'll create and customize delicious seasonal beverages with fun flavors, syrups, creams, and toppings. Whether you're a fan of fizzy, flavor-packed dirty sodas, you'll have the chance to experimen…",
+   "free": null,
+   "org": "Office of Student Activities",
+   "orgUri": "office-of-student-activities-3",
+   "colleges": []
+  },
+  {
    "id": "engage-serve912-weekly-trip-restoring-the-breach-inc-11-13-fridays",
    "title": "Serve912 Weekly Trip - Restoring the Breach, Inc. (11/13) - Fridays",
    "start": "2026-11-13T19:30:00.000Z",
@@ -1396,6 +1368,31 @@
    "free": null,
    "org": "Georgia Southern Athletics",
    "orgUri": "georgia-southern-athletics-2",
+   "colleges": []
+  },
+  {
+   "id": "54470054026715-54470054026716",
+   "title": "Marvel Rivals Tournament (Students, Faculty, and Staff)",
+   "start": "2026-11-14T18:00:00.000Z",
+   "end": "2026-11-14T19:00:00.000Z",
+   "allDay": false,
+   "location": "Virtual Collaboration Center, Eagle's Edge Arena",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/the-marvel-rivals-tournament-students-faculty-and-staff",
+   "types": [
+    "Arts, Culture and Entertainment"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "arts",
+    "dance",
+    "gaming"
+   ],
+   "desc": "The Virtual Collaboration Center is bringing the competition to the Eagles Edge Arena on November 14, 2026, at 2:00 PM! The Marvel Rivals Tournament is FREE for all Georgia Southern students, faculty, and staff, so gather your teammates and get ready to compete! Teams will consist of six players. Once your entire team…",
+   "free": false,
+   "lat": 32.423211,
+   "lon": -81.780215,
    "colleges": []
   },
   {
@@ -4354,6 +4351,32 @@
    "colleges": [
     "cah"
    ]
+  },
+  {
+   "id": "engage-de-stress-from-finals",
+   "title": "De-Stress From Finals",
+   "start": "2026-11-30T17:00:00.000Z",
+   "end": "2026-11-30T19:00:00.000Z",
+   "allDay": false,
+   "location": "Victor Hall ISAP Suite",
+   "campus": "",
+   "url": "https://georgiasouthern.presence.io/event/de-stress-from-finals",
+   "types": [
+    "Free Food",
+    "Social Event"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "wellness",
+    "food",
+    "social"
+   ],
+   "desc": "Take a break from finals and stop by the ISAP suite in Victor Hall for pizza, hot chocolate, cookies, and games",
+   "free": null,
+   "org": "Office of International Student Admissions and Programs",
+   "orgUri": "office-of-international-student-admissions-and-programs",
+   "colleges": []
   },
   {
    "id": "54487402753735-54487402788572",
