@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-12T21:59:56.894Z",
+ "generatedAt": "2026-11-13T04:11:14.986Z",
  "source": "Eagle Engage (https://georgiasouthern.presence.io)",
  "base": "https://georgiasouthern.presence.io",
  "orgs": [
@@ -219,7 +219,7 @@
    "cats": [
     "Academic"
    ],
-   "members": 1,
+   "members": 3,
    "meets": "",
    "desc": "The Student Branch of ASHRAE at Georgia Southern is a Registered Student Organization dedicated to advancing the arts and sciences of heating, ventilation, air conditioning, and refrigeration (HVAC&R) to serve humanity…",
    "upcoming": 0
@@ -690,7 +690,7 @@
    "members": 35,
    "meets": "",
    "desc": "The Childcare Access Means Parents in School Program (CCAMPIS) is a federal grant funded 100% by the U.S. Department of Education. This program supports the participation of low-income student-parents enrolled in postse…",
-   "upcoming": 2
+   "upcoming": 1
   },
   {
    "name": "Chinese Language Club",
@@ -1077,7 +1077,7 @@
    "members": 9,
    "meets": "",
    "desc": "The mission of the Department of Communication Arts is to provide students with a broad-based, comprehensive, and interdisciplinary study of human communication. Within Georgia Southern University’s culture of engagemen…",
-   "upcoming": 12
+   "upcoming": 11
   },
   {
    "name": "Department of Criminal Justice and Criminology",
@@ -1950,7 +1950,7 @@
    "members": 643,
    "meets": "5:30 · IAB 1012",
    "desc": "The Honors Student Organization (HSO) is open to all honors students at Georgia Southern. HSO is dedicated to providing honors students with opportunities to get involved on and off campus though volunteering, campus ev…",
-   "upcoming": 2
+   "upcoming": 1
   },
   {
    "name": "Institute for Operations Research and the Management Sciences",
@@ -2087,7 +2087,7 @@
    "members": 42,
    "meets": "5:30-6:30 pm · Statesboro Campus",
    "desc": "The purpose of the Justice & Law Society is to bring together students with an interest in Criminal Justice, Criminology, and related areas to advance the student's knowledge about the discipline and fields.",
-   "upcoming": 1
+   "upcoming": 0
   },
   {
    "name": "K-pop Culture and Appreciation",
@@ -2242,7 +2242,7 @@
    "members": 38,
    "meets": "N/A · Jenkins Hall",
    "desc": "Masquers strives to create and promote a positive environment for students through events and spaces that center around the Southern Theater Community. We provide workshops and performance opportunities to further educa…",
-   "upcoming": 2
+   "upcoming": 1
   },
   {
    "name": "Master of Public Administration Student Association",
@@ -2650,7 +2650,7 @@
    "members": 151,
    "meets": "",
    "desc": "Our office is dedicated to helping students develop both in and out of the classroom through:LeadershipA strong co-curricular leadership program of workshops, seminars, conferences, and nationally recognized speakers.Co…",
-   "upcoming": 25
+   "upcoming": 22
   },
   {
    "name": "Office of Multicultural Affairs",
@@ -4442,7 +4442,7 @@
    "members": 238,
    "meets": "5:30-7 p.m. · On- Campus",
    "desc": "The University Programming Board at Georgia Southern University enhances campus life by providing safe, inclusive, and diverse events for the student body, creating a TRUE BLUE experience.Click Here for a Calendar of Ev…",
-   "upcoming": 3
+   "upcoming": 2
   },
   {
    "name": "University Store",
