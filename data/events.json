@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-13T16:04:12.012Z",
- "source": "Localist API + Eagle Engage (149) · https://calendar.georgiasouthern.edu",
+ "generatedAt": "2026-11-13T21:59:09.697Z",
+ "source": "Localist API + Eagle Engage (146) · https://calendar.georgiasouthern.edu",
  "events": [
   {
    "id": "54487402753735-54487402760906",
@@ -133,103 +133,6 @@
    "colleges": [
     "cah"
    ]
-  },
-  {
-   "id": "engage-navigating-friendships-13",
-   "title": "Navigating Friendships",
-   "start": "2026-11-13T16:00:00.000Z",
-   "end": "2026-11-13T17:00:00.000Z",
-   "allDay": false,
-   "location": "Counseling Center",
-   "campus": "statesboro",
-   "url": "https://georgiasouthern.presence.io/event/navigating-friendships-13",
-   "types": [
-    "Health & Wellness"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "academic",
-    "engineering",
-    "wellness",
-    "social"
-   ],
-   "desc": "This interactive workshop provides a supportive space for students to discover practical strategies and tools to develop healthy communication skills and foster lasting relationships. Attend this workshop to discover ways to reduce social anxiety, communicate assertively, set healthy boundaries, and confidently naviga…",
-   "free": null,
-   "org": "Counseling Center",
-   "orgUri": "counseling-center",
-   "colleges": []
-  },
-  {
-   "id": "engage-serve912-weekly-trip-statesboro-food-bank-11-13-fridays",
-   "title": "Serve912 Weekly Trip - Statesboro Food Bank (11/13) Fridays",
-   "start": "2026-11-13T16:00:00.000Z",
-   "end": "2026-11-13T18:00:00.000Z",
-   "allDay": false,
-   "location": "Russell Union Room 1056",
-   "campus": "statesboro",
-   "url": "https://georgiasouthern.presence.io/event/serve912-weekly-trip-statesboro-food-bank-11-13-fridays",
-   "types": [
-    "Serve912 Weekly Trip",
-    "Service"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "food",
-    "service"
-   ],
-   "desc": "Volunteers will h elp in Sunshine Cafe or Pantry",
-   "free": null,
-   "org": "Office of Leadership and Community Engagement",
-   "orgUri": "office-of-leadership-and-community-engagement-2",
-   "colleges": []
-  },
-  {
-   "id": "engage-banned-books-pop-up-library-friday-the-13th-celebration-henderson-library-statesboro-campus",
-   "title": "Banned Books Pop-Up Library: Friday the 13th Celebration (Henderson Library, Statesboro Campus)",
-   "start": "2026-11-13T16:30:00.000Z",
-   "end": "2026-11-13T18:03:00.000Z",
-   "allDay": false,
-   "location": "Henderson Library",
-   "campus": "statesboro",
-   "url": "https://georgiasouthern.presence.io/event/banned-books-pop-up-library-friday-the-13th-celebration-henderson-library-statesboro-campus",
-   "types": [],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "academic",
-    "writing",
-    "social"
-   ],
-   "desc": "Commonly banned books aren't bad luck! Join the University Libraries on Friday, November 13 for a pop-up library of books commonly banned throughout the United States.",
-   "free": null,
-   "org": "Georgia Southern University Libraries",
-   "orgUri": "georgia-southern-university-libraries-3",
-   "colleges": []
-  },
-  {
-   "id": "engage-fall-mixology-dirty-sodas-dirty-cocoa",
-   "title": "Fall Mixology: Dirty Soda Event",
-   "start": "2026-11-13T18:00:00.000Z",
-   "end": "2026-11-13T20:00:00.000Z",
-   "allDay": false,
-   "location": "B314 JAM Breezeway & Clubroom",
-   "campus": "other",
-   "url": "https://georgiasouthern.presence.io/event/fall-mixology-dirty-sodas-dirty-cocoa",
-   "types": [
-    "Free Food"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "food"
-   ],
-   "desc": "Sweater weather is here, and it's time to mix up your perfect fall drink! Join us for Fall Mixology: Dirty Sodas , where you'll create and customize delicious seasonal beverages with fun flavors, syrups, creams, and toppings. Whether you're a fan of fizzy, flavor-packed dirty sodas, you'll have the chance to experimen…",
-   "free": null,
-   "org": "Office of Student Activities",
-   "orgUri": "office-of-student-activities-3",
-   "colleges": []
   },
   {
    "id": "engage-serve912-weekly-trip-restoring-the-breach-inc-11-13-fridays",
@@ -1404,6 +1307,30 @@
    "free": false,
    "lat": 32.418824,
    "lon": -81.782889,
+   "colleges": []
+  },
+  {
+   "id": "engage-health-hut-eat-well-sleep-well-be-well-2",
+   "title": "Health Hut- Eat Well, Sleep Well, Be Well",
+   "start": "2026-11-17T16:00:00.000Z",
+   "end": "2026-11-17T18:00:00.000Z",
+   "allDay": false,
+   "location": "Russell Union Grassy Area",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/health-hut-eat-well-sleep-well-be-well-2",
+   "types": [
+    "Health & Wellness"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "wellness",
+    "food"
+   ],
+   "desc": "Come learn about intuitive eating, food insecurity, and sleep hygiene before the holidays for this months health hut!",
+   "free": null,
+   "org": "Student Wellness and Health Promotion",
+   "orgUri": "student-wellness-and-health-promotion",
    "colleges": []
   },
   {
@@ -4087,6 +4014,27 @@
    "free": null,
    "org": "Georgia Southern University Libraries",
    "orgUri": "georgia-southern-university-libraries-3",
+   "colleges": []
+  },
+  {
+   "id": "engage-rest-your-wings",
+   "title": "Rest your Wings",
+   "start": "2026-12-01T17:00:20.000Z",
+   "end": "2026-12-01T19:00:00.000Z",
+   "allDay": false,
+   "location": "The JAM/ Corridor",
+   "campus": "other",
+   "url": "https://georgiasouthern.presence.io/event/rest-your-wings",
+   "types": [],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "wellness"
+   ],
+   "desc": "Take a break from finals and unwind with us! Stop by for a relaxing afternoon filled with fun activities, refreshments, and opportunities to recharge after a busy semester. Whether you want to hang out with friends, enjoy a quick activity, or simply take a moment to relax, this is your chance to de-stress and celebrat…",
+   "free": null,
+   "org": "Office of Student Engagement and Support",
+   "orgUri": "office-of-student-engagement-and-support",
    "colleges": []
   },
   {
