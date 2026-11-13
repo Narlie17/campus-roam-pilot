@@ -33,7 +33,7 @@
  // so tracking no longer makes an extra auth request per action or sends rows RLS will reject.
  let trackUser=null,trackConsent=false;
  const setTracking=(userId,consent)=>{trackUser=userId||null;trackConsent=!!consent};
- const ACTIONS=['app_open','tab_view','schedule_add','schedule_delete','event_view','event_save','event_unsave','resource_open','follow','unfollow','feedback_submit','profile_update','survey_submit','route_open','plan_view','calendar_add','major_view'];
+ const ACTIONS=['app_open','tab_view','schedule_add','schedule_delete','event_view','event_save','event_unsave','resource_open','follow','unfollow','feedback_submit','profile_update','survey_submit','route_open','plan_view','calendar_add','major_view','checklist_done','checklist_undo'];
  const track=async(action,feature='app')=>{if(!ACTIONS.includes(action)||!trackUser||!trackConsent)return;if(client){try{const r=await client.from('activity_events').insert({user_id:trackUser,action,feature:String(feature).slice(0,40)});if(r.error)console.warn('Tracking unavailable',r.error.message)}catch(e){console.warn('Tracking unavailable',e.message)}}else{const d=demo.load();if(!d.profile?.consent)return;d.activity.push({user_id:d.profile.id,action,feature,created_at:new Date().toISOString()});if(d.activity.length>2000)d.activity=d.activity.slice(-2000);demo.save(d)}};
  const formatErr=e=>e?.message||String(e);
  // Spreadsheet formula-injection guard for CSV exports.

@@ -13,7 +13,7 @@
  const YEARS=C.years?.length?C.years:['First year','Sophomore','Junior','Senior','Graduate'];
  const CAMPUSES=C.campuses?.length?C.campuses:[{id:'statesboro',name:'Statesboro'}];
  const ENGAGE=(C.meta?.sources?.engageBase||D.orgs?.base||'').replace(/\/$/,'');
- let user=null,profile=null,classes=[],adminEvents=[],publicEvents=[],follows=[],saved=[],savedPublic=[],hidden=[],announcements=[],surveys=[],tab='today',authMode='signup',interestSet=new Set(),weather=null,browseMajor=null,recovery=false;
+ let user=null,profile=null,classes=[],adminEvents=[],publicEvents=[],follows=[],saved=[],savedPublic=[],hidden=[],announcements=[],surveys=[],tab='today',authMode='signup',interestSet=new Set(),weather=null,browseMajor=null,recovery=false,goingCounts={},groupSet=new Set(),pathDone={};
  const initialRecovery=/type=recovery/.test(location.hash);
  const ui={dayPage:0,org:null,filter:'all',scope:'mine',q:'',showSaved:false,orgQ:'',orgCat:'all',resQ:'',dateKind:'all',fyPage:0,open:new Set()};
 
@@ -105,7 +105,7 @@
  const srcLabel=e=>e.source==='engage'?'Eagle Engage':e.source==='calendar'?'University calendar':'ROAM team';
  function eventCard(e,compact=false){
   const sc=score(e);const sv=isSaved(e);
-  return `<article class="item"><div class="row"><h4>${esc(e.title)}</h4><span>${newIds.has(e.id)?'<span class="chip greenchip">New</span>':''}<span class="chip ${sc>=3?'goldchip':''}">${sc>=3?'For you':'Campus'}</span></span></div><p>${esc(e.location||'Location TBA')} · ${esc(R.niceDate(e.start))} · ${e.allDay?'All day':esc(R.time(e.start))}${e.end&&!e.allDay?'–'+esc(R.time(e.end)):''}</p>${e._n>1?`<p class="repeat">Runs ${e._n} dates through ${esc(R.niceDate(e._last))}</p>`:''}${e.org?`<p>Hosted by ${(D.orgs?.orgs||[]).some(o=>o.name===e.org)?`<button type="button" class="orglink" data-org="${esc(e.org)}">${esc(e.org)}</button>`:esc(e.org)}</p>`:''}${!compact&&e.desc?`<p class="desc">${esc(e.desc.slice(0,260))}</p>`:''}<div class="itemmeta">${(e.tags||[]).slice(0,3).map(t=>`<span class="chip">${esc(interestLabel(t))}</span>`).join('')}<span class="chip">${esc(srcLabel(e))}</span></div><div class="sub">Why you're seeing this: ${esc(explain(e))}</div><div class="btnrow"><button class="btn small ${sv?'secondary':'gold'}" data-save="${esc(e.id)}">${sv?'✓ On my schedule':'+ Add to my schedule'}</button>${ext(gcal(e),'Add to Google Calendar','btn secondary small','data-gcal="1"')}${e.url?ext(e.url,'Event info','btn secondary small','data-eventlink="1"'):''}${compact?'':`<button class="btn secondary small" data-hide="${esc(e.id)}">Not for me</button>`}</div></article>`;
+  return `<article class="item"><div class="row"><h4>${esc(e.title)}</h4><span>${newIds.has(e.id)?'<span class="chip greenchip">New</span>':''}<span class="chip ${sc>=3?'goldchip':''}">${sc>=3?'For you':'Campus'}</span></span></div><p>${esc(e.location||'Location TBA')} · ${esc(R.niceDate(e.start))} · ${e.allDay?'All day':esc(R.time(e.start))}${e.end&&!e.allDay?'–'+esc(R.time(e.end)):''}</p>${e._n>1?`<p class="repeat">Runs ${e._n} dates through ${esc(R.niceDate(e._last))}</p>`:''}${e.org?`<p>Hosted by ${(D.orgs?.orgs||[]).some(o=>o.name===e.org)?`<button type="button" class="orglink" data-org="${esc(e.org)}">${esc(e.org)}</button>`:esc(e.org)}</p>`:''}${!compact&&e.desc?`<p class="desc">${esc(e.desc.slice(0,260))}</p>`:''}<div class="itemmeta">${(e.tags||[]).slice(0,3).map(t=>`<span class="chip">${esc(interestLabel(t))}</span>`).join('')}<span class="chip">${esc(srcLabel(e))}</span></div><div class="sub">Why you're seeing this: ${esc(explain(e))}</div>${goingLine(e)}<div class="btnrow"><button class="btn small ${sv?'secondary':'gold'}" data-save="${esc(e.id)}">${sv?'✓ I’m going':'+ I’m going'}</button>${ext(gcal(e),'Add to Google Calendar','btn secondary small','data-gcal="1"')}${e.url?ext(e.url,'Event info','btn secondary small','data-eventlink="1"'):''}${compact?'':`<button class="btn secondary small" data-hide="${esc(e.id)}">Not for me</button>`}</div></article>`;
  }
 
  /* ---------- classes & plan ---------- */
@@ -161,11 +161,12 @@
     R.client.from('saved_events').select('*').eq('user_id',user.id),
     R.client.from('announcements').select('*').eq('published',true).gte('ends_at',iso).order('created_at',{ascending:false}),
     R.client.from('pilot_surveys').select('phase,created_at').eq('user_id',user.id).order('created_at',{ascending:false}),
-    R.client.from('saved_public_events').select('event_key').eq('user_id',user.id)
+    R.client.from('saved_public_events').select('event_key').eq('user_id',user.id),
+    R.client.rpc('roam_going_counts')
    ]);
    const [cl,ev,fo,sa,an,su]=res.slice(0,6).map(R.check);
    classes=cl||[];adminEvents=ev||[];follows=fo||[];saved=(sa||[]).map(x=>x.event_id);announcements=an||[];surveys=su||[];
-   savedPublic=res[6].error?[]:(res[6].data||[]).map(x=>x.event_key); // table is new in V14; tolerate older schema
+   savedPublic=res[6].error?[]:(res[6].data||[]).map(x=>x.event_key);goingCounts={};if(!res[7].error)(res[7].data||[]).forEach(x=>{goingCounts[x.event_key]=Number(x.going)||0}); // table is new in V14; tolerate older schema
   }else{
    const d=R.demo.load();
    classes=d.schedules||[];adminEvents=(d.events||[]).filter(x=>x.published&&new Date(x.ends_at)>new Date());follows=d.follows||[];saved=d.saved||[];savedPublic=d.savedPublic||[];announcements=(d.announcements||[]).filter(x=>x.published&&new Date(x.ends_at)>new Date());surveys=(d.survey||[]).slice().reverse();
@@ -217,6 +218,61 @@
   $('#authNotice').innerHTML=n;
   if(R.libMissing)$('#authSubmit').disabled=true;
  };
+ /* ---------- first-year checklist ---------- */
+ const GROUPS=[{id:'new',label:'New to Georgia Southern this year'},{id:'transfer',label:'Transfer student'},{id:'international',label:'International student'},{id:'firstgen',label:'First in my family at college'},{id:'commuter',label:'Commuter'}];
+ const loadGroups=()=>{try{const v=JSON.parse(localStorage.getItem(`roam-groups-${user.id}`)||'[]');return Array.isArray(v)?v:[]}catch{return []}};
+ const saveGroups=g=>{try{localStorage.setItem(`roam-groups-${user.id}`,JSON.stringify(g))}catch{}};
+ const groupButtons=()=>GROUPS.map(g=>`<button class="pillselect ${groupSet.has(g.id)?'selected':''}" data-group="${g.id}" type="button" aria-pressed="${groupSet.has(g.id)}">${esc(g.label)}</button>`).join('')+`<p class="sub">Optional. ROAM uses this to build your first-year checklist. It stays on this device and is never sent to the ROAM team.</p>`;
+ const savedCount=()=>saved.length+savedPublic.length;
+ const PATH=[
+  {id:'w1',to:1,title:'Week 1: get set up',steps:[
+   {id:'classes',t:'Add your classes to ROAM',d:'Your day, your breaks and your reminders are built from them.',go:'schedule',gl:'Add classes',auto:()=>classes.length>0},
+   {id:'rooms',t:'Walk to each classroom before your first class there',d:'Building names are on your schedule. Ten minutes now saves a late arrival.',go:'schedule',gl:'My classes'},
+   {id:'card',t:'Get your Eagle Card working',d:'You need it for the library, dining and the gym.',go:'resources',gl:'Campus services'},
+   {id:'dropadd',t:'Find the last day to drop or add a class',d:'After that day, changing your schedule can cost you money or a grade.',go:'dates',gl:'Key dates'},
+   {id:'intl-checkin',g:'international',t:'Check in with the international student office',d:'Ask what they need from you this semester, and by when.',go:'resources',gl:'Campus services'},
+   {id:'transfer-credit',g:'transfer',t:'Confirm your transfer credits with your advisor',d:'Make sure every class you already took counts toward your degree.',go:'major',gl:'My major'},
+   {id:'commute',g:'commuter',t:'Plan your parking and your route to class',d:'Check where your permit lets you park and how the campus bus runs.',go:'resources',gl:'Transit and parking'}]},
+  {id:'w2',to:3,title:'Weeks 2 and 3: find your people',steps:[
+   {id:'follow',t:'Follow two organizations or departments',d:'Their events will show up in your feed.',go:'community',gl:'Browse',auto:()=>follows.length>=2},
+   {id:'event1',t:'Tap “I’m going” on one event',d:'One event is the fastest way to meet people.',go:'discover',gl:'Find events',auto:()=>savedCount()>=1},
+   {id:'advisor',t:'Find your advisor’s name and office',d:'You will need them before registration opens.',go:'major',gl:'My major'},
+   {id:'officehours',t:'Visit one professor during office hours',d:'Introduce yourself and ask one question about the class.'},
+   {id:'firstgen-prog',g:'firstgen',t:'Ask your advisor about programs for first-generation students',d:'Mentoring and support exist that you may not hear about unless you ask.',go:'major',gl:'My major'},
+   {id:'intl-work',g:'international',t:'Ask the international student office before taking any job',d:'They can tell you which work your visa allows.',go:'resources',gl:'Campus services'}]},
+  {id:'w4',to:6,title:'Weeks 4 to 6: stay on track',steps:[
+   {id:'grades',t:'Check your grade so far in every class',d:'Look in Folio or ask your professor. Early is when it can still be fixed.'},
+   {id:'tutoring',t:'Book one tutoring or study session for your hardest class',d:'Free academic support is listed under Resources.',go:'resources',gl:'Find support'},
+   {id:'withdraw',t:'Find the last day to withdraw from a class',d:'Know the date before you need it.',go:'dates',gl:'Key dates'},
+   {id:'balance',t:'Check your account balance and financial aid',d:'Look in your MyGS portal so a hold does not block registration.'},
+   {id:'event2',t:'Try a second event or a new organization',d:'ROAM ticks this when you add another event or follow a third group.',go:'discover',gl:'Find events',auto:()=>savedCount()>=2||follows.length>=3},
+   {id:'intl-fulltime',g:'international',t:'Talk to the international student office before dropping a class',d:'Dropping below full time can affect your visa status.',go:'resources',gl:'Campus services'}]},
+  {id:'w7',to:99,title:'Weeks 7 and 8: plan ahead',steps:[
+   {id:'regdate',t:'Find the date registration opens for next semester',d:'The best class times fill first.',go:'dates',gl:'Key dates'},
+   {id:'advisor-meet',t:'Meet your advisor to plan next semester',d:'Book early. Advisors get busy as registration approaches.',go:'major',gl:'My major'},
+   {id:'housing',t:'Decide where you will live next year',d:'Housing and lease deadlines come earlier than most students expect.'},
+   {id:'checkin',t:'Take the 30-second pilot check-in',d:'It tells the ROAM team what to fix.',go:'profile',gl:'Take it',focus:'survey',auto:()=>surveys.length>0}]}];
+ const pathKey=()=>`roam-path-${user.id}`;
+ const loadPath=()=>{try{const v=JSON.parse(localStorage.getItem(pathKey())||'{}');return v&&typeof v==='object'?v:{}}catch{return {}}};
+ const savePath=()=>{try{localStorage.setItem(pathKey(),JSON.stringify(pathDone))}catch{}};
+ const isTransfer=()=>profile?.year==='Transfer'||groupSet.has('transfer');
+ const onPath=()=>!!profile&&(profile.year===YEARS[0]||profile.year==='Transfer'||groupSet.size>0);
+ const pathWeek=()=>{const st=termStatus();if(!st.term)return 1;const d=daysBetween(st.term.classesStart,R.localDay());return d<0?1:Math.floor(d/7)+1};
+ const stepsFor=st=>st.steps.filter(s=>!s.g||groupSet.has(s.g)||(s.g==='transfer'&&isTransfer()));
+ const stepDone=s=>!!pathDone[s.id]||(!!s.auto&&s.auto());
+ function pathSync(){let ch=false;PATH.forEach(st=>stepsFor(st).forEach(s=>{if(s.auto&&s.auto()&&!pathDone[s.id]){pathDone[s.id]=new Date().toISOString();ch=true;R.track('checklist_done',st.id)}}));if(ch)savePath()}
+ function pathCard(){
+  if(!onPath())return '';pathSync();
+  const wk=pathWeek(),cur=PATH.find(st=>wk<=st.to)||PATH[PATH.length-1];
+  const all=PATH.flatMap(stepsFor),done=all.filter(stepDone).length,pct=all.length?Math.round(done/all.length*100):0;
+  const step=s=>{const dn=stepDone(s);return `<div class="pathstep ${dn?'done':''}"><label><input type="checkbox" data-pathstep="${s.id}" ${dn?'checked':''} ${s.auto?'disabled':''}><span><b>${esc(s.t)}</b><span class="sub">${esc(s.d)}${s.auto&&!dn?' ROAM ticks this for you.':''}</span></span></label>${s.go&&!dn?`<button type="button" class="btn small secondary" data-goto="${s.go}"${s.focus?` data-focus="${s.focus}"`:''}>${esc(s.gl||'Open')}</button>`:''}</div>`};
+  const stage=st=>{const ss=stepsFor(st);return `<h3>${esc(st.title)} <span class="sub">${ss.filter(stepDone).length} of ${ss.length}</span></h3>${ss.map(step).join('')}`};
+  return `<div class="panel pathcard" id="pathCard"><div class="section-title" style="margin:0 0 6px"><h2>Your first-year checklist</h2><span class="chip goldchip">${done} of ${all.length} done</span></div><div class="pathbar" role="img" aria-label="${done} of ${all.length} steps done"><i style="width:${pct}%"></i></div>${stage(cur)}<details><summary class="sub">See the other weeks</summary>${PATH.filter(st=>st!==cur).map(stage).join('')}</details></div>`;
+ }
+ /* ---------- going counts ---------- */
+ const demoGoing=id=>{let h=0;for(const ch of String(id))h=(h*31+ch.charCodeAt(0))>>>0;return h%19};
+ const goingOf=e=>{const mine=isSaved(e)?1:0;return R.client?Math.max(goingCounts[e.id]||0,mine):demoGoing(e.id)+mine};
+ const goingLine=e=>{const n=goingOf(e);return n?`<p class="goingline">${n} student${n===1?'':'s'} going${isSaved(e)?(n>1?', including you':' (you)'):''}</p>`:''};
  function interestButtons(){
   const groups=C.interestGroups?.length?C.interestGroups:[...new Set(INTERESTS.map(i=>i.group))];
   return groups.map(g=>{const items=INTERESTS.filter(i=>i.group===g);if(!items.length)return '';return `<div class="pillgroup"><div class="sub"><b>${esc(g)}</b></div>${items.map(x=>`<button class="pillselect ${interestSet.has(x.id)?'selected':''}" data-interest="${esc(x.id)}" type="button" aria-pressed="${interestSet.has(x.id)}">${esc(x.label)}${x.private?' (private)':''}</button>`).join('')}</div>`}).join('')+`<p class="sub">Private interests are kept only on this device, never sent to the ROAM team.</p>`;
@@ -230,9 +286,10 @@
   f.elements.first_name.value=profile?.first_name||'';
   f.elements.major.innerHTML=majorOptions(profile?.major);f.elements.year.innerHTML=yearOptions(profile?.year);f.elements.campus.innerHTML=campusOptions(profile?.campus||CAMPUSES[0].id);
   $('#interestChoices').innerHTML=interestButtons();
+  groupSet=new Set(loadGroups());const gc=$('#groupChoices');if(gc)gc.innerHTML=groupButtons();
  }
  const signedOut=()=>{user=null;profile=null;R.setTracking(null,false);authShow()};
- function boot(){computeNew();['auth','onboarding'].forEach(x=>$('#'+x).classList.add('hidden'));$('#app').classList.remove('hidden');$('#logout').classList.remove('hidden');$('#mode').textContent='PILOT';R.setTracking(user.id,profile.consent);const h=location.hash.slice(1);switchTab(['today','discover','schedule','major','community','resources','dates','profile'].includes(h)?h:'today');R.track('app_open','app')}
+ function boot(){groupSet=new Set(loadGroups());pathDone=loadPath();computeNew();['auth','onboarding'].forEach(x=>$('#'+x).classList.add('hidden'));$('#app').classList.remove('hidden');$('#logout').classList.remove('hidden');$('#mode').textContent='PILOT';R.setTracking(user.id,profile.consent);const h=location.hash.slice(1);switchTab(['today','discover','schedule','major','community','resources','dates','profile'].includes(h)?h:'today');R.track('app_open','app')}
  function switchTab(next){tab=next;document.querySelectorAll('#tabs [data-tab]').forEach(b=>{b.classList.toggle('active',b.dataset.tab===tab);b.setAttribute('aria-current',b.dataset.tab===tab?'page':'false')});try{history.replaceState(null,'','#'+tab)}catch{}render();window.scrollTo({top:0});R.track('tab_view',next)}
  const head=(label,desc,sub='Explore Georgia Southern through a schedule-first, student-powered ROAM experience.')=>`<div class="hero"><div class="eyebrow">${esc(label)}</div><h1>${esc(desc)}</h1><p>${esc(sub)}</p></div>`;
  const quickLinks=()=>A.quickLinks?.length?`<div class="qlgrid">${A.quickLinks.map(q=>`<a class="ql" target="_blank" rel="noopener noreferrer" href="${esc(validURL(q.url))}" data-resource="${esc(q.label)}"><b>${esc(q.label)}</b><span>${esc(q.sub||'')}</span></a>`).join('')}</div>`:'';
@@ -262,6 +319,7 @@
   ${st.kind==='makeup'?status(`Today is a ${st.label}. ROAM is showing your ${st.weekday} classes.`,'warning'):''}
   ${quickLinks()}
   <div class="cards"><div class="card"><div class="sub">Today</div><div class="metric">${esc(dayName())}</div><div class="sub">${esc(R.prettyDate(R.localDay()))}</div></div><div class="card">${nextCard}</div><div class="card"><div class="sub">${dl?'Next deadline':'Pilot countdown'}</div><div class="metric">${dl?`${dlDays===0?'Today':dlDays+' day'+(dlDays===1?'':'s')}`:R.daysLeft()+' days'}</div><div class="sub">${dl?esc(dl.title):esc('Through '+R.prettyDate(R.cfg.pilotEnd||'2027-03-12'))}</div></div></div>
+  ${pathCard()}
   <div class="panel"><div class="section-title" style="margin:0 0 12px"><h2>Today's schedule</h2><button data-goto="schedule" class="btn small secondary">Edit</button></div>${s.length?`<div class="timeline">${s.map(c=>{const live=c===current;return `<div class="item"><h4>${esc(c.course_code)}${c.course_name?' · '+esc(c.course_name):''} ${live?'<span class="chip greenchip">Now</span>':''}${c.ev?'<span class="chip goldchip">Added</span>':''}</h4><p>${esc(fmtTime(c.start_time))} – ${esc(fmtTime(c.end_time))} · ${esc(c.building||'Building TBA')} ${esc(c.room||'')}</p>${c.ev?`<button type="button" class="btn small secondary rmadd" data-save="${esc(c.ev.id)}" aria-label="Remove ${esc(c.course_code)} from today's schedule">Remove</button>`:''}</div>`}).join('')}</div>`:(st.classes?(classes.length?'<div class="empty">No classes on your schedule today. Enjoy the open day — see what\'s happening below.</div>':'<div class="empty">Add your classes to make your day useful.<br><button data-goto="schedule" class="btn small gold" style="margin-top:12px">Add first class</button></div>'):`<div class="empty">${esc(st.label)}.<br>${classes.length?'Your schedule is saved for when classes resume.':''}</div>`)}</div>${comingUp()}
   <button type="button" class="swipehint" data-daypage="1">Swipe for Right now &amp; your plan <span>→</span></button><div class="pagedots"><i class="on"></i><i></i></div></section><section class="daypage" aria-label="Right now and your plan">
   <div class="pagehead"><button type="button" class="btn secondary small" data-daypage="0">← My Day</button><div class="pagedots"><i></i><i class="on"></i></div></div>
@@ -570,7 +628,7 @@
  function renderProfile(){
   interestSet=new Set(myInterests());const sv=surveyDue();
   const contact=R.cfg.contactEmail;
-  $('#screen').innerHTML=`${head('Your ROAM profile','Built around your day')}<div class="twocol" style="margin-top:18px"><div class="panel"><h3>Personalize your feed</h3><form id="profileForm"><label class="field">First name<input name="first_name" value="${esc(profile.first_name||'')}" maxlength="80" required></label><div class="formgrid"><label class="field">Campus<select name="campus">${campusOptions(myCampus())}</select></label><label class="field">Year<select name="year">${yearOptions(profile.year)}</select></label></div><label class="field">Major<select name="major">${majorOptions(profile.major)}</select></label><div class="field">Interests</div><div id="editInterests">${interestButtons()}</div><label class="checkline"><input name="consent" type="checkbox" ${profile.consent?'checked':''}> Opt in to limited usage analytics for pilot evaluation</label><button class="btn gold" type="submit">Save changes</button></form><p class="sub">${esc(user.email||'')} · Pilot participant · ${R.configured?'Synced to your account':'Saved on this device'}</p></div>
+  $('#screen').innerHTML=`${head('Your ROAM profile','Built around your day')}<div class="twocol" style="margin-top:18px"><div class="panel"><h3>Personalize your feed</h3><form id="profileForm"><label class="field">First name<input name="first_name" value="${esc(profile.first_name||'')}" maxlength="80" required></label><div class="formgrid"><label class="field">Campus<select name="campus">${campusOptions(myCampus())}</select></label><label class="field">Year<select name="year">${yearOptions(profile.year)}</select></label></div><label class="field">Major<select name="major">${majorOptions(profile.major)}</select></label><div class="field">Interests</div><div id="editInterests">${interestButtons()}</div><div class="field">About you (optional)</div><div id="editGroups">${groupButtons()}</div><label class="checkline"><input name="consent" type="checkbox" ${profile.consent?'checked':''}> Opt in to limited usage analytics for pilot evaluation</label><button class="btn gold" type="submit">Save changes</button></form><p class="sub">${esc(user.email||'')} · Pilot participant · ${R.configured?'Synced to your account':'Saved on this device'}</p></div>
   <div class="panel"><h3 id="survey">Two-minute pilot check-in</h3>${sv?`<p class="sub">${esc(sv.label)}</p><form id="surveyForm"><input type="hidden" name="phase" value="${sv.phase}"><label class="field">How easily do you discover relevant campus opportunities?<select name="discovery" required><option value="">Choose</option><option value="1">1 — Very difficult</option><option value="2">2 — Difficult</option><option value="3">3 — Neutral</option><option value="4">4 — Easy</option><option value="5">5 — Very easy</option></select></label><label class="field">${sv.phase==='baseline'?'How useful are the campus tools you use today?':'How useful was ROAM this week?'}<select name="usefulness" required><option value="">Choose</option><option value="1">1 — Not useful</option><option value="2">2 — Slightly</option><option value="3">3 — Moderately</option><option value="4">4 — Useful</option><option value="5">5 — Extremely</option></select></label><button class="btn gold" type="submit">Submit check-in</button></form>`:`<p class="sub">✓ You're all caught up. ${surveys.length?`Last check-in ${esc(R.niceDate(surveys[0].created_at))}.`:''} The next one appears here when it's due.</p>`}
   <div class="separator"></div><h3>Help us improve ROAM</h3><p class="sub">Your opinions help prioritize what we build next. Please avoid entering sensitive personal details.</p><form id="feedbackForm"><label class="field">What worked or needs improvement?<textarea name="message" maxlength="1500" required></textarea></label><label class="field">Overall experience (1 to 5)<select name="rating"><option value="5">5 — Excellent</option><option value="4">4 — Good</option><option value="3">3 — Okay</option><option value="2">2 — Difficult</option><option value="1">1 — Poor</option></select></label><button class="btn" type="submit">Send feedback</button></form></div></div>
   <div class="panel" style="margin-top:16px"><h3>Privacy and pilot consent</h3><p class="sub">Usage events include your participant ID, timestamp, feature, and action. We do not record passwords, precise location, or the contents of your class schedule as analytics events. Interests marked private never leave this device. You may disable optional usage metrics at any time. This is an independent pilot, not a university-sponsored system.${contact?` Questions or withdrawal: <a href="mailto:${esc(contact)}">${esc(contact)}</a>.`:''}</p><div class="btnrow"><button id="deleteRequest" class="btn secondary small" type="button">How to withdraw</button><button id="deleteAccount" class="btn danger small" type="button">Delete my account & data</button></div><p class="sub">Run a campus office or student organization? <a href="${esc((R.cfg.assetBase||'')+'admin.html')}">Post events on Campus ROAM</a>.</p></div>`;
@@ -627,6 +685,7 @@
     if(ds.tab){ui.org=null;switchTab(ds.tab)}
    if(ds.goto){if(ds.focus)try{sessionStorage.setItem('roam-focus',ds.focus)}catch{}switchTab(ds.goto)}
    if(ds.interest){const v=ds.interest;interestSet.has(v)?interestSet.delete(v):interestSet.add(v);document.querySelectorAll('[data-interest]').forEach(x=>{x.classList.toggle('selected',interestSet.has(x.dataset.interest));x.setAttribute('aria-pressed',interestSet.has(x.dataset.interest))})}
+   if(ds.group){const v=ds.group;groupSet.has(v)?groupSet.delete(v):groupSet.add(v);document.querySelectorAll('[data-group]').forEach(x=>{x.classList.toggle('selected',groupSet.has(x.dataset.group));x.setAttribute('aria-pressed',groupSet.has(x.dataset.group))})}
    if(ds.view){ui.showSaved=ds.view==='saved';ui.showNew=ds.view==='new';if(tab!=='discover')switchTab('discover');else renderDiscover()}
    if(ds.install&&installEvt){installEvt.prompt();try{await installEvt.userChoice}catch{}installEvt=null;render()}
    if(ds.installdismiss){try{localStorage.setItem('roam-install-dismissed','1')}catch{}render()}
@@ -653,11 +712,11 @@
    if(btn.id==='deleteAccount'){
     if(!await ask('This permanently deletes your ROAM account, classes, saves, follows, feedback and check-ins.',{typed:'DELETE',ok:'Delete everything',danger:true}))return;
     if(R.client){R.check(await R.client.rpc('delete_my_account'));await R.client.auth.signOut()}else R.demo.reset();
-    try{localStorage.removeItem(privKey());localStorage.removeItem(`roam-hidden-${user.id}`)}catch{}authMode='signup';signedOut();R.alert('Your account and data were deleted.');
+    try{localStorage.removeItem(privKey());localStorage.removeItem(`roam-hidden-${user.id}`);localStorage.removeItem(`roam-groups-${user.id}`);localStorage.removeItem(pathKey())}catch{}authMode='signup';signedOut();R.alert('Your account and data were deleted.');
    }
   }catch(ex){R.alert(R.formatErr(ex));btn.disabled=false}
  });
- $('#onboardForm').addEventListener('submit',async e=>{e.preventDefault();const form=e.target,f=new FormData(form);if(!interestSet.size){R.alert('Choose at least one interest');return}busy(form,true);try{await upsertProfile({first_name:String(f.get('first_name')).trim(),major:f.get('major'),year:f.get('year'),campus:f.get('campus'),interests:[...interestSet],onboarded:true});profile=await getProfile();await load();boot()}catch(ex){R.alert(R.formatErr(ex))}finally{busy(form,false)}});
+ $('#onboardForm').addEventListener('submit',async e=>{e.preventDefault();const form=e.target,f=new FormData(form);if(!interestSet.size){R.alert('Choose at least one interest');return}busy(form,true);try{await upsertProfile({first_name:String(f.get('first_name')).trim(),major:f.get('major'),year:f.get('year'),campus:f.get('campus'),interests:[...interestSet],onboarded:true});saveGroups([...groupSet]);profile=await getProfile();await load();boot()}catch(ex){R.alert(R.formatErr(ex))}finally{busy(form,false)}});
  document.addEventListener('submit',async e=>{
   if(!['classForm','profileForm','feedbackForm','surveyForm'].includes(e.target.id))return;e.preventDefault();const form=e.target,f=new FormData(form);let msg='Saved';busy(form,true);
   try{
@@ -670,7 +729,7 @@
     if(R.client)R.check(await R.client.from('class_schedule').insert(entries));else{const d=R.demo.load();d.schedules.push(...entries.map(x=>({...x,id:crypto.randomUUID()})));R.demo.save(d)}
     await R.track('schedule_add','schedule');msg=`Added ${base.course_code} on ${days.map(d=>d.slice(0,3)).join(', ')}`;
    }
-   if(form.id==='profileForm'){await upsertProfile({first_name:String(f.get('first_name')).trim(),major:f.get('major'),year:f.get('year'),campus:f.get('campus'),interests:[...interestSet],consent:!!f.get('consent')});profile=await getProfile();weather=null;R.setTracking(user.id,profile.consent);await R.track('profile_update','profile');msg='Profile saved'}
+   if(form.id==='profileForm'){await upsertProfile({first_name:String(f.get('first_name')).trim(),major:f.get('major'),year:f.get('year'),campus:f.get('campus'),interests:[...interestSet],consent:!!f.get('consent')});saveGroups([...groupSet]);profile=await getProfile();weather=null;R.setTracking(user.id,profile.consent);await R.track('profile_update','profile');msg='Profile saved'}
    if(form.id==='feedbackForm'){const entry={user_id:user.id,message:String(f.get('message')).trim(),rating:Number(f.get('rating'))};if(R.client)R.check(await R.client.from('pilot_feedback').insert(entry));else{const d=R.demo.load();d.feedback.push({...entry,id:crypto.randomUUID(),created_at:new Date().toISOString()});R.demo.save(d)}await R.track('feedback_submit','feedback');msg='Thanks — feedback sent'}
    if(form.id==='surveyForm'){const entry={user_id:user.id,phase:f.get('phase'),discovery:Number(f.get('discovery')),usefulness:Number(f.get('usefulness'))};if(R.client)R.check(await R.client.from('pilot_surveys').insert(entry));else{const d=R.demo.load();d.survey.push({...entry,id:crypto.randomUUID(),created_at:new Date().toISOString()});R.demo.save(d)}await R.track('survey_submit','survey');msg='Thanks — check-in recorded'}
    await refresh();R.alert(msg);
@@ -683,6 +742,7 @@
  setInterval(async()=>{if(!user||$('#app').classList.contains('hidden'))return;const typing=document.activeElement?.matches?.('input,textarea,select');if(day!==R.localDay()){day=R.localDay();weather=null;if(navigator.onLine&&!typing){location.reload();return}try{await refresh()}catch(ex){console.warn(ex)}}else if(tab==='today'&&!typing&&R.nowHM().slice(0,4)!==minute.slice(0,4)){minute=R.nowHM();renderToday()}},60000);
 
  document.addEventListener('click',e=>{const l=e.target.closest('[data-feedback]');if(!l)return;e.preventDefault();if(!user||$('#app').classList.contains('hidden'))return;switchTab('profile');setTimeout(()=>{const f=$('#feedbackForm');if(f){f.scrollIntoView({behavior:'smooth',block:'center'});f.querySelector('textarea')?.focus({preventScroll:true})}},150)});
+ document.addEventListener('change',e=>{const c=e.target.closest('[data-pathstep]');if(!c||!user)return;const id=c.dataset.pathstep,st=PATH.find(x=>x.steps.some(s=>s.id===id));if(!st)return;if(c.checked){pathDone[id]=new Date().toISOString();R.track('checklist_done',st.id)}else{delete pathDone[id];R.track('checklist_undo',st.id)}savePath();const card=document.getElementById('pathCard');if(card){const open=card.querySelector('details')?.open;card.outerHTML=pathCard();const n=document.getElementById('pathCard');if(n){if(open)n.querySelector('details').open=true;n.querySelector(`[data-pathstep="${id}"]`)?.focus()}}});
  /* ---------- start ---------- */
  await loadPublicEvents();
  if(R.client)R.client.auth.onAuthStateChange(evt=>{if(evt==='PASSWORD_RECOVERY'){recovery=true;authMode='recover';authShow()}});

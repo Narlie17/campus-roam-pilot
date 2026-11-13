@@ -308,5 +308,16 @@ end $$;
 revoke all on function public.delete_my_account() from public, anon;
 grant execute on function public.delete_my_account() to authenticated;
 
+-- ---------- "I'm going" counts ----------
+-- Returns only totals per event, never who is going.
+create or replace function public.roam_going_counts() returns table (event_key text, going bigint)
+language sql stable security definer set search_path = public as $$
+  select event_id::text, count(*) from public.saved_events group by 1
+  union all
+  select event_key, count(*) from public.saved_public_events group by 1
+$$;
+revoke all on function public.roam_going_counts() from public, anon;
+grant execute on function public.roam_going_counts() to authenticated;
+
 -- To make yourself an admin after you sign up, run this once (replace the email):
 -- update public.profiles set is_admin = true where id = (select id from auth.users where email = 'you@georgiasouthern.edu');
