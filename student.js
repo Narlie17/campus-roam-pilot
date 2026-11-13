@@ -280,6 +280,7 @@
  const majorOptions=sel=>`<option value="">Choose a major</option>${A.colleges.map(c=>{const ms=A.majors.filter(m=>m.college===c.id);return ms.length?`<optgroup label="${esc(c.short||c.name)}">${ms.map(m=>`<option ${m.name===sel?'selected':''}>${esc(m.name)}</option>`).join('')}</optgroup>`:''}).join('')}`;
  const yearOptions=sel=>`<option value="">Select</option>${YEARS.map(y=>`<option ${y===sel?'selected':''}>${esc(y)}</option>`).join('')}`;
  const campusOptions=sel=>CAMPUSES.map(c=>`<option value="${esc(c.id)}" ${c.id===sel?'selected':''}>${esc(c.name)}</option>`).join('');
+ async function followDept(majorName){const mj=majorObj(majorName);if(!mj)return;const d=((collegeObj(mj.college)||{}).departments||[]).find(x=>x.id===mj.dept);if(!d||follows.some(f=>f.kind==='department'&&f.name===d.name))return;try{if(R.client)R.check(await R.client.from('follows').insert({user_id:user.id,kind:'department',name:d.name}));else{const s=R.demo.load();s.follows=[...(s.follows||[]),{id:crypto.randomUUID(),user_id:user.id,kind:'department',name:d.name}];R.demo.save(s)}follows.push({kind:'department',name:d.name})}catch(ex){console.warn('Auto-follow skipped',ex)}}
  function onboardShow(){
   ['auth','app'].forEach(s=>$('#'+s).classList.add('hidden'));$('#onboarding').classList.remove('hidden');$('#logout').classList.remove('hidden');
   interestSet=new Set(myInterests());const f=$('#onboardForm');
@@ -693,7 +694,7 @@
    if(ds.datekind){ui.dateKind=ds.datekind;renderDates()}
    if(ds.unhide){hidden=[];try{localStorage.removeItem(`roam-hidden-${user.id}`)}catch{}renderDiscover()}
    if(ds.hide){hidden.push(ds.hide);try{localStorage.setItem(`roam-hidden-${user.id}`,JSON.stringify(hidden))}catch{}render();R.alert('Hidden. Use "Show hidden" in Discover to undo.')}
-   if(ds.setmajor){await upsertProfile({major:ds.setmajor});profile=await getProfile();browseMajor=null;await R.track('profile_update','major');renderMajor();R.alert('Major updated')}
+   if(ds.setmajor){await upsertProfile({major:ds.setmajor});await followDept(ds.setmajor);profile=await getProfile();browseMajor=null;await R.track('profile_update','major');renderMajor();R.alert('Major updated')}
    if(ds.gcal)R.track('calendar_add','discover');
    if(ds.eventlink)R.track('event_view','discover');
    if(ds.save){
@@ -716,7 +717,7 @@
    }
   }catch(ex){R.alert(R.formatErr(ex));btn.disabled=false}
  });
- $('#onboardForm').addEventListener('submit',async e=>{e.preventDefault();const form=e.target,f=new FormData(form);if(!interestSet.size){R.alert('Choose at least one interest');return}busy(form,true);try{await upsertProfile({first_name:String(f.get('first_name')).trim(),major:f.get('major'),year:f.get('year'),campus:f.get('campus'),interests:[...interestSet],onboarded:true});saveGroups([...groupSet]);profile=await getProfile();await load();boot()}catch(ex){R.alert(R.formatErr(ex))}finally{busy(form,false)}});
+ $('#onboardForm').addEventListener('submit',async e=>{e.preventDefault();const form=e.target,f=new FormData(form);if(!interestSet.size){R.alert('Choose at least one interest');return}busy(form,true);try{await upsertProfile({first_name:String(f.get('first_name')).trim(),major:f.get('major'),year:f.get('year'),campus:f.get('campus'),interests:[...interestSet],onboarded:true});await followDept(f.get('major'));saveGroups([...groupSet]);profile=await getProfile();await load();boot()}catch(ex){R.alert(R.formatErr(ex))}finally{busy(form,false)}});
  document.addEventListener('submit',async e=>{
   if(!['classForm','profileForm','feedbackForm','surveyForm'].includes(e.target.id))return;e.preventDefault();const form=e.target,f=new FormData(form);let msg='Saved';busy(form,true);
   try{
@@ -729,7 +730,7 @@
     if(R.client)R.check(await R.client.from('class_schedule').insert(entries));else{const d=R.demo.load();d.schedules.push(...entries.map(x=>({...x,id:crypto.randomUUID()})));R.demo.save(d)}
     await R.track('schedule_add','schedule');msg=`Added ${base.course_code} on ${days.map(d=>d.slice(0,3)).join(', ')}`;
    }
-   if(form.id==='profileForm'){await upsertProfile({first_name:String(f.get('first_name')).trim(),major:f.get('major'),year:f.get('year'),campus:f.get('campus'),interests:[...interestSet],consent:!!f.get('consent')});saveGroups([...groupSet]);profile=await getProfile();weather=null;R.setTracking(user.id,profile.consent);await R.track('profile_update','profile');msg='Profile saved'}
+   if(form.id==='profileForm'){await upsertProfile({first_name:String(f.get('first_name')).trim(),major:f.get('major'),year:f.get('year'),campus:f.get('campus'),interests:[...interestSet],consent:!!f.get('consent')});await followDept(f.get('major'));saveGroups([...groupSet]);profile=await getProfile();weather=null;R.setTracking(user.id,profile.consent);await R.track('profile_update','profile');msg='Profile saved'}
    if(form.id==='feedbackForm'){const entry={user_id:user.id,message:String(f.get('message')).trim(),rating:Number(f.get('rating'))};if(R.client)R.check(await R.client.from('pilot_feedback').insert(entry));else{const d=R.demo.load();d.feedback.push({...entry,id:crypto.randomUUID(),created_at:new Date().toISOString()});R.demo.save(d)}await R.track('feedback_submit','feedback');msg='Thanks — feedback sent'}
    if(form.id==='surveyForm'){const entry={user_id:user.id,phase:f.get('phase'),discovery:Number(f.get('discovery')),usefulness:Number(f.get('usefulness'))};if(R.client)R.check(await R.client.from('pilot_surveys').insert(entry));else{const d=R.demo.load();d.survey.push({...entry,id:crypto.randomUUID(),created_at:new Date().toISOString()});R.demo.save(d)}await R.track('survey_submit','survey');msg='Thanks — check-in recorded'}
    await refresh();R.alert(msg);
