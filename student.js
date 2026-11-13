@@ -13,7 +13,7 @@
  const YEARS=C.years?.length?C.years:['First year','Sophomore','Junior','Senior','Graduate'];
  const CAMPUSES=C.campuses?.length?C.campuses:[{id:'statesboro',name:'Statesboro'}];
  const ENGAGE=(C.meta?.sources?.engageBase||D.orgs?.base||'').replace(/\/$/,'');
- let user=null,profile=null,classes=[],adminEvents=[],publicEvents=[],follows=[],saved=[],savedPublic=[],hidden=[],announcements=[],surveys=[],tab='today',authMode='signup',interestSet=new Set(),weather=null,browseMajor=null,recovery=false,goingCounts={},groupSet=new Set(),pathDone={};
+ let user=null,profile=null,classes=[],adminEvents=[],publicEvents=[],follows=[],saved=[],savedPublic=[],hidden=[],announcements=[],surveys=[],tab='today',authMode='signup',interestSet=new Set(),weather=null,browseMajor=null,recovery=false,goingCounts={},groupSet=new Set(),pathDone={},myCals=[],calEvents=[],feedEvents=[],basePublic=null,feedAt=0;
  const initialRecovery=/type=recovery/.test(location.hash);
  const ui={dayPage:0,org:null,filter:'all',scope:'mine',q:'',showSaved:false,orgQ:'',orgCat:'all',resQ:'',dateKind:'all',fyPage:0,open:new Set()};
 
@@ -102,7 +102,7 @@
  function explain(e){const p=[],mine=myInterests(),mj=majorObj(profile?.major);const hit=(e.tags||[]).filter(t=>mine.includes(t));if(hit.length)p.push('matches '+hit.slice(0,2).map(interestLabel).join(', '));if(follows.some(f=>f.name===e.org||f.name===e.dept))p.push('from a group you follow');if(mj&&(e.colleges||[]).includes(mj.college))p.push('in your college');if(fitsGap(e))p.push('fits a break in your day');if(e.campus&&e.campus!==myCampus())p.push(`on the ${campusName(e.campus)} campus`);if(!p.length)p.push('upcoming on campus');return p.join(' · ')}
  const ranked=list=>[...list].sort((a,b)=>score(b)-score(a)||String(a.start).localeCompare(String(b.start)));
  const gcal=e=>{const f=d=>new Date(d).toISOString().replace(/[-:]/g,'').replace(/\.\d{3}/,'');const end=e.end||new Date(new Date(e.start).getTime()+3600000).toISOString();return 'https://calendar.google.com/calendar/render?action=TEMPLATE&text='+encodeURIComponent(e.title)+'&dates='+f(e.start)+'/'+f(end)+'&location='+encodeURIComponent(e.location||'')+'&details='+encodeURIComponent((e.url?e.url+'\n\n':'')+'Found on Campus ROAM')};
- const srcLabel=e=>e.source==='engage'?'Eagle Engage':e.source==='calendar'?'University calendar':'ROAM team';
+ const srcLabel=e=>e.source==='engage'?'Eagle Engage':e.source==='calendar'?'University calendar':e.source==='feed'?'Synced calendar':'ROAM team';
  function eventCard(e,compact=false){
   const sc=score(e);const sv=isSaved(e);
   return `<article class="item"><div class="row"><h4>${esc(e.title)}</h4><span>${newIds.has(e.id)?'<span class="chip greenchip">New</span>':''}<span class="chip ${sc>=3?'goldchip':''}">${sc>=3?'For you':'Campus'}</span></span></div><p>${esc(e.location||'Location TBA')} · ${esc(R.niceDate(e.start))} · ${e.allDay?'All day':esc(R.time(e.start))}${e.end&&!e.allDay?'–'+esc(R.time(e.end)):''}</p>${e._n>1?`<p class="repeat">Runs ${e._n} dates through ${esc(R.niceDate(e._last))}</p>`:''}${e.org?`<p>Hosted by ${(D.orgs?.orgs||[]).some(o=>o.name===e.org)?`<button type="button" class="orglink" data-org="${esc(e.org)}">${esc(e.org)}</button>`:esc(e.org)}</p>`:''}${!compact&&e.desc?`<p class="desc">${esc(e.desc.slice(0,260))}</p>`:''}<div class="itemmeta">${(e.tags||[]).slice(0,3).map(t=>`<span class="chip">${esc(interestLabel(t))}</span>`).join('')}<span class="chip">${esc(srcLabel(e))}</span></div><div class="sub">Why you're seeing this: ${esc(explain(e))}</div>${goingLine(e)}<div class="btnrow"><button class="btn small ${sv?'secondary':'gold'}" data-save="${esc(e.id)}">${sv?'✓ I’m going':'+ I’m going'}</button>${ext(gcal(e),'Add to Google Calendar','btn secondary small','data-gcal="1"')}${e.url?ext(e.url,'Event info','btn secondary small','data-eventlink="1"'):''}${compact?'':`<button class="btn secondary small" data-hide="${esc(e.id)}">Not for me</button>`}</div></article>`;
@@ -111,7 +111,7 @@
  /* ---------- classes & plan ---------- */
  const dayName=()=>new Intl.DateTimeFormat('en-US',{weekday:'long',timeZone:R.TZ}).format(new Date());
  const todayClasses=()=>{const st=termStatus();if(!st.classes)return [];const wd=st.weekday||dayName();return classes.filter(x=>x.weekday===wd).sort((a,b)=>a.start_time.localeCompare(b.start_time))};
- function todayBlocks(){const day=R.localDay();const evs=[...adminEvents.map(fromAdmin),...publicEvents].filter(e=>isSaved(e)&&!e.allDay&&!hidden.includes(e.id)&&R.dayOf(e.start)===day).map(e=>({id:'ev-'+e.id,course_code:e.title,course_name:'',start_time:R.hmOf(e.start),end_time:R.hmOf(e.end||e.start),building:e.location||'Location TBA',room:'',ev:e}));return [...todayClasses(),...evs].sort((a,b)=>a.start_time.localeCompare(b.start_time))}
+ function todayBlocks(){const day=R.localDay();const evs=[...adminEvents.map(fromAdmin),...publicEvents].filter(e=>isSaved(e)&&!e.allDay&&!hidden.includes(e.id)&&R.dayOf(e.start)===day).map(e=>({id:'ev-'+e.id,course_code:e.title,course_name:'',start_time:R.hmOf(e.start),end_time:R.hmOf(e.end||e.start),building:e.location||'Location TBA',room:'',ev:e}));return [...todayClasses(),...evs,...personalToday()].sort((a,b)=>a.start_time.localeCompare(b.start_time))}
  function comingUp(){const day=R.localDay(),lim=new Date(Date.now()+21*864e5);const list=[...adminEvents.map(fromAdmin),...publicEvents].filter(e=>isSaved(e)&&!hidden.includes(e.id)&&new Date(e.end||e.start)>new Date()&&(R.dayOf(e.start)>day||(e.allDay&&R.dayOf(e.start)<=day))&&new Date(e.start)<=lim).sort((x,y)=>String(x.start).localeCompare(String(y.start))).slice(0,6);if(!list.length)return '';return '<div class="panel" style="margin-top:12px"><div class="section-title" style="margin:0 0 4px"><h2>Coming up on your schedule</h2><button data-goto="discover" class="btn small secondary">Find more</button></div><p class="sub" style="margin:0 0 8px">Each one moves onto My Day automatically on its date.</p>'+list.map(e=>'<div class="item row"><div><h4>'+esc(e.title)+'</h4><p>'+esc(R.niceDate(e.start))+' · '+(e.allDay?'All day':esc(R.time(e.start)))+' · '+esc(e.location||'TBA')+'</p></div><button class="btn small secondary" data-save="'+esc(e.id)+'">Remove</button></div>').join('')+'</div>'}
  function gaps(){const s=todayBlocks();const out=[];let endM=-1,prev=null;for(const b of s){const a=mins(b.start_time.slice(0,5)),z=mins(b.end_time.slice(0,5));if(prev&&a-endM>=25)out.push({start:hm(endM),end:b.start_time.slice(0,5),span:a-endM,after:prev,before:b});if(z>endM){endM=z;prev=b}}return out}
  const todaysEvents=()=>allEvents().filter(e=>R.dayOf(e.start)===R.localDay()||(new Date(e.start)<=new Date()&&new Date(e.end)>new Date()));
@@ -150,6 +150,7 @@
  async function loadPublicEvents(){
   publicEvents=(D.events?.events||[]).map(e=>({...e,title:noEmoji(e.title),desc:noEmoji(e.desc),source:e.source||'calendar'}));
   if(R.cfg.liveEventsUrl){try{const r=await fetch(R.cfg.liveEventsUrl,{cache:'no-store'});if(r.ok){const j=await r.json();if(Array.isArray(j.events)&&j.events.length)publicEvents=j.events}}catch(e){console.warn('Live events unavailable; using bundled events',e.message)}}
+  basePublic=publicEvents;publicEvents=[...basePublic,...feedEvents];
  }
  async function load(){
   if(R.client){
@@ -162,11 +163,12 @@
     R.client.from('announcements').select('*').eq('published',true).gte('ends_at',iso).order('created_at',{ascending:false}),
     R.client.from('pilot_surveys').select('phase,created_at').eq('user_id',user.id).order('created_at',{ascending:false}),
     R.client.from('saved_public_events').select('event_key').eq('user_id',user.id),
-    R.client.rpc('roam_going_counts')
+    R.client.rpc('roam_going_counts'),
+    Date.now()-feedAt>6e5?R.client.rpc('roam_feed_events'):Promise.resolve(null)
    ]);
    const [cl,ev,fo,sa,an,su]=res.slice(0,6).map(R.check);
    classes=cl||[];adminEvents=ev||[];follows=fo||[];saved=(sa||[]).map(x=>x.event_id);announcements=an||[];surveys=su||[];
-   savedPublic=res[6].error?[]:(res[6].data||[]).map(x=>x.event_key);goingCounts={};if(!res[7].error)(res[7].data||[]).forEach(x=>{goingCounts[x.event_key]=Number(x.going)||0}); // table is new in V14; tolerate older schema
+   savedPublic=res[6].error?[]:(res[6].data||[]).map(x=>x.event_key);goingCounts={};if(!res[7].error)(res[7].data||[]).forEach(x=>{goingCounts[x.event_key]=Number(x.going)||0});if(res[8]&&!res[8].error){feedAt=Date.now();feedEvents=feedToEvents(res[8].data||[]);if(basePublic)publicEvents=[...basePublic,...feedEvents]} // table is new in V14; tolerate older schema
   }else{
    const d=R.demo.load();
    classes=d.schedules||[];adminEvents=(d.events||[]).filter(x=>x.published&&new Date(x.ends_at)>new Date());follows=d.follows||[];saved=d.saved||[];savedPublic=d.savedPublic||[];announcements=(d.announcements||[]).filter(x=>x.published&&new Date(x.ends_at)>new Date());surveys=(d.survey||[]).slice().reverse();
@@ -218,6 +220,67 @@
   $('#authNotice').innerHTML=n;
   if(R.libMissing)$('#authSubmit').disabled=true;
  };
+ /* ---------- calendar links ---------- */
+ const tzOk=tz=>{try{new Intl.DateTimeFormat('en-US',{timeZone:tz});return true}catch{return false}};
+ const wallToMs=(y,mo,d,h,mi,tz)=>{const guess=Date.UTC(y,mo-1,d,h,mi),p={};new Intl.DateTimeFormat('en-CA',{timeZone:tz,hourCycle:'h23',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit'}).formatToParts(new Date(guess)).forEach(x=>p[x.type]=x.value);return guess-(Date.UTC(+p.year,+p.month-1,+p.day,+p.hour,+p.minute)-guess)};
+ function icsEvents(text){
+  const lines=String(text).replace(/\r?\n[ \t]/g,'').split(/\r?\n/);const out=[];let cur=null;
+  for(const ln of lines){if(ln==='BEGIN:VEVENT'){cur={ex:[]};continue}if(ln==='END:VEVENT'){if(cur)out.push(cur);cur=null;continue}if(!cur)continue;const i=ln.indexOf(':');if(i<0)continue;const [name,...ps]=ln.slice(0,i).split(';');const Q={};ps.forEach(p=>{const k=p.indexOf('=');if(k>0)Q[p.slice(0,k).toUpperCase()]=p.slice(k+1).replace(/^"|"$/g,'')});const N=name.toUpperCase(),v=ln.slice(i+1);
+   if(['SUMMARY','LOCATION','DESCRIPTION','URL','UID','STATUS'].includes(N))cur[N]=icsUnesc(v);else if(N==='RRULE'||N==='DURATION')cur[N]=v;else if(N==='DTSTART'||N==='DTEND'||N==='RECURRENCE-ID')cur[N]={v,tz:Q.TZID,date:Q.VALUE==='DATE'||/^\d{8}$/.test(v)};else if(N==='EXDATE')v.split(',').forEach(x=>cur.ex.push(x.slice(0,8)))}
+  return out}
+ const icsDT=x=>{const m=/^(\d{4})(\d{2})(\d{2})(?:T(\d{2})(\d{2}))?/.exec(x.v||'');if(!m)return null;const utc=/Z$/.test(x.v);return {y:+m[1],mo:+m[2],d:+m[3],h:+(m[4]||0),mi:+(m[5]||0),date:!!x.date||!m[4],tz:utc?'UTC':(x.tz&&tzOk(x.tz)?x.tz:R.TZ)}};
+ function icsOccurrences(text,fromMs,toMs){
+  const evs=icsEvents(text),out=[],over=new Set(),DAY=864e5,BY={SU:0,MO:1,TU:2,WE:3,TH:4,FR:5,SA:6},p2=n=>String(n).padStart(2,'0');
+  evs.forEach(e=>{if(e['RECURRENCE-ID']&&e.UID)over.add(e.UID+'|'+e['RECURRENCE-ID'].v.slice(0,8))});
+  for(const e of evs){
+   if(out.length>=500)break;if(!e.DTSTART||e.STATUS==='CANCELLED')continue;const s=icsDT(e.DTSTART);if(!s)continue;
+   let dur=null;const en=e.DTEND?icsDT(e.DTEND):null;
+   if(en)dur=s.date?Date.UTC(en.y,en.mo-1,en.d)-Date.UTC(s.y,s.mo-1,s.d):wallToMs(en.y,en.mo,en.d,en.h,en.mi,en.tz)-wallToMs(s.y,s.mo,s.d,s.h,s.mi,s.tz);
+   if(dur==null||!(dur>0)){const m=/^P(?:(\d+)W)?(?:(\d+)D)?(?:T(?:(\d+)H)?(?:(\d+)M)?(?:\d+S)?)?$/.exec(e.DURATION||'');dur=m?((+m[1]||0)*7*DAY+(+m[2]||0)*DAY+(+m[3]||0)*36e5+(+m[4]||0)*6e4):0;if(!(dur>0))dur=s.date?DAY:36e5}
+   const push=(y,mo,d)=>{const key=`${y}${p2(mo)}${p2(d)}`;if(e.ex.includes(key))return;if(e.RRULE&&!e['RECURRENCE-ID']&&e.UID&&over.has(e.UID+'|'+key))return;const st=s.date?wallToMs(y,mo,d,0,0,R.TZ):wallToMs(y,mo,d,s.h,s.mi,s.tz);if(st+dur<fromMs||st>toMs)return;out.push({uid:(e.UID||e.SUMMARY||'event')+'|'+key+(s.date?'':p2(s.h)+p2(s.mi)),title:(e.SUMMARY||'Busy').slice(0,200),location:(e.LOCATION||'').slice(0,200),desc:(e.DESCRIPTION||'').slice(0,600),url:e.URL||'',allDay:!!s.date,start:new Date(st).toISOString(),end:new Date(st+dur).toISOString()})};
+   const rr=e.RRULE;if(!rr||e['RECURRENCE-ID']){push(s.y,s.mo,s.d);continue}
+   const g=k=>(new RegExp('(?:^|;)'+k+'=([^;]+)','i').exec(rr)||[])[1];
+   const freq=(g('FREQ')||'').toUpperCase(),intv=Math.max(1,parseInt(g('INTERVAL'))||1),count=parseInt(g('COUNT'))||0,un=g('UNTIL')?icsDT({v:g('UNTIL')}):null;
+   const base=Date.UTC(s.y,s.mo-1,s.d),limit=Math.min(toMs+2*DAY,un?Date.UTC(un.y,un.mo-1,un.d)+1.5*DAY:Infinity);let made=0,guard=0;
+   const emit=t=>{if(t<base||t>limit||(count&&made>=count))return false;made++;if(t<fromMs-dur-2*DAY)return true;const dt=new Date(t);push(dt.getUTCFullYear(),dt.getUTCMonth()+1,dt.getUTCDate());return true};
+   const byday=(g('BYDAY')||'').toUpperCase().split(',').filter(Boolean);
+   if(freq==='DAILY'){for(let t=base;t<=limit&&guard++<8000&&(!count||made<count);t+=intv*DAY)emit(t)}
+   else if(freq==='WEEKLY'){const days=(byday.length?byday.map(x=>BY[x.slice(-2)]).filter(x=>x!=null):[new Date(base).getUTCDay()]).map(w=>(w+6)%7).sort((a,b)=>a-b);const wk0=base-((new Date(base).getUTCDay()+6)%7)*DAY;for(let wk=wk0;wk<=limit&&guard++<3000&&(!count||made<count);wk+=intv*7*DAY)for(const off of days)emit(wk+off*DAY)}
+   else if(freq==='MONTHLY'){const ord=byday.length?/^([+-]?\d+)([A-Z]{2})$/.exec(byday[0]):null,md=parseInt(g('BYMONTHDAY'))||s.d;for(let k=0;guard++<1200&&(!count||made<count);k+=intv){const first=new Date(Date.UTC(s.y,s.mo-1+k,1)),y=first.getUTCFullYear(),mo=first.getUTCMonth(),dim=new Date(Date.UTC(y,mo+1,0)).getUTCDate();if(first.getTime()>limit)break;let day=md;if(ord){const n=+ord[1],wd=BY[ord[2]];if(wd==null)break;if(n>0){day=1+((wd-first.getUTCDay()+7)%7)+(n-1)*7}else{const lastDow=new Date(Date.UTC(y,mo,dim)).getUTCDay();day=dim-((lastDow-wd+7)%7)+(n+1)*7}}if(day<1||day>dim)continue;emit(Date.UTC(y,mo,day))}}
+   else if(freq==='YEARLY'){for(let k=0;guard++<200&&(!count||made<count);k+=intv){const t=Date.UTC(s.y+k,s.mo-1,s.d);if(t>limit)break;if(new Date(t).getUTCMonth()!==s.mo-1)continue;emit(t)}}
+   else push(s.y,s.mo,s.d);
+  }
+  return out.sort((a,b)=>a.start.localeCompare(b.start))}
+ const calsKey=()=>`roam-cals-${user.id}`,calCacheKey=()=>`roam-calcache-${user.id}`;
+ const loadCals=()=>{try{const v=JSON.parse(localStorage.getItem(calsKey())||'[]');return Array.isArray(v)?v:[]}catch{return []}};
+ const saveCals=()=>{try{localStorage.setItem(calsKey(),JSON.stringify(myCals))}catch{}};
+ const calHost=u=>/^https:\/\/(calendar\.google\.com|outlook\.office365\.com|outlook\.office\.com|outlook\.live\.com|[a-z0-9-]+\.icloud\.com|calendar\.yahoo\.com|([a-z0-9-]+\.)*georgiasouthern\.edu)\/\S+$/i.test(u);
+ async function fetchCalendar(url){
+  if(!R.client)throw new Error('Calendar links work in the pilot app. This demo cannot open outside calendars.');
+  const r=await R.client.rpc('roam_fetch_calendar',{u:url});if(r.error)throw new Error(r.error.code==='PGRST202'?'Calendar links are not switched on yet.':(r.error.message||'ROAM could not open that calendar.'));return r.data||''}
+ const sampleCal=()=>{const [y,m,d]=R.localDay().split('-').map(Number),at=(h,mi,add=0)=>new Date(wallToMs(y,m,d+add,h,mi,R.TZ)).toISOString();return [{uid:'s1',title:'Gym with Sam',location:'Recreation Activity Center',start:at(17,30),end:at(18,30)},{uid:'s2',title:'Call home',location:'',start:at(20,0),end:at(20,30)},{uid:'s3',title:'Dentist appointment',location:'Off campus',start:at(8,0,1),end:at(9,0,1)}]};
+ async function refreshCals(force){
+  if(!myCals.length){calEvents=[];return false}
+  let cache={};try{cache=JSON.parse(localStorage.getItem(calCacheKey())||'{}')||{}}catch{}
+  if(!force&&cache.at&&Date.now()-cache.at<18e5&&Array.isArray(cache.events)&&!myCals.some(c=>c.sample))return false;
+  const now=Date.now(),before=JSON.stringify(calEvents),all=[];
+  for(const c of myCals){
+   try{const occ=c.sample?sampleCal():icsOccurrences(await fetchCalendar(c.url),now-864e5,now+45*864e5);c.err='';c.n=occ.filter(o=>new Date(o.end).getTime()>now).length;occ.forEach(o=>all.push({id:'cal:'+c.id+':'+o.uid,cal:c.name,title:o.title,location:o.location,allDay:!!o.allDay,start:o.start,end:o.end}))}
+   catch(ex){c.err=R.formatErr(ex);(Array.isArray(cache.events)?cache.events:[]).filter(e=>String(e.id).startsWith('cal:'+c.id+':')).forEach(e=>all.push(e))}}
+  calEvents=all.sort((a,b)=>String(a.start).localeCompare(String(b.start)));saveCals();try{localStorage.setItem(calCacheKey(),JSON.stringify({at:Date.now(),events:calEvents.slice(0,600)}))}catch{}
+  return JSON.stringify(calEvents)!==before}
+ function calInit(){myCals=loadCals();try{const c=JSON.parse(localStorage.getItem(calCacheKey())||'{}');calEvents=Array.isArray(c.events)?c.events:[]}catch{calEvents=[]}if(myCals.length)refreshCals(false).then(ch=>{if(ch&&(tab==='today'||tab==='schedule'))render()}).catch(()=>{})}
+ const personalToday=()=>{const day=R.localDay();return calEvents.filter(e=>!e.allDay&&R.dayOf(e.start)===day).map(e=>{const st=R.hmOf(e.start);let en=R.dayOf(e.end)===day?R.hmOf(e.end):'23:59';if(en<=st)en=hm(Math.min(mins(st)+30,1439));return {id:'pc-'+e.id,course_code:e.title,course_name:'',start_time:st,end_time:en,building:e.location||('From '+e.cal),room:'',personal:true}})};
+ const allDayLine=()=>{const day=R.localDay(),l=calEvents.filter(e=>e.allDay&&R.dayOf(e.start)<=day&&R.dayOf(new Date(new Date(e.end).getTime()-1))>=day);return l.length?`<p class="sub"><b>All day:</b> ${l.map(e=>esc(e.title)).join(', ')}</p>`:''};
+ const feedParsed=new Map();
+ const hashStr=s=>{let h=0;for(const ch of String(s))h=(h*31+ch.charCodeAt(0))>>>0;return h.toString(36)};
+ function feedToEvents(rows){const now=Date.now(),out=[];for(const r of rows){const key=r.feed_id+':'+String(r.ics||'').length;let occ=feedParsed.get(key);if(!occ){try{occ=icsOccurrences(r.ics||'',now-36e5,now+60*864e5)}catch{occ=[]}feedParsed.set(key,occ)}
+   occ.forEach(o=>{const u=validURL(o.url);out.push({id:'feed:'+String(r.feed_id).slice(0,8)+':'+hashStr(o.uid),title:noEmoji(o.title),start:o.start,end:o.end,allDay:!!o.allDay,location:o.location,url:u==='#'?'':u,source:'feed',tags:[],org:r.organization,dept:r.kind==='department'?r.organization:'',desc:noEmoji(o.desc),campus:'',colleges:[]})})}
+  return out}
+ function calPanel(){return `<div class="panel" style="margin-top:14px" id="calPanel"><h3>Connect a calendar</h3><p class="sub">Add your Google, Outlook or Apple calendar. ROAM shows those plans next to your classes on My Day and plans your breaks around them. The link and your events are kept on this device only. ROAM’s server opens the calendar for you and does not keep it.</p>
+  ${myCals.length?myCals.map(c=>`<div class="item row"><div><h4>${esc(c.name)}</h4><p>${c.err?`<span class="formmsg error">${esc(c.err)}</span>`:`${c.n||0} upcoming event${c.n===1?'':'s'} in the next 45 days`}</p></div><button type="button" class="btn small secondary" data-calremove="${esc(c.id)}" aria-label="Remove ${esc(c.name)} calendar">Remove</button></div>`).join('')+`<div class="btnrow"><button type="button" class="btn small secondary" data-calrefresh="1">Refresh now</button></div><div class="separator"></div>`:''}
+  <form id="calForm"><div class="formgrid"><label class="field">Name<input name="name" maxlength="40" placeholder="Personal" required></label><label class="field">Calendar link<input name="url" type="url" inputmode="url" autocomplete="off" placeholder="https://calendar.google.com/…/basic.ics" required></label></div><p id="calMsg" class="formmsg" role="status"></p><button class="btn gold" type="submit">Connect calendar</button></form>
+  <details><summary class="sub">Where do I find my calendar link?</summary><p class="sub"><b>Google Calendar</b> (on a computer): Settings, choose your calendar, then copy “Secret address in iCal format”.<br><b>Outlook</b>: Settings, Calendar, Shared calendars, Publish a calendar, then copy the ICS link.<br><b>Apple Calendar</b>: share the calendar as a Public Calendar and copy the link.</p><p class="sub">Anyone who has a secret link can read that calendar, so do not post it anywhere. You can remove it here at any time.</p></details></div>`}
  /* ---------- first-year checklist ---------- */
  const GROUPS=[{id:'new',label:'New to Georgia Southern this year'},{id:'transfer',label:'Transfer student'},{id:'international',label:'International student'},{id:'firstgen',label:'First in my family at college'},{id:'commuter',label:'Commuter'}];
  const loadGroups=()=>{try{const v=JSON.parse(localStorage.getItem(`roam-groups-${user.id}`)||'[]');return Array.isArray(v)?v:[]}catch{return []}};
@@ -290,7 +353,7 @@
   groupSet=new Set(loadGroups());const gc=$('#groupChoices');if(gc)gc.innerHTML=groupButtons();
  }
  const signedOut=()=>{user=null;profile=null;R.setTracking(null,false);authShow()};
- function boot(){groupSet=new Set(loadGroups());pathDone=loadPath();computeNew();['auth','onboarding'].forEach(x=>$('#'+x).classList.add('hidden'));$('#app').classList.remove('hidden');$('#logout').classList.remove('hidden');$('#mode').textContent='PILOT';R.setTracking(user.id,profile.consent);const h=location.hash.slice(1);switchTab(['today','discover','schedule','major','community','resources','dates','profile'].includes(h)?h:'today');R.track('app_open','app')}
+ function boot(){groupSet=new Set(loadGroups());pathDone=loadPath();calInit();computeNew();['auth','onboarding'].forEach(x=>$('#'+x).classList.add('hidden'));$('#app').classList.remove('hidden');$('#logout').classList.remove('hidden');$('#mode').textContent='PILOT';R.setTracking(user.id,profile.consent);const h=location.hash.slice(1);switchTab(['today','discover','schedule','major','community','resources','dates','profile'].includes(h)?h:'today');R.track('app_open','app')}
  function switchTab(next){tab=next;document.querySelectorAll('#tabs [data-tab]').forEach(b=>{b.classList.toggle('active',b.dataset.tab===tab);b.setAttribute('aria-current',b.dataset.tab===tab?'page':'false')});try{history.replaceState(null,'','#'+tab)}catch{}render();window.scrollTo({top:0});R.track('tab_view',next)}
  const head=(label,desc,sub='Explore Georgia Southern through a schedule-first, student-powered ROAM experience.')=>`<div class="hero"><div class="eyebrow">${esc(label)}</div><h1>${esc(desc)}</h1><p>${esc(sub)}</p></div>`;
  const quickLinks=()=>A.quickLinks?.length?`<div class="qlgrid">${A.quickLinks.map(q=>`<a class="ql" target="_blank" rel="noopener noreferrer" href="${esc(validURL(q.url))}" data-resource="${esc(q.label)}"><b>${esc(q.label)}</b><span>${esc(q.sub||'')}</span></a>`).join('')}</div>`:'';
@@ -315,13 +378,13 @@
   const openFood=placesOn('dining').map(p=>({p,o:openStatus(p)})).filter(x=>x.o.open).slice(0,4);
   const later=s.length?ranked(todaysEvents().filter(e=>!e.allDay&&R.hmOf(e.start)>=s[s.length-1].end_time.slice(0,5))).slice(0,2):[];
   const todayBest=ranked(todaysEvents()).slice(0,3);
-  const nextCard=current?`<div class="sub">${current.ev?'Happening now':'In class now'}</div><div class="metric" style="font-size:20px">${esc(current.course_code)}</div><div class="sub">Until ${esc(fmtTime(current.end_time))} · ${esc(current.building||'TBA')} ${esc(current.room||'')}</div>`:`<div class="sub">Next up</div><div class="metric" style="font-size:20px">${esc(next?.course_code||(st.classes?'Your time':'No classes'))}</div><div class="sub">${next?`${esc(fmtTime(next.start_time))} · ${esc(next.building||'TBA')} ${esc(next.room||'')}`:esc(st.classes?'No more classes today':st.label)}</div>`;
+  const nextCard=current?`<div class="sub">${current.ev||current.personal?'Happening now':'In class now'}</div><div class="metric" style="font-size:20px">${esc(current.course_code)}</div><div class="sub">Until ${esc(fmtTime(current.end_time))} · ${esc(current.building||'TBA')} ${esc(current.room||'')}</div>`:`<div class="sub">Next up</div><div class="metric" style="font-size:20px">${esc(next?.course_code||(st.classes?'Your time':'No classes'))}</div><div class="sub">${next?`${esc(fmtTime(next.start_time))} · ${esc(next.building||'TBA')} ${esc(next.room||'')}`:esc(st.classes?'No more classes today':st.label)}</div>`;
   $('#screen').innerHTML=`<div class="daypages" id="daypages"><section class="daypage" aria-label="My Day"><div class="studenthead">${head('Your campus, simplified',`Good ${hr<12?'morning':hr<17?'afternoon':'evening'}, ${profile.first_name||'Roamer'}`,st.label)}</div>
   ${st.kind==='makeup'?status(`Today is a ${st.label}. ROAM is showing your ${st.weekday} classes.`,'warning'):''}
   ${quickLinks()}
   <div class="cards"><div class="card"><div class="sub">Today</div><div class="metric">${esc(dayName())}</div><div class="sub">${esc(R.prettyDate(R.localDay()))}</div></div><div class="card">${nextCard}</div><div class="card"><div class="sub">${dl?'Next deadline':'Pilot countdown'}</div><div class="metric">${dl?`${dlDays===0?'Today':dlDays+' day'+(dlDays===1?'':'s')}`:R.daysLeft()+' days'}</div><div class="sub">${dl?esc(dl.title):esc('Through '+R.prettyDate(R.cfg.pilotEnd||'2027-03-12'))}</div></div></div>
   ${pathCard()}
-  <div class="panel"><div class="section-title" style="margin:0 0 12px"><h2>Today's schedule</h2><button data-goto="schedule" class="btn small secondary">Edit</button></div>${s.length?`<div class="timeline">${s.map(c=>{const live=c===current;return `<div class="item"><h4>${esc(c.course_code)}${c.course_name?' · '+esc(c.course_name):''} ${live?'<span class="chip greenchip">Now</span>':''}${c.ev?'<span class="chip goldchip">Added</span>':''}</h4><p>${esc(fmtTime(c.start_time))} – ${esc(fmtTime(c.end_time))} · ${esc(c.building||'Building TBA')} ${esc(c.room||'')}</p>${c.ev?`<button type="button" class="btn small secondary rmadd" data-save="${esc(c.ev.id)}" aria-label="Remove ${esc(c.course_code)} from today's schedule">Remove</button>`:''}</div>`}).join('')}</div>`:(st.classes?(classes.length?'<div class="empty">No classes on your schedule today. Enjoy the open day — see what\'s happening below.</div>':'<div class="empty">Add your classes to make your day useful.<br><button data-goto="schedule" class="btn small gold" style="margin-top:12px">Add first class</button></div>'):`<div class="empty">${esc(st.label)}.<br>${classes.length?'Your schedule is saved for when classes resume.':''}</div>`)}</div>${comingUp()}
+  <div class="panel"><div class="section-title" style="margin:0 0 12px"><h2>Today's schedule</h2><button data-goto="schedule" class="btn small secondary">Edit</button></div>${allDayLine()}${s.length?`<div class="timeline">${s.map(c=>{const live=c===current;return `<div class="item"><h4>${esc(c.course_code)}${c.course_name?' · '+esc(c.course_name):''} ${live?'<span class="chip greenchip">Now</span>':''}${c.ev?'<span class="chip goldchip">Added</span>':''}${c.personal?'<span class="chip">Personal</span>':''}</h4><p>${esc(fmtTime(c.start_time))} – ${esc(fmtTime(c.end_time))} · ${esc(c.building||'Building TBA')} ${esc(c.room||'')}</p>${c.ev?`<button type="button" class="btn small secondary rmadd" data-save="${esc(c.ev.id)}" aria-label="Remove ${esc(c.course_code)} from today's schedule">Remove</button>`:''}</div>`}).join('')}</div>`:(st.classes?(classes.length?'<div class="empty">No classes on your schedule today. Enjoy the open day — see what\'s happening below.</div>':'<div class="empty">Add your classes to make your day useful.<br><button data-goto="schedule" class="btn small gold" style="margin-top:12px">Add first class</button></div>'):`<div class="empty">${esc(st.label)}.<br>${classes.length?'Your schedule is saved for when classes resume.':''}</div>`)}</div>${comingUp()}
   <button type="button" class="swipehint" data-daypage="1">Swipe for Right now &amp; your plan <span>→</span></button><div class="pagedots"><i class="on"></i><i></i></div></section><section class="daypage" aria-label="Right now and your plan">
   <div class="pagehead"><button type="button" class="btn secondary small" data-daypage="0">← My Day</button><div class="pagedots"><i></i><i class="on"></i></div></div>
   ${sv?`<div class="notice"><div class="row"><span>${esc(sv.label)} — 30 seconds, helps the pilot.</span><button class="btn small gold" data-goto="profile" data-focus="survey">Take it</button></div></div>`:''}
@@ -525,7 +588,7 @@
  setInterval(checkClassAlerts,30000);
  function scheduleExtras(all){const sv=savedUpcoming().length;const on=alertsOn()&&('Notification' in window)&&Notification.permission==='granted';
   return `<div class="twocol" style="margin-top:14px"><div class="panel"><h3>Import from a calendar file</h3><p class="sub">Export your schedule as a calendar file (.ics) from your registration portal, Google Calendar or Outlook, then choose it here. You'll check the classes before anything is added.</p><label class="field">Calendar file (.ics)<input type="file" id="icsFile" accept=".ics,text/calendar"></label><div id="icsPreview" aria-live="polite">${icsPreviewHtml()}</div></div>
-  <div class="panel"><h3>Reminders</h3><p class="sub">Add your classes and saved events to your phone's calendar with an alert before each one. Your phone reminds you even when ROAM is closed.</p><div class="btnrow"><button type="button" class="btn gold small" data-ics="classes" ${all.length?'':'disabled'}>Add my classes to my calendar</button><button type="button" class="btn secondary small" data-ics="events" ${sv?'':'disabled'}>Add ${sv} saved event${sv===1?'':'s'}</button></div><label class="checkline"><input type="checkbox" id="classAlerts" ${on?'checked':''}> Notify me 10 minutes before each class</label><p class="sub" id="alertNote">${esc(alertsNote())}</p></div></div>`}
+  <div class="panel"><h3>Reminders</h3><p class="sub">Add your classes and saved events to your phone's calendar with an alert before each one. Your phone reminds you even when ROAM is closed.</p><div class="btnrow"><button type="button" class="btn gold small" data-ics="classes" ${all.length?'':'disabled'}>Add my classes to my calendar</button><button type="button" class="btn secondary small" data-ics="events" ${sv?'':'disabled'}>Add ${sv} saved event${sv===1?'':'s'}</button></div><label class="checkline"><input type="checkbox" id="classAlerts" ${on?'checked':''}> Notify me 10 minutes before each class</label><p class="sub" id="alertNote">${esc(alertsNote())}</p></div></div>${calPanel()}`}
  function renderSchedule(){
   const all=[...classes].sort((a,b)=>DAYS.indexOf(a.weekday)-DAYS.indexOf(b.weekday)||a.start_time.localeCompare(b.start_time));
   const st=termStatus();
@@ -686,6 +749,8 @@
     if(ds.tab){ui.org=null;switchTab(ds.tab)}
    if(ds.goto){if(ds.focus)try{sessionStorage.setItem('roam-focus',ds.focus)}catch{}switchTab(ds.goto)}
    if(ds.interest){const v=ds.interest;interestSet.has(v)?interestSet.delete(v):interestSet.add(v);document.querySelectorAll('[data-interest]').forEach(x=>{x.classList.toggle('selected',interestSet.has(x.dataset.interest));x.setAttribute('aria-pressed',interestSet.has(x.dataset.interest))})}
+   if(ds.calremove){myCals=myCals.filter(c=>c.id!==ds.calremove);saveCals();calEvents=calEvents.filter(e=>!String(e.id).startsWith('cal:'+ds.calremove+':'));try{localStorage.setItem(calCacheKey(),JSON.stringify({at:Date.now(),events:calEvents}))}catch{}render();R.alert('Calendar removed');return}
+   if(ds.calrefresh){btn.disabled=true;await refreshCals(true);render();R.alert('Calendars refreshed');return}
    if(ds.group){const v=ds.group;groupSet.has(v)?groupSet.delete(v):groupSet.add(v);document.querySelectorAll('[data-group]').forEach(x=>{x.classList.toggle('selected',groupSet.has(x.dataset.group));x.setAttribute('aria-pressed',groupSet.has(x.dataset.group))})}
    if(ds.view){ui.showSaved=ds.view==='saved';ui.showNew=ds.view==='new';if(tab!=='discover')switchTab('discover');else renderDiscover()}
    if(ds.install&&installEvt){installEvt.prompt();try{await installEvt.userChoice}catch{}installEvt=null;render()}
@@ -713,7 +778,7 @@
    if(btn.id==='deleteAccount'){
     if(!await ask('This permanently deletes your ROAM account, classes, saves, follows, feedback and check-ins.',{typed:'DELETE',ok:'Delete everything',danger:true}))return;
     if(R.client){R.check(await R.client.rpc('delete_my_account'));await R.client.auth.signOut()}else R.demo.reset();
-    try{localStorage.removeItem(privKey());localStorage.removeItem(`roam-hidden-${user.id}`);localStorage.removeItem(`roam-groups-${user.id}`);localStorage.removeItem(pathKey())}catch{}authMode='signup';signedOut();R.alert('Your account and data were deleted.');
+    try{localStorage.removeItem(privKey());localStorage.removeItem(`roam-hidden-${user.id}`);localStorage.removeItem(`roam-groups-${user.id}`);localStorage.removeItem(pathKey());localStorage.removeItem(calsKey());localStorage.removeItem(calCacheKey())}catch{}authMode='signup';signedOut();R.alert('Your account and data were deleted.');
    }
   }catch(ex){R.alert(R.formatErr(ex));btn.disabled=false}
  });
@@ -744,6 +809,13 @@
 
  document.addEventListener('click',e=>{const l=e.target.closest('[data-feedback]');if(!l)return;e.preventDefault();if(!user||$('#app').classList.contains('hidden'))return;switchTab('profile');setTimeout(()=>{const f=$('#feedbackForm');if(f){f.scrollIntoView({behavior:'smooth',block:'center'});f.querySelector('textarea')?.focus({preventScroll:true})}},150)});
  document.addEventListener('change',e=>{const c=e.target.closest('[data-pathstep]');if(!c||!user)return;const id=c.dataset.pathstep,st=PATH.find(x=>x.steps.some(s=>s.id===id));if(!st)return;if(c.checked){pathDone[id]=new Date().toISOString();R.track('checklist_done',st.id)}else{delete pathDone[id];R.track('checklist_undo',st.id)}savePath();const card=document.getElementById('pathCard');if(card){const open=card.querySelector('details')?.open;card.outerHTML=pathCard();const n=document.getElementById('pathCard');if(n){if(open)n.querySelector('details').open=true;n.querySelector(`[data-pathstep="${id}"]`)?.focus()}}});
+ document.addEventListener('submit',async e=>{if(e.target.id!=='calForm')return;e.preventDefault();const form=e.target,msg=$('#calMsg'),tell=(t,c='')=>{if(msg){msg.textContent=t;msg.className='formmsg '+c}};const name=String(form.elements.name.value).trim().slice(0,40)||'Calendar',url=String(form.elements.url.value).trim().replace(/^webcal:\/\//i,'https://');
+  if(!calHost(url)){tell('Use the calendar link from Google, Outlook or Apple. It starts with https:// or webcal://.','error');return}
+  if(myCals.some(c=>c.url===url)){tell('That calendar is already connected.','error');return}
+  if(myCals.length>=5){tell('You can connect up to 5 calendars.','error');return}
+  busy(form,true);tell('Opening your calendar…');
+  try{const text=await fetchCalendar(url);icsOccurrences(text,Date.now(),Date.now()+864e5);myCals.push({id:crypto.randomUUID().slice(0,8),name,url});saveCals();await refreshCals(true);R.track('calendar_add','link');render();R.alert(`${name} connected`)}
+  catch(ex){tell(R.formatErr(ex),'error');busy(form,false)}});
  /* ---------- start ---------- */
  await loadPublicEvents();
  if(R.client)R.client.auth.onAuthStateChange(evt=>{if(evt==='PASSWORD_RECOVERY'){recovery=true;authMode='recover';authShow()}});

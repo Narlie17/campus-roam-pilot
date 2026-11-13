@@ -53,6 +53,7 @@ table.stat td.num{width:56px;text-align:right;font-variant-numeric:tabular-nums}
 .tagbox>summary{cursor:pointer;padding:12px 14px;font-size:14px;font-weight:650;min-height:44px;display:flex;flex-wrap:wrap;gap:4px 8px;align-items:center}
 .tagbox>summary span{font-weight:400;color:var(--muted)}
 .tagbox .tagset{border:0;margin:0;padding:0 12px 12px}
+.linkline{word-break:break-all}
 .tablewrap{overflow-x:auto}
 table.results{width:100%;border-collapse:collapse;font-size:14px;margin:6px 0 14px}
 table.results th,table.results td{text-align:left;padding:8px 12px 8px 0;border-bottom:1px solid var(--line,#dde5ef);vertical-align:top}

@@ -15,7 +15,7 @@
  const safeLink=v=>{v=(v||'').trim();if(!v)return null;if(!/^https:\/\/[^\s]+$/i.test(v))throw new Error('Links must start with https://');return v.slice(0,500)};
 
  function shell(inner){
-  const tabs=[['post',editing?'Edit post':'New post'],['posts',isAdmin?'All posts':'My posts']];
+  const tabs=[['post',editing?'Edit post':'New post'],['posts',isAdmin?'All posts':'My posts'],['cal','Sync a calendar']];
   if(isAdmin)tabs.push(['ann','Announcements'],['access','Posting access'],['stats','Pilot stats']);
   screen.innerHTML=`<div class="adminhead"><h1>${isAdmin?'Admin':'Post to Campus ROAM'}</h1><p class="sub">Signed in as ${esc(user.email)}${isAdmin?' · admin':` · posting for ${myOrgs.map(esc).join(', ')}`}</p></div>
   <nav class="admintabs" aria-label="Admin sections">${tabs.map(([id,l])=>`<button type="button" data-tab="${id}" aria-current="${tab===id?'page':'false'}" class="${tab===id?'on':''}">${l}</button>`).join('')}</nav>
@@ -112,6 +112,27 @@
   editingAnn=null;await render();R.alert('Announcement saved.');
  }
 
+ /* ---------- synced calendars ---------- */
+ const DEPTS=[...new Set(((D.academics||{}).colleges||[]).flatMap(c=>(c.departments||[]).map(d=>d.name)))].sort((a,b)=>a.localeCompare(b));
+ async function renderCal(){
+  const list=R.check(await R.client.from('calendar_feeds').select('id,organization,kind,url,fetched_at,last_error').order('organization'))||[];
+  const who=isAdmin?`<label class="field">Calendar belongs to<input name="organization" list="orgList3" required maxlength="200" placeholder="Office, department or organization name"><datalist id="orgList3">${[...DEPTS,...ORGS].map(o=>`<option value="${esc(o)}">`).join('')}</datalist></label>`:`<label class="field">Calendar belongs to<select name="organization" required>${myOrgs.map(o=>`<option>${esc(o)}</option>`).join('')}</select></label>`;
+  shell(`<form id="feedForm" class="panel" novalidate><h2>Sync a calendar</h2><p class="sub">Connect the calendar you already keep and its events appear in Campus ROAM on their own, so you do not post them twice. ROAM checks the calendar about every three hours.</p>
+   ${who}
+   <label class="field">Calendar link<input name="url" type="url" required maxlength="600" autocomplete="off" placeholder="https://calendar.google.com/calendar/ical/…/public/basic.ics"></label>
+   <label class="check"><input type="checkbox" name="dept"> This is an academic department. Students in its majors follow it automatically.</label>
+   <p class="sub">Google Calendar: Settings, choose the calendar, make it public, then copy “Public address in iCal format”. Outlook: Settings, Calendar, Shared calendars, Publish a calendar, then copy the ICS link. Every event on the calendar will be visible to students, so use a calendar meant for the public.</p>
+   <p id="formMsg" class="formmsg" role="status"></p><div class="btnrow"><button class="btn" type="submit">Sync this calendar</button></div></form>
+   <div class="panel"><h2>Synced calendars</h2>${list.length?list.map(f=>`<div class="item row postrow"><div><h3>${esc(f.organization)}${f.kind==='department'?' <span class="chip">Department</span>':''}</h3><p>${f.last_error?`<span class="formmsg error">${esc(f.last_error)}</span>`:f.fetched_at?'Last checked '+esc(fmt(f.fetched_at)):'Waiting for the first check'}</p><p class="sub linkline">${esc(f.url.slice(0,70))}${f.url.length>70?'…':''}</p></div><div class="btnrow"><button type="button" class="btn danger small" data-delfeed="${f.id}">${armed===f.id?'Tap again to remove':'Remove'}</button></div></div>`).join(''):'<div class="empty">No calendars synced yet.</div>'}</div>`);
+ }
+ async function saveFeed(f){
+  const org=f.organization.value.trim(),url=f.url.value.trim().replace(/^webcal:\/\//i,'https://');if(!org)throw new Error('Choose who the calendar belongs to.');if(!url)throw new Error('Paste the calendar link.');
+  say('Checking the calendar…');const r=await R.client.rpc('roam_fetch_calendar',{u:url});if(r.error)throw new Error(r.error.code==='PGRST202'?'Calendar sync is not switched on yet.':(r.error.message||'ROAM could not open that calendar.'));
+  const n=(String(r.data||'').match(/BEGIN:VEVENT/g)||[]).length;
+  const ins=await R.client.from('calendar_feeds').insert({organization:org,kind:f.dept.checked?'department':'organization',url,created_by:user.id});if(ins.error)throw new Error(ins.error.code==='23505'?'That calendar is already synced.':R.formatErr(ins.error));
+  await render();R.alert(`Calendar synced. ${n} event${n===1?'':'s'} found. They show in the app within a few minutes.`);
+ }
+
  /* ---------- posting access (admin) ---------- */
  async function renderAccess(){
   const r=await R.client.rpc('list_posters');const list=R.check(r)||[];
@@ -195,7 +216,7 @@
 
  async function render(){
   try{
-   if(tab==='post')await renderPost();else if(tab==='posts')await renderPosts();
+   if(tab==='post')await renderPost();else if(tab==='posts')await renderPosts();else if(tab==='cal')await renderCal();
    else if(isAdmin&&tab==='ann')await renderAnn();else if(isAdmin&&tab==='access')await renderAccess();else if(isAdmin&&tab==='stats')await renderStats();
    else{tab='post';await renderPost()}
   }catch(e){shell(`<div class="panel"><p class="formmsg error" role="alert">Couldn't load this section: ${esc(R.formatErr(e))}</p></div>`)}
@@ -203,12 +224,13 @@
 
  /* ---------- events ---------- */
  document.addEventListener('submit',async ev=>{
-  const f=ev.target;if(!['signin','eventForm','annForm','grantForm'].includes(f.id))return;ev.preventDefault();if(busy)return;busy=true;
+  const f=ev.target;if(!['signin','eventForm','annForm','grantForm','feedForm'].includes(f.id))return;ev.preventDefault();if(busy)return;busy=true;
   const btn=f.querySelector('[type=submit]');if(btn)btn.disabled=true;
   try{
    if(f.id==='signin'){const r=await R.client.auth.signInWithPassword({email:f.email.value.trim(),password:f.password.value});if(r.error)throw r.error;await boot()}
    else if(f.id==='eventForm')await saveEvent(f);
    else if(f.id==='annForm')await saveAnn(f);
+   else if(f.id==='feedForm')await saveFeed(f);
    else if(f.id==='grantForm'){R.check(await R.client.rpc('grant_poster',{p_email:f.email.value,p_org:f.org.value}));await render();R.alert('Access given. They can post after reloading the admin page.')}
   }catch(e){say(R.formatErr(e),'error')}
   finally{busy=false;if(btn&&document.body.contains(btn))btn.disabled=false}
@@ -223,11 +245,12 @@
    if(d.edit){editing=d.edit;tab='post';await render();return}
    if(d.editann){editingAnn=d.editann;await render();return}
    if(d.pub){R.check(await R.client.from('campus_events').update({published:d.to==='1'}).eq('id',d.pub));await render();return}
-   const del=d.del||d.delann||d.revoke;
+   const del=d.del||d.delann||d.revoke||d.delfeed;
    if(del){if(armed!==del){armed=del;await render();return}armed=null;
     if(d.del)R.check(await R.client.from('campus_events').delete().eq('id',del));
     if(d.delann)R.check(await R.client.from('announcements').delete().eq('id',del));
     if(d.revoke)R.check(await R.client.from('org_posters').delete().eq('id',del));
+    if(d.delfeed)R.check(await R.client.from('calendar_feeds').delete().eq('id',del));
     await render();R.alert('Removed.');return}
    if(d.csv){const csv=(window.__roamCsv||[]).map(r=>r.map(R.csvCell).join(',')).join('\n');const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([csv],{type:'text/csv'}));a.download=`roam-pilot-summary-${R.localDay()}.csv`;document.body.appendChild(a);a.click();a.remove();return}
   }catch(e){R.alert(R.formatErr(e))}

@@ -319,5 +319,102 @@ $$;
 revoke all on function public.roam_going_counts() from public, anon;
 grant execute on function public.roam_going_counts() to authenticated;
 
+-- ---------- Calendar links ----------
+-- Lets ROAM fetch a calendar feed (Google, Outlook, iCloud, georgiasouthern.edu) on a student's
+-- or a club's behalf. Personal calendars are fetched and handed back; nothing is stored.
+-- Office and club calendars are cached here so every student sees the same events.
+create extension if not exists http with schema extensions;
+
+create or replace function public.roam_calendar_url_ok(u text) returns boolean
+language sql immutable as $$
+  select char_length(u) <= 600
+     and u ~* '^https://(calendar\.google\.com|outlook\.office365\.com|outlook\.office\.com|outlook\.live\.com|[a-z0-9-]+\.icloud\.com|calendar\.yahoo\.com|([a-z0-9-]+\.)*georgiasouthern\.edu)/[^[:space:]]+$'
+$$;
+
+create or replace function public.roam_fetch_calendar(u text) returns text
+language plpgsql security definer set search_path = public, extensions as $$
+declare
+  link text := regexp_replace(btrim(coalesce(u, '')), '^webcal://', 'https://', 'i');
+  code int;
+  body text;
+begin
+  if auth.uid() is null then raise exception 'Sign in first.'; end if;
+  if not public.roam_calendar_url_ok(link) then
+    raise exception 'That link is not supported. Use the calendar link from Google, Outlook or Apple.';
+  end if;
+  begin
+    begin perform extensions.http_set_curlopt('CURLOPT_TIMEOUT', '8'); exception when others then null; end;
+    select h.status, h.content into code, body from extensions.http_get(link) h;
+  exception when others then
+    raise exception 'ROAM could not reach that calendar. Check the link and try again.';
+  end;
+  if code is distinct from 200 then
+    raise exception 'That calendar did not open (code %). Check that the link is the calendar''s own address.', code;
+  end if;
+  if position('BEGIN:VCALENDAR' in coalesce(body, '')) = 0 then
+    raise exception 'That link opened, but it is not a calendar feed.';
+  end if;
+  return left(body, 3000000);
+end $$;
+revoke all on function public.roam_fetch_calendar(text) from public, anon;
+grant execute on function public.roam_fetch_calendar(text) to authenticated;
+
+create table if not exists public.calendar_feeds (
+  id uuid primary key default gen_random_uuid(),
+  school text not null default 'georgia-southern',
+  organization text not null check (char_length(organization) between 1 and 200),
+  kind text not null default 'organization' check (kind in ('organization','department')),
+  url text not null check (char_length(url) <= 600),
+  ics text,
+  fetched_at timestamptz,
+  last_error text,
+  created_by uuid references auth.users (id) on delete set null,
+  created_at timestamptz not null default now(),
+  unique (organization, url)
+);
+alter table public.calendar_feeds enable row level security;
+grant select, insert, delete on public.calendar_feeds to authenticated;
+
+drop policy if exists "feed read" on public.calendar_feeds;
+create policy "feed read" on public.calendar_feeds for select using (public.can_post_for(organization));
+drop policy if exists "feed insert" on public.calendar_feeds;
+create policy "feed insert" on public.calendar_feeds for insert
+  with check (created_by = auth.uid() and public.can_post_for(organization) and public.roam_calendar_url_ok(url));
+drop policy if exists "feed delete" on public.calendar_feeds;
+create policy "feed delete" on public.calendar_feeds for delete using (public.can_post_for(organization));
+
+-- Students call this to get the synced office and club calendars. It refreshes up to three
+-- calendars that are more than three hours old, then returns every cached calendar.
+create or replace function public.roam_feed_events() returns table (feed_id uuid, organization text, kind text, ics text)
+language plpgsql security definer set search_path = public, extensions as $$
+#variable_conflict use_column
+declare
+  f record;
+  code int;
+  body text;
+begin
+  if auth.uid() is null then return; end if;
+  for f in
+    select c.id, c.url from public.calendar_feeds c
+    where c.fetched_at is null or c.fetched_at < now() - interval '3 hours'
+    order by c.fetched_at nulls first limit 3
+  loop
+    begin
+      begin perform extensions.http_set_curlopt('CURLOPT_TIMEOUT', '8'); exception when others then null; end;
+      select h.status, h.content into code, body from extensions.http_get(f.url) h;
+      if code = 200 and position('BEGIN:VCALENDAR' in coalesce(body, '')) > 0 then
+        update public.calendar_feeds c set ics = left(body, 1500000), fetched_at = now(), last_error = null where c.id = f.id;
+      else
+        update public.calendar_feeds c set fetched_at = now(), last_error = 'The calendar did not open (code ' || coalesce(code::text, '?') || ')' where c.id = f.id;
+      end if;
+    exception when others then
+      update public.calendar_feeds c set fetched_at = now(), last_error = 'ROAM could not reach the calendar' where c.id = f.id;
+    end;
+  end loop;
+  return query select c.id, c.organization, c.kind, c.ics from public.calendar_feeds c where c.ics is not null;
+end $$;
+revoke all on function public.roam_feed_events() from public, anon;
+grant execute on function public.roam_feed_events() to authenticated;
+
 -- To make yourself an admin after you sign up, run this once (replace the email):
 -- update public.profiles set is_admin = true where id = (select id from auth.users where email = 'you@georgiasouthern.edu');
