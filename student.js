@@ -211,6 +211,7 @@
   $('#mode').textContent='PILOT';
   let n='';
   if(R.libMissing)n=status('ROAM could not reach its sign-in service. Check your connection and reload. (Admins: the Supabase library failed to load.)','error');
+  else if(!R.configured&&R.cfg.assetBase)n=`<div class="notice warning">This is the demo, with a sample student already signed in. You can\'t create an account here. <a href="./">Reopen the demo</a> or <a href="${esc((R.cfg.assetBase||'')+'index.html')}">join the Georgia Southern pilot</a> to make your own account.</div>`;
   else if(!R.configured)n=status('Local mode: everything works on this device and your data stays in this browser. Use a password you don\'t use elsewhere.','warning');
   if(closed)n+=status(`The pilot ended ${R.prettyDate(R.cfg.pilotEnd)}. New sign-ups are closed.`,'');
   $('#authNotice').innerHTML=n;
@@ -594,7 +595,7 @@
    else if(authMode==='signup'){
     if(!email.endsWith('@georgiasouthern.edu')&&!email.endsWith('@eagles.georgiasouthern.edu'))throw Error('Use your Georgia Southern email address.');
     if(R.client){const {data,error}=await R.client.auth.signUp({email,password,options:{emailRedirectTo:location.origin+location.pathname,data:{first_name:String(f.get('name')||'').trim().slice(0,80),consent:!!f.get('consent')}}});if(error)throw error;if(!data.session){$('#authNotice').innerHTML=status('Check your school email to confirm your account, then sign in here.','success');authMode='signin';$('#authTitle').textContent='Welcome back';$('#signupFields').classList.add('hidden');$('#authSubmit').textContent='Sign in';return}}
-    else{const d=R.demo.load();if(d.account)throw Error('This device already has a ROAM account. Sign in instead.');const id=crypto.randomUUID();d.account={id,email,pw:await hash(password)};d.profile={id,first_name:String(f.get('name')||''),consent:!!f.get('consent'),interests:[],major:'',year:'',campus:CAMPUSES[0].id,onboarded:false,created_at:new Date().toISOString()};R.demo.save(d)}
+    else{const d=R.demo.load();if(d.account&&R.cfg.assetBase){$('#authNotice').innerHTML=`<div class="notice warning">This is the demo, with a sample student already signed in. You can\'t create an account here. <a href="./">Reopen the demo</a> or <a href="${esc((R.cfg.assetBase||'')+'index.html')}">join the Georgia Southern pilot</a> to make your own account.</div>`;return}if(d.account)throw Error('This device already has a ROAM account. Sign in instead.');const id=crypto.randomUUID();d.account={id,email,pw:await hash(password)};d.profile={id,first_name:String(f.get('name')||''),consent:!!f.get('consent'),interests:[],major:'',year:'',campus:CAMPUSES[0].id,onboarded:false,created_at:new Date().toISOString()};R.demo.save(d)}
    }else{
     if(R.client)R.check(await R.client.auth.signInWithPassword({email,password}));
     else{const d=R.demo.load();const ok=d.account?.email===email&&(d.account.pw===await hash(password)||d.account.password===password);if(!ok)throw Error('Email or password doesn\'t match the account on this device.')}
