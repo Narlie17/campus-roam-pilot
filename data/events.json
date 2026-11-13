@@ -1,30 +1,7 @@
 {
- "generatedAt": "2026-11-13T10:15:59.512Z",
- "source": "Localist API + Eagle Engage (148) · https://calendar.georgiasouthern.edu",
+ "generatedAt": "2026-11-13T16:04:12.012Z",
+ "source": "Localist API + Eagle Engage (149) · https://calendar.georgiasouthern.edu",
  "events": [
-  {
-   "id": "52613469647986-52613469658236",
-   "title": "Taste, Tour, and Learn: A Georgia Southern Adventure Through Tuscany",
-   "start": "2026-11-13T05:00:00.000Z",
-   "end": "2026-11-13T06:00:00.000Z",
-   "allDay": true,
-   "location": "Tuscany, Italy",
-   "campus": "other",
-   "url": "https://calendar.georgiasouthern.edu/event/taste-tour-and-learn-a-georgia-southern-adventure-through-tuscany-4108",
-   "types": [
-    "Arts, Culture and Entertainment"
-   ],
-   "depts": [],
-   "source": "calendar",
-   "tags": [
-    "culture",
-    "arts",
-    "food"
-   ],
-   "desc": "Immerse yourself in the flavors, sights, and culture of Italy with hands-on cooking classes, guided tours of historic towns, and Italian language lessons. From the rolling hills of Chianti to the charming streets of Siena, this non-credit program offers a week full of unforgettable experiences designed for lifelong le…",
-   "free": false,
-   "colleges": []
-  },
   {
    "id": "54487402753735-54487402760906",
    "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
@@ -156,32 +133,6 @@
    "colleges": [
     "cah"
    ]
-  },
-  {
-   "id": "engage-serve912-weekly-trip-ksbb-community-garden-11-13",
-   "title": "Serve912 Weekly Trip - KSBB Community Garden (11/13)",
-   "start": "2026-11-13T14:00:00.000Z",
-   "end": "2026-11-13T16:00:00.000Z",
-   "allDay": false,
-   "location": "Russell Union Room 1056",
-   "campus": "statesboro",
-   "url": "https://georgiasouthern.presence.io/event/serve912-weekly-trip-ksbb-community-garden-11-13",
-   "types": [
-    "Serve912 Weekly Trip",
-    "Service"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "outdoors",
-    "service",
-    "environment"
-   ],
-   "desc": "Volunteers will help with tending to raised beds and garden plots in the Community Gardens; weeding, planting, caring for general area.",
-   "free": null,
-   "org": "Office of Leadership and Community Engagement",
-   "orgUri": "office-of-leadership-and-community-engagement-2",
-   "colleges": []
   },
   {
    "id": "engage-navigating-friendships-13",
@@ -950,6 +901,31 @@
    ]
   },
   {
+   "id": "engage-pancakes-and-networking",
+   "title": "Pancakes and Networking",
+   "start": "2026-11-16T14:00:47.000Z",
+   "end": "2026-11-16T16:00:00.000Z",
+   "allDay": false,
+   "location": "Russel Union",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/pancakes-and-networking",
+   "types": [
+    "Social Event"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "career",
+    "food",
+    "social"
+   ],
+   "desc": "Come join us for Pancakes and Networking on the 16th of November, inside Russel Union, where you will be able to enjoy your breakfast as you socialize with new people. A great experience for those who are looking to get their name out there and make new friends!",
+   "free": null,
+   "org": "The George-Anne Media Group (Student Media)",
+   "orgUri": "the-george-anne-media-group-student-media",
+   "colleges": []
+  },
+  {
    "id": "54237181466439-54237181468488",
    "title": "Thankful for our Organizations",
    "start": "2026-11-16T15:00:25.000Z",
@@ -1329,6 +1305,35 @@
    "org": "Office of Leadership and Community Engagement",
    "orgUri": "office-of-leadership-and-community-engagement-2",
    "colleges": []
+  },
+  {
+   "id": "54505535598497-54505535599522",
+   "title": "Hopitality Industry Issues Panel",
+   "start": "2026-11-17T14:40:00.000Z",
+   "end": "2026-11-17T15:40:00.000Z",
+   "allDay": false,
+   "location": "Parker College of Business Building, 1107",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/hopitality-industry-issues-panel",
+   "types": [
+    "Conferences and Workshops",
+    "Student Organizations"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "business",
+    "tech",
+    "faith"
+   ],
+   "desc": "Please join members of the Hospitality Club as they host “High Tech, High Touch: How AI Is Reshaping Hospitality Without Losing the Human Experience,” a hospitality industry issues panel. Come and gain real world perspectives, ask questions, and build your network! Panelists include Greg Costa, Levy Restaurant Group;…",
+   "free": false,
+   "lat": 32.445637,
+   "lon": -81.792406,
+   "colleges": [
+    "parker"
+   ]
   },
   {
    "id": "engage-november-gratitude-pop-up-library",
@@ -4082,6 +4087,31 @@
    "free": null,
    "org": "Georgia Southern University Libraries",
    "orgUri": "georgia-southern-university-libraries-3",
+   "colleges": []
+  },
+  {
+   "id": "engage-cozy-nights-and-calm-vibes",
+   "title": "Cozy Nights and Calm Vibes",
+   "start": "2026-12-01T23:00:00.000Z",
+   "end": "2026-12-02T02:00:00.000Z",
+   "allDay": false,
+   "location": "Student Union Ballroom",
+   "campus": "armstrong",
+   "url": "https://georgiasouthern.presence.io/event/cozy-nights-and-calm-vibes",
+   "types": [],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "academic",
+    "engineering",
+    "music",
+    "wellness",
+    "food"
+   ],
+   "desc": "Get ready to relax and recharge at Cozy Nights & Calm Vibes on Tuesday, December 1st from 6–9 PM in the Student Union Ballroom! Join us for a cozy night designed to help you take a break, unwind, and prepare for finals. Looking to relax? Enjoy massage chairs, headphones, calming music, and comfortable spaces throughou…",
+   "free": null,
+   "org": "University Programming Board - Armstrong Campus",
+   "orgUri": "university-programming-board-armstrong-campus-3",
    "colleges": []
   },
   {
