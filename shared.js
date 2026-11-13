@@ -27,7 +27,7 @@
  const daysLeft=()=>Math.max(0,Math.ceil((new Date((cfg.pilotEnd||'2026-12-20')+'T23:59:59-05:00')-new Date())/86400000));
  const pilotOver=()=>localDay()>(cfg.pilotEnd||'2026-12-20');
  const alert=(message)=>{document.querySelectorAll('.alertbox').forEach(x=>x.remove());const el=document.createElement('div');el.className='alertbox';el.setAttribute('role','status');el.textContent=message;document.body.appendChild(el);setTimeout(()=>el.remove(),4500)};
- const check=res=>{if(res.error)throw res.error;return res.data};
+ const check=res=>{if(res.error){if(client&&res.error.code==='42501'&&/^permission denied for (table|function|sequence|schema)/i.test(res.error.message||'')){setTimeout(()=>{Promise.resolve(client.auth.signOut({scope:'local'})).catch(()=>{}).finally(()=>location.reload())},2200);throw new Error('Your sign-in has expired. Signing you out now so you can sign in again.')}throw res.error}return res.data};
  const currentSession=async()=>client?check(await client.auth.getSession()).session:null;
  // V14: the app tells the tracker who is signed in and whether they consented,
  // so tracking no longer makes an extra auth request per action or sends rows RLS will reject.
