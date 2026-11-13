@@ -12,7 +12,8 @@
    profile:{id:id,first_name:'Jordan',consent:false,interests:['career','business','food','service','arts'],major:'Marketing (BBA)',year:'Junior',campus:'statesboro',onboarded:true,created_at:now},
    schedules:schedules,events:[],follows:[{id:'f1',user_id:id,kind:'organization',name:'Serve912'},{id:'f2',user_id:id,kind:'department',name:'Marketing'}],
    saved:[],savedPublic:[],hidden:[],feedback:[],activity:[],announcements:[],survey:[{id:'s1',user_id:id,phase:'baseline',discovery:3,usefulness:3,created_at:now}],plan:{},admin:false};
-  try{localStorage.setItem(KEY,JSON.stringify(d));localStorage.setItem('roam-install-dismissed','1')}catch(e){}
+  try{localStorage.setItem(KEY,JSON.stringify(d));localStorage.setItem('roam-install-dismissed','1');localStorage.removeItem('roam-path-'+id);localStorage.setItem('roam-groups-'+id,'["new","transfer"]')}catch(e){}
  }
  try{var cur=JSON.parse(localStorage.getItem(KEY)||'null');if(!cur||!cur.account||/[?&]reset/.test(location.search))seed()}catch(e){seed()}
+ try{if(localStorage.getItem('roam-groups-demo-jordan')===null)localStorage.setItem('roam-groups-demo-jordan','["new","transfer"]')}catch(e){}
 })();
