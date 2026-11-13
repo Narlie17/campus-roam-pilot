@@ -7,7 +7,7 @@
 window.ROAM_CONFIG = {
   supabaseUrl: 'https://fyxejshqguoqxcbpzcvh.supabase.co',
   supabaseAnonKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZ5eGVqc2hxZ3VvcXhjYnB6Y3ZoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTQzMzYxNzIsImV4cCI6MjEwOTkxMjE3Mn0.Z_5woLcfEZBi6rjHEgo2iF_7NViijiVqmDjWcQUoJLw',
-  pilotEnd: '2026-12-20',
+  pilotEnd: '2027-03-12',
   campus: 'Georgia Southern University',
   target: 70,
   timeZone: 'America/New_York',
