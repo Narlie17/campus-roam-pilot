@@ -682,6 +682,7 @@
  let day=R.localDay(),minute=R.nowHM();
  setInterval(async()=>{if(!user||$('#app').classList.contains('hidden'))return;const typing=document.activeElement?.matches?.('input,textarea,select');if(day!==R.localDay()){day=R.localDay();weather=null;if(navigator.onLine&&!typing){location.reload();return}try{await refresh()}catch(ex){console.warn(ex)}}else if(tab==='today'&&!typing&&R.nowHM().slice(0,4)!==minute.slice(0,4)){minute=R.nowHM();renderToday()}},60000);
 
+ document.addEventListener('click',e=>{const l=e.target.closest('[data-feedback]');if(!l)return;e.preventDefault();if(!user||$('#app').classList.contains('hidden'))return;switchTab('profile');setTimeout(()=>{const f=$('#feedbackForm');if(f){f.scrollIntoView({behavior:'smooth',block:'center'});f.querySelector('textarea')?.focus({preventScroll:true})}},150)});
  /* ---------- start ---------- */
  await loadPublicEvents();
  if(R.client)R.client.auth.onAuthStateChange(evt=>{if(evt==='PASSWORD_RECOVERY'){recovery=true;authMode='recover';authShow()}});
