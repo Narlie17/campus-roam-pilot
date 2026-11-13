@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Security and accessibility | Campus ROAM</title>
+<meta name="description" content="How Campus ROAM protects student data and meets accessibility standards.">
+<meta name="theme-color" content="#1E2226">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 34 34'%3E%3Crect width='34' height='34' rx='9' fill='%231F5F58'/%3E%3Ccircle cx='17' cy='17' r='9.5' fill='none' stroke='%23F5F1E9' stroke-width='2'/%3E%3Cpath d='M17 9.5l2.6 7.5L17 24.5l-2.6-7.5z' fill='%23F5F1E9'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap">
+<style>
+body{margin:0;background:#F5F1E9;font-family:Inter,system-ui,-apple-system,'Segoe UI',sans-serif;color:#1B2433;line-height:1.65;font-size:17px}
+a{color:#1E2226}a:focus-visible{outline:3px solid #2864ab;outline-offset:3px;border-radius:6px}
+h1,h2{font-family:Fraunces,Georgia,'Times New Roman',serif;font-weight:600;color:#1E2226;letter-spacing:-0.01em}
+h1{font-size:clamp(34px,5vw,48px);line-height:1.1;margin:0 0 8px}h2{font-size:24px;margin:36px 0 10px}
+main{max-width:760px;margin:0 auto;padding:40px 24px 72px}p,li{color:#3B4557}ul{padding-left:22px}li{margin:6px 0}
+.top{max-width:760px;margin:0 auto;padding:20px 24px 0;font-weight:600}.note{background:#fff;border:1px solid #E4DCCD;border-left:4px solid #1F5F58;border-radius:10px;padding:14px 18px;color:#1E2226}
+.meta{color:#5B6474;font-size:15px;margin:0 0 24px}footer{border-top:1px solid #E4DCCD;color:#5B6474;font-size:14px}footer div{max-width:760px;margin:0 auto;padding:24px}
+</style>
+</head>
+<body>
+<div class="top"><a href="./">&larr; Campus ROAM</a></div>
+<main>
+<h1>Security and accessibility</h1>
+<p class="meta">Last updated November 12, 2026</p>
+<p>Campus ROAM stores only what a student types into it, protects every record with rules inside the database, and passed an automated accessibility audit with zero issues. It is an independent student project in a small pilot, and this page says plainly what is and is not in place yet.</p>
+<h2>What the pilot stores</h2>
+<ul>
+<li>School email, first name, campus, year, major and interests.</li>
+<li>The classes a student enters, the events they save and the organizations they follow.</li>
+<li>Survey answers and feedback.</li>
+<li>Counts of which features are used, only for students who agree.</li>
+</ul>
+<p>It never stores or reads grades, transcripts, financial aid, holds, student ID numbers, payment details or location. It has no connection to the university's student records or learning systems.</p>
+<h2>How it is built</h2>
+<ul>
+<li>The app is a set of static files hosted on GitHub Pages. It has no application server of its own.</li>
+<li>Student data lives in one Supabase database in the United States.</li>
+<li>Campus information comes from pages the university publishes publicly.</li>
+<li>Every connection uses HTTPS.</li>
+</ul>
+<h2>Who can reach what</h2>
+<p>Permissions are enforced inside the database, so a modified app or a direct request cannot get around them.</p>
+<ul>
+<li><b>Students</b> can read and change only their own data, plus published campus posts.</li>
+<li><b>Offices and clubs</b> with posting access can create and edit only their own posts, for the organization they were approved for. They cannot see student data.</li>
+<li><b>The pilot team</b> manages posts and sees pilot totals.</li>
+<li><b>Signed-out visitors</b> cannot read any table.</li>
+</ul>
+<p>These rules were tested: one student cannot read or change another's classes, cannot make themselves an administrator, and cannot edit campus posts.</p>
+<h2>Sign-in and keys</h2>
+<ul>
+<li>Students sign in with a school email and password, and confirm the address from a link sent to that inbox.</li>
+<li>Passwords are stored only in scrambled form by the database provider.</li>
+<li>The app carries only the database's public key, which grants nothing beyond the rules above. The administrative key is not in the app or in any public file.</li>
+</ul>
+<h2>Consent and deletion</h2>
+<ul>
+<li>Joining is voluntary. Usage counting runs only for students who opt in, and they can switch it off in Profile.</li>
+<li>"Delete my account and data" in Profile removes the account and everything linked to it in one step.</li>
+</ul>
+<p>The <a href="privacy.html">privacy policy</a> has the details.</p>
+<h2>Accessibility</h2>
+<ul>
+<li>An automated audit against WCAG 2.0, 2.1 and 2.2 at levels A and AA found zero issues on every student screen and on the posting page, in light and dark mode.</li>
+<li>Checked by hand: keyboard use with a visible focus ring, no sideways scrolling on a small phone, touch targets of at least 24 by 24 pixels, reduced motion respected, and zoom never blocked.</li>
+<li>Not yet done: testing with screen-reader users, and a formal accessibility conformance report.</li>
+</ul>
+<h2>Planned before any wider launch</h2>
+<ul>
+<li>A paid database plan with daily backups.</li>
+<li>A dedicated service for sign-up emails.</li>
+<li>Sign-in through the university's own login, where a school partners with us.</li>
+<li>An independent security review and a written incident plan.</li>
+<li>A written data retention schedule.</li>
+<li>Written permission from each pilot school to use its published information.</li>
+</ul>
+<h2>Contact</h2>
+<p>Questions or a security concern: <a href="mailto:nm14372@georgiasouthern.edu">nm14372@georgiasouthern.edu</a>.</p>
+</main>
+<footer><div>&copy; 2026 Campus ROAM &middot; <a href="privacy.html">Privacy</a> &middot; <a href="terms.html">Terms</a> &middot; <a href="security.html">Security</a> &middot; An independent student project, not an official university service.</div></footer>
+</body>
+</html>
