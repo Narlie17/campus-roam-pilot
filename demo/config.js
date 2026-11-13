@@ -8,7 +8,7 @@
 window.ROAM_CONFIG = {
   supabaseUrl: '',
   supabaseAnonKey: '',
-  pilotEnd: '2026-12-20',
+  pilotEnd: '2027-03-12',
   campus: 'Georgia Southern University',
   target: 70,
   timeZone: 'America/New_York',
