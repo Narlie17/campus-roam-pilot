@@ -1,323 +1,7 @@
 {
- "generatedAt": "2026-11-13T21:59:09.697Z",
- "source": "Localist API + Eagle Engage (146) · https://calendar.georgiasouthern.edu",
+ "generatedAt": "2026-11-14T04:07:49.079Z",
+ "source": "Localist API + Eagle Engage (142) · https://calendar.georgiasouthern.edu",
  "events": [
-  {
-   "id": "54487402753735-54487402760906",
-   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
-   "start": "2026-11-13T14:00:00.000Z",
-   "end": "2026-11-13T19:30:00.000Z",
-   "allDay": false,
-   "location": "Nessmith-Lane Center (Statesboro Campus)",
-   "campus": "statesboro",
-   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
-   "types": [
-    "Conferences and Workshops"
-   ],
-   "depts": [],
-   "source": "calendar",
-   "tags": [
-    "academic",
-    "career",
-    "business",
-    "tech"
-   ],
-   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
-   "free": false,
-   "lat": 32.420313,
-   "lon": -81.783089,
-   "colleges": [
-    "parker"
-   ]
-  },
-  {
-   "id": "53860792382816-53860792393066",
-   "title": "Class Project Exhibition",
-   "start": "2026-11-13T14:00:00.000Z",
-   "end": "2026-11-13T22:00:00.000Z",
-   "allDay": false,
-   "location": "Folk Art Gallery",
-   "campus": "",
-   "url": "https://calendar.georgiasouthern.edu/event/class-project-exhibition",
-   "types": [
-    "Arts, Culture and Entertainment"
-   ],
-   "depts": [],
-   "source": "calendar",
-   "tags": [
-    "arts"
-   ],
-   "desc": "Join us for a class project featuring students in Dr. Alt's class from November 1-30",
-   "free": true,
-   "lat": 32.425278,
-   "lon": -81.785556,
-   "colleges": [
-    "cah"
-   ]
-  },
-  {
-   "id": "53860707686680-53860707711281",
-   "title": "Contemporary Gallery: Ernest Shaw: Intimate Frequencies of Care",
-   "start": "2026-11-13T14:00:00.000Z",
-   "end": "2026-11-13T22:00:00.000Z",
-   "allDay": false,
-   "location": "Contemporary and University Art Galleries (Statesboro Campus)",
-   "campus": "statesboro",
-   "url": "https://calendar.georgiasouthern.edu/event/contemporary-gallery-ernest-shaw-intimate-frequencies-of-care",
-   "types": [
-    "Arts, Culture and Entertainment"
-   ],
-   "depts": [],
-   "source": "calendar",
-   "tags": [
-    "arts",
-    "food",
-    "social"
-   ],
-   "desc": "Guest Artist Ernest Shaw will have his work on display in the Contemporary Gallery from October 12 - November 25. With a special dinner party and reception with the Artist on November 5.",
-   "free": true,
-   "lat": 32.425244,
-   "lon": -81.785535,
-   "colleges": [
-    "cah"
-   ]
-  },
-  {
-   "id": "53860810128251-53860810148756",
-   "title": "Tory Schendel-Vyvoda, Navigating the Molecular: The Collective I Series",
-   "start": "2026-11-13T14:00:00.000Z",
-   "end": "2026-11-13T22:00:00.000Z",
-   "allDay": false,
-   "location": "Fine Arts Hall (Armstrong Campus)",
-   "campus": "armstrong",
-   "url": "https://calendar.georgiasouthern.edu/event/tory-schendel-vyvoda-navigating-the-molecular-the-collective-i-series",
-   "types": [
-    "Arts, Culture and Entertainment"
-   ],
-   "depts": [],
-   "source": "calendar",
-   "tags": [
-    "science",
-    "arts"
-   ],
-   "desc": "Guest Artist, Tory Schendel-Vyvoda, will be showing their work in the Fine Arts Gallery on October 12- November 25",
-   "free": true,
-   "lat": 31.980388,
-   "lon": -81.164779,
-   "colleges": [
-    "cah",
-    "cosm"
-   ]
-  },
-  {
-   "id": "53860725872511-53860725949336",
-   "title": "University Gallery: Drew Tetz, Turnable Toons",
-   "start": "2026-11-13T14:00:00.000Z",
-   "end": "2026-11-13T22:00:00.000Z",
-   "allDay": false,
-   "location": "Contemporary and University Art Galleries (Statesboro Campus)",
-   "campus": "statesboro",
-   "url": "https://calendar.georgiasouthern.edu/event/university-gallery-drew-tetz-turnable-toons",
-   "types": [
-    "Arts, Culture and Entertainment"
-   ],
-   "depts": [],
-   "source": "calendar",
-   "tags": [
-    "arts"
-   ],
-   "desc": "Artist Drew Tetz will be on exhibit from October 12- November 25 in the University Gallery. Reception will be held on October 14",
-   "free": true,
-   "lat": 32.425244,
-   "lon": -81.785535,
-   "colleges": [
-    "cah"
-   ]
-  },
-  {
-   "id": "engage-serve912-weekly-trip-restoring-the-breach-inc-11-13-fridays",
-   "title": "Serve912 Weekly Trip - Restoring the Breach, Inc. (11/13) - Fridays",
-   "start": "2026-11-13T19:30:00.000Z",
-   "end": "2026-11-13T22:30:00.000Z",
-   "allDay": false,
-   "location": "Russell Union Room 1056",
-   "campus": "statesboro",
-   "url": "https://georgiasouthern.presence.io/event/serve912-weekly-trip-restoring-the-breach-inc-11-13-fridays",
-   "types": [
-    "Serve912 Weekly Trip",
-    "Service"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "academic",
-    "service"
-   ],
-   "desc": "Students will assist with tutoring K-12 students primarily in Mathematics and English.",
-   "free": null,
-   "org": "Office of Leadership and Community Engagement",
-   "orgUri": "office-of-leadership-and-community-engagement-2",
-   "colleges": []
-  },
-  {
-   "id": "54007148407824-54007148407825",
-   "title": "New Organization Chartering Workshop | OSA",
-   "start": "2026-11-13T20:00:00.000Z",
-   "end": "2026-11-13T21:00:00.000Z",
-   "allDay": false,
-   "location": "",
-   "campus": "",
-   "url": "https://calendar.georgiasouthern.edu/event/new-organization-chartering-workshop-osa-7206",
-   "types": [
-    "Eagle Engage",
-    "Conferences and Workshops"
-   ],
-   "depts": [],
-   "source": "calendar",
-   "tags": [
-    "academic",
-    "leadership"
-   ],
-   "desc": "Interested in chartering a new student organization on campus? Have two (2) chartering members attend our virtual New Organization Chartering Workshop to learn about the new student organization chartering process. Note: One of these officers must be the President or Primary Student Leader. New student organization ap…",
-   "free": false,
-   "colleges": []
-  },
-  {
-   "id": "engage-upb-membership-general-body-meeting-2",
-   "title": "UPB Membership General Body Meeting",
-   "start": "2026-11-13T22:30:00.000Z",
-   "end": "2026-11-13T23:31:00.000Z",
-   "allDay": false,
-   "location": "Skidaway Conference Room",
-   "campus": "armstrong",
-   "url": "https://georgiasouthern.presence.io/event/upb-membership-general-body-meeting-2",
-   "types": [],
-   "depts": [],
-   "source": "engage",
-   "tags": [],
-   "desc": "Bi-weekly general body meeting for UPB Armstrong campus",
-   "free": null,
-   "org": "University Programming Board - Armstrong Campus",
-   "orgUri": "university-programming-board-armstrong-campus-3",
-   "colleges": []
-  },
-  {
-   "id": "54161939665617-54161939668690",
-   "title": "Santa GUS - Atlanta 2026",
-   "start": "2026-11-13T23:00:00.000Z",
-   "end": "2026-11-14T01:00:00.000Z",
-   "allDay": false,
-   "location": "Round Trip Brewing Company",
-   "campus": "other",
-   "url": "https://calendar.georgiasouthern.edu/event/santa-gus-atlanta-2026",
-   "types": [
-    "University Advancement",
-    "Alumni"
-   ],
-   "depts": [],
-   "source": "calendar",
-   "tags": [],
-   "desc": "Capture The Magic: Take Holiday Photos with Santa GUS Santa GUS will greet his friends of all ages for festive pictures. Light refreshments will be available. Registration closes Friday, November 13 at noon. Don't miss this yearly tradition with everyone's favorite Eagle, GUS. Learn more: https://www.givecampus.com/s/…",
-   "free": false,
-   "lat": 33.807573,
-   "lon": -84.42984,
-   "colleges": []
-  },
-  {
-   "id": "53568130452848-53568130453874",
-   "title": "The Glass Menagerie",
-   "start": "2026-11-14T00:30:00.000Z",
-   "end": "2026-11-14T03:00:00.000Z",
-   "allDay": false,
-   "location": "Performing Arts Center (PAC), Theatre",
-   "campus": "statesboro",
-   "url": "https://calendar.georgiasouthern.edu/event/the-glass-menagerie",
-   "types": [
-    "Arts, Culture and Entertainment"
-   ],
-   "depts": [],
-   "source": "calendar",
-   "tags": [
-    "arts",
-    "theatre",
-    "animals"
-   ],
-   "desc": "The Glass Menagerie by Tennessee Williams Considered a landmark of American Theatre, The Glass Menagerie is Tennessee Williams's semi-autobiographical \"memory play\" about the Wingfield family in 1930s St. Louis, focusing on the narrator Tom's escape from his overbearing mother, Amanda, and his painfully shy, physicall…",
-   "free": false,
-   "lat": 32.420313,
-   "lon": -81.783089,
-   "colleges": [
-    "cah"
-   ]
-  },
-  {
-   "id": "engage-the-glass-menagerie-by-tennessee-williams-2",
-   "title": "The Glass Menagerie by Tennessee Williams",
-   "start": "2026-11-14T00:30:00.000Z",
-   "end": "2026-11-14T03:00:00.000Z",
-   "allDay": false,
-   "location": "Performing Arts Center",
-   "campus": "statesboro",
-   "url": "https://georgiasouthern.presence.io/event/the-glass-menagerie-by-tennessee-williams-2",
-   "types": [
-    "Art & Music",
-    "Cultural Awareness",
-    "Eagles After Dark",
-    "Social Event",
-    "Theater"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "business",
-    "culture",
-    "arts",
-    "music",
-    "theatre",
-    "animals",
-    "social"
-   ],
-   "desc": "The Glass Menagerie by Tennessee Williams Considered a landmark of American Theatre, The Glass Menagerie is Tennessee Williams's semi-autobiographical &#34;memory play&#34; about the Wingfield family in 1930s St. Louis, focusing on the narrator Tom's escape from his overbearing mother, Amanda, and his painfully shy, p…",
-   "free": null,
-   "org": "Department of Communication Arts",
-   "orgUri": "department-of-communication-arts",
-   "colleges": [
-    "cah"
-   ]
-  },
-  {
-   "id": "engage-last-laugh-improv-troupe-show-6",
-   "title": "Last Laugh Improv Troupe Show",
-   "start": "2026-11-14T00:30:00.000Z",
-   "end": "2026-11-14T02:30:00.000Z",
-   "allDay": false,
-   "location": "Jenkins Hall, Black Box Theatre",
-   "campus": "armstrong",
-   "url": "https://georgiasouthern.presence.io/event/last-laugh-improv-troupe-show-6",
-   "types": [
-    "Art & Music",
-    "Social Event",
-    "Theater",
-    "Workshop"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "academic",
-    "arts",
-    "music",
-    "theatre",
-    "black",
-    "social"
-   ],
-   "desc": "Come ready to laugh with the Last Laugh Improv Troupe! Join us for two nights of quick wit, hilarious scenes, and spontaneous fun! &#128197; Dates: Thursday, November 12th and Friday, November 13th &#128354; Time: 7:30 PM &#128205; Location: Jenkins Hall Mainstage Theatre &#128184; Price: FREE!! Don’t miss your chance…",
-   "free": null,
-   "org": "Masquers",
-   "orgUri": "masquers-3",
-   "colleges": [
-    "cah"
-   ]
-  },
   {
    "id": "52613469647986-52613469659261",
    "title": "Taste, Tour, and Learn: A Georgia Southern Adventure Through Tuscany",
@@ -5941,6 +5625,34 @@
    "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
    "start": "2027-01-11T14:00:00.000Z",
    "end": "2027-01-11T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
+   ]
+  },
+  {
+   "id": "54487402753735-54487402849030",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2027-01-12T14:00:00.000Z",
+   "end": "2027-01-12T19:30:00.000Z",
    "allDay": false,
    "location": "Nessmith-Lane Center (Statesboro Campus)",
    "campus": "statesboro",
