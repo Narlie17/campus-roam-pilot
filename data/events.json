@@ -1,59 +1,7 @@
 {
- "generatedAt": "2026-11-14T09:59:23.917Z",
+ "generatedAt": "2026-11-14T15:53:23.622Z",
  "source": "Localist API + Eagle Engage (141) · https://calendar.georgiasouthern.edu",
  "events": [
-  {
-   "id": "52613469647986-52613469659261",
-   "title": "Taste, Tour, and Learn: A Georgia Southern Adventure Through Tuscany",
-   "start": "2026-11-14T05:00:00.000Z",
-   "end": "2026-11-14T06:00:00.000Z",
-   "allDay": true,
-   "location": "Tuscany, Italy",
-   "campus": "other",
-   "url": "https://calendar.georgiasouthern.edu/event/taste-tour-and-learn-a-georgia-southern-adventure-through-tuscany-4108",
-   "types": [
-    "Arts, Culture and Entertainment"
-   ],
-   "depts": [],
-   "source": "calendar",
-   "tags": [
-    "culture",
-    "arts",
-    "food"
-   ],
-   "desc": "Immerse yourself in the flavors, sights, and culture of Italy with hands-on cooking classes, guided tours of historic towns, and Italian language lessons. From the rolling hills of Chianti to the charming streets of Siena, this non-credit program offers a week full of unforgettable experiences designed for lifelong le…",
-   "free": false,
-   "colleges": []
-  },
-  {
-   "id": "54294181079880-54294181079881",
-   "title": "True Blue Tailgate at Georgia State",
-   "start": "2026-11-14T05:00:00.000Z",
-   "end": "2026-11-14T06:00:00.000Z",
-   "allDay": true,
-   "location": "Wood's Chapel BBQ",
-   "campus": "other",
-   "url": "https://calendar.georgiasouthern.edu/event/true-blue-tailgate-at-georgia-state",
-   "types": [
-    "Athletics",
-    "University Advancement",
-    "Alumni"
-   ],
-   "depts": [],
-   "source": "calendar",
-   "tags": [
-    "theatre",
-    "sports",
-    "food",
-    "service",
-    "social"
-   ],
-   "desc": "Join alumni and friends in Atlanta, GA as the Eagles take on Georgia State University. Tailgate tickets MUST be purchased in advance. Game tickets sold separately. Each ticket purchase includes a $3 donation to the Competitive Excellence Fund– a fund focused on helping Eagle student-athletes achieve excellence in the…",
-   "free": false,
-   "lat": 33.73654,
-   "lon": -84.384964,
-   "colleges": []
-  },
   {
    "id": "54487402753735-54487402763979",
    "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
