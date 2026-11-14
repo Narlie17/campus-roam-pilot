@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-14T15:53:23.622Z",
- "source": "Localist API + Eagle Engage (141) · https://calendar.georgiasouthern.edu",
+ "generatedAt": "2026-11-14T21:51:46.393Z",
+ "source": "Localist API + Eagle Engage (138) · https://calendar.georgiasouthern.edu",
  "events": [
   {
    "id": "54487402753735-54487402763979",
@@ -29,82 +29,6 @@
    "colleges": [
     "parker"
    ]
-  },
-  {
-   "id": "engage-serve912-weekly-trip-fumc-soup-kitchen-11-14",
-   "title": "Serve912 Weekly Trip - FUMC Soup Kitchen (11/14)",
-   "start": "2026-11-14T14:00:00.000Z",
-   "end": "2026-11-14T17:00:00.000Z",
-   "allDay": false,
-   "location": "Russell Union Room 1056",
-   "campus": "statesboro",
-   "url": "https://georgiasouthern.presence.io/event/serve912-weekly-trip-fumc-soup-kitchen-11-14",
-   "types": [
-    "Serve912 Weekly Trip",
-    "Service"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "service"
-   ],
-   "desc": "Volunteers will help plate and distribute meals, greet and socialize with guests, and clean up.",
-   "free": null,
-   "org": "Office of Leadership and Community Engagement",
-   "orgUri": "office-of-leadership-and-community-engagement-2",
-   "colleges": []
-  },
-  {
-   "id": "engage-serve912-weekly-trip-next-generation-scholars-11-14-saturdays",
-   "title": "Serve912 Weekly Trip - Next Generation Scholars (11/14) Saturdays",
-   "start": "2026-11-14T14:30:00.000Z",
-   "end": "2026-11-14T16:30:00.000Z",
-   "allDay": false,
-   "location": "Russell Union Room 1056",
-   "campus": "statesboro",
-   "url": "https://georgiasouthern.presence.io/event/serve912-weekly-trip-next-generation-scholars-11-14-saturdays",
-   "types": [
-    "Serve912 Weekly Trip",
-    "Service"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "service"
-   ],
-   "desc": "Volunteers will help plate and distribute meals, greet and socialize with guests, and clean up.",
-   "free": null,
-   "org": "Office of Leadership and Community Engagement",
-   "orgUri": "office-of-leadership-and-community-engagement-2",
-   "colleges": []
-  },
-  {
-   "id": "engage-georgia-southern-womens-basketball-vs-wofford",
-   "title": "Georgia Southern Women's Basketball vs. Wofford",
-   "start": "2026-11-14T15:00:00.000Z",
-   "end": "2026-11-14T18:00:00.000Z",
-   "allDay": false,
-   "location": "Jack and Ruth Ann Hill Convocation Center",
-   "campus": "statesboro",
-   "url": "https://georgiasouthern.presence.io/event/georgia-southern-womens-basketball-vs-wofford",
-   "types": [
-    "Free Stuff",
-    "Social Event",
-    "Sports/Fitness"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "sports",
-    "fitness",
-    "women",
-    "social"
-   ],
-   "desc": "Brunch & Ball Trade your brunch table for a seat at The Hill ! Join us for brunch vibes, great hoops, and the perfect way to kick off your day! $12 Bottomless Mimosas ​",
-   "free": null,
-   "org": "Georgia Southern Athletics",
-   "orgUri": "georgia-southern-athletics-2",
-   "colleges": []
   },
   {
    "id": "54470054026715-54470054026716",
