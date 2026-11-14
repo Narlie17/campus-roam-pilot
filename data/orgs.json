@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-14T04:07:49.366Z",
+ "generatedAt": "2026-11-14T09:59:24.319Z",
  "source": "Eagle Engage (https://georgiasouthern.presence.io)",
  "base": "https://georgiasouthern.presence.io",
  "orgs": [
@@ -2650,7 +2650,7 @@
    "members": 151,
    "meets": "",
    "desc": "Our office is dedicated to helping students develop both in and out of the classroom through:LeadershipA strong co-curricular leadership program of workshops, seminars, conferences, and nationally recognized speakers.Co…",
-   "upcoming": 19
+   "upcoming": 18
   },
   {
    "name": "Office of Multicultural Affairs",
@@ -3121,23 +3121,9 @@
     "Special Interest",
     "Armstrong Campus"
    ],
-   "members": 1,
+   "members": 2,
    "meets": "TBD · On-Campus",
    "desc": "The goal of the Pre-Veterinary Association is to help pre-veterinary students with navigating the process to becoming a veterinarian. We also want to introduce the veterinary profession to students as a career option wh…",
-   "upcoming": 0
-  },
-  {
-   "name": "Progressive Black Men",
-   "uri": "progressive-black-men",
-   "cats": [
-    "Peer Mentorship",
-    "Statesboro Campus",
-    "Academic",
-    "Professional"
-   ],
-   "members": 3,
-   "meets": "",
-   "desc": "Progressive Black Men, Inc. is a professional service organization whose purpose is to promote positive images of African American Men. Our mission is to eradicate negative stereotypes placed on people of African descen…",
    "upcoming": 0
   },
   {
@@ -3155,15 +3141,17 @@
    "upcoming": 0
   },
   {
-   "name": "Psi Chi International Honor Society",
-   "uri": "psi-chi-international-honor-society-3",
+   "name": "Progressive Black Men",
+   "uri": "progressive-black-men",
    "cats": [
-    "Honorary",
-    "Academic"
+    "Peer Mentorship",
+    "Statesboro Campus",
+    "Academic",
+    "Professional"
    ],
-   "members": 23,
-   "meets": "5:00 pm · Virtual",
-   "desc": "Psi Chi is the International Honor Society in Psychology, founded in 1929 for the purposes of encouraging, stimulating, and maintaining excellence in scholarship, and advancing the science of psychology. Membership is o…",
+   "members": 3,
+   "meets": "",
+   "desc": "Progressive Black Men, Inc. is a professional service organization whose purpose is to promote positive images of African American Men. Our mission is to eradicate negative stereotypes placed on people of African descen…",
    "upcoming": 0
   },
   {
@@ -3174,6 +3162,18 @@
     "Honorary"
    ],
    "members": 7,
+   "meets": "5:00 pm · Virtual",
+   "desc": "Psi Chi is the International Honor Society in Psychology, founded in 1929 for the purposes of encouraging, stimulating, and maintaining excellence in scholarship, and advancing the science of psychology. Membership is o…",
+   "upcoming": 0
+  },
+  {
+   "name": "Psi Chi International Honor Society",
+   "uri": "psi-chi-international-honor-society-3",
+   "cats": [
+    "Honorary",
+    "Academic"
+   ],
+   "members": 23,
    "meets": "5:00 pm · Virtual",
    "desc": "Psi Chi is the International Honor Society in Psychology, founded in 1929 for the purposes of encouraging, stimulating, and maintaining excellence in scholarship, and advancing the science of psychology. Membership is o…",
    "upcoming": 0

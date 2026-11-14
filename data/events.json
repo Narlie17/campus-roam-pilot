@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-14T04:07:49.079Z",
- "source": "Localist API + Eagle Engage (142) · https://calendar.georgiasouthern.edu",
+ "generatedAt": "2026-11-14T09:59:23.917Z",
+ "source": "Localist API + Eagle Engage (141) · https://calendar.georgiasouthern.edu",
  "events": [
   {
    "id": "52613469647986-52613469659261",
@@ -53,37 +53,6 @@
    "lat": 33.73654,
    "lon": -84.384964,
    "colleges": []
-  },
-  {
-   "id": "engage-take-a-hike-day",
-   "title": "Take a Hike Day",
-   "start": "2026-11-14T13:00:08.000Z",
-   "end": "2026-11-14T14:00:08.000Z",
-   "allDay": false,
-   "location": "Skidaway Island",
-   "campus": "",
-   "url": "https://georgiasouthern.presence.io/event/take-a-hike-day",
-   "types": [
-    "Leadership Development",
-    "Office of Leadership and Community Engagement",
-    "Social Event",
-    "Sustainability"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "food",
-    "environment",
-    "leadership",
-    "social"
-   ],
-   "desc": "Take a Hike with us to Skidaway Island! Lunch and transportation provided, RSVP only.",
-   "free": null,
-   "org": "Office of Leadership and Community Engagement",
-   "orgUri": "office-of-leadership-and-community-engagement-2",
-   "colleges": [
-    "cosm"
-   ]
   },
   {
    "id": "54487402753735-54487402763979",
