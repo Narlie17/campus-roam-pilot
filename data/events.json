@@ -1,30 +1,7 @@
 {
- "generatedAt": "2026-11-15T10:00:17.421Z",
+ "generatedAt": "2026-11-15T15:54:29.175Z",
  "source": "Localist API + Eagle Engage (136) · https://calendar.georgiasouthern.edu",
  "events": [
-  {
-   "id": "52613469647986-52613469660286",
-   "title": "Taste, Tour, and Learn: A Georgia Southern Adventure Through Tuscany",
-   "start": "2026-11-15T05:00:00.000Z",
-   "end": "2026-11-15T06:00:00.000Z",
-   "allDay": true,
-   "location": "Tuscany, Italy",
-   "campus": "other",
-   "url": "https://calendar.georgiasouthern.edu/event/taste-tour-and-learn-a-georgia-southern-adventure-through-tuscany-4108",
-   "types": [
-    "Arts, Culture and Entertainment"
-   ],
-   "depts": [],
-   "source": "calendar",
-   "tags": [
-    "culture",
-    "arts",
-    "food"
-   ],
-   "desc": "Immerse yourself in the flavors, sights, and culture of Italy with hands-on cooking classes, guided tours of historic towns, and Italian language lessons. From the rolling hills of Chianti to the charming streets of Siena, this non-credit program offers a week full of unforgettable experiences designed for lifelong le…",
-   "free": false,
-   "colleges": []
-  },
   {
    "id": "54487402753735-54487402766028",
    "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
