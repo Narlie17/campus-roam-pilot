@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-14T21:51:46.788Z",
+ "generatedAt": "2026-11-15T04:08:54.074Z",
  "source": "Eagle Engage (https://georgiasouthern.presence.io)",
  "base": "https://georgiasouthern.presence.io",
  "orgs": [
@@ -230,7 +230,7 @@
    "cats": [
     "Statesboro Campus"
    ],
-   "members": 40,
+   "members": 41,
    "meets": "5:30pm · Engineering Building",
    "desc": "The ASME chapter at Georgia Southern University is a student-led professional organization dedicated to bringing together mechanical engineering majors through hands-on activities, technical workshops, and networking ev…",
    "upcoming": 0
@@ -628,7 +628,7 @@
     "Statesboro Campus",
     "Service"
    ],
-   "members": 48,
+   "members": 49,
    "meets": "7:30pm · St. Matthew Catholic Church",
    "desc": "Service | Spiritual | Statesboro CampusThe mission of &#34;Catholic Eagles&#34; is to provide the Georgia Southern University campus with an authentic community based on the word of God that strives to show God’s love i…",
    "upcoming": 0
@@ -1077,7 +1077,7 @@
    "members": 9,
    "meets": "",
    "desc": "The mission of the Department of Communication Arts is to provide students with a broad-based, comprehensive, and interdisciplinary study of human communication. Within Georgia Southern University’s culture of engagemen…",
-   "upcoming": 10
+   "upcoming": 9
   },
   {
    "name": "Department of Criminal Justice and Criminology",
@@ -1600,7 +1600,7 @@
    "members": 7,
    "meets": "",
    "desc": "The Fred and Dinah Gretsch School of Music’s mission is to provide opportunities for studying and making music within the context of a liberal arts education; to prepare students for careers in music-related fields; to…",
-   "upcoming": 18
+   "upcoming": 17
   },
   {
    "name": "Freedom's Landing",
@@ -2084,7 +2084,7 @@
     "Academic",
     "Professional"
    ],
-   "members": 42,
+   "members": 43,
    "meets": "5:30-6:30 pm · Statesboro Campus",
    "desc": "The purpose of the Justice & Law Society is to bring together students with an interest in Criminal Justice, Criminology, and related areas to advance the student's knowledge about the discipline and fields.",
    "upcoming": 0
@@ -4746,7 +4746,7 @@
     "Statesboro Campus",
     "Service"
    ],
-   "members": 32,
+   "members": 33,
    "meets": "8:00pm · 124 Savannah Ave Suite 1H, Statesboro, GA 303458",
    "desc": "Younglife is a spiritual organization on the Statesboro Campus and in the Statesboro Community. YoungLife mission is to connect with students to teach them about Jesus Christ and help them grow in their faith. We achiev…",
    "upcoming": 0

@@ -1,150 +1,7 @@
 {
- "generatedAt": "2026-11-14T21:51:46.393Z",
- "source": "Localist API + Eagle Engage (138) · https://calendar.georgiasouthern.edu",
+ "generatedAt": "2026-11-15T04:08:53.823Z",
+ "source": "Localist API + Eagle Engage (136) · https://calendar.georgiasouthern.edu",
  "events": [
-  {
-   "id": "54487402753735-54487402763979",
-   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
-   "start": "2026-11-14T14:00:00.000Z",
-   "end": "2026-11-14T19:30:00.000Z",
-   "allDay": false,
-   "location": "Nessmith-Lane Center (Statesboro Campus)",
-   "campus": "statesboro",
-   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
-   "types": [
-    "Conferences and Workshops"
-   ],
-   "depts": [],
-   "source": "calendar",
-   "tags": [
-    "academic",
-    "career",
-    "business",
-    "tech"
-   ],
-   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
-   "free": false,
-   "lat": 32.420313,
-   "lon": -81.783089,
-   "colleges": [
-    "parker"
-   ]
-  },
-  {
-   "id": "54470054026715-54470054026716",
-   "title": "Marvel Rivals Tournament (Students, Faculty, and Staff)",
-   "start": "2026-11-14T18:00:00.000Z",
-   "end": "2026-11-14T19:00:00.000Z",
-   "allDay": false,
-   "location": "Virtual Collaboration Center, Eagle's Edge Arena",
-   "campus": "statesboro",
-   "url": "https://calendar.georgiasouthern.edu/event/the-marvel-rivals-tournament-students-faculty-and-staff",
-   "types": [
-    "Arts, Culture and Entertainment"
-   ],
-   "depts": [],
-   "source": "calendar",
-   "tags": [
-    "arts",
-    "dance",
-    "gaming"
-   ],
-   "desc": "The Virtual Collaboration Center is bringing the competition to the Eagles Edge Arena on November 14, 2026, at 2:00 PM! The Marvel Rivals Tournament is FREE for all Georgia Southern students, faculty, and staff, so gather your teammates and get ready to compete! Teams will consist of six players. Once your entire team…",
-   "free": false,
-   "lat": 32.423211,
-   "lon": -81.780215,
-   "colleges": []
-  },
-  {
-   "id": "engage-southern-pride-marching-band-away-football-vs-georgia-state",
-   "title": "Southern Pride Marching Band (Away football vs Georgia State)",
-   "start": "2026-11-15T00:00:00.000Z",
-   "end": "2026-11-15T01:01:00.000Z",
-   "allDay": false,
-   "location": "Allen E. Paulson Stadium",
-   "campus": "",
-   "url": "https://georgiasouthern.presence.io/event/southern-pride-marching-band-away-football-vs-georgia-state",
-   "types": [
-    "Art & Music"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "arts",
-    "music",
-    "sports",
-    "lgbtq"
-   ],
-   "desc": "Southern Pride Marching Band supporting #EagleNation on gameday!",
-   "free": null,
-   "org": "Fred and Dinah Gretsch School of Music",
-   "orgUri": "fred-and-dinah-gretsch-school-of-music",
-   "colleges": [
-    "cah"
-   ]
-  },
-  {
-   "id": "53568130452848-53568130454899",
-   "title": "The Glass Menagerie",
-   "start": "2026-11-15T00:30:00.000Z",
-   "end": "2026-11-15T03:00:00.000Z",
-   "allDay": false,
-   "location": "Performing Arts Center (PAC), Theatre",
-   "campus": "statesboro",
-   "url": "https://calendar.georgiasouthern.edu/event/the-glass-menagerie",
-   "types": [
-    "Arts, Culture and Entertainment"
-   ],
-   "depts": [],
-   "source": "calendar",
-   "tags": [
-    "arts",
-    "theatre",
-    "animals"
-   ],
-   "desc": "The Glass Menagerie by Tennessee Williams Considered a landmark of American Theatre, The Glass Menagerie is Tennessee Williams's semi-autobiographical \"memory play\" about the Wingfield family in 1930s St. Louis, focusing on the narrator Tom's escape from his overbearing mother, Amanda, and his painfully shy, physicall…",
-   "free": false,
-   "lat": 32.420313,
-   "lon": -81.783089,
-   "colleges": [
-    "cah"
-   ]
-  },
-  {
-   "id": "engage-the-glass-menagerie-by-tennessee-williams-4",
-   "title": "The Glass Menagerie by Tennessee Williams",
-   "start": "2026-11-15T00:30:00.000Z",
-   "end": "2026-11-15T03:00:00.000Z",
-   "allDay": false,
-   "location": "Performing Arts Center",
-   "campus": "statesboro",
-   "url": "https://georgiasouthern.presence.io/event/the-glass-menagerie-by-tennessee-williams-4",
-   "types": [
-    "Art & Music",
-    "Cultural Awareness",
-    "Eagles After Dark",
-    "Social Event",
-    "Theater"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "business",
-    "culture",
-    "arts",
-    "music",
-    "theatre",
-    "animals",
-    "social"
-   ],
-   "desc": "The Glass Menagerie by Tennessee Williams Considered a landmark of American Theatre, The Glass Menagerie is Tennessee Williams's semi-autobiographical &#34;memory play&#34; about the Wingfield family in 1930s St. Louis, focusing on the narrator Tom's escape from his overbearing mother, Amanda, and his painfully shy, p…",
-   "free": null,
-   "org": "Department of Communication Arts",
-   "orgUri": "department-of-communication-arts",
-   "colleges": [
-    "cah"
-   ]
-  },
   {
    "id": "52613469647986-52613469660286",
    "title": "Taste, Tour, and Learn: A Georgia Southern Adventure Through Tuscany",
@@ -5516,6 +5373,62 @@
    "colleges": [
     "parker"
    ]
+  },
+  {
+   "id": "54487402753735-54487402850055",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2027-01-13T14:00:00.000Z",
+   "end": "2027-01-13T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
+   ]
+  },
+  {
+   "id": "engage-mens-basketball-vs-james-madison-3",
+   "title": "Men's Basketball Vs James Madison",
+   "start": "2027-01-14T00:00:00.000Z",
+   "end": "2027-01-14T02:00:00.000Z",
+   "allDay": false,
+   "location": "Jack and Ruth Ann Hill convocation center",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/mens-basketball-vs-james-madison-3",
+   "types": [
+    "Free Stuff",
+    "Social Event",
+    "Sports/Fitness"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "sports",
+    "fitness",
+    "black",
+    "social"
+   ],
+   "desc": "Black Diamond Buckets Bring the winter vibes to Statesboro as the Eagles hit the court for Black Diamond Buckets! Bundle up, rock your snow goggles, and get ready for a flurry of hoops! Giveaway : GATA Snow Goggles",
+   "free": null,
+   "org": "Georgia Southern Athletics",
+   "orgUri": "georgia-southern-athletics-2",
+   "colleges": []
   }
  ]
 }
