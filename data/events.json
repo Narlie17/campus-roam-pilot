@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-16T10:47:33.380Z",
- "source": "Localist API + Eagle Engage (136) · https://calendar.georgiasouthern.edu",
+ "generatedAt": "2026-11-16T16:50:36.006Z",
+ "source": "Localist API + Eagle Engage (134) · https://calendar.georgiasouthern.edu",
  "events": [
   {
    "id": "54487402753735-54487402768077",
@@ -133,31 +133,6 @@
    "colleges": [
     "cah"
    ]
-  },
-  {
-   "id": "engage-pancakes-and-networking",
-   "title": "Pancakes and Networking",
-   "start": "2026-11-16T14:00:47.000Z",
-   "end": "2026-11-16T16:00:00.000Z",
-   "allDay": false,
-   "location": "Russel Union",
-   "campus": "statesboro",
-   "url": "https://georgiasouthern.presence.io/event/pancakes-and-networking",
-   "types": [
-    "Social Event"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "career",
-    "food",
-    "social"
-   ],
-   "desc": "Come join us for Pancakes and Networking on the 16th of November, inside Russel Union, where you will be able to enjoy your breakfast as you socialize with new people. A great experience for those who are looking to get their name out there and make new friends!",
-   "free": null,
-   "org": "The George-Anne Media Group (Student Media)",
-   "orgUri": "the-george-anne-media-group-student-media",
-   "colleges": []
   },
   {
    "id": "54237181466439-54237181468488",
@@ -1624,35 +1599,6 @@
    "colleges": [
     "cbss",
     "cosm"
-   ]
-  },
-  {
-   "id": "engage-squish-snack",
-   "title": "Squish & Snack",
-   "start": "2026-11-18T22:00:00.000Z",
-   "end": "2026-11-19T00:00:00.000Z",
-   "allDay": false,
-   "location": "Solms 103",
-   "campus": "armstrong",
-   "url": "https://georgiasouthern.presence.io/event/squish-snack",
-   "types": [
-    "Art & Music",
-    "Free Food",
-    "Free Stuff"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "arts",
-    "music",
-    "food"
-   ],
-   "desc": "Come make your own squishy while hanging out with friends and eating yummy snacks! You can make your own squish however you want with different colors, beads, and slime and have fun while you do it!",
-   "free": null,
-   "org": "Honors Student Organization - Armstrong",
-   "orgUri": "honors-student-organization-armstrong",
-   "colleges": [
-    "cah"
    ]
   },
   {
