@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-16T16:50:36.310Z",
+ "generatedAt": "2026-11-16T22:02:05.833Z",
  "source": "Eagle Engage (https://georgiasouthern.presence.io)",
  "base": "https://georgiasouthern.presence.io",
  "orgs": [
@@ -219,7 +219,7 @@
    "cats": [
     "Academic"
    ],
-   "members": 3,
+   "members": 4,
    "meets": "",
    "desc": "The Student Branch of ASHRAE at Georgia Southern is a Registered Student Organization dedicated to advancing the arts and sciences of heating, ventilation, air conditioning, and refrigeration (HVAC&R) to serve humanity…",
    "upcoming": 0
@@ -386,7 +386,7 @@
    "cats": [
     "Diversity Education and Advocacy"
    ],
-   "members": 41,
+   "members": 43,
    "meets": "",
    "desc": "Best Buddies College at Georgia Southern University is part of the global Best Buddies International movement, working to create opportunities for one-to-one friendships, leadership development, and inclusion for indivi…",
    "upcoming": 0
@@ -856,7 +856,7 @@
     "Spiritual",
     "Armstrong Campus"
    ],
-   "members": 6,
+   "members": 7,
    "meets": "",
    "desc": "CBC College Ministry exists to glorify God by equipping college students to follow Christ through Community and the Bible. This purpose will be carried out through a regular program of worship, community groups, prayer,…",
    "upcoming": 0
@@ -897,7 +897,7 @@
    "members": 5,
    "meets": "",
    "desc": "The Counseling Center at Georgia Southern University is a place where students can go to receive services and participate in programs that are designed to help them handle day-to-day challenges and encourage their perso…",
-   "upcoming": 5
+   "upcoming": 4
   },
   {
    "name": "Creative Writing Club at Armstrong",
@@ -1018,7 +1018,7 @@
    "members": 33,
    "meets": "",
    "desc": "The Department of Biology, through the shared resources of multiple campuses, offers study in the field of biological sciences to provide students with a broad, foundational education through authentic learning experien…",
-   "upcoming": 1
+   "upcoming": 0
   },
   {
    "name": "Department of Biomedical Sciences",
@@ -2010,7 +2010,7 @@
     "Statesboro Campus",
     "Academic"
    ],
-   "members": 46,
+   "members": 47,
    "meets": "Meetings are held once a month, posted in GroupMe and Social Media! · IAB Room 2028",
    "desc": "IDA functions to promote the Interior Design major at Georgia Southern University, to provide professional development and networking opportunities for current interior design students and alumni, and to offer opportuni…",
    "upcoming": 0
@@ -2714,7 +2714,7 @@
    "members": 4,
    "meets": "",
    "desc": "The Office of Student Engagement and Support develops and coordinates high-impact programs for mentoring, outreach, and support. The office implements data-informed outreach strategies to connect with students and suppo…",
-   "upcoming": 4
+   "upcoming": 3
   },
   {
    "name": "Office of the Dean - College of Behavioral and Social Sciences",
@@ -2807,7 +2807,7 @@
     "Campus Department Sponsored",
     "Campus Department"
    ],
-   "members": 4,
+   "members": 5,
    "meets": "",
    "desc": "The Parker College of Business seeks to produce career-ready professionals by offering a broad array of high-quality undergraduate and select graduate programs within a learning environment characterized by inspired tea…",
    "upcoming": 0
@@ -3275,7 +3275,7 @@
    "members": 37,
    "meets": "6:00 PM to 7:00 PM · IAB 1015",
    "desc": "Resourceful Ambassadors of Medicine (RAM) is a student-led organization at Georgia Southern University that prepares pre-health students for careers in healthcare through mentorship, research, and service. By connecting…",
-   "upcoming": 0
+   "upcoming": 1
   },
   {
    "name": "Restoring the Breach, Inc.",
@@ -3713,7 +3713,7 @@
    "members": 83,
    "meets": "",
    "desc": "Student Affairs Sponsored | Statesboro Campus",
-   "upcoming": 6
+   "upcoming": 7
   },
   {
    "name": "Southern Pines",
@@ -4113,7 +4113,7 @@
     "Sports",
     "Cultural"
    ],
-   "members": 16,
+   "members": 17,
    "meets": "Tue.& Thur.- 6-8pm Sat.- 12-2:30pm",
    "desc": "The Blue Print is a student-led spirit and performance organization centered around stomp and shake cheer, school spirit, leadership, and community. Our organization provides students with the opportunity to develop the…",
    "upcoming": 0

@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-16T16:50:36.006Z",
- "source": "Localist API + Eagle Engage (134) · https://calendar.georgiasouthern.edu",
+ "generatedAt": "2026-11-16T22:02:05.454Z",
+ "source": "Localist API + Eagle Engage (133) · https://calendar.georgiasouthern.edu",
  "events": [
   {
    "id": "54487402753735-54487402768077",
@@ -159,53 +159,6 @@
    "colleges": []
   },
   {
-   "id": "engage-mental-health-mondays-11",
-   "title": "Mental Health Mondays",
-   "start": "2026-11-16T16:00:00.000Z",
-   "end": "2026-11-16T17:00:00.000Z",
-   "allDay": false,
-   "location": "Counseling Center",
-   "campus": "statesboro",
-   "url": "https://georgiasouthern.presence.io/event/mental-health-mondays-11",
-   "types": [
-    "Health & Wellness"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "academic",
-    "wellness"
-   ],
-   "desc": "This workshop is designed to provide a weekly opportunity each week for students to prioritize their mental health. Each week, a different mental health topic will be discussed, followed by an opportunity to practice a related mental health skill or wellness strategy designed to strengthen coping skills, increase self…",
-   "free": null,
-   "org": "Counseling Center",
-   "orgUri": "counseling-center",
-   "colleges": []
-  },
-  {
-   "id": "engage-biology-seminar-dr-jose-rolando",
-   "title": "Biology Seminar - Dr. Jose Rolando",
-   "start": "2026-11-16T16:30:00.000Z",
-   "end": "2026-11-16T17:30:00.000Z",
-   "allDay": false,
-   "location": "RM 1109 - https://georgiasouthern.zoom.us/j/89040053748?pwd=HDIV8zwbwBzbLle6CfEDVoqDXAmNz8.1",
-   "campus": "armstrong",
-   "url": "https://georgiasouthern.presence.io/event/biology-seminar-dr-jose-rolando",
-   "types": [],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "science"
-   ],
-   "desc": "Please join us online at 11:30 on Monday November 16, when Dr. Jose Rolando will be discussing &#34;Plant–microbe symbioses as drivers of coastal ecosystem function.&#34; Hope to see you there!",
-   "free": null,
-   "org": "Department of Biology",
-   "orgUri": "department-of-biology-2",
-   "colleges": [
-    "cosm"
-   ]
-  },
-  {
    "id": "engage-serve-912-weekly-trip-restoring-the-breach-inc-11-16-mondays",
    "title": "Serve 912 Weekly Trip - Restoring the Breach, Inc. (11/16) - Mondays",
    "start": "2026-11-16T19:30:00.000Z",
@@ -229,37 +182,6 @@
    "org": "Office of Leadership and Community Engagement",
    "orgUri": "office-of-leadership-and-community-engagement-2",
    "colleges": []
-  },
-  {
-   "id": "engage-reach-financial-literacy-ways-to-make-money-in-college",
-   "title": "REACH - Financial literacy - Ways to make money in college",
-   "start": "2026-11-16T20:00:02.000Z",
-   "end": "2026-11-16T22:00:00.000Z",
-   "allDay": false,
-   "location": "The JAM / Theater Room / B316",
-   "campus": "other",
-   "url": "https://georgiasouthern.presence.io/event/reach-financial-literacy-ways-to-make-money-in-college",
-   "types": [],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "academic",
-    "career",
-    "finance",
-    "education",
-    "theatre",
-    "dance",
-    "fitness",
-    "firstgen"
-   ],
-   "desc": "This interactive workshop will help REACH Scholars explore practical ways to earn income while balancing the demands of college life. Students will learn about campus employment opportunities, local part-time jobs, freelance and gig economy platforms, and other flexible income sources that fit a student's schedule. Th…",
-   "free": null,
-   "org": "Office of Student Engagement and Support",
-   "orgUri": "office-of-student-engagement-and-support",
-   "colleges": [
-    "cah",
-    "coe"
-   ]
   },
   {
    "id": "engage-craft-chill-meetup",
@@ -357,6 +279,33 @@
    ],
    "desc": "Light up the season with UPB! ✨ Join us as we celebrate the holiday lights around Burnett Hall, then continue the festivities at Burnett Lawn with light refreshments, activities, and fellow Eagles. 📅, Monday, November 16 ⏰ 6:00 PM 📍,Burnett Hall &amp, Lawn #LightingCeremony #GeorgiaSouthern #UPB #TrueBlue #Armstrong…",
    "free": false,
+   "colleges": []
+  },
+  {
+   "id": "engage-ram-general-body-meeting-19",
+   "title": "RAM General Body Meeting",
+   "start": "2026-11-16T23:00:00.000Z",
+   "end": "2026-11-17T00:00:00.000Z",
+   "allDay": false,
+   "location": "IAB 1012",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/ram-general-body-meeting-19",
+   "types": [
+    "Career Development"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "career",
+    "premed",
+    "wellness",
+    "service",
+    "leadership"
+   ],
+   "desc": "Resourceful Ambassadors of Medicine (RAM) has biweekly meetings in the Interdisciplinary Building (IAB) Room 1012 to discuss clinical volunteering opportunities to help underserved communities, as well as shadowing and overall pre-health opportunities. These meetings also have guest speakers such as physicians, medica…",
+   "free": null,
+   "org": "Resourceful Ambassadors of Medicine",
+   "orgUri": "resourceful-ambassadors-of-medicine",
    "colleges": []
   },
   {
@@ -1289,6 +1238,35 @@
    "org": "Office of Leadership and Community Engagement",
    "orgUri": "office-of-leadership-and-community-engagement-2",
    "colleges": []
+  },
+  {
+   "id": "54533340296855-54533340296856",
+   "title": "Coffee Chat Becker",
+   "start": "2026-11-18T15:00:00.000Z",
+   "end": "2026-11-18T18:00:00.000Z",
+   "allDay": false,
+   "location": "Parker College of Business Building, 2251",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/coffee-chat-becker",
+   "types": [
+    "Student Organizations",
+    "Information Sessions"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "career",
+    "business",
+    "finance",
+    "food"
+   ],
+   "desc": "Drop in for some coffee and chat with representatives from Becker as they discuss various accounting and career topics.",
+   "free": false,
+   "lat": 32.422499,
+   "lon": -81.786007,
+   "colleges": [
+    "parker"
+   ]
   },
   {
    "id": "engage-arm-coastal-pet-rescue-weekly-trip-serve912-13",
