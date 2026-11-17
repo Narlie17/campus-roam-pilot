@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-16T22:02:05.833Z",
+ "generatedAt": "2026-11-17T04:10:43.196Z",
  "source": "Eagle Engage (https://georgiasouthern.presence.io)",
  "base": "https://georgiasouthern.presence.io",
  "orgs": [
@@ -363,7 +363,7 @@
     "Armstrong Campus",
     "Spiritual"
    ],
-   "members": 10,
+   "members": 8,
    "meets": "Mondays 7-8, Wednesdays 11:30-1:30 · BCM Building On Armstrong Campus (12033 Abercorn Exte",
    "desc": "We are a Faith Based Org encouraging students through Jesus Christ's love! BCM hosts Bible Study on Monday Nights with a fellowship activity following!Every Wednesday, we host FREE LUNCH, provided by a local area church…",
    "upcoming": 0
@@ -386,7 +386,7 @@
    "cats": [
     "Diversity Education and Advocacy"
    ],
-   "members": 43,
+   "members": 44,
    "meets": "",
    "desc": "Best Buddies College at Georgia Southern University is part of the global Best Buddies International movement, working to create opportunities for one-to-one friendships, leadership development, and inclusion for indivi…",
    "upcoming": 0
@@ -554,7 +554,7 @@
     "Spiritual",
     "Statesboro Campus"
    ],
-   "members": 59,
+   "members": 60,
    "meets": "8pm · Pittman Park UMC",
    "desc": "Cru is a campus ministry at Georgia Southern that exists to help every student encounter Christ, experience Christ, and expressChrist. Our mission is to love Christ and to raise up lovers of Christ in every group on cam…",
    "upcoming": 0
@@ -590,7 +590,7 @@
     "Campus Department",
     "Armstrong Campus"
    ],
-   "members": 48,
+   "members": 49,
    "meets": "",
    "desc": "Campus Recreation and Intramurals is THE preeminent provider of fun and exciting recreation activities. We offer a wide variety of programs and services in Statesboro and Savanah, including intramural and club sports, f…",
    "upcoming": 0
@@ -628,7 +628,7 @@
     "Statesboro Campus",
     "Service"
    ],
-   "members": 49,
+   "members": 50,
    "meets": "7:30pm · St. Matthew Catholic Church",
    "desc": "Service | Spiritual | Statesboro CampusThe mission of &#34;Catholic Eagles&#34; is to provide the Georgia Southern University campus with an authentic community based on the word of God that strives to show God’s love i…",
    "upcoming": 0
@@ -749,7 +749,7 @@
    "cats": [
     "Creative & Performing Arts"
    ],
-   "members": 40,
+   "members": 41,
    "meets": "5:30-7:30 · Annex II",
    "desc": "Club Mud Savannah is a space where those at any experience level can create within the medium of clay in a community and peer oriented learning environment. With a membership that gains access to the ceramic studio, Clu…",
    "upcoming": 0
@@ -1160,7 +1160,7 @@
    "members": 11,
    "meets": "",
    "desc": "Through innovative teaching, excellence in scholarship, and dedicated service to the University, the community, and the historical profession, the Department of History serves Georgia Southern University students by off…",
-   "upcoming": 1
+   "upcoming": 0
   },
   {
    "name": "Department of Information Technology",
@@ -1739,7 +1739,7 @@
    "members": 32,
    "meets": "",
    "desc": "The Zach S. Henderson Library serves more than 4,000 people daily with resources that support a comprehensive array of degrees, disciplines, research activity and learning objectives. With more than 400 hard-wired compu…",
-   "upcoming": 8
+   "upcoming": 7
   },
   {
    "name": "Georgia Southern University Museum",
@@ -1774,7 +1774,7 @@
     "Service",
     "Special Interest"
    ],
-   "members": 44,
+   "members": 45,
    "meets": "4:00 - 5:00PM · Science Cener",
    "desc": "Get Psyched is a social and service organization for psychology-minded individuals.",
    "upcoming": 0
@@ -2370,7 +2370,7 @@
     "Statesboro Campus",
     "Service"
    ],
-   "members": 94,
+   "members": 96,
    "meets": "6:00pm · Russell Union",
    "desc": "Miracle is an organization that raises money throughout the year for the Children's Hospital of Georgia, in Augusta, Georgia. At the end of the year, our fundraising will culminate at our big event, Eaglethon. Service |…",
    "upcoming": 0
@@ -2650,7 +2650,7 @@
    "members": 151,
    "meets": "",
    "desc": "Our office is dedicated to helping students develop both in and out of the classroom through:LeadershipA strong co-curricular leadership program of workshops, seminars, conferences, and nationally recognized speakers.Co…",
-   "upcoming": 16
+   "upcoming": 15
   },
   {
    "name": "Office of Multicultural Affairs",
@@ -3275,7 +3275,7 @@
    "members": 37,
    "meets": "6:00 PM to 7:00 PM · IAB 1015",
    "desc": "Resourceful Ambassadors of Medicine (RAM) is a student-led organization at Georgia Southern University that prepares pre-health students for careers in healthcare through mentorship, research, and service. By connecting…",
-   "upcoming": 1
+   "upcoming": 0
   },
   {
    "name": "Restoring the Breach, Inc.",
@@ -3772,7 +3772,7 @@
    "members": 35,
    "meets": "5:00-6:00 · IAB RM 2030",
    "desc": "¡Hola! This is the official page of the Spanish Club at Georgia Southern University. We are a space to practice your Spanish language skills, learn about the rich cultures of the Hispanic world, and meet like-minded ind…",
-   "upcoming": 1
+   "upcoming": 0
   },
   {
    "name": "Spanish Club Armstrong",
@@ -3908,6 +3908,19 @@
    "upcoming": 12
   },
   {
+   "name": "Student Nurses Association Armstrong Campus",
+   "uri": "student-nurses-association-armstrong-campus",
+   "cats": [
+    "Armstrong Campus",
+    "Service",
+    "Special Interest"
+   ],
+   "members": 12,
+   "meets": "Armstrong campus (usually ashmore hall 119; flyers have more details)",
+   "desc": "Student Nurses Association Armstrong is a wonderful way to meet people with the same goals as you in Savannah. Our members range from pre-nursing students and beyond, and we connect with those who can help you through y…",
+   "upcoming": 0
+  },
+  {
    "name": "Student Nurses' Association",
    "uri": "student-nurses-association-3",
    "cats": [
@@ -3927,10 +3940,10 @@
     "Professional",
     "Armstrong Campus"
    ],
-   "members": 21,
+   "members": 22,
    "meets": "Varies Depending on Nursing Schedules · Varies Depending on Nursing Schedules",
    "desc": "SNA is our campus' chapter of the National Student Nurses' Association, or NSNA. Our purpose is to bring together nursing students on the Armstrong campus to serve the community, further our professional development whi…",
-   "upcoming": 0
+   "upcoming": 1
   },
   {
    "name": "Student Organization Advisors",
@@ -3988,7 +4001,7 @@
     "Statesboro Campus",
     "Campus Department"
    ],
-   "members": 11,
+   "members": 12,
    "meets": "",
    "desc": "Student Wellness & Health Promotion strives to help students identify positive behaviors and coping strategies related to Emotional Wellbeing, Physical Wellbeing, Interpersonal Violence, and more. Through interacting wi…",
    "upcoming": 1
@@ -4429,7 +4442,7 @@
    "members": 24,
    "meets": "5:00pm · Skidway Conference Room",
    "desc": "The University Programming Board at Georgia Southern University enhances campus life by providing safe, inclusive, and diverse events for the student body, creating a TRUE BLUE experience. Click Here for a Calendar of E…",
-   "upcoming": 2
+   "upcoming": 1
   },
   {
    "name": "University Programming Board - Statesboro Campus",
