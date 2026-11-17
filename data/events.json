@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-17T16:12:36.583Z",
- "source": "Localist API + Eagle Engage (128) · https://calendar.georgiasouthern.edu",
+ "generatedAt": "2026-11-17T22:08:46.716Z",
+ "source": "Localist API + Eagle Engage (122) · https://calendar.georgiasouthern.edu",
  "events": [
   {
    "id": "54487402753735-54487402770126",
@@ -135,60 +135,6 @@
    ]
   },
   {
-   "id": "54505535598497-54505535599522",
-   "title": "Hopitality Industry Issues Panel",
-   "start": "2026-11-17T14:40:00.000Z",
-   "end": "2026-11-17T15:40:00.000Z",
-   "allDay": false,
-   "location": "Parker College of Business Building, 1107",
-   "campus": "statesboro",
-   "url": "https://calendar.georgiasouthern.edu/event/hopitality-industry-issues-panel",
-   "types": [
-    "Conferences and Workshops",
-    "Student Organizations"
-   ],
-   "depts": [],
-   "source": "calendar",
-   "tags": [
-    "academic",
-    "business",
-    "tech",
-    "faith"
-   ],
-   "desc": "Please join members of the Hospitality Club as they host “High Tech, High Touch: How AI Is Reshaping Hospitality Without Losing the Human Experience,” a hospitality industry issues panel. Come and gain real world perspectives, ask questions, and build your network! Panelists include Greg Costa, Levy Restaurant Group;…",
-   "free": false,
-   "lat": 32.445637,
-   "lon": -81.792406,
-   "colleges": [
-    "parker"
-   ]
-  },
-  {
-   "id": "engage-november-gratitude-pop-up-library",
-   "title": "November Gratitude Pop-Up Library",
-   "start": "2026-11-17T15:00:00.000Z",
-   "end": "2026-11-17T17:00:00.000Z",
-   "allDay": false,
-   "location": "University Hall Lobby",
-   "campus": "armstrong",
-   "url": "https://georgiasouthern.presence.io/event/november-gratitude-pop-up-library",
-   "types": [
-    "Free Stuff",
-    "GS Libraries",
-    "Info Table/Session"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "academic"
-   ],
-   "desc": "A pop-up library where students can write what they are grateful for on a leaf cutout and learn about the library resources available to them.",
-   "free": null,
-   "org": "Georgia Southern University Libraries",
-   "orgUri": "georgia-southern-university-libraries-3",
-   "colleges": []
-  },
-  {
    "id": "53991467275701-53991467299279",
    "title": "Food Trucks at The Yard",
    "start": "2026-11-17T16:00:00.000Z",
@@ -235,82 +181,6 @@
    "colleges": []
   },
   {
-   "id": "engage-health-hut-eat-well-sleep-well-be-well-2",
-   "title": "Health Hut- Eat Well, Sleep Well, Be Well",
-   "start": "2026-11-17T16:00:00.000Z",
-   "end": "2026-11-17T18:00:00.000Z",
-   "allDay": false,
-   "location": "Russell Union Grassy Area",
-   "campus": "statesboro",
-   "url": "https://georgiasouthern.presence.io/event/health-hut-eat-well-sleep-well-be-well-2",
-   "types": [
-    "Health & Wellness"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "wellness",
-    "food"
-   ],
-   "desc": "Come learn about intuitive eating, food insecurity, and sleep hygiene before the holidays for this months health hut!",
-   "free": null,
-   "org": "Student Wellness and Health Promotion",
-   "orgUri": "student-wellness-and-health-promotion",
-   "colleges": []
-  },
-  {
-   "id": "engage-lunch-social-at-the-galley",
-   "title": "Lunch Social at the Galley",
-   "start": "2026-11-17T17:00:00.000Z",
-   "end": "2026-11-17T18:00:00.000Z",
-   "allDay": false,
-   "location": "ISAP Suite in Victor Hall",
-   "campus": "armstrong",
-   "url": "https://georgiasouthern.presence.io/event/lunch-social-at-the-galley",
-   "types": [
-    "Free Food",
-    "Social Event"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "culture",
-    "food",
-    "intl",
-    "social"
-   ],
-   "desc": "Have lunch with international students to socialize before Thanksgiving Break",
-   "free": null,
-   "org": "Office of International Student Admissions and Programs",
-   "orgUri": "office-of-international-student-admissions-and-programs",
-   "colleges": []
-  },
-  {
-   "id": "engage-serve912-weekly-trip-statesboro-food-bank-11-17-tuesdays",
-   "title": "Serve912 Weekly Trip - Statesboro Food Bank (11/17) Tuesdays",
-   "start": "2026-11-17T17:00:00.000Z",
-   "end": "2026-11-17T19:00:00.000Z",
-   "allDay": false,
-   "location": "Russell Union Room 1056",
-   "campus": "statesboro",
-   "url": "https://georgiasouthern.presence.io/event/serve912-weekly-trip-statesboro-food-bank-11-17-tuesdays",
-   "types": [
-    "Serve912 Weekly Trip",
-    "Service"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "food",
-    "service"
-   ],
-   "desc": "Volunteers will h elp in Sunshine Cafe or Pantry",
-   "free": null,
-   "org": "Office of Leadership and Community Engagement",
-   "orgUri": "office-of-leadership-and-community-engagement-2",
-   "colleges": []
-  },
-  {
    "id": "53886827262920-53886827263945",
    "title": "Mesa de conversación",
    "start": "2026-11-17T17:15:00.000Z",
@@ -339,30 +209,6 @@
    ]
   },
   {
-   "id": "engage-self-care-clinic-97",
-   "title": "Self Care Clinic",
-   "start": "2026-11-17T18:15:00.000Z",
-   "end": "2026-11-17T19:45:00.000Z",
-   "allDay": false,
-   "location": "Henderson Library 2nd Floor",
-   "campus": "statesboro",
-   "url": "https://georgiasouthern.presence.io/event/self-care-clinic-97",
-   "types": [
-    "Health & Wellness"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "academic",
-    "wellness"
-   ],
-   "desc": "Sometimes the biggest obstacle to self-care is simply making the time to do it! Join us and drop in for a weekly scheduled time dedicated for intentional self-care practice. Each week we will practice a new self-care activity ranging from creative activities to mindful activities and everything in-between! This worksh…",
-   "free": null,
-   "org": "Counseling Center",
-   "orgUri": "counseling-center",
-   "colleges": []
-  },
-  {
    "id": "engage-serve-912-weekly-trip-restoring-the-breach-inc-11-17-tuesdays",
    "title": "Serve 912 Weekly Trip - Restoring the Breach, Inc. (11/17) - Tuesdays",
    "start": "2026-11-17T19:30:00.000Z",
@@ -386,36 +232,6 @@
    "org": "Office of Leadership and Community Engagement",
    "orgUri": "office-of-leadership-and-community-engagement-2",
    "colleges": []
-  },
-  {
-   "id": "engage-reach-financial-literacy-ways-to-make-money-in-college-2",
-   "title": "REACH - Financial Literacy - ways to make money in college",
-   "start": "2026-11-17T20:00:00.000Z",
-   "end": "2026-11-17T22:00:00.000Z",
-   "allDay": false,
-   "location": "Student Union / Skidaway Meeting room",
-   "campus": "armstrong",
-   "url": "https://georgiasouthern.presence.io/event/reach-financial-literacy-ways-to-make-money-in-college-2",
-   "types": [],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "academic",
-    "career",
-    "finance",
-    "education",
-    "theatre",
-    "dance",
-    "fitness",
-    "firstgen"
-   ],
-   "desc": "This interactive workshop will help REACH Scholars explore practical ways to earn income while balancing the demands of college life. Students will learn about campus employment opportunities, local part-time jobs, freelance and gig economy platforms, and other flexible income sources that fit a student's schedule. Th…",
-   "free": null,
-   "org": "Office of Student Engagement and Support",
-   "orgUri": "office-of-student-engagement-and-support",
-   "colleges": [
-    "coe"
-   ]
   },
   {
    "id": "engage-autumn-eagles-paint-sip",
@@ -445,31 +261,6 @@
    "colleges": [
     "cah"
    ]
-  },
-  {
-   "id": "engage-meditation-9",
-   "title": "Meditation",
-   "start": "2026-11-17T21:00:00.000Z",
-   "end": "2026-11-17T22:00:00.000Z",
-   "allDay": false,
-   "location": "Counseling Center",
-   "campus": "statesboro",
-   "url": "https://georgiasouthern.presence.io/event/meditation-9",
-   "types": [
-    "Health & Wellness"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "academic",
-    "wellness",
-    "environment"
-   ],
-   "desc": "Guided meditation sessions will provide an opportunity for students to develop mindfulness skills in a supportive and structured environment. Meditations are designed to increase focused attention, mindful awareness, and compassion for self and others. This workshop will take place in person at the Statesboro Counseli…",
-   "free": null,
-   "org": "Counseling Center",
-   "orgUri": "counseling-center",
-   "colleges": []
   },
   {
    "id": "engage-georgia-southern-womens-basketball-vs-coastal-georgia-2",
@@ -575,6 +366,31 @@
    "free": null,
    "org": "Student Government Association",
    "orgUri": "student-government-association-3",
+   "colleges": []
+  },
+  {
+   "id": "engage-honors-research-sympsoium",
+   "title": "Honors Research Sympsoium",
+   "start": "2026-11-17T22:30:00.000Z",
+   "end": "2026-11-18T00:00:00.000Z",
+   "allDay": false,
+   "location": "Russel Union",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/honors-research-sympsoium",
+   "types": [
+    "Career Development"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "honors",
+    "career",
+    "science"
+   ],
+   "desc": "Join us as graduating Honors Seniors present their various research thesis/capstone projects!",
+   "free": null,
+   "org": "The Honors College",
+   "orgUri": "the-honors-college",
    "colleges": []
   },
   {
@@ -1007,35 +823,6 @@
    "free": false,
    "lat": 32.418824,
    "lon": -81.782889,
-   "colleges": []
-  },
-  {
-   "id": "engage-all-aboard-the-hot-cocoa-express",
-   "title": "All aboard The Hot Cocoa Express!",
-   "start": "2026-11-18T16:00:00.000Z",
-   "end": "2026-11-18T18:00:00.000Z",
-   "allDay": false,
-   "location": "Memorial College Center Lobby",
-   "campus": "armstrong",
-   "url": "https://georgiasouthern.presence.io/event/all-aboard-the-hot-cocoa-express",
-   "types": [
-    "Free Food",
-    "Info Table/Session",
-    "Social Event"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "academic",
-    "writing",
-    "fashion",
-    "food",
-    "social"
-   ],
-   "desc": "&#128642;☕ All aboard The Hot Cocoa Express! ☕&#128642; Nov. 18th @ 11 am to 1 pm, in front of the Students Union (not the porch, but the sidewalk area) Take a study break before finals week and join The Inkwell on November 18 at 11 a.m. for a cozy hot chocolate recruiting event! Stop by for a warm cup of cocoa, meet…",
-   "free": null,
-   "org": "The George-Anne Media Group (Student Media)",
-   "orgUri": "the-george-anne-media-group-student-media",
    "colleges": []
   },
   {
