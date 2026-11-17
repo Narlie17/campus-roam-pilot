@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-17T10:22:42.485Z",
+ "generatedAt": "2026-11-17T16:12:36.583Z",
  "source": "Localist API + Eagle Engage (128) · https://calendar.georgiasouthern.edu",
  "events": [
   {
@@ -133,30 +133,6 @@
    "colleges": [
     "cah"
    ]
-  },
-  {
-   "id": "engage-serve-912-weekly-trip-action-pact-11-17",
-   "title": "Serve 912 Weekly Trip - Action Pact (11/17)",
-   "start": "2026-11-17T14:00:00.000Z",
-   "end": "2026-11-17T16:00:00.000Z",
-   "allDay": false,
-   "location": "Russell Union Room 1056",
-   "campus": "statesboro",
-   "url": "https://georgiasouthern.presence.io/event/serve-912-weekly-trip-action-pact-11-17",
-   "types": [
-    "Serve912 Weekly Trip",
-    "Service"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "service"
-   ],
-   "desc": "Volunteers will help with assisting residents during scheduled activities.",
-   "free": null,
-   "org": "Office of Leadership and Community Engagement",
-   "orgUri": "office-of-leadership-and-community-engagement-2",
-   "colleges": []
   },
   {
    "id": "54505535598497-54505535599522",
@@ -1795,6 +1771,32 @@
    "free": null,
    "org": "Office of Leadership and Community Engagement",
    "orgUri": "office-of-leadership-and-community-engagement-2",
+   "colleges": []
+  },
+  {
+   "id": "engage-friendsgiving-6",
+   "title": "Friendsgiving",
+   "start": "2026-11-19T22:15:00.000Z",
+   "end": "2026-11-20T00:00:00.000Z",
+   "allDay": false,
+   "location": "SC 1402",
+   "campus": "armstrong",
+   "url": "https://georgiasouthern.presence.io/event/friendsgiving-6",
+   "types": [
+    "Free Food",
+    "Social Event"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "science",
+    "food",
+    "social"
+   ],
+   "desc": "Please join the Biology Club this Thurs Nov 19 at 5:15pm for their Friendsgiving. event. If you're able, sign up to bring a food item, though students are welcome regardless.",
+   "free": null,
+   "org": "Biology Club of Armstrong",
+   "orgUri": "biology-club-of-armstrong-2",
    "colleges": []
   },
   {

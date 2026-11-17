@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-17T10:22:42.845Z",
+ "generatedAt": "2026-11-17T16:12:36.989Z",
  "source": "Eagle Engage (https://georgiasouthern.presence.io)",
  "base": "https://georgiasouthern.presence.io",
  "orgs": [
@@ -386,7 +386,7 @@
    "cats": [
     "Diversity Education and Advocacy"
    ],
-   "members": 45,
+   "members": 46,
    "meets": "",
    "desc": "Best Buddies College at Georgia Southern University is part of the global Best Buddies International movement, working to create opportunities for one-to-one friendships, leadership development, and inclusion for indivi…",
    "upcoming": 0
@@ -436,7 +436,7 @@
    "members": 15,
    "meets": "5:15pm · SC 1405",
    "desc": "The Biology Club of Armstrong is a biology-focused student organization centered around enhancing and further developing the appreciation and application of biological studies. Our goal is to better prepare students for…",
-   "upcoming": 0
+   "upcoming": 1
   },
   {
    "name": "Biology Organization of Graduate Students",
@@ -1022,6 +1022,17 @@
   },
   {
    "name": "Department of Biomedical Sciences",
+   "uri": "department-of-biomedical-sciences",
+   "cats": [
+    "Campus Department"
+   ],
+   "members": 11,
+   "meets": "",
+   "desc": "The Department of Biomedical Sciences at Georgia Southern offers a BS in Biomedical Sciences and is designed for students interested in medicine, pharmacology, forensic science or biotechnical engineering—students passi…",
+   "upcoming": 0
+  },
+  {
+   "name": "Department of Biomedical Sciences",
    "uri": "department-of-biomedical-sciences-2",
    "cats": [
     "Academic",
@@ -1030,17 +1041,6 @@
    "members": 0,
    "meets": "",
    "desc": "The BS in Biomedical Sciences at Georgia Southern is designed for students interested in medicine, pharmacology, forensic science or biotechnical engineering—students passionate about solving complex medical problems an…",
-   "upcoming": 0
-  },
-  {
-   "name": "Department of Biomedical Sciences",
-   "uri": "department-of-biomedical-sciences",
-   "cats": [
-    "Campus Department"
-   ],
-   "members": 11,
-   "meets": "",
-   "desc": "The Department of Biomedical Sciences at Georgia Southern offers a BS in Biomedical Sciences and is designed for students interested in medicine, pharmacology, forensic science or biotechnical engineering—students passi…",
    "upcoming": 0
   },
   {
@@ -1572,7 +1572,7 @@
     "Professional",
     "Diversity Education and Advocacy"
    ],
-   "members": 23,
+   "members": 24,
    "meets": "2pm · On Campus",
    "desc": "Academic | Cultural | Professional | Service | Special Interest | Statesboro CampusFor Women By Women is an organization devoted to creating safe spaces for minority people with a focus on Black womanhood.",
    "upcoming": 0
@@ -2458,7 +2458,7 @@
     "Professional",
     "Cultural"
    ],
-   "members": 15,
+   "members": 16,
    "meets": "6:00 PM · On Campus",
    "desc": "The National Council of Negro Women chapter at Georgia Southern University is an organization of many well-established organizations. We aim to enlighten and inspire women and men on our campus and in our community. It…",
    "upcoming": 0
@@ -2650,7 +2650,7 @@
    "members": 151,
    "meets": "",
    "desc": "Our office is dedicated to helping students develop both in and out of the classroom through:LeadershipA strong co-curricular leadership program of workshops, seminars, conferences, and nationally recognized speakers.Co…",
-   "upcoming": 15
+   "upcoming": 14
   },
   {
    "name": "Office of Multicultural Affairs",
@@ -2869,7 +2869,7 @@
     "Academic",
     "Honorary"
    ],
-   "members": 16,
+   "members": 17,
    "meets": "6:00 pm · On-Campus",
    "desc": "Phi Eta Sigma is an invite-only honors society focused on community service! Our focus is on promoting literacy while furthering the community around us.",
    "upcoming": 0
@@ -3121,7 +3121,7 @@
     "Special Interest",
     "Armstrong Campus"
    ],
-   "members": 2,
+   "members": 3,
    "meets": "TBD · On-Campus",
    "desc": "The goal of the Pre-Veterinary Association is to help pre-veterinary students with navigating the process to becoming a veterinarian. We also want to introduce the veterinary profession to students as a career option wh…",
    "upcoming": 0
@@ -3156,24 +3156,24 @@
   },
   {
    "name": "Psi Chi International Honor Society",
-   "uri": "psi-chi-international-honor-society-4",
-   "cats": [
-    "Academic",
-    "Honorary"
-   ],
-   "members": 7,
-   "meets": "5:00 pm · Virtual",
-   "desc": "Psi Chi is the International Honor Society in Psychology, founded in 1929 for the purposes of encouraging, stimulating, and maintaining excellence in scholarship, and advancing the science of psychology. Membership is o…",
-   "upcoming": 0
-  },
-  {
-   "name": "Psi Chi International Honor Society",
    "uri": "psi-chi-international-honor-society-3",
    "cats": [
     "Honorary",
     "Academic"
    ],
    "members": 23,
+   "meets": "5:00 pm · Virtual",
+   "desc": "Psi Chi is the International Honor Society in Psychology, founded in 1929 for the purposes of encouraging, stimulating, and maintaining excellence in scholarship, and advancing the science of psychology. Membership is o…",
+   "upcoming": 0
+  },
+  {
+   "name": "Psi Chi International Honor Society",
+   "uri": "psi-chi-international-honor-society-4",
+   "cats": [
+    "Academic",
+    "Honorary"
+   ],
+   "members": 7,
    "meets": "5:00 pm · Virtual",
    "desc": "Psi Chi is the International Honor Society in Psychology, founded in 1929 for the purposes of encouraging, stimulating, and maintaining excellence in scholarship, and advancing the science of psychology. Membership is o…",
    "upcoming": 0
@@ -3193,24 +3193,24 @@
   },
   {
    "name": "Public Relations Student Society of America",
-   "uri": "public-relations-student-society-of-america-4",
-   "cats": [
-    "Academic",
-    "Professional"
-   ],
-   "members": 2,
-   "meets": "6 p.m. · On-Campus - Sanford Hall",
-   "desc": "Public Relations Student Society of America (PRSSA) aims to strengthen communication and promote the ethical practice of public relations. This is a great opportunity for students to make new connections, see guest spea…",
-   "upcoming": 0
-  },
-  {
-   "name": "Public Relations Student Society of America",
    "uri": "public-relations-student-society-of-america-3",
    "cats": [
     "Academic",
     "Professional"
    ],
    "members": 7,
+   "meets": "6 p.m. · On-Campus - Sanford Hall",
+   "desc": "Public Relations Student Society of America (PRSSA) aims to strengthen communication and promote the ethical practice of public relations. This is a great opportunity for students to make new connections, see guest spea…",
+   "upcoming": 0
+  },
+  {
+   "name": "Public Relations Student Society of America",
+   "uri": "public-relations-student-society-of-america-4",
+   "cats": [
+    "Academic",
+    "Professional"
+   ],
+   "members": 2,
    "meets": "6 p.m. · On-Campus - Sanford Hall",
    "desc": "Public Relations Student Society of America (PRSSA) aims to strengthen communication and promote the ethical practice of public relations. This is a great opportunity for students to make new connections, see guest spea…",
    "upcoming": 0
@@ -3426,18 +3426,6 @@
   },
   {
    "name": "Sigma Alpha Iota",
-   "uri": "sigma-alpha-iota-3",
-   "cats": [
-    "Social Fraternities and Sororities",
-    "Statesboro Campus"
-   ],
-   "members": 6,
-   "meets": "6:45-7:45 · Foy 4027",
-   "desc": "Sigma Alpha Iota is an organization, which promotes interaction among those who share a commitment to music. Members of SAI are active in all areas of campus music and campus life, working closely with faculty, administ…",
-   "upcoming": 0
-  },
-  {
-   "name": "Sigma Alpha Iota",
    "uri": "sigma-alpha-iota-2",
    "cats": [
     "Statesboro Campus",
@@ -3447,6 +3435,18 @@
    "members": 4,
    "meets": "On-Campus",
    "desc": "The Gamma Theta Chapter of Sigma Alpha Iota was founded April 20, 1958 at Georgia Southern University, making it the 1st all women's organization at Georgia Southern University!Sigma Alpha Iota is an organization which…",
+   "upcoming": 0
+  },
+  {
+   "name": "Sigma Alpha Iota",
+   "uri": "sigma-alpha-iota-3",
+   "cats": [
+    "Social Fraternities and Sororities",
+    "Statesboro Campus"
+   ],
+   "members": 6,
+   "meets": "6:45-7:45 · Foy 4027",
+   "desc": "Sigma Alpha Iota is an organization, which promotes interaction among those who share a commitment to music. Members of SAI are active in all areas of campus music and campus life, working closely with faculty, administ…",
    "upcoming": 0
   },
   {
@@ -4324,22 +4324,22 @@
   },
   {
    "name": "Turkish Club",
-   "uri": "turkish-club-2",
+   "uri": "turkish-club",
    "cats": [
     "Cultural"
    ],
-   "members": 0,
+   "members": 3,
    "meets": "",
    "desc": "The purpose of the Turkish Club is to promote, celebrate, and preserve Turkish culture, cuisine, and traditions among students. The organization aims to introduce Turkish customs, food, music, and art to the university…",
    "upcoming": 0
   },
   {
    "name": "Turkish Club",
-   "uri": "turkish-club",
+   "uri": "turkish-club-2",
    "cats": [
     "Cultural"
    ],
-   "members": 3,
+   "members": 0,
    "meets": "",
    "desc": "The purpose of the Turkish Club is to promote, celebrate, and preserve Turkish culture, cuisine, and traditions among students. The organization aims to introduce Turkish customs, food, music, and art to the university…",
    "upcoming": 0
