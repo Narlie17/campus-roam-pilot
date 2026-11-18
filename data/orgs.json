@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-17T22:08:47.152Z",
+ "generatedAt": "2026-11-18T04:12:31.950Z",
  "source": "Eagle Engage (https://georgiasouthern.presence.io)",
  "base": "https://georgiasouthern.presence.io",
  "orgs": [
@@ -690,7 +690,7 @@
    "members": 35,
    "meets": "",
    "desc": "The Childcare Access Means Parents in School Program (CCAMPIS) is a federal grant funded 100% by the U.S. Department of Education. This program supports the participation of low-income student-parents enrolled in postse…",
-   "upcoming": 1
+   "upcoming": 0
   },
   {
    "name": "Chinese Language Club",
@@ -1125,7 +1125,7 @@
    "members": 5,
    "meets": "",
    "desc": "The Department of English at Georgia Southern University offers undergraduate degrees of a major and a minor in English. We seek to motivate our students for the pursuit of academic excellence and cultivate in them the…",
-   "upcoming": 8
+   "upcoming": 7
   },
   {
    "name": "Department of Geology and Geography",
@@ -1701,7 +1701,7 @@
    "members": 43,
    "meets": "",
    "desc": "The official page of the Georgia Southern Eagles and the Georgia Southern Athletic Department. Follow along for upcoming games and events, game information, and more!",
-   "upcoming": 27
+   "upcoming": 25
   },
   {
    "name": "Georgia Southern University",
@@ -1739,7 +1739,7 @@
    "members": 32,
    "meets": "",
    "desc": "The Zach S. Henderson Library serves more than 4,000 people daily with resources that support a comprehensive array of degrees, disciplines, research activity and learning objectives. With more than 400 hard-wired compu…",
-   "upcoming": 6
+   "upcoming": 5
   },
   {
    "name": "Georgia Southern University Museum",
@@ -1848,7 +1848,7 @@
     "Service",
     "Statesboro Campus"
    ],
-   "members": 18,
+   "members": 19,
    "meets": "6:30 PM - 7:30 PM · On-Campus",
    "desc": "We are a global, nonprofit organization that builds and restore houses so that everyone is fortunate enough to have a safe place to call home.",
    "upcoming": 0
@@ -2650,7 +2650,7 @@
    "members": 151,
    "meets": "",
    "desc": "Our office is dedicated to helping students develop both in and out of the classroom through:LeadershipA strong co-curricular leadership program of workshops, seminars, conferences, and nationally recognized speakers.Co…",
-   "upcoming": 13
+   "upcoming": 11
   },
   {
    "name": "Office of Multicultural Affairs",
@@ -2690,7 +2690,7 @@
    "members": 30,
    "meets": "",
    "desc": "The Office of Student Activities supports the mission of Georgia Southern University by providing and enhancing diverse involvement opportunities beyond the classroom. In a student-centered and engaging environment, we…",
-   "upcoming": 5
+   "upcoming": 4
   },
   {
    "name": "Office of Student Conduct",
@@ -3033,7 +3033,7 @@
     "Academic",
     "Armstrong Campus"
    ],
-   "members": 2,
+   "members": 3,
    "meets": "6:00 pm · HPAB room 210 *location may change Fall 2026",
    "desc": "The Pre-Anesthesia Club is open to anyone drawn to the field of anesthesia as a potential career. Pre-Anesthesia health professionals all have to jump through a lot of the same hoops--rigorous classes, personal statemen…",
    "upcoming": 0
@@ -3070,7 +3070,7 @@
     "Professional",
     "Peer Mentorship"
    ],
-   "members": 55,
+   "members": 56,
    "meets": "6:00pm · Carroll Building, 2262`",
    "desc": "The purpose of the Pre-Law Student Association is to provide a supportive educational community for Georgia Southern University students interested in pursuing a legal career. The association offers its members the oppo…",
    "upcoming": 0
@@ -3096,7 +3096,7 @@
     "Professional",
     "Armstrong Campus"
    ],
-   "members": 23,
+   "members": 24,
    "meets": "",
    "desc": "The Pre-Medical Association is dedicated to helping its members matriculate into medical school. The group does this by providing opportunities to talk to medical students, serve the community, and partake in philanthro…",
    "upcoming": 0
@@ -3713,7 +3713,7 @@
    "members": 83,
    "meets": "",
    "desc": "Student Affairs Sponsored | Statesboro Campus",
-   "upcoming": 7
+   "upcoming": 6
   },
   {
    "name": "Southern Pines",
@@ -3905,7 +3905,7 @@
    "members": 20,
    "meets": "5:30 pm - 7:30 pm · Russell Union Ballroom",
    "desc": "The mission of the Student Government Association is to serve as advocates to the student body and be liaisons between them, the administration, faculty, and staff. We strive to ensure responsive, inclusive, participato…",
-   "upcoming": 12
+   "upcoming": 11
   },
   {
    "name": "Student Nurses Association Armstrong Campus",
@@ -4201,7 +4201,7 @@
    "members": 1038,
    "meets": "",
    "desc": "The Honors College is an inclusive community of scholars that fosters intellectual and professional development through undergraduate research and creative scholarship, experiential learning, global engagement, and pers…",
-   "upcoming": 1
+   "upcoming": 0
   },
   {
    "name": "The Institute for Health Logistics & Analytics",
@@ -4455,7 +4455,7 @@
    "members": 238,
    "meets": "5:30-7 p.m. · On- Campus",
    "desc": "The University Programming Board at Georgia Southern University enhances campus life by providing safe, inclusive, and diverse events for the student body, creating a TRUE BLUE experience.Click Here for a Calendar of Ev…",
-   "upcoming": 2
+   "upcoming": 1
   },
   {
    "name": "University Store",
