@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-18T10:21:44.626Z",
- "source": "Localist API + Eagle Engage (110) · https://calendar.georgiasouthern.edu",
+ "generatedAt": "2026-11-18T16:16:54.198Z",
+ "source": "Localist API + Eagle Engage (112) · https://calendar.georgiasouthern.edu",
  "events": [
   {
    "id": "54487402753735-54487402771151",
@@ -287,6 +287,34 @@
    "colleges": []
   },
   {
+   "id": "engage-the-art-of-thankfulness-creativity-study-break-henderson-library-statesboro",
+   "title": "The Art of Thankfulness: Creativity Study Break (Henderson Library, Statesboro)",
+   "start": "2026-11-18T18:00:00.000Z",
+   "end": "2026-11-18T20:00:00.000Z",
+   "allDay": false,
+   "location": "Henderson Library, Second Floor",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/the-art-of-thankfulness-creativity-study-break-henderson-library-statesboro",
+   "types": [
+    "Art & Music"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "academic",
+    "arts",
+    "music",
+    "writing"
+   ],
+   "desc": "Need a study break or a time to reflect on what you're thankful for? Join the University Libraries on the second floor of Henderson Library on 11/18/2026 for a creativity break! Try creating paint poetry, making a zine, crafting a collage, or designing your own button!",
+   "free": null,
+   "org": "Georgia Southern University Libraries",
+   "orgUri": "georgia-southern-university-libraries-3",
+   "colleges": [
+    "cah"
+   ]
+  },
+  {
    "id": "engage-the-mid-week-unwind-13",
    "title": "The Mid Week Unwind",
    "start": "2026-11-18T19:00:00.000Z",
@@ -389,6 +417,33 @@
    "org": "Counseling Center",
    "orgUri": "counseling-center",
    "colleges": []
+  },
+  {
+   "id": "engage-wwii-exhibit-opening-reception",
+   "title": "WWII Exhibit Opening Reception",
+   "start": "2026-11-18T20:00:00.000Z",
+   "end": "2026-11-18T21:00:00.000Z",
+   "allDay": false,
+   "location": "Rosenwald Building",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/wwii-exhibit-opening-reception",
+   "types": [
+    "First and Second Year Experience",
+    "Free Stuff",
+    "The Eagle Experience"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "arts"
+   ],
+   "desc": "Please join us to celebrate the grand opening of the World War II exhibit, &#34;From Statesboro to the Front: Georgia Southern's Fallen Eagles&#34;. Light refreshments will be served during the reception. Free to Georgia Southern students, staff, and faculty.",
+   "free": null,
+   "org": "Georgia Southern University Museum",
+   "orgUri": "georgia-southern-university-museum",
+   "colleges": [
+    "cah"
+   ]
   },
   {
    "id": "engage-english-1101-work-showcase",
@@ -923,6 +978,32 @@
    "colleges": []
   },
   {
+   "id": "engage-percentage-night-at-three-tree-coffee-gsu",
+   "title": "Percentage Night at Three Tree Coffee GSU",
+   "start": "2026-11-19T17:00:00.000Z",
+   "end": "2026-11-19T19:00:00.000Z",
+   "allDay": false,
+   "location": "Three Tree Coffee at GSU (2nd floor of Zach S. Henderson Library)",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/percentage-night-at-three-tree-coffee-gsu",
+   "types": [
+    "Free Stuff",
+    "Fundraiser"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "academic",
+    "food",
+    "service"
+   ],
+   "desc": "Enjoy a treat and give back to Georgia Southern! A portion of the proceeds will benefit the Georgia Southern Libraries. Come connect with the Student Alumni Association and learn about how to get involved!",
+   "free": null,
+   "org": "Student Alumni Association",
+   "orgUri": "student-alumni-association",
+   "colleges": []
+  },
+  {
    "id": "engage-serve912-weekly-trip-retail-thrift-store-11-19",
    "title": "Serve912 Weekly Trip - Retail Thrift Store (11/19)",
    "start": "2026-11-19T19:00:00.000Z",
@@ -1286,31 +1367,6 @@
    "free": null,
    "org": "Office of Leadership and Community Engagement",
    "orgUri": "office-of-leadership-and-community-engagement-2",
-   "colleges": []
-  },
-  {
-   "id": "engage-lunch-and-learn-with-tharrosplace",
-   "title": "Lunch and learn with TharrosPlace",
-   "start": "2026-11-20T17:15:00.000Z",
-   "end": "2026-11-20T18:30:00.000Z",
-   "allDay": false,
-   "location": "University Hall room 156",
-   "campus": "armstrong",
-   "url": "https://georgiasouthern.presence.io/event/lunch-and-learn-with-tharrosplace",
-   "types": [
-    "Career Development",
-    "Student Org. Event"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "career",
-    "food"
-   ],
-   "desc": "Know the signs of Human Trafficking in hospital settings. Food and drink provided!",
-   "free": null,
-   "org": "Student Nurses' Association of Georgia Southern University - Armstrong",
-   "orgUri": "student-nurses-association-of-georgia-southern-university-armstrong-2",
    "colleges": []
   },
   {

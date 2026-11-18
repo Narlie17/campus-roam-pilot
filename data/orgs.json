@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-18T10:21:44.874Z",
+ "generatedAt": "2026-11-18T16:16:54.508Z",
  "source": "Eagle Engage (https://georgiasouthern.presence.io)",
  "base": "https://georgiasouthern.presence.io",
  "orgs": [
@@ -1739,7 +1739,7 @@
    "members": 32,
    "meets": "",
    "desc": "The Zach S. Henderson Library serves more than 4,000 people daily with resources that support a comprehensive array of degrees, disciplines, research activity and learning objectives. With more than 400 hard-wired compu…",
-   "upcoming": 5
+   "upcoming": 6
   },
   {
    "name": "Georgia Southern University Museum",
@@ -1751,7 +1751,7 @@
    "members": 3,
    "meets": "",
    "desc": "The Museum preserves and interprets the natural and cultural history of Georgia's Coastal Plain and presents temporary exhibits and programming promoting life-long learning through the varied research and interests of u…",
-   "upcoming": 1
+   "upcoming": 2
   },
   {
    "name": "Georgia Student Logistics Association",
@@ -2120,7 +2120,7 @@
     "Social Fraternities and Sororities",
     "Statesboro Campus"
    ],
-   "members": 141,
+   "members": 143,
    "meets": "6:30 · Kappa Delta house or via Zoom",
    "desc": "We are the Delta Lambda Chapter of Kappa Delta Sorority. We were initiated in 1968 at Georgia Southern University. Our organizations ideals are to strive for that which is honorable, beautiful, and highest. Our organiza…",
    "upcoming": 0
@@ -3879,10 +3879,10 @@
     "Campus Department",
     "Campus Department Sponsored"
    ],
-   "members": 5,
+   "members": 6,
    "meets": "",
    "desc": "Once an Eagle, Always an Eagle. Established in 2022, the Student Alumni Association is passionate about promoting Georgia Southern’s traditions, and connecting current students to alumni by fostering relationships, crea…",
-   "upcoming": 0
+   "upcoming": 1
   },
   {
    "name": "Student Employment Center",
@@ -3931,19 +3931,6 @@
    "meets": "5:00 PM · Room 3022 Nursing/Chemistry Building",
    "desc": "SNAs goal is to provide an education and supportive environment for students who are currently studying or are preparing to study nursing. The organization leads activities in the local community to promote health and w…",
    "upcoming": 0
-  },
-  {
-   "name": "Student Nurses' Association of Georgia Southern University - Armstrong",
-   "uri": "student-nurses-association-of-georgia-southern-university-armstrong-2",
-   "cats": [
-    "Service",
-    "Professional",
-    "Armstrong Campus"
-   ],
-   "members": 22,
-   "meets": "Varies Depending on Nursing Schedules · Varies Depending on Nursing Schedules",
-   "desc": "SNA is our campus' chapter of the National Student Nurses' Association, or NSNA. Our purpose is to bring together nursing students on the Armstrong campus to serve the community, further our professional development whi…",
-   "upcoming": 1
   },
   {
    "name": "Student Organization Advisors",
