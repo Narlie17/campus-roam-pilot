@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-18T16:16:55.087Z",
+ "generatedAt": "2026-11-18T22:05:17.136Z",
  "source": "College news feeds on georgiasouthern.edu",
  "colleges": {
   "parker": [
@@ -132,6 +132,11 @@
   ],
   "cosm": [
    {
+    "title": "College of Science and Mathematics secures $250,000 grant to aid neuroscience, cell biology and cancer research",
+    "date": "2026-11-18",
+    "url": "https://www.georgiasouthern.edu/2026/11/18/college-of-science-and-mathematics-secures-250000-grant-to-aid-neuroscience-cell-biology-and-cancer-research"
+   },
+   {
     "title": "Georgia Southern's College of Science and Mathematics secures four Georgia Sea Grants in 2026",
     "date": "2026-10-14",
     "url": "https://www.georgiasouthern.edu/2026/10/14/georgia-southerns-college-of-science-and-mathematics-secures-four-georgia-sea-grants-in-2026"
@@ -155,11 +160,6 @@
     "title": "Navigating the AI era: Georgia Southern hosts Carnegie Mellon’s Po-Shen Loh for discussion on practical applications and community effects",
     "date": "2026-08-24",
     "url": "https://www.georgiasouthern.edu/2026/08/24/navigating-the-ai-era-georgia-southern-hosts-carnegie-mellons-po-shen-loh-for-discussion-on-practical-applications-and-community-effects"
-   },
-   {
-    "title": "Georgia Southern professor modernizes biochemistry program through national research partnership",
-    "date": "2026-07-31",
-    "url": "https://www.georgiasouthern.edu/2026/07/31/georgia-southern-professor-modernizes-biochemistry-program-through-national-research-partnership"
    }
   ],
   "cec": [

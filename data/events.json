@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-18T16:16:54.198Z",
- "source": "Localist API + Eagle Engage (112) · https://calendar.georgiasouthern.edu",
+ "generatedAt": "2026-11-18T22:05:16.535Z",
+ "source": "Localist API + Eagle Engage (108) · https://calendar.georgiasouthern.edu",
  "events": [
   {
    "id": "54487402753735-54487402771151",
@@ -135,58 +135,6 @@
    ]
   },
   {
-   "id": "54160281771105-54160281772130",
-   "title": "Compensation Administration 101 : Swainsboro",
-   "start": "2026-11-18T14:30:00.000Z",
-   "end": "2026-11-18T16:00:00.000Z",
-   "allDay": false,
-   "location": "Academic Building, C256 - Social Science Wing",
-   "campus": "other",
-   "url": "https://calendar.georgiasouthern.edu/event/compensation-administration-101-swainsboro",
-   "types": [
-    "Conferences and Workshops"
-   ],
-   "depts": [],
-   "source": "calendar",
-   "tags": [
-    "academic",
-    "science",
-    "music",
-    "social"
-   ],
-   "desc": "The Swainsboro Campus CA 101 Training is a Deep dive into the realm of Compensation Administration at Georgia Southern University to understand what the department oversees, familiarize yourself with the various processes, and receive training on the different transactions. Register Here Participants can expect to: 1.…",
-   "free": false,
-   "lat": 32.598434,
-   "lon": -82.307319,
-   "colleges": [
-    "cosm"
-   ]
-  },
-  {
-   "id": "engage-serve912-weekly-trip-csm-thrift-store-11-18",
-   "title": "Serve912 Weekly Trip - CSM Thrift Store (11/18)",
-   "start": "2026-11-18T14:30:00.000Z",
-   "end": "2026-11-18T16:30:00.000Z",
-   "allDay": false,
-   "location": "Russell Union Room 1056",
-   "campus": "statesboro",
-   "url": "https://georgiasouthern.presence.io/event/serve912-weekly-trip-csm-thrift-store-11-18",
-   "types": [
-    "Serve912 Weekly Trip",
-    "Service"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "service"
-   ],
-   "desc": "Volunteers will help with organizing, putting out merchandise, cleaning and with occasional events",
-   "free": null,
-   "org": "Office of Leadership and Community Engagement",
-   "orgUri": "office-of-leadership-and-community-engagement-2",
-   "colleges": []
-  },
-  {
    "id": "54533340296855-54533340296856",
    "title": "Coffee Chat Becker",
    "start": "2026-11-18T15:00:00.000Z",
@@ -214,31 +162,6 @@
    "colleges": [
     "parker"
    ]
-  },
-  {
-   "id": "engage-arm-coastal-pet-rescue-weekly-trip-serve912-13",
-   "title": "ARM Coastal Pet Rescue Weekly Trip SERVE912",
-   "start": "2026-11-18T15:00:00.000Z",
-   "end": "2026-11-18T17:00:00.000Z",
-   "allDay": false,
-   "location": "Memorial College Center",
-   "campus": "armstrong",
-   "url": "https://georgiasouthern.presence.io/event/arm-coastal-pet-rescue-weekly-trip-serve912-13",
-   "types": [
-    "Serve912 Weekly Trip",
-    "Service"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "animals",
-    "service"
-   ],
-   "desc": "Join us to volunteer from 10am to 12pm! Serve at Coastal Pet Rescue by cleaning up after and playing with animals.",
-   "free": null,
-   "org": "Office of Leadership and Community Engagement",
-   "orgUri": "office-of-leadership-and-community-engagement-2",
-   "colleges": []
   },
   {
    "id": "53991467275701-53991467300304",
@@ -287,58 +210,6 @@
    "colleges": []
   },
   {
-   "id": "engage-the-art-of-thankfulness-creativity-study-break-henderson-library-statesboro",
-   "title": "The Art of Thankfulness: Creativity Study Break (Henderson Library, Statesboro)",
-   "start": "2026-11-18T18:00:00.000Z",
-   "end": "2026-11-18T20:00:00.000Z",
-   "allDay": false,
-   "location": "Henderson Library, Second Floor",
-   "campus": "statesboro",
-   "url": "https://georgiasouthern.presence.io/event/the-art-of-thankfulness-creativity-study-break-henderson-library-statesboro",
-   "types": [
-    "Art & Music"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "academic",
-    "arts",
-    "music",
-    "writing"
-   ],
-   "desc": "Need a study break or a time to reflect on what you're thankful for? Join the University Libraries on the second floor of Henderson Library on 11/18/2026 for a creativity break! Try creating paint poetry, making a zine, crafting a collage, or designing your own button!",
-   "free": null,
-   "org": "Georgia Southern University Libraries",
-   "orgUri": "georgia-southern-university-libraries-3",
-   "colleges": [
-    "cah"
-   ]
-  },
-  {
-   "id": "engage-the-mid-week-unwind-13",
-   "title": "The Mid Week Unwind",
-   "start": "2026-11-18T19:00:00.000Z",
-   "end": "2026-11-18T20:00:00.000Z",
-   "allDay": false,
-   "location": "Swainsboro Counseling Center",
-   "campus": "other",
-   "url": "https://georgiasouthern.presence.io/event/the-mid-week-unwind-13",
-   "types": [
-    "Health & Wellness"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "academic",
-    "wellness"
-   ],
-   "desc": "Are you Stressed, Pressed and in a Mess? Come join our weekly stress debriefer. This workshop is designed for students to gather freely to express frustration, stress and heavy emotions. In this workshop one will be able to review what happened, discuss what went poorly and learn how to improve for next time. This wor…",
-   "free": null,
-   "org": "Counseling Center",
-   "orgUri": "counseling-center",
-   "colleges": []
-  },
-  {
    "id": "engage-serve912-weekly-trip-restoring-the-breach-inc-11-18-wednesday",
    "title": "Serve912 Weekly Trip - Restoring the Breach, Inc. (11/18) - Wednesday",
    "start": "2026-11-18T19:30:00.000Z",
@@ -364,137 +235,32 @@
    "colleges": []
   },
   {
-   "id": "engage-reach-financial-literacy-ways-to-make-money-in-college-3",
-   "title": "REACH - Financial Literacy - Ways to make money in college",
+   "id": "54471625117477-54471625117478",
+   "title": "Georgia Southern Museum WWII Exhibit Opening Reception",
    "start": "2026-11-18T20:00:00.000Z",
-   "end": "2026-11-18T22:00:00.000Z",
+   "end": "2026-11-18T21:00:00.000Z",
    "allDay": false,
-   "location": "Williams Center / 2015",
+   "location": "Georgia Southern Museum (Statesboro Campus)",
    "campus": "statesboro",
-   "url": "https://georgiasouthern.presence.io/event/reach-financial-literacy-ways-to-make-money-in-college-3",
-   "types": [],
+   "url": "https://calendar.georgiasouthern.edu/event/georgia-southern-museum-wwii-exhibit-opening-reception",
+   "types": [
+    "Arts, Culture and Entertainment",
+    "Outreach / Community Education",
+    "Eagle Engage"
+   ],
    "depts": [],
-   "source": "engage",
+   "source": "calendar",
    "tags": [
-    "academic",
-    "career",
-    "finance",
     "education",
-    "theatre",
-    "dance",
-    "fitness",
-    "firstgen"
-   ],
-   "desc": "This interactive workshop will help REACH Scholars explore practical ways to earn income while balancing the demands of college life. Students will learn about campus employment opportunities, local part-time jobs, freelance and gig economy platforms, and other flexible income sources that fit a student's schedule. Th…",
-   "free": null,
-   "org": "Office of Student Engagement and Support",
-   "orgUri": "office-of-student-engagement-and-support",
-   "colleges": [
-    "coe"
-   ]
-  },
-  {
-   "id": "engage-holiday-hang-ups-spending-the-holidays-alone",
-   "title": "Holiday Hang Ups - Spending the Holidays Alone",
-   "start": "2026-11-18T20:00:00.000Z",
-   "end": "2026-11-18T21:00:00.000Z",
-   "allDay": false,
-   "location": "https://georgiasouthern-edu-telehealth.zoom.us/meeting/register/hItIicugTAGdv_1-BzmI1w",
-   "campus": "other",
-   "url": "https://georgiasouthern.presence.io/event/holiday-hang-ups-spending-the-holidays-alone",
-   "types": [
-    "Health & Wellness",
-    "Virtual"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "academic",
-    "wellness"
-   ],
-   "desc": "There’s no place like home for the holidays, until things get complicated. While the holidays are joyful for some, they can also bring up feelings of loneliness, stress, and emotional overwhelm. Whether you're grieving someone you've lost, feeling anxious about family gatherings, or spending the holidays on your own,…",
-   "free": null,
-   "org": "Counseling Center",
-   "orgUri": "counseling-center",
-   "colleges": []
-  },
-  {
-   "id": "engage-wwii-exhibit-opening-reception",
-   "title": "WWII Exhibit Opening Reception",
-   "start": "2026-11-18T20:00:00.000Z",
-   "end": "2026-11-18T21:00:00.000Z",
-   "allDay": false,
-   "location": "Rosenwald Building",
-   "campus": "statesboro",
-   "url": "https://georgiasouthern.presence.io/event/wwii-exhibit-opening-reception",
-   "types": [
-    "First and Second Year Experience",
-    "Free Stuff",
-    "The Eagle Experience"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
     "arts"
    ],
-   "desc": "Please join us to celebrate the grand opening of the World War II exhibit, &#34;From Statesboro to the Front: Georgia Southern's Fallen Eagles&#34;. Light refreshments will be served during the reception. Free to Georgia Southern students, staff, and faculty.",
-   "free": null,
-   "org": "Georgia Southern University Museum",
-   "orgUri": "georgia-southern-university-museum",
+   "desc": "Please join us at the opening reception for the World War II exhibit at the Georgia Southern Museum.",
+   "free": true,
+   "lat": 32.42719,
+   "lon": -81.781754,
    "colleges": [
-    "cah"
-   ]
-  },
-  {
-   "id": "engage-english-1101-work-showcase",
-   "title": "English 1101 @ Work Showcase",
-   "start": "2026-11-18T20:00:12.000Z",
-   "end": "2026-11-18T22:00:00.000Z",
-   "allDay": false,
-   "location": "Fine Arts Hall",
-   "campus": "armstrong",
-   "url": "https://georgiasouthern.presence.io/event/english-1101-work-showcase",
-   "types": [],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "career",
-    "tech",
-    "arts",
-    "writing"
-   ],
-   "desc": "Details: Wednesday (Nov. 18th), 3 PM - 5 PM, Fine Arts Hall, Armstrong Campus English 1101 @ Work prepares students for real-world workplace writing through hands-on projects involving teamwork, multimedia communication, and ethical AI integration. This event celebrates their mastery of professional writing skills by…",
-   "free": null,
-   "org": "Department of English",
-   "orgUri": "department-of-english",
-   "colleges": [
-    "cah"
-   ]
-  },
-  {
-   "id": "engage-karaoke-afternoon-3",
-   "title": "Karaoke Afternoon",
-   "start": "2026-11-18T20:00:50.000Z",
-   "end": "2026-11-18T22:00:00.000Z",
-   "allDay": false,
-   "location": "Russell Union Rotunda",
-   "campus": "statesboro",
-   "url": "https://georgiasouthern.presence.io/event/karaoke-afternoon-3",
-   "types": [
-    "Art & Music"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "arts",
-    "music"
-   ],
-   "desc": "Sing a tune at Karaoke Afternoon! Russell Union Rotunda or Commons (rain location), November 18, from 3 pm - 5 pm.",
-   "free": null,
-   "org": "Student Union Facilities and Event Services",
-   "orgUri": "student-union-facilities-and-event-services",
-   "colleges": [
-    "cah"
+    "cah",
+    "coe"
    ]
   },
   {
@@ -528,6 +294,41 @@
    ]
   },
   {
+   "id": "engage-spin-sustainability-and-smoovie",
+   "title": "Spin, Sustainability, and Smoovie!",
+   "start": "2026-11-18T21:00:37.000Z",
+   "end": "2026-11-18T23:00:00.000Z",
+   "allDay": false,
+   "location": "Spin Studio- RAC",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/spin-sustainability-and-smoovie",
+   "types": [
+    "Free Food",
+    "Health & Wellness",
+    "Office of Leadership and Community Engagement",
+    "Social Event",
+    "Sustainability"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "engineering",
+    "fitness",
+    "wellness",
+    "food",
+    "environment",
+    "leadership",
+    "social"
+   ],
+   "desc": "We collaborating with GroupFIT and the new Smoovie location at the RAC! Join us for an exciting GATA Spin Class, followed by a refreshing treat sponsored by SustainSouthern at Smoovie. While enjoying your smoothie, learn about Smoovie's effort to help the environment and bring good, fresh food to you! Space in limited…",
+   "free": null,
+   "org": "Office of Leadership and Community Engagement",
+   "orgUri": "office-of-leadership-and-community-engagement-2",
+   "colleges": [
+    "cosm"
+   ]
+  },
+  {
    "id": "engage-political-science-club-35",
    "title": "Political Science Club",
    "start": "2026-11-18T21:30:00.000Z",
@@ -551,6 +352,31 @@
     "cbss",
     "cosm"
    ]
+  },
+  {
+   "id": "engage-gta-encore-night",
+   "title": "GG PRESENTS: GTA 6 ENCORE NIGHT",
+   "start": "2026-11-18T22:00:00.000Z",
+   "end": "2026-11-19T02:00:00.000Z",
+   "allDay": false,
+   "location": "Learning Commons Studio M",
+   "campus": "armstrong",
+   "url": "https://georgiasouthern.presence.io/event/gta-encore-night",
+   "types": [
+    "eSports and Gaming",
+    "Social Event"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "gaming",
+    "social"
+   ],
+   "desc": "The night that everyone has been waiting for has arrived! To celebrate and pass the time till midnight, join us from 5:30 PM - 8:30PM to compete for the highest &#34;score&#34; in our 4 games! We haven't finalized the list just yet (but we will by tonight), but the confirmed games are a Bejeweled game and Gran Turismo…",
+   "free": null,
+   "org": "Gamers Guild at Armstrong",
+   "orgUri": "gamers-guild-at-armstrong",
+   "colleges": []
   },
   {
    "id": "engage-learn-to-play-flip-7-the-lc-2",
@@ -719,6 +545,30 @@
    "free": null,
    "org": "National Association of Black Accountants Chapter at Georgia Southern University",
    "orgUri": "national-association-of-black-accountants-chapter-at-georgia-southern-university",
+   "colleges": []
+  },
+  {
+   "id": "54497737437860-54497737439909",
+   "title": "Gather & Grow: Pines and Spirits",
+   "start": "2026-11-19T10:30:00.000Z",
+   "end": "2026-11-19T12:00:00.000Z",
+   "allDay": false,
+   "location": "Botanic Garden (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/gather-grow-pines-and-spirits",
+   "types": [],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "culture",
+    "outdoors",
+    "food",
+    "environment"
+   ],
+   "desc": "Join us for Gather & Grow: Pines & Spirits — A Toast to Longleaf, where conservation meets craftsmanship! Discover the fascinating history, ecology, and importance of longleaf pine forests with Carol Denhof, President of The Longleaf Alliance and Georgia Southern alumna. Savor a sampling of handcrafted spirits from Lo…",
+   "free": false,
+   "lat": 32.420825,
+   "lon": -81.77389,
    "colleges": []
   },
   {
@@ -1156,6 +1006,30 @@
    ]
   },
   {
+   "id": "engage-collegians-for-christ-bible-study-3",
+   "title": "Collegians For Christ Bible Study",
+   "start": "2026-11-20T00:00:00.000Z",
+   "end": "2026-11-20T01:10:00.000Z",
+   "allDay": false,
+   "location": "Russel Union 2043",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/collegians-for-christ-bible-study-3",
+   "types": [
+    "Spiritual Awareness"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "academic",
+    "faith"
+   ],
+   "desc": "Gather together and grow closer in Christ Word",
+   "free": null,
+   "org": "Collegians For Christ",
+   "orgUri": "collegians-for-christ",
+   "colleges": []
+  },
+  {
    "id": "engage-we-sleighed-this-semester-napkin-wars",
    "title": "We Sleighed This Semester Napkin Wars",
    "start": "2026-11-20T00:00:28.000Z",
@@ -1367,6 +1241,50 @@
    "free": null,
    "org": "Office of Leadership and Community Engagement",
    "orgUri": "office-of-leadership-and-community-engagement-2",
+   "colleges": []
+  },
+  {
+   "id": "54497857790454-54497857791479",
+   "title": "Biomedical Science Seminar Series #9",
+   "start": "2026-11-20T17:40:00.000Z",
+   "end": "2026-11-20T18:30:00.000Z",
+   "allDay": false,
+   "location": "",
+   "campus": "",
+   "url": "https://calendar.georgiasouthern.edu/event/biomedical-science-seminar-series-9",
+   "types": [
+    "Lectures and Guest Speakers"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "science"
+   ],
+   "desc": "Zoom seminar hosted by the Georgia Southern University Department of Biomedical Sciences. The speaker, Dr. Shekhar, will discuss his work on Identifying Functional Variants in Complex Human Traits through Statistical Genetics and Functional Genomics.",
+   "free": true,
+   "colleges": [
+    "cosm"
+   ]
+  },
+  {
+   "id": "engage-pulp-fiction-weekly-pitch-meeting",
+   "title": "Pulp Fiction Weekly Pitch meeting",
+   "start": "2026-11-20T21:00:00.000Z",
+   "end": "2026-11-20T22:00:00.000Z",
+   "allDay": false,
+   "location": "Williams Center 2016",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/pulp-fiction-weekly-pitch-meeting",
+   "types": [],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "writing"
+   ],
+   "desc": "These are weekly meetings held by Pulp fiction, a subgroup under student media.",
+   "free": null,
+   "org": "The George-Anne Media Group (Student Media)",
+   "orgUri": "the-george-anne-media-group-student-media",
    "colleges": []
   },
   {
@@ -2297,6 +2215,76 @@
    "colleges": []
   },
   {
+   "id": "54417508848756-54417508848757",
+   "title": "Staff Council Walk and Talk (Armstrong)",
+   "start": "2026-12-01T17:00:00.000Z",
+   "end": "2026-12-01T18:00:00.000Z",
+   "allDay": false,
+   "location": "meet and end at Starbucks",
+   "campus": "",
+   "url": "https://calendar.georgiasouthern.edu/event/staff-council-walk-and-talk-armstrong-7410",
+   "types": [],
+   "depts": [],
+   "source": "calendar",
+   "tags": [],
+   "desc": "Take a walk with Staff Council with a potential special guest. Come engage and share ideas with us while enjoying the breeze. You never know who may be walking by your side.",
+   "free": false,
+   "colleges": []
+  },
+  {
+   "id": "54417520190449-54417520191474",
+   "title": "Staff Council Walk and Talk (Liberty)",
+   "start": "2026-12-01T17:00:00.000Z",
+   "end": "2026-12-01T18:00:00.000Z",
+   "allDay": false,
+   "location": "meet and end at the Front counter",
+   "campus": "",
+   "url": "https://calendar.georgiasouthern.edu/event/staff-council-walk-and-talk-liberty-3199",
+   "types": [],
+   "depts": [],
+   "source": "calendar",
+   "tags": [],
+   "desc": "Take a walk with Staff Council with a potential special guest. Come engage and share ideas with us while enjoying the breeze. You never know who may be walking by your side.",
+   "free": false,
+   "colleges": []
+  },
+  {
+   "id": "54417502289108-54417502290133",
+   "title": "Staff Council Walk and Talk (Statesboro Campus)",
+   "start": "2026-12-01T17:00:00.000Z",
+   "end": "2026-12-01T18:00:00.000Z",
+   "allDay": false,
+   "location": "Rotunda",
+   "campus": "",
+   "url": "https://calendar.georgiasouthern.edu/event/staff-council-walk-and-talk-statesboro-campus-6690",
+   "types": [],
+   "depts": [],
+   "source": "calendar",
+   "tags": [],
+   "desc": "Take a walk with Staff Council with a potential special guest. Come engage and share ideas with us while enjoying the breeze. You never know who may be walking by your side.",
+   "free": false,
+   "colleges": []
+  },
+  {
+   "id": "54417515168327-54417515168328",
+   "title": "Staff Council Walk and Talk (Swainsboro)",
+   "start": "2026-12-01T17:00:00.000Z",
+   "end": "2026-12-01T18:00:00.000Z",
+   "allDay": false,
+   "location": "meet and end at the Coffee shop at Gambrell building",
+   "campus": "",
+   "url": "https://calendar.georgiasouthern.edu/event/staff-council-walk-and-talk-swainsboro-508",
+   "types": [],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "food"
+   ],
+   "desc": "Take a walk with Staff Council with a potential special guest. Come engage and share ideas with us while enjoying the breeze. You never know who may be walking by your side.",
+   "free": false,
+   "colleges": []
+  },
+  {
    "id": "engage-rest-your-wings",
    "title": "Rest your Wings",
    "start": "2026-12-01T17:00:20.000Z",
@@ -2420,6 +2408,32 @@
    "free": null,
    "org": "Office of Fraternity and Sorority Life",
    "orgUri": "office-of-fraternity-and-sorority-life",
+   "colleges": []
+  },
+  {
+   "id": "54549523352251-54549523353276",
+   "title": "Census Celebration Info Session",
+   "start": "2026-12-02T18:00:00.000Z",
+   "end": "2026-12-02T19:00:00.000Z",
+   "allDay": false,
+   "location": "Williams Center (Statesboro Campus), Multipurpose Room 2047",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/census-celebration-info-session",
+   "types": [
+    "Information Sessions",
+    "Recognition"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "business",
+    "social"
+   ],
+   "desc": "The Division of Enrollment, Marketing and Student Success will host a Census Celebration Info Session. The presentation will provide an overview of our final official fall enrollment numbers and a Strategic Enrollment Plan (SEP) progress update. President Marrero will kick us off with opening remarks.",
+   "free": false,
+   "lat": 32.424132,
+   "lon": -81.779917,
    "colleges": []
   },
   {
@@ -2553,6 +2567,32 @@
    ]
   },
   {
+   "id": "54425612091786-54425612092811",
+   "title": "Planetarium Presents: Let It Snow",
+   "start": "2026-12-04T23:00:00.000Z",
+   "end": "2026-12-05T02:00:00.000Z",
+   "allDay": false,
+   "location": "Math/Physics Building (Statesboro Campus), 2000",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/planetarium-presents-let-it-snow-492",
+   "types": [
+    "Arts, Culture and Entertainment"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "science",
+    "arts"
+   ],
+   "desc": "Come experience a full dome show at the Georgia Southern Planetarium! We will be showing our full dome show Let It Snow! 12/4 @ 6:00 pm, 6:45 pm, 7:30 pm, 8:15 pm 12/5 @ 9:30 am, 10:15 am, 11 am, 11:45 am Tickets Available: 11/20/2026 Features a variety of festive classics from Frank Sinatra and Chuck Berry to Burl Iv…",
+   "free": false,
+   "lat": 32.4261,
+   "lon": -81.780489,
+   "colleges": [
+    "cosm"
+   ]
+  },
+  {
    "id": "54487402753735-54487402793696",
    "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
    "start": "2026-12-05T14:00:00.000Z",
@@ -2578,6 +2618,32 @@
    "lon": -81.783089,
    "colleges": [
     "parker"
+   ]
+  },
+  {
+   "id": "54425612091786-54425612094860",
+   "title": "Planetarium Presents: Let It Snow",
+   "start": "2026-12-05T14:30:00.000Z",
+   "end": "2026-12-05T17:15:00.000Z",
+   "allDay": false,
+   "location": "Math/Physics Building (Statesboro Campus), 2000",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/planetarium-presents-let-it-snow-492",
+   "types": [
+    "Arts, Culture and Entertainment"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "science",
+    "arts"
+   ],
+   "desc": "Come experience a full dome show at the Georgia Southern Planetarium! We will be showing our full dome show Let It Snow! 12/4 @ 6:00 pm, 6:45 pm, 7:30 pm, 8:15 pm 12/5 @ 9:30 am, 10:15 am, 11 am, 11:45 am Tickets Available: 11/20/2026 Features a variety of festive classics from Frank Sinatra and Chuck Berry to Burl Iv…",
+   "free": false,
+   "lat": 32.4261,
+   "lon": -81.780489,
+   "colleges": [
+    "cosm"
    ]
   },
   {
@@ -2664,6 +2730,31 @@
    ]
   },
   {
+   "id": "54541797847838-54541797847839",
+   "title": "Countdown to Commencement - Armstrong Campus",
+   "start": "2026-12-07T15:00:00.000Z",
+   "end": "2026-12-07T17:00:00.000Z",
+   "allDay": false,
+   "location": "Memorial College Center (MCC) near Chick-Fil-A dining area",
+   "campus": "",
+   "url": "https://calendar.georgiasouthern.edu/event/countdown-to-commencement-armstrong-campus",
+   "types": [
+    "University Advancement",
+    "Alumni",
+    "Eagle Engage"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "dance",
+    "food",
+    "social"
+   ],
+   "desc": "Get ready to take the next step from student to Georgia Southern alum! You’ve put in the hard work, and now it’s time to celebrate all you’ve accomplished. Join us for a celebration featuring Dolan's BBQ, exclusive alumni swag, and a chance to win a diploma frame to proudly display your achievement. Graduating student…",
+   "free": true,
+   "colleges": []
+  },
+  {
    "id": "engage-georgia-southern-womens-basketball-vs-charleston-southern",
    "title": "Georgia Southern Women's Basketball vs. Charleston Southern",
    "start": "2026-12-07T15:00:00.000Z",
@@ -2721,6 +2812,33 @@
    ]
   },
   {
+   "id": "54541717377329-54541717377330",
+   "title": "Countdown to Commencement - Statesboro Campus",
+   "start": "2026-12-07T20:00:00.000Z",
+   "end": "2026-12-07T22:00:00.000Z",
+   "allDay": false,
+   "location": "Williams Center (Statesboro Campus), Multipurpose Room",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/countdown-to-commencement-statesboro-campus",
+   "types": [
+    "University Advancement",
+    "Alumni",
+    "Eagle Engage"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "dance",
+    "food",
+    "social"
+   ],
+   "desc": "Get ready to take the next step from student to Georgia Southern alum! You’ve put in the hard work, and now it’s time to celebrate all you’ve accomplished. Join us for a celebration featuring Dolan's BBQ, exclusive alumni swag, and a chance to win a diploma frame to proudly display your achievement. Graduating student…",
+   "free": true,
+   "lat": 32.424132,
+   "lon": -81.779917,
+   "colleges": []
+  },
+  {
    "id": "54487402753735-54487402796771",
    "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
    "start": "2026-12-08T14:00:00.000Z",
@@ -2775,6 +2893,31 @@
    "colleges": [
     "parker"
    ]
+  },
+  {
+   "id": "54291915149597-54291915150622",
+   "title": "Santa GUS - Savannah 2026",
+   "start": "2026-12-09T23:00:00.000Z",
+   "end": "2026-12-10T01:00:00.000Z",
+   "allDay": false,
+   "location": "Burnett Hall, Armstrong Campus",
+   "campus": "armstrong",
+   "url": "https://calendar.georgiasouthern.edu/event/santa-gus-savannah-2026",
+   "types": [
+    "University Advancement",
+    "Alumni"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "animals",
+    "service"
+   ],
+   "desc": "Capture The Magic: Take Holiday Photos with Santa GUS Don't miss this yearly tradition with everyone's favorite Eagle, GUS. Learn more: https://www.givecampus.com/s/hnw3zu Santa GUS will greet his friends of all ages for festive pictures. Light refreshments will be available. Registration closes Wednesday, December 2.…",
+   "free": false,
+   "lat": 31.98152,
+   "lon": -81.162788,
+   "colleges": []
   },
   {
    "id": "52613453170650-52613453180904",
@@ -2850,6 +2993,31 @@
    "colleges": [
     "parker"
    ]
+  },
+  {
+   "id": "54291926390815-54291926392864",
+   "title": "Santa GUS - Statesboro 2026",
+   "start": "2026-12-10T23:00:00.000Z",
+   "end": "2026-12-11T01:00:00.000Z",
+   "allDay": false,
+   "location": "Bishop Alumni Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/santa-gus-statesboro-2026",
+   "types": [
+    "University Advancement",
+    "Alumni"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "animals",
+    "service"
+   ],
+   "desc": "Capture The Magic: Take Holiday Photos with Santa GUS Don't miss this yearly tradition with everyone's favorite Eagle, GUS. Learn more here: https://www.givecampus.com/s/5zk3cw Santa GUS will greet his friends of all ages for festive pictures. Light refreshments will be available. Registration closes Thursday, Decembe…",
+   "free": false,
+   "lat": 32.414551,
+   "lon": -81.790802,
+   "colleges": []
   },
   {
    "id": "51276827316642-51276827319716",
