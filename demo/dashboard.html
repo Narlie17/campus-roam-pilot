@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Organizer dashboard preview · Campus ROAM</title>
+<meta name="robots" content="noindex">
+<style>
+:root{--navy:#10284c;--gold:#e6b94a;--bg:#f7f8fb;--card:#fff;--ink:#172743;--muted:#566479;--line:#dde5ef;--blue:#256abf;--chip:#eef3fa;--focus:#1c5cab}
+html[data-theme=dark]{--bg:#0f1622;--card:#182231;--ink:#eef2f8;--muted:#a9b6c8;--line:#2c3a4e;--blue:#6da7ec;--chip:#223043;--focus:#9ec5f4}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif}
+header{background:var(--navy);color:#fff;padding:14px 18px}header .in,main{max-width:1080px;margin:0 auto}header .in{display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+header h1{font-size:19px;margin:0}header a{color:#fff}
+main{padding:16px 14px 40px}
+.note{background:#fff6d9;color:#4a3a05;border:1px solid #e6b94a;border-radius:12px;padding:10px 14px;margin:0 0 14px;font-size:14px}
+html[data-theme=dark] .note{background:#3a2f0c;color:#fbe9b0;border-color:#8a6d1c}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;margin:0 0 14px}
+h2{font-size:17px;margin:0 0 4px}h3{font-size:15px;margin:14px 0 6px}.sub{color:var(--muted);font-size:13.5px;margin:0 0 10px}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+button{font:inherit;color:inherit}
+.seg button,.chipbtn{min-height:44px;padding:8px 14px;border:1px solid var(--line);background:var(--card);border-radius:999px;cursor:pointer}
+.seg button[aria-pressed=true],.chipbtn[aria-pressed=true]{background:var(--navy);color:#fff;border-color:var(--navy);font-weight:650}
+html[data-theme=dark] .seg button[aria-pressed=true],html[data-theme=dark] .chipbtn[aria-pressed=true]{background:#dfe9f7;color:#10284c;border-color:#dfe9f7}
+:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.kpi{background:var(--chip);border-radius:12px;padding:12px}.kpi b{display:block;font-size:24px;line-height:1.2}.kpi span{color:var(--muted);font-size:13px}
+.gridwrap{overflow-x:auto}table{border-collapse:separate;border-spacing:3px;width:100%;min-width:520px}
+th{font-size:12.5px;font-weight:600;color:var(--muted);text-align:center;padding:2px 4px}tbody th{text-align:right;white-space:nowrap;width:64px}
+td{padding:0}td button{width:100%;min-height:44px;border:0;border-radius:6px;cursor:pointer;font-size:13px;font-weight:600;position:relative}
+td button.best{box-shadow:inset 0 0 0 3px var(--gold)}td button[aria-pressed=true]{outline:3px solid var(--ink);outline-offset:1px}
+.legend{display:flex;gap:6px;align-items:center;font-size:12.5px;color:var(--muted);margin-top:8px;flex-wrap:wrap}.legend i{display:inline-block;width:22px;height:12px;border-radius:3px}
+.two{display:grid;grid-template-columns:1.6fr 1fr;gap:14px;align-items:start}
+.pick{background:var(--chip);border-radius:12px;padding:12px}.pick b{font-size:16px}.pick ul{margin:6px 0 0;padding-left:18px}
+ol.top{margin:0;padding-left:20px}ol.top li{margin:0 0 8px}
+.bars{display:grid;grid-template-columns:minmax(120px,1.2fr) 3fr auto;gap:6px 10px;align-items:center;font-size:13.5px}.bar{height:12px;background:var(--chip);border-radius:4px;overflow:hidden}.bar i{display:block;height:100%;background:var(--blue);border-radius:0 4px 4px 0}.num{font-variant-numeric:tabular-nums;text-align:right;white-space:nowrap}
+.fld{display:block;font-weight:600;font-size:14px;margin:12px 0 4px}input{font:inherit;color:var(--ink);background:var(--card);border:1px solid #8794a8;border-radius:10px;padding:10px 12px;min-height:44px;width:100%}input[readonly]{background:var(--chip)}
+.cta{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:8px 18px;border-radius:999px;border:0;background:var(--navy);color:#fff;font-weight:650;text-decoration:none;cursor:pointer;margin-top:12px}html[data-theme=dark] .cta{background:#dfe9f7;color:#10284c}
+.hbtn{min-height:36px;padding:4px 12px;border-radius:999px;border:1px solid #fff;background:transparent;color:#fff;cursor:pointer}
+.olist{display:grid;gap:4px;max-height:264px;overflow:auto}.olist button{display:flex;justify-content:space-between;gap:10px;align-items:center;text-align:left;min-height:44px;padding:8px 12px;border:1px solid var(--line);border-radius:10px;background:var(--card);cursor:pointer}.olist small{color:var(--muted);white-space:nowrap}
+ul.team{list-style:none;margin:0;padding:0;display:grid;gap:6px}ul.team li{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:8px 12px;background:var(--chip);border-radius:10px;min-height:48px;overflow-wrap:anywhere}ul.team li.empty{color:var(--muted);background:transparent;border:1px dashed var(--line)}ul.team button{min-height:36px;padding:4px 12px;border-radius:999px;border:1px solid var(--line);background:var(--card);cursor:pointer;flex:0 0 auto}
+.tip{position:fixed;z-index:5;pointer-events:none;background:var(--ink);color:var(--bg);padding:6px 9px;border-radius:8px;font-size:12.5px;max-width:230px;display:none}
+ul.clean{margin:0;padding-left:18px}
+@media(max-width:760px){.kpis{grid-template-columns:repeat(2,1fr)}.two{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header><div class="in"><h1 id="hTitle">Campus ROAM</h1><span class="row"><a href="./">Student demo</a><button type="button" id="signOut" class="hbtn" hidden>Sign out</button></span></div></header>
+<main>
+<section id="signin" class="card" style="max-width:560px;margin:10px auto 14px">
+ <h2>Sign in to Campus ROAM</h2>
+ <p class="sub">Choose how you use ROAM.</p>
+ <div class="row seg" role="group" aria-label="I am signing in as" id="whoSeg"></div>
+ <div id="whoStudent" style="margin-top:14px"><p>Students sign in with their school email and see their classes, events and first-year checklist.</p><a class="cta" href="./">Open the student demo</a></div>
+ <form id="orgForm" style="margin-top:14px" hidden novalidate>
+  <label class="fld" for="orgSearch">Find your organization or department</label>
+  <input id="orgSearch" type="search" autocomplete="off" placeholder="Start typing a name" aria-describedby="orgHint" aria-controls="orgList">
+  <p class="sub" id="orgHint" role="status" style="margin:6px 0"></p>
+  <div id="orgList" class="olist"></div>
+  <div id="cred" hidden>
+   <p class="pick" id="chosen"></p>
+   <label class="fld" for="uName">Username</label><input id="uName" autocomplete="off" readonly>
+   <label class="fld" for="uPass">Password</label><input id="uPass" type="password" autocomplete="off" value="demo-password">
+   <p class="sub" style="margin-top:6px">ROAM gives each department and organization a username and a starting password, which they change after signing in. In this demo any password works.</p>
+   <button class="cta" type="submit">Sign in</button>
+  </div>
+ </form>
+</section>
+<div id="dash" hidden>
+<p class="note"><b>Preview with sample data.</b> This shows what departments and organizations would see. The numbers are made up for the demo. The live version would use totals only, from students who agree to share them.</p>
+
+<div class="card">
+ <h2 id="whoFor">Who are you planning for?</h2>
+ <h3 id="audTitle">Audience</h3>
+ <p class="sub" id="audSub"></p>
+ <div class="row" id="chips" role="group" aria-labelledby="audTitle"></div>
+ <p class="sub" id="audCount" role="status" style="margin:10px 0 0"></p>
+</div>
+
+<div class="card">
+ <h2>Engagement this month</h2>
+ <div class="kpis" id="kpis"></div>
+ <h3>Your last five events</h3>
+ <p class="sub">Students who tapped “I’m going”. Reached and attended are shown as numbers.</p>
+ <div class="bars" id="events"></div>
+</div>
+
+<div class="card">
+ <h2>Best times to host an event</h2>
+ <p class="sub">Each box is one hour. Pick what to show, then tap a box for the detail.</p>
+ <div class="row seg" role="group" aria-label="What the grid shows" id="layerSeg"></div>
+ <div class="two" style="margin-top:12px">
+  <div>
+   <div class="gridwrap"><table id="grid"><caption class="sub" id="cap" style="text-align:left;caption-side:top"></caption></table></div>
+   <div class="legend" id="legend"></div>
+  </div>
+  <div>
+   <div class="pick" id="pick" role="status"></div>
+   <h3>Top three times</h3>
+   <ol class="top" id="top"></ol>
+  </div>
+ </div>
+</div>
+
+<div class="card">
+ <h2>When other clubs meet</h2>
+ <p class="sub">Standing weekly meetings on campus, so you can plan around them.</p>
+ <div class="two"><div><h3 style="margin-top:0">Busiest hours</h3><ul class="clean" id="busy"></ul></div><div><h3 style="margin-top:0">Open hours with many students free</h3><ul class="clean" id="open"></ul></div></div>
+</div>
+
+<div class="card">
+ <h2>Team access</h2>
+ <p class="sub">Up to five people can manage this page. Add or remove an email when officers or staff change.</p>
+ <ul class="team" id="team"></ul>
+ <form id="teamForm" class="row" style="margin-top:10px" novalidate><label class="fld" for="tEmail" style="flex-basis:100%">Add a person by school email</label><input id="tEmail" type="email" autocomplete="off" placeholder="name@georgiasouthern.edu" style="flex:1;min-width:200px"><button class="cta" type="submit" style="margin:0">Add</button></form>
+ <p class="sub" id="teamMsg" role="status" style="margin:8px 0 0"></p>
+ <h3>Change the shared password</h3>
+ <form id="passForm" class="row" novalidate><label class="fld" for="nPass" style="flex-basis:100%">New password (at least 10 characters)</label><input id="nPass" type="password" autocomplete="off" style="flex:1;min-width:200px"><button class="cta" type="submit" style="margin:0">Save</button></form>
+ <p class="sub" id="passMsg" role="status" style="margin:8px 0 0"></p>
+</div>
+
+<div class="card"><h2>How student privacy is protected</h2><ul class="clean"><li>Organizers see totals only, never a named student or one student’s schedule.</li><li>Any group smaller than 10 students is hidden.</li><li>Only students who agree are counted, and they can turn it off at any time.</li></ul></div>
+</div>
+</main>
+<div class="tip" id="tip"></div>
+<script src="../data.js"></script>
+<script>
+(()=>{
+try{const t=localStorage.getItem('roam-theme');if(t==='dark'||(!t&&matchMedia('(prefers-color-scheme: dark)').matches))document.documentElement.dataset.theme='dark'}catch(e){}
+const dark=document.documentElement.dataset.theme==='dark';
+const $=s=>document.querySelector(s),DAYS=['Mon','Tue','Wed','Thu','Fri'],DAYF=['Monday','Tuesday','Wednesday','Thursday','Friday'],HRS=[8,9,10,11,12,13,14,15,16,17,18,19];
+const hr=h=>(h%12||12)+(h<12?' AM':' PM');
+const RAMP=dark?['#0d366b','#184f95','#256abf','#5598e7','#9ec5f4','#cde2fb']:['#cde2fb','#9ec5f4','#5598e7','#256abf','#184f95','#0d366b'];
+const INK=dark?['#fff','#fff','#fff','#0b1a30','#0b1a30','#0b1a30']:['#0b1a30','#0b1a30','#0b1a30','#fff','#fff','#fff'];
+const ROLES={dept:{label:'Department',name:'Department',title:'Majors to reach',sub:'Choose the majors you want at this event. ROAM adds up when those students are in class and when they are free.',
+  groups:[['Marketing',412],['Management',655],['Finance',388],['Accounting',472],['Information Systems',301],['Economics',190],['Logistics',264]],on:['Marketing'],home:'Parker College of Business',
+  kpis:[['Followers','1,284'],['Students reached','932'],['“I’m going” taps','311'],['Showed up','58%']],
+  events:[['Resume review night',640,142,96],['Internship panel',810,188,121],['Brand case competition',455,74,61],['Meet the faculty lunch',530,97,70],['LinkedIn photo day',720,163,118]]},
+ org:{label:'Student organization',name:'Sample service club',title:'Interests to reach',sub:'Choose the interests that fit this event. ROAM finds when students with those interests are free.',
+  groups:[['Service',520],['Leadership',610],['Career',940],['Arts',330],['Fitness',700],['Faith',410],['Gaming',380],['Music',450],['Culture',360]],on:['Service','Leadership'],home:'Russell Union',
+  kpis:[['Followers','346'],['Students reached','518'],['“I’m going” taps','127'],['Showed up','64%']],
+  events:[['Food pantry packing',300,68,49],['Campus clean-up',410,91,60],['New member social',260,54,41],['Blood drive volunteers',350,47,33],['Tutoring kickoff',220,39,27]]}};
+const CLUBS=[['Marketing Association',1,18],['Finance Club',1,18],['Gaming Guild',1,19],['Student Government',2,18],['Service Council',2,18],['Dance Team',2,19],['Chess Club',2,17],['Pre-Law Society',1,17],['Photography Club',3,18],['Entrepreneurship Club',3,17],['Gospel Choir',3,19],['International Club',0,18],['Outdoor Adventures',0,17],['Debate Team',3,18],['Robotics Team',2,16],['Film Society',4,16],['Run Club',0,7+1],['Women in Business',1,12]];
+const hash=s=>{let h=7;for(const c of s)h=(h*31+c.charCodeAt(0))>>>0;return h};
+// share of a group in class at a given day/hour (sample model: heavier mid-morning, lighter Fridays and evenings)
+const CURVE={8:.34,9:.52,10:.63,11:.6,12:.38,13:.47,14:.5,15:.36,16:.24,17:.15,18:.1,19:.06};
+const busy=(g,d,h)=>{const j=((hash(g+d+h)%21)-10)/100,tr=(d===1||d===3)?((h===9||h===12||h===14)?.12:-.05):0,fri=d===4?-.14:0;return Math.min(.92,Math.max(.03,CURVE[h]+j+tr+fri))};
+const clubsAt=(d,h)=>CLUBS.filter(c=>c[1]===d&&c[2]===h);
+let role='dept',layer='best',sel=null,picked=new Set(ROLES.dept.on),who='student',chosen=null,team=[];
+const R=()=>ROLES[role];
+const total=()=>R().groups.filter(g=>picked.has(g[0])).reduce((t,g)=>t+g[1],0);
+const freePct=(d,h)=>{const gs=R().groups.filter(g=>picked.has(g[0]));const t=gs.reduce((a,g)=>a+g[1],0);if(!t)return 0;return Math.round(gs.reduce((a,g)=>a+g[1]*(1-busy(g[0],d,h)),0)/t*100)};
+const score=(d,h)=>Math.max(0,freePct(d,h)-clubsAt(d,h).length*9-(h<9||h>18?12:0)-(d===4&&h>=15?40:d===4&&h>=13?15:0));
+const where=(d,h)=>{const f=freePct(d,h);if(h>=18)return 'residence halls and dining';if(h===12||h===13)return 'Dining Commons and '+R().home;if(f<50)return R().home+' (in class)';return h<12?R().home:'Henderson Library and '+R().home};
+const step=v=>Math.min(5,Math.floor(v/100*6));
+function seg(el,items,cur,fn){el.innerHTML=items.map(([k,l])=>`<button type="button" data-k="${k}" aria-pressed="${k===cur}">${l}</button>`).join('');el.onclick=e=>{const b=e.target.closest('button');if(b)fn(b.dataset.k)}}
+function draw(){
+ $('#audTitle').textContent=R().title;$('#audSub').textContent=R().sub;
+ $('#chips').innerHTML=R().groups.map(g=>`<button type="button" class="chipbtn" data-g="${g[0]}" aria-pressed="${picked.has(g[0])}">${g[0]} <span style="opacity:.75">${g[1]}</span></button>`).join('');
+ const n=total();$('#audCount').textContent=n?`${n.toLocaleString()} students match (sample).`:'Choose at least one group.';
+ $('#kpis').innerHTML=R().kpis.map(k=>`<div class="kpi"><b>${k[1]}</b><span>${k[0]}</span></div>`).join('');
+ const mx=Math.max(...R().events.map(e=>e[2]));
+ $('#events').innerHTML=R().events.map(e=>`<div>${e[0]}</div><div class="bar" role="img" aria-label="${e[2]} going"><i style="width:${Math.round(e[2]/mx*100)}%"></i></div><div class="num"><b>${e[2]}</b> going · ${e[1]} reached · ${e[3]} attended</div>`).join('');
+ seg($('#layerSeg'),[['best','Best overall'],['free','Students free'],['clubs','Club meetings']],layer,k=>{layer=k;draw()});
+ const all=[];DAYS.forEach((_,d)=>HRS.forEach(h=>all.push({d,h,s:score(d,h),f:freePct(d,h),c:clubsAt(d,h).length})));
+ const top=[...all].sort((a,b)=>b.s-a.s||a.h-b.h).slice(0,3),isTop=(d,h)=>n&&top.some(t=>t.d===d&&t.h===h);
+ $('#cap').textContent=layer==='free'?'Percent of your audience not in class':layer==='clubs'?'Number of clubs with a standing meeting':'Score out of 100: students free, minus competing meetings, very early or late hours, and Friday afternoons when many students leave campus';
+ $('#grid').innerHTML=`<caption class="sub" id="cap" style="text-align:left;caption-side:top">${$('#cap').textContent}</caption><thead><tr><td></td>${DAYS.map((d,i)=>`<th scope="col"><abbr title="${DAYF[i]}">${d}</abbr></th>`).join('')}</tr></thead><tbody>${HRS.map(h=>`<tr><th scope="row">${hr(h)}</th>${DAYS.map((_,d)=>{const f=freePct(d,h),c=clubsAt(d,h).length,v=layer==='free'?f:layer==='clubs'?Math.min(100,c*34):score(d,h),txt=layer==='clubs'?c:(layer==='free'?f+'%':score(d,h)),s=step(v);return `<td><button type="button" data-d="${d}" data-h="${h}" class="${isTop(d,h)?'best':''}" aria-pressed="${!!sel&&sel.d===d&&sel.h===h}" style="background:${RAMP[s]};color:${INK[s]}" aria-label="${DAYF[d]} ${hr(h)}: ${f}% free, ${c} club meeting${c===1?'':'s'}${isTop(d,h)?', top time':''}">${txt}</button></td>`}).join('')}</tr>`).join('')}</tbody>`;
+ $('#legend').innerHTML=`<span>${layer==='clubs'?'Fewer':'Lower'}</span>${RAMP.map(c=>`<i style="background:${c}"></i>`).join('')}<span>${layer==='clubs'?'More':'Higher'}</span><span style="margin-left:10px"><i style="background:transparent;box-shadow:inset 0 0 0 3px var(--gold)"></i> Top three times</span>`;
+ $('#top').innerHTML=n?top.map(t=>`<li><b>${DAYF[t.d]} ${hr(t.h)}</b><br>${t.f}% free, about ${Math.round(n*t.f/100).toLocaleString()} students. ${t.c?t.c+' club meeting'+(t.c===1?'':'s')+' at the same time.':'No club meetings at the same time.'}</li>`).join(''):'<li>Choose a group first.</li>';
+ const p=sel||(n?top[0]:null);
+ $('#pick').innerHTML=p?(()=>{const f=freePct(p.d,p.h),cl=clubsAt(p.d,p.h);return `<b>${DAYF[p.d]}, ${hr(p.h)} to ${hr(p.h+1)}</b><ul><li>${f}% of your audience is free: about ${Math.round(n*f/100).toLocaleString()} of ${n.toLocaleString()} students.</li><li>${100-f}% are in class.</li><li>Most are near ${where(p.d,p.h)} just before this hour.</li><li>${cl.length?'Meeting at the same time: '+cl.map(c=>c[0]).join(', ')+'.':'No clubs have a standing meeting then.'}</li></ul>`})():'Choose a group to see the detail.';
+ const slots=all.filter(a=>a.c>1).sort((a,b)=>b.c-a.c).slice(0,4);
+ $('#busy').innerHTML=slots.map(a=>`<li><b>${DAYF[a.d]} ${hr(a.h)}</b>: ${clubsAt(a.d,a.h).map(c=>c[0]).join(', ')}</li>`).join('');
+ $('#open').innerHTML=n?all.filter(a=>a.c===0&&a.h>=11&&a.h<=18&&!(a.d===4&&a.h>=13)).sort((a,b)=>b.s-a.s).slice(0,4).map(a=>`<li><b>${DAYF[a.d]} ${hr(a.h)}</b>: ${a.f}% free, no club meetings</li>`).join(''):'<li>Choose a group first.</li>';
+}
+$('#chips').addEventListener('click',e=>{const b=e.target.closest('[data-g]');if(!b)return;const g=b.dataset.g;picked.has(g)?picked.delete(g):picked.add(g);sel=null;draw();document.querySelector(`[data-g="${g}"]`)?.focus()});
+$('#grid').addEventListener('click',e=>{const b=e.target.closest('button[data-d]');if(!b)return;sel={d:+b.dataset.d,h:+b.dataset.h};draw();document.querySelector(`button[data-d="${sel.d}"][data-h="${sel.h}"]`)?.focus()});
+const tip=$('#tip');$('#grid').addEventListener('mousemove',e=>{const b=e.target.closest('button[data-d]');if(!b){tip.style.display='none';return}tip.textContent=b.getAttribute('aria-label');tip.style.display='block';tip.style.left=Math.min(innerWidth-240,e.clientX+12)+'px';tip.style.top=(e.clientY+14)+'px'});
+$('#grid').addEventListener('mouseleave',()=>tip.style.display='none');
+// ---------- sign-in, organization list, team access ----------
+const D=window.ROAM_DATA||{},esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const COL=(D.academics||{}).colleges||[],MAJ=(D.academics||{}).majors||[];
+let LIST=[...COL.flatMap(c=>(c.departments||[]).map(d=>({name:d.name,type:'dept',id:d.id,college:c}))),...(((D.orgs||{}).orgs)||[]).map(o=>({name:o.name,type:'org'}))];
+if(!LIST.length)LIST=[{name:'Marketing',type:'dept'},{name:'Sample service club',type:'org'}];
+LIST.sort((a,b)=>a.name.localeCompare(b.name));
+const nDept=LIST.filter(x=>x.type==='dept').length,nOrg=LIST.length-nDept;
+const size=n=>150+hash(n)%520;
+function drawSign(){
+ seg($('#whoSeg'),[['student','Student'],['org','Organization or department']],who,k=>{who=k;drawSign();if(k==='org')$('#orgSearch').focus()});
+ $('#whoStudent').hidden=who!=='student';$('#orgForm').hidden=who!=='org';if(who==='org')drawList()}
+function drawList(){
+ const q=$('#orgSearch').value.trim().toLowerCase(),m=LIST.filter(x=>!q||x.name.toLowerCase().includes(q)),show=m.slice(0,40);
+ $('#orgHint').textContent=q?`${m.length} match${m.length===1?'':'es'}${m.length>40?'. Showing the first 40.':'.'}`:`${nDept} departments and ${nOrg} organizations. Showing the first 40.`;
+ $('#orgList').innerHTML=show.map(x=>`<button type="button" data-i="${LIST.indexOf(x)}"><span>${esc(x.name)}</span><small>${x.type==='dept'?'Department':'Organization'}</small></button>`).join('')||'<p class="sub">No match. Check the spelling, or ask the ROAM team to add you.</p>'}
+$('#orgSearch').addEventListener('input',()=>{$('#cred').hidden=true;$('#orgList').hidden=false;drawList()});
+$('#orgList').addEventListener('click',e=>{const b=e.target.closest('[data-i]');if(!b)return;chosen=LIST[+b.dataset.i];$('#orgSearch').value=chosen.name;$('#orgList').hidden=true;$('#cred').hidden=false;$('#chosen').innerHTML=`<b>${esc(chosen.name)}</b><br>${chosen.type==='dept'?'Academic department':'Student organization or office'}`;$('#uName').value='gs-'+chosen.name.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'').slice(0,28);$('#uPass').focus()});
+$('#orgForm').addEventListener('submit',e=>{e.preventDefault();if(!chosen)return;enter()});
+function enter(){
+ role=chosen.type;const r=ROLES[role];r.name=chosen.name;
+ if(role==='dept'&&chosen.college){const ms=MAJ.filter(m=>m.college===chosen.college.id),mine=ms.filter(m=>m.dept===chosen.id),short=n=>n.replace(/\s*\([^)]*\)\s*$/,'');const names=[...new Set([...mine,...ms].map(m=>short(m.name)))].slice(0,8);if(names.length){r.groups=names.map(n=>[n,size(n)]);const own=[...new Set(mine.map(m=>short(m.name)))].filter(n=>names.includes(n));r.on=own.length?own:[names[0]];r.home=chosen.college.name}}
+ picked=new Set(r.on);sel=null;team=['advisor@example.edu','president@example.edu','events-chair@example.edu'];
+ $('#signin').hidden=true;$('#dash').hidden=false;$('#signOut').hidden=false;$('#hTitle').textContent=chosen.name;$('#whoFor').textContent='Who is '+chosen.name+' planning for?';draw();drawTeam();scrollTo(0,0);$('#hTitle').setAttribute('tabindex','-1');$('#hTitle').focus()}
+$('#signOut').addEventListener('click',()=>{$('#dash').hidden=true;$('#signin').hidden=false;$('#signOut').hidden=true;$('#hTitle').textContent='Campus ROAM';$('#cred').hidden=true;$('#orgList').hidden=false;$('#orgSearch').value='';chosen=null;drawSign()});
+function drawTeam(msg){
+ $('#team').innerHTML=[0,1,2,3,4].map(i=>team[i]?`<li><span>${esc(team[i])}</span><button type="button" data-rm="${i}" aria-label="Remove ${esc(team[i])}">Remove</button></li>`:`<li class="empty">Open seat ${i+1} of 5</li>`).join('');
+ $('#teamMsg').textContent=msg||`${team.length} of 5 seats used.`;$('#tEmail').disabled=team.length>=5}
+$('#team').addEventListener('click',e=>{const b=e.target.closest('[data-rm]');if(!b)return;const gone=team.splice(+b.dataset.rm,1)[0];drawTeam(gone+' removed. They can no longer sign in to this page.')});
+$('#teamForm').addEventListener('submit',e=>{e.preventDefault();const v=$('#tEmail').value.trim().toLowerCase();if(team.length>=5)return drawTeam('All five seats are used. Remove someone first.');if(!/^[^@\s]+@[^@\s]+\.[a-z]{2,}$/.test(v))return drawTeam('Enter a full email address.');if(team.includes(v))return drawTeam('That person already has access.');team.push(v);$('#tEmail').value='';drawTeam(v+' added.')});
+$('#passForm').addEventListener('submit',e=>{e.preventDefault();const v=$('#nPass').value;$('#passMsg').textContent=v.length<10?'Use at least 10 characters.':'Password changed. Everyone on the team uses the new one from now on. (Demo: nothing was saved.)';if(v.length>=10)$('#nPass').value=''});
+drawSign();
+if(/[?&]open=/.test(location.search)){const want=decodeURIComponent((/[?&]open=([^&]*)/.exec(location.search)||[])[1]||'').toLowerCase();chosen=LIST.find(x=>x.name.toLowerCase()===want)||LIST.find(x=>x.type==='dept'&&x.name.toLowerCase().includes(want));if(chosen)enter()}
+})();
+</script>
+</body>
+</html>
