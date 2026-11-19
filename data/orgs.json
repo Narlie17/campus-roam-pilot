@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-18T22:05:16.780Z",
+ "generatedAt": "2026-11-19T04:15:13.879Z",
  "source": "Eagle Engage (https://georgiasouthern.presence.io)",
  "base": "https://georgiasouthern.presence.io",
  "orgs": [
@@ -1077,7 +1077,7 @@
    "members": 9,
    "meets": "",
    "desc": "The mission of the Department of Communication Arts is to provide students with a broad-based, comprehensive, and interdisciplinary study of human communication. Within Georgia Southern University’s culture of engagemen…",
-   "upcoming": 9
+   "upcoming": 8
   },
   {
    "name": "Department of Criminal Justice and Criminology",
@@ -1125,7 +1125,7 @@
    "members": 5,
    "meets": "",
    "desc": "The Department of English at Georgia Southern University offers undergraduate degrees of a major and a minor in English. We seek to motivate our students for the pursuit of academic excellence and cultivate in them the…",
-   "upcoming": 6
+   "upcoming": 5
   },
   {
    "name": "Department of Geology and Geography",
@@ -1255,7 +1255,7 @@
    "members": 17,
    "meets": "",
    "desc": "The Department of Political Science and International Studies mission at Georgia Southern University is to foster the development of civically engaged students who will become productive citizens dedicated to serving th…",
-   "upcoming": 1
+   "upcoming": 0
   },
   {
    "name": "Department of Public and Nonprofit Studies",
@@ -1662,10 +1662,10 @@
     "Armstrong Campus",
     "Academic"
    ],
-   "members": 44,
+   "members": 45,
    "meets": "5pm - 9pm · On-Campus",
    "desc": "Academic | Special Interest | Armstrong CampusThe Gamer’s Guild at Armstrong is a student organization dedicated to the enjoyment of board, card, and video games, as well as the appreciation of their themes.",
-   "upcoming": 1
+   "upcoming": 0
   },
   {
    "name": "Geeks 'n' Gamers",
@@ -1739,7 +1739,7 @@
    "members": 32,
    "meets": "",
    "desc": "The Zach S. Henderson Library serves more than 4,000 people daily with resources that support a comprehensive array of degrees, disciplines, research activity and learning objectives. With more than 400 hard-wired compu…",
-   "upcoming": 5
+   "upcoming": 4
   },
   {
    "name": "Georgia Southern University Museum",
@@ -2407,7 +2407,7 @@
     "Professional",
     "Armstrong Campus"
    ],
-   "members": 18,
+   "members": 30,
    "meets": "",
    "desc": "The Moot Court Association of Georgia Southern is an organization devoted to the development of excellence in both written and oral appellate advocacy.",
    "upcoming": 0
@@ -2650,7 +2650,7 @@
    "members": 151,
    "meets": "",
    "desc": "Our office is dedicated to helping students develop both in and out of the classroom through:LeadershipA strong co-curricular leadership program of workshops, seminars, conferences, and nationally recognized speakers.Co…",
-   "upcoming": 10
+   "upcoming": 8
   },
   {
    "name": "Office of Multicultural Affairs",
@@ -3406,7 +3406,7 @@
     "Club Sports/Intramurals",
     "Statesboro Campus"
    ],
-   "members": 22,
+   "members": 23,
    "meets": "7:00-9:00pm · Shooting Sports Education Center",
    "desc": "To inform and educate about firearm safety, accuracy, and use, as well as to provide a safe and welcoming environment forfirearms enthusiasts and those new to firearms. The organization will organize and train competiti…",
    "upcoming": 0
@@ -4746,7 +4746,7 @@
     "Statesboro Campus",
     "Service"
    ],
-   "members": 33,
+   "members": 34,
    "meets": "8:00pm · 124 Savannah Ave Suite 1H, Statesboro, GA 303458",
    "desc": "Younglife is a spiritual organization on the Statesboro Campus and in the Statesboro Community. YoungLife mission is to connect with students to teach them about Jesus Christ and help them grow in their faith. We achiev…",
    "upcoming": 0
