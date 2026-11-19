@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-19T10:22:05.690Z",
- "source": "Localist API + Eagle Engage (100) · https://calendar.georgiasouthern.edu",
+ "generatedAt": "2026-11-19T16:18:25.179Z",
+ "source": "Localist API + Eagle Engage (99) · https://calendar.georgiasouthern.edu",
  "events": [
   {
    "id": "54497737437860-54497737439909",
@@ -182,32 +182,6 @@
    "colleges": [
     "cah"
    ]
-  },
-  {
-   "id": "engage-arm-serve912-weekly-trips-humane-society-11-19-20",
-   "title": "ARM Serve912 Weekly Trips - Humane Society 11/19",
-   "start": "2026-11-19T14:00:00.000Z",
-   "end": "2026-11-19T16:00:00.000Z",
-   "allDay": false,
-   "location": "Memorial College Center",
-   "campus": "armstrong",
-   "url": "https://georgiasouthern.presence.io/event/arm-serve912-weekly-trips-humane-society-11-19-20",
-   "types": [
-    "Certificate: Community Engagement",
-    "Serve912 Weekly Trip",
-    "Service"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "animals",
-    "service"
-   ],
-   "desc": "Join us to volunteer at the Humane Society!",
-   "free": null,
-   "org": "Office of Leadership and Community Engagement",
-   "orgUri": "office-of-leadership-and-community-engagement-2",
-   "colleges": []
   },
   {
    "id": "53931141728412-53931141729437",
