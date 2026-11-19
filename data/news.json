@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-19T04:15:14.000Z",
+ "generatedAt": "2026-11-19T10:22:06.818Z",
  "source": "College news feeds on georgiasouthern.edu",
  "colleges": {
   "parker": [
@@ -164,17 +164,32 @@
   ],
   "cec": [
    {
-    "title": "Engineering students featured in Cast in Steel YouTube series",
+    "title": "Georgia Southern researchers awarded grant to study N95 mask effectiveness for concrete workers",
+    "date": "2026-11-06",
+    "url": "https://www.georgiasouthern.edu/2026/11/06/georgia-southern-researchers-awarded-grant-to-study-n95-mask-effectiveness-for-concrete-workers"
+   },
+   {
+    "title": "Georgia Southern team wins $20,000 in DOE Marine Energy Competition",
+    "date": "2026-10-16",
+    "url": "https://www.georgiasouthern.edu/2026/10/16/georgia-southern-team-wins-20000-in-doe-marine-energy-competition"
+   },
+   {
+    "title": "Georgia Southern University engineering students featured in new Cast in Steel 2025 competition YouTube Series",
     "date": "2026-09-17",
     "url": "https://www.georgiasouthern.edu/2026/09/17/georgia-southern-university-engineering-students-featured-in-new-cast-in-steel-2025-competition-youtube-series"
    },
    {
-    "title": "McNair scholar earns international recognition for energy research",
+    "title": "Georgia Southern researcher secures more than half a million in funding for new biomedical research",
+    "date": "2026-09-09",
+    "url": "https://www.georgiasouthern.edu/2026/09/09/georgia-southern-researcher-secures-more-than-half-a-million-in-funding-for-new-biomedical-research"
+   },
+   {
+    "title": "Ronald E. McNair scholar, engineering student earns international recognition for advanced energy systems research",
     "date": "2026-08-28",
     "url": "https://www.georgiasouthern.edu/2026/08/28/ronald-e-mcnair-scholar-engineering-student-earns-international-recognition-for-advanced-energy-systems-research"
    },
    {
-    "title": "New humanoid robot for engineering education and research",
+    "title": "Georgia Southern University unveils state-of-the-art humanoid robot to redefine engineering education and research",
     "date": "2026-08-18",
     "url": "https://www.georgiasouthern.edu/2026/08/18/georgia-southern-university-unveils-state-of-the-art-humanoid-robot-to-redefine-engineering-education-and-research"
    }

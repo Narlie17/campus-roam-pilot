@@ -1,36 +1,7 @@
 {
- "generatedAt": "2026-11-19T04:15:13.600Z",
- "source": "Localist API + Eagle Engage (101) · https://calendar.georgiasouthern.edu",
+ "generatedAt": "2026-11-19T10:22:05.690Z",
+ "source": "Localist API + Eagle Engage (100) · https://calendar.georgiasouthern.edu",
  "events": [
-  {
-   "id": "engage-naba-proudly-welcomes-becker",
-   "title": "NABA Proudly Welcomes Becker",
-   "start": "2026-11-19T04:38:24.000Z",
-   "end": "2026-11-19T04:39:00.000Z",
-   "allDay": false,
-   "location": "IT 1005",
-   "campus": "statesboro",
-   "url": "https://georgiasouthern.presence.io/event/naba-proudly-welcomes-becker",
-   "types": [
-    "Career Development"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "academic",
-    "career",
-    "business",
-    "finance",
-    "tech",
-    "food",
-    "black"
-   ],
-   "desc": "Georgia Southern University NABA Proudly Presents: An Evening with Becker Join the Georgia Southern University chapter of the National Association of Black Accountants (NABA) as we proudly host Becker, the leading CPA Exam review provider, for an evening focused on preparing for one of accounting's biggest milestones.…",
-   "free": null,
-   "org": "National Association of Black Accountants Chapter at Georgia Southern University",
-   "orgUri": "national-association-of-black-accountants-chapter-at-georgia-southern-university",
-   "colleges": []
-  },
   {
    "id": "54497737437860-54497737439909",
    "title": "Gather & Grow: Pines and Spirits",
