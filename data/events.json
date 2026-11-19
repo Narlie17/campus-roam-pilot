@@ -1,31 +1,7 @@
 {
- "generatedAt": "2026-11-19T16:18:25.179Z",
- "source": "Localist API + Eagle Engage (99) · https://calendar.georgiasouthern.edu",
+ "generatedAt": "2026-11-19T22:04:55.750Z",
+ "source": "Localist API + Eagle Engage (96) · https://calendar.georgiasouthern.edu",
  "events": [
-  {
-   "id": "54497737437860-54497737439909",
-   "title": "Gather & Grow: Pines and Spirits",
-   "start": "2026-11-19T10:30:00.000Z",
-   "end": "2026-11-19T12:00:00.000Z",
-   "allDay": false,
-   "location": "Botanic Garden (Statesboro Campus)",
-   "campus": "statesboro",
-   "url": "https://calendar.georgiasouthern.edu/event/gather-grow-pines-and-spirits",
-   "types": [],
-   "depts": [],
-   "source": "calendar",
-   "tags": [
-    "culture",
-    "outdoors",
-    "food",
-    "environment"
-   ],
-   "desc": "Join us for Gather & Grow: Pines & Spirits — A Toast to Longleaf, where conservation meets craftsmanship! Discover the fascinating history, ecology, and importance of longleaf pine forests with Carol Denhof, President of The Longleaf Alliance and Georgia Southern alumna. Savor a sampling of handcrafted spirits from Lo…",
-   "free": false,
-   "lat": 32.420825,
-   "lon": -81.77389,
-   "colleges": []
-  },
   {
    "id": "54487402753735-54487402773200",
    "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
@@ -105,31 +81,6 @@
    "colleges": [
     "cah"
    ]
-  },
-  {
-   "id": "54053720972652-54053720977773",
-   "title": "Order of Engineers Fall 2026 Ceremony",
-   "start": "2026-11-19T14:00:00.000Z",
-   "end": "2026-11-19T16:00:00.000Z",
-   "allDay": false,
-   "location": "Nessmith-Lane Center (Statesboro Campus), Ballroom 1603",
-   "campus": "statesboro",
-   "url": "https://calendar.georgiasouthern.edu/event/order-of-engineers-fall-2026-ceremony",
-   "types": [
-    "Recognition"
-   ],
-   "depts": [],
-   "source": "calendar",
-   "tags": [
-    "career",
-    "engineering",
-    "service"
-   ],
-   "desc": "The Order of the Engineer Ceremony recognizes graduating engineering students as they transition from student to professional. Participants take the Obligation of the Engineer, pledging to uphold high standards of integrity, honor, and public service, and receive the Engineer’s Ring as a symbol of their commitment and…",
-   "free": false,
-   "lat": 32.420313,
-   "lon": -81.783089,
-   "colleges": []
   },
   {
    "id": "53860810128251-53860810151832",
@@ -257,57 +208,6 @@
    "colleges": []
   },
   {
-   "id": "engage-percentage-night-at-three-tree-coffee-gsu",
-   "title": "Percentage Night at Three Tree Coffee GSU",
-   "start": "2026-11-19T17:00:00.000Z",
-   "end": "2026-11-19T19:00:00.000Z",
-   "allDay": false,
-   "location": "Three Tree Coffee at GSU (2nd floor of Zach S. Henderson Library)",
-   "campus": "statesboro",
-   "url": "https://georgiasouthern.presence.io/event/percentage-night-at-three-tree-coffee-gsu",
-   "types": [
-    "Free Stuff",
-    "Fundraiser"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "academic",
-    "food",
-    "service"
-   ],
-   "desc": "Enjoy a treat and give back to Georgia Southern! A portion of the proceeds will benefit the Georgia Southern Libraries. Come connect with the Student Alumni Association and learn about how to get involved!",
-   "free": null,
-   "org": "Student Alumni Association",
-   "orgUri": "student-alumni-association",
-   "colleges": []
-  },
-  {
-   "id": "engage-serve912-weekly-trip-retail-thrift-store-11-19",
-   "title": "Serve912 Weekly Trip - Retail Thrift Store (11/19)",
-   "start": "2026-11-19T19:00:00.000Z",
-   "end": "2026-11-19T21:00:00.000Z",
-   "allDay": false,
-   "location": "Russell Union Room 1056",
-   "campus": "statesboro",
-   "url": "https://georgiasouthern.presence.io/event/serve912-weekly-trip-retail-thrift-store-11-19",
-   "types": [
-    "Serve912 Weekly Trip",
-    "Service"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "animals",
-    "service"
-   ],
-   "desc": "Volunteer at ReTails Thrift Store by helping organize items, assist customers, and support a nonprofit whose shop proceeds help save the lives of local pets.",
-   "free": null,
-   "org": "Office of Leadership and Community Engagement",
-   "orgUri": "office-of-leadership-and-community-engagement-2",
-   "colleges": []
-  },
-  {
    "id": "engage-serve912-weekly-trip-restoring-the-breach-inc-11-19-thursdays",
    "title": "Serve912 Weekly Trip - Restoring the Breach, Inc. (11/19) - Thursdays",
    "start": "2026-11-19T19:30:00.000Z",
@@ -331,31 +231,6 @@
    "org": "Office of Leadership and Community Engagement",
    "orgUri": "office-of-leadership-and-community-engagement-2",
    "colleges": []
-  },
-  {
-   "id": "engage-english-1101-work-showcase-2",
-   "title": "English 1101 @ Work Showcase",
-   "start": "2026-11-19T20:00:13.000Z",
-   "end": "2026-11-19T22:00:00.000Z",
-   "allDay": false,
-   "location": "IAB Lobby",
-   "campus": "statesboro",
-   "url": "https://georgiasouthern.presence.io/event/english-1101-work-showcase-2",
-   "types": [],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "career",
-    "tech",
-    "writing"
-   ],
-   "desc": "Details: Thursday (Nov. 19th), 3 PM - 5 PM, IAB Lobby, Statesboro Campus English 1101 @ Work prepares students for real-world workplace writing through hands-on projects involving teamwork, multimedia communication, and ethical AI integration. This event celebrates their mastery of professional writing skills by showc…",
-   "free": null,
-   "org": "Department of English",
-   "orgUri": "department-of-english",
-   "colleges": [
-    "cah"
-   ]
   },
   {
    "id": "engage-serve912-weekly-trip-farmers-market-2-go-11-19",

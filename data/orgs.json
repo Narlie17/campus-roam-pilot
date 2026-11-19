@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-19T16:18:25.914Z",
+ "generatedAt": "2026-11-19T22:04:56.111Z",
  "source": "Eagle Engage (https://georgiasouthern.presence.io)",
  "base": "https://georgiasouthern.presence.io",
  "orgs": [
@@ -108,7 +108,7 @@
     "Social Fraternities and Sororities",
     "Statesboro Campus"
    ],
-   "members": 23,
+   "members": 21,
    "meets": "6:30pm · Alpha Omicron Pi House",
    "desc": "Academic | Service | Social Fraternities and Sororities | Statesboro CampusAlpha Omicron Pi Fraternity (AOII) was founded on January 2, 1897 at Barnard College of Columbia University in New York City. The ideals of sinc…",
    "upcoming": 0
@@ -328,6 +328,18 @@
    "members": 10,
    "meets": "To be determined · To be determined",
    "desc": "The Association of Latino Professionals For America (ALPFA) is the nation’s leading and longest-standing Latino professional association, dedicated to empowering Latino and Hispanic professionals in business, finance, a…",
+   "upcoming": 0
+  },
+  {
+   "name": "Bangladesh Student Association",
+   "uri": "bangladesh-student-association",
+   "cats": [
+    "Cultural",
+    "Statesboro Campus"
+   ],
+   "members": 5,
+   "meets": "On-campus, Statesboro Campus",
+   "desc": "The Bangladesh Student Association (BSA) at Georgia Southern University is a voluntary, non-profit, non-political, and non-religious student organization that creates a home away from home for Bangladeshi students. We s…",
    "upcoming": 0
   },
   {
@@ -1125,7 +1137,7 @@
    "members": 5,
    "meets": "",
    "desc": "The Department of English at Georgia Southern University offers undergraduate degrees of a major and a minor in English. We seek to motivate our students for the pursuit of academic excellence and cultivate in them the…",
-   "upcoming": 5
+   "upcoming": 4
   },
   {
    "name": "Department of Geology and Geography",
@@ -1145,7 +1157,7 @@
    "cats": [
     "Campus Department"
    ],
-   "members": 16,
+   "members": 17,
    "meets": "",
    "desc": "Begin your journey in health and fitness with the Department of Health Sciences and Kinesiology at Georgia Southern University. Here, you’ll find a wide range of undergraduate and graduate programs, from athletic traini…",
    "upcoming": 0
@@ -2650,7 +2662,7 @@
    "members": 151,
    "meets": "",
    "desc": "Our office is dedicated to helping students develop both in and out of the classroom through:LeadershipA strong co-curricular leadership program of workshops, seminars, conferences, and nationally recognized speakers.Co…",
-   "upcoming": 7
+   "upcoming": 6
   },
   {
    "name": "Office of Multicultural Affairs",
@@ -2795,7 +2807,7 @@
     "Social Fraternities and Sororities",
     "Statesboro Campus"
    ],
-   "members": 30,
+   "members": 11,
    "meets": "",
    "desc": "The Panhellenic Association (PHA) is a part of the National Panhellenic Conference that is one of the largest organizations advocating for women. Georgia Southern University's Panhellenic Association on the Statesboro C…",
    "upcoming": 0
@@ -3672,7 +3684,7 @@
    "cats": [
     "Statesboro Campus"
    ],
-   "members": 5,
+   "members": 6,
    "meets": "6pm · Hollis 0108",
    "desc": "SESC provides new opportunities within the exercise science field. Including volunteer hours and hands-on experience.",
    "upcoming": 0
@@ -3806,7 +3818,7 @@
     "Academic",
     "Special Interest"
    ],
-   "members": 10,
+   "members": 11,
    "meets": "",
    "desc": "The purpose of this organization shall be to involve undergraduate and graduate students who are interested in sport and exercise psychology in community service activities, fundraisers, and social events. The objective…",
    "upcoming": 0
@@ -3882,7 +3894,7 @@
    "members": 6,
    "meets": "",
    "desc": "Once an Eagle, Always an Eagle. Established in 2022, the Student Alumni Association is passionate about promoting Georgia Southern’s traditions, and connecting current students to alumni by fostering relationships, crea…",
-   "upcoming": 1
+   "upcoming": 0
   },
   {
    "name": "Student Employment Center",
