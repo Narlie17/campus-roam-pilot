@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-20T10:22:07.207Z",
- "source": "Localist API + Eagle Engage (92) · https://calendar.georgiasouthern.edu",
+ "generatedAt": "2026-11-20T16:12:47.146Z",
+ "source": "Localist API + Eagle Engage (91) · https://calendar.georgiasouthern.edu",
  "events": [
   {
    "id": "54487402753735-54487402775249",
@@ -133,32 +133,6 @@
    "colleges": [
     "cah"
    ]
-  },
-  {
-   "id": "engage-serve912-weekly-trip-ksbb-community-garden-11-20",
-   "title": "Serve912 Weekly Trip - KSBB Community Garden (11/20)",
-   "start": "2026-11-20T14:00:00.000Z",
-   "end": "2026-11-20T16:00:00.000Z",
-   "allDay": false,
-   "location": "Russell Union Room 1056",
-   "campus": "statesboro",
-   "url": "https://georgiasouthern.presence.io/event/serve912-weekly-trip-ksbb-community-garden-11-20",
-   "types": [
-    "Serve912 Weekly Trip",
-    "Service"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "outdoors",
-    "service",
-    "environment"
-   ],
-   "desc": "Volunteers will help with tending to raised beds and garden plots in the Community Gardens; weeding, planting, caring for general area.",
-   "free": null,
-   "org": "Office of Leadership and Community Engagement",
-   "orgUri": "office-of-leadership-and-community-engagement-2",
-   "colleges": []
   },
   {
    "id": "engage-serve912-weekly-trip-statesboro-food-bank-11-20-fridays",
@@ -3607,6 +3581,25 @@
    "colleges": [
     "parker"
    ]
+  },
+  {
+   "id": "engage-student-org-fair-5",
+   "title": "Student Org Fair",
+   "start": "2027-01-19T16:00:37.000Z",
+   "end": "2027-01-19T18:00:00.000Z",
+   "allDay": false,
+   "location": "Student Union Ballroom",
+   "campus": "armstrong",
+   "url": "https://georgiasouthern.presence.io/event/student-org-fair-5",
+   "types": [],
+   "depts": [],
+   "source": "engage",
+   "tags": [],
+   "desc": "The Armstrong Campus Student Org Fair is a great and centralized opportunity to learn about over 40+ student organizations! The Student Org Fair will be held outside of the Student Union at the Residential Plaza on Tuesday, January 19, 2027 from 11am-1pm. Active student organizations are eligible to participate. Regis…",
+   "free": null,
+   "org": "Office of Student Activities",
+   "orgUri": "office-of-student-activities-3",
+   "colleges": []
   }
  ]
 }
