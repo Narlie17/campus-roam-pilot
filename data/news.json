@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-19T22:04:56.599Z",
+ "generatedAt": "2026-11-20T04:10:50.185Z",
  "source": "College news feeds on georgiasouthern.edu",
  "colleges": {
   "parker": [
@@ -196,19 +196,34 @@
   ],
   "wchp": [
    {
-    "title": "New Physician Assistant Program",
+    "title": "Georgia Southern professor proposes new framework for aging",
+    "date": "2026-11-09",
+    "url": "https://www.georgiasouthern.edu/2026/11/09/georgia-southern-professor-proposes-new-framework-for-aging"
+   },
+   {
+    "title": "Georgia Southern names Devita Stallings inaugural associate dean for nursing and director of School of Nursing",
+    "date": "2026-11-04",
+    "url": "https://www.georgiasouthern.edu/2026/11/04/georgia-southern-names-devita-stallings-inaugural-associate-dean-for-nursing-and-director-of-school-of-nursing"
+   },
+   {
+    "title": "Georgia Southern students gain experience in mass casualty emergency simulation",
+    "date": "2026-11-04",
+    "url": "https://www.georgiasouthern.edu/2026/11/04/georgia-southern-students-gain-experience-in-mass-casualty-emergency-simulation"
+   },
+   {
+    "title": "Savannah Songbirds begin another semester of choral community collaboration at Georgia Southern Armstrong Campus RiteCare Center",
+    "date": "2026-11-02",
+    "url": "https://www.georgiasouthern.edu/2026/11/02/savannah-songbirds-begin-another-semester-of-choral-community-collaboration-at-georgia-southern-armstrong-campus-ritecare-center"
+   },
+   {
+    "title": "Georgia Southern University continues to address critical health care needs with new Physician Assistant Program",
     "date": "2026-08-20",
     "url": "https://www.georgiasouthern.edu/2026/08/20/georgia-southern-university-continues-to-address-critical-health-care-needs-with-new-physician-assistant-program"
    },
    {
-    "title": "Research gives physical therapists a new assessment resource",
+    "title": "A research first through the Waters College of Health Professions gives physical therapists a new resource in assessing and treating patients",
     "date": "2026-07-20",
     "url": "https://www.georgiasouthern.edu/2026/07/20/a-research-first-through-the-waters-college-of-health-professions-gives-physical-therapists-a-new-resource-in-assessing-and-treating-patients"
-   },
-   {
-    "title": "Inaugural Tactical and Occupational Performance Conference",
-    "date": "2026-06-05",
-    "url": "https://www.georgiasouthern.edu/2026/06/05/georgia-southern-to-host-inaugural-tactical-and-occupational-performance-conference"
    }
   ],
   "jphcoph": [

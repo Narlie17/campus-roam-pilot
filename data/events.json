@@ -1,369 +1,7 @@
 {
- "generatedAt": "2026-11-19T22:04:55.750Z",
- "source": "Localist API + Eagle Engage (96) · https://calendar.georgiasouthern.edu",
+ "generatedAt": "2026-11-20T04:10:49.049Z",
+ "source": "Localist API + Eagle Engage (92) · https://calendar.georgiasouthern.edu",
  "events": [
-  {
-   "id": "54487402753735-54487402773200",
-   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
-   "start": "2026-11-19T14:00:00.000Z",
-   "end": "2026-11-19T19:30:00.000Z",
-   "allDay": false,
-   "location": "Nessmith-Lane Center (Statesboro Campus)",
-   "campus": "statesboro",
-   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
-   "types": [
-    "Conferences and Workshops"
-   ],
-   "depts": [],
-   "source": "calendar",
-   "tags": [
-    "academic",
-    "career",
-    "business",
-    "tech"
-   ],
-   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
-   "free": false,
-   "lat": 32.420313,
-   "lon": -81.783089,
-   "colleges": [
-    "parker"
-   ]
-  },
-  {
-   "id": "53860792382816-53860792398190",
-   "title": "Class Project Exhibition",
-   "start": "2026-11-19T14:00:00.000Z",
-   "end": "2026-11-19T22:00:00.000Z",
-   "allDay": false,
-   "location": "Folk Art Gallery",
-   "campus": "",
-   "url": "https://calendar.georgiasouthern.edu/event/class-project-exhibition",
-   "types": [
-    "Arts, Culture and Entertainment"
-   ],
-   "depts": [],
-   "source": "calendar",
-   "tags": [
-    "arts"
-   ],
-   "desc": "Join us for a class project featuring students in Dr. Alt's class from November 1-30",
-   "free": true,
-   "lat": 32.425278,
-   "lon": -81.785556,
-   "colleges": [
-    "cah"
-   ]
-  },
-  {
-   "id": "53860707686680-53860707715381",
-   "title": "Contemporary Gallery: Ernest Shaw: Intimate Frequencies of Care",
-   "start": "2026-11-19T14:00:00.000Z",
-   "end": "2026-11-19T22:00:00.000Z",
-   "allDay": false,
-   "location": "Contemporary and University Art Galleries (Statesboro Campus)",
-   "campus": "statesboro",
-   "url": "https://calendar.georgiasouthern.edu/event/contemporary-gallery-ernest-shaw-intimate-frequencies-of-care",
-   "types": [
-    "Arts, Culture and Entertainment"
-   ],
-   "depts": [],
-   "source": "calendar",
-   "tags": [
-    "arts",
-    "food",
-    "social"
-   ],
-   "desc": "Guest Artist Ernest Shaw will have his work on display in the Contemporary Gallery from October 12 - November 25. With a special dinner party and reception with the Artist on November 5.",
-   "free": true,
-   "lat": 32.425244,
-   "lon": -81.785535,
-   "colleges": [
-    "cah"
-   ]
-  },
-  {
-   "id": "53860810128251-53860810151832",
-   "title": "Tory Schendel-Vyvoda, Navigating the Molecular: The Collective I Series",
-   "start": "2026-11-19T14:00:00.000Z",
-   "end": "2026-11-19T22:00:00.000Z",
-   "allDay": false,
-   "location": "Fine Arts Hall (Armstrong Campus)",
-   "campus": "armstrong",
-   "url": "https://calendar.georgiasouthern.edu/event/tory-schendel-vyvoda-navigating-the-molecular-the-collective-i-series",
-   "types": [
-    "Arts, Culture and Entertainment"
-   ],
-   "depts": [],
-   "source": "calendar",
-   "tags": [
-    "science",
-    "arts"
-   ],
-   "desc": "Guest Artist, Tory Schendel-Vyvoda, will be showing their work in the Fine Arts Gallery on October 12- November 25",
-   "free": true,
-   "lat": 31.980388,
-   "lon": -81.164779,
-   "colleges": [
-    "cah",
-    "cosm"
-   ]
-  },
-  {
-   "id": "53860725872511-53860725958556",
-   "title": "University Gallery: Drew Tetz, Turnable Toons",
-   "start": "2026-11-19T14:00:00.000Z",
-   "end": "2026-11-19T22:00:00.000Z",
-   "allDay": false,
-   "location": "Contemporary and University Art Galleries (Statesboro Campus)",
-   "campus": "statesboro",
-   "url": "https://calendar.georgiasouthern.edu/event/university-gallery-drew-tetz-turnable-toons",
-   "types": [
-    "Arts, Culture and Entertainment"
-   ],
-   "depts": [],
-   "source": "calendar",
-   "tags": [
-    "arts"
-   ],
-   "desc": "Artist Drew Tetz will be on exhibit from October 12- November 25 in the University Gallery. Reception will be held on October 14",
-   "free": true,
-   "lat": 32.425244,
-   "lon": -81.785535,
-   "colleges": [
-    "cah"
-   ]
-  },
-  {
-   "id": "53931141728412-53931141729437",
-   "title": "Frosty: A Musical Adventure",
-   "start": "2026-11-19T15:30:00.000Z",
-   "end": "2026-11-19T16:30:00.000Z",
-   "allDay": false,
-   "location": "Performing Arts Center (PAC)",
-   "campus": "statesboro",
-   "url": "https://calendar.georgiasouthern.edu/event/frosty-a-musical-adventure",
-   "types": [
-    "Arts, Culture and Entertainment"
-   ],
-   "depts": [],
-   "source": "calendar",
-   "tags": [
-    "arts",
-    "theatre",
-    "social"
-   ],
-   "desc": "A young orphan named Billy discovers magic in a stolen hat, and when he places it on a snowman’s head, that snowman comes to life! Can Frosty help Billy find his real family in time for Christmas? Join them on a thrilling quest through New York City as they discover the real magic of the Season is Love. Recommended fo…",
-   "free": false,
-   "lat": 32.420313,
-   "lon": -81.783089,
-   "colleges": [
-    "cah"
-   ]
-  },
-  {
-   "id": "53991467275701-53991467301329",
-   "title": "Food Trucks at The Yard",
-   "start": "2026-11-19T16:00:00.000Z",
-   "end": "2026-11-19T19:00:00.000Z",
-   "allDay": false,
-   "location": "The Yard on Chandler",
-   "campus": "statesboro",
-   "url": "https://calendar.georgiasouthern.edu/event/food-trucks-at-the-yard",
-   "types": [],
-   "depts": [],
-   "source": "calendar",
-   "tags": [
-    "food"
-   ],
-   "desc": "Catch a rotating lineup of local food trucks at The Yard on Chandler, serving up delicious lunch options right on campus! Stop by Tuesday through Thursday from 11:00 AM to 2:00 PM to grab a bite. Jump on the Gold Route campus bus for convenient access to The Yard! Take a break from campus, enjoy great food from a vari…",
-   "free": false,
-   "lat": 32.41911,
-   "lon": -81.78204,
-   "colleges": []
-  },
-  {
-   "id": "53930092485482-53930092508042",
-   "title": "Food Trucks at The Yard on Chandler",
-   "start": "2026-11-19T16:00:00.000Z",
-   "end": "2026-11-19T19:00:00.000Z",
-   "allDay": false,
-   "location": "Lot 29",
-   "campus": "statesboro",
-   "url": "https://calendar.georgiasouthern.edu/event/food-trucks-at-the-yard-on-chandler",
-   "types": [
-    "Arts, Culture and Entertainment"
-   ],
-   "depts": [],
-   "source": "calendar",
-   "tags": [
-    "arts",
-    "outdoors",
-    "food"
-   ],
-   "desc": "The Yard on Chandler is a food truck courtyard is located in Lot 29 on Chandler Rd. Enjoy rotating food trucks, outdoor seating and lunch from 11 a.m. to 2 p.m., Tuesdays through Thursdays. Jump on the Gold Route campus bus for convenient access to The Yard! Take a break from campus, enjoy great food from a variety of…",
-   "free": false,
-   "lat": 32.418824,
-   "lon": -81.782889,
-   "colleges": []
-  },
-  {
-   "id": "engage-serve912-weekly-trip-restoring-the-breach-inc-11-19-thursdays",
-   "title": "Serve912 Weekly Trip - Restoring the Breach, Inc. (11/19) - Thursdays",
-   "start": "2026-11-19T19:30:00.000Z",
-   "end": "2026-11-19T22:30:00.000Z",
-   "allDay": false,
-   "location": "Russell Union Room 1056",
-   "campus": "statesboro",
-   "url": "https://georgiasouthern.presence.io/event/serve912-weekly-trip-restoring-the-breach-inc-11-19-thursdays",
-   "types": [
-    "Serve912 Weekly Trip",
-    "Service"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "academic",
-    "service"
-   ],
-   "desc": "Students will assist with tutoring K-12 students primarily in Mathematics and English.",
-   "free": null,
-   "org": "Office of Leadership and Community Engagement",
-   "orgUri": "office-of-leadership-and-community-engagement-2",
-   "colleges": []
-  },
-  {
-   "id": "engage-serve912-weekly-trip-farmers-market-2-go-11-19",
-   "title": "Serve912 Weekly Trip - Farmers Market 2 Go (11/19)",
-   "start": "2026-11-19T20:30:00.000Z",
-   "end": "2026-11-19T23:00:00.000Z",
-   "allDay": false,
-   "location": "Russell Union Room 1056",
-   "campus": "statesboro",
-   "url": "https://georgiasouthern.presence.io/event/serve912-weekly-trip-farmers-market-2-go-11-19",
-   "types": [
-    "Serve912 Weekly Trip",
-    "Service"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "service"
-   ],
-   "desc": "Volunteers will help in gathering and loading customer's farmers market orders.",
-   "free": null,
-   "org": "Office of Leadership and Community Engagement",
-   "orgUri": "office-of-leadership-and-community-engagement-2",
-   "colleges": []
-  },
-  {
-   "id": "engage-friendsgiving-6",
-   "title": "Friendsgiving",
-   "start": "2026-11-19T22:15:00.000Z",
-   "end": "2026-11-20T00:00:00.000Z",
-   "allDay": false,
-   "location": "SC 1402",
-   "campus": "armstrong",
-   "url": "https://georgiasouthern.presence.io/event/friendsgiving-6",
-   "types": [
-    "Free Food",
-    "Social Event"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "science",
-    "food",
-    "social"
-   ],
-   "desc": "Please join the Biology Club this Thurs Nov 19 at 5:15pm for their Friendsgiving. event. If you're able, sign up to bring a food item, though students are welcome regardless.",
-   "free": null,
-   "org": "Biology Club of Armstrong",
-   "orgUri": "biology-club-of-armstrong-2",
-   "colleges": []
-  },
-  {
-   "id": "53931528373281-53931528374306",
-   "title": "Frosty: A Musical Adventure",
-   "start": "2026-11-19T23:30:00.000Z",
-   "end": "2026-11-20T00:30:00.000Z",
-   "allDay": false,
-   "location": "Performing Arts Center (PAC)",
-   "campus": "statesboro",
-   "url": "https://calendar.georgiasouthern.edu/event/frosty-a-musical-adventure-1803",
-   "types": [
-    "Arts, Culture and Entertainment"
-   ],
-   "depts": [],
-   "source": "calendar",
-   "tags": [
-    "arts",
-    "theatre",
-    "social"
-   ],
-   "desc": "A young orphan named Billy discovers magic in a stolen hat, and when he places it on a snowman’s head, that snowman comes to life! Can Frosty help Billy find his real family in time for Christmas? Join them on a thrilling quest through New York City as they discover the real magic of the Season is Love. Recommended fo…",
-   "free": false,
-   "lat": 32.420313,
-   "lon": -81.783089,
-   "colleges": [
-    "cah"
-   ]
-  },
-  {
-   "id": "engage-collegians-for-christ-bible-study-3",
-   "title": "Collegians For Christ Bible Study",
-   "start": "2026-11-20T00:00:00.000Z",
-   "end": "2026-11-20T01:10:00.000Z",
-   "allDay": false,
-   "location": "Russel Union 2043",
-   "campus": "statesboro",
-   "url": "https://georgiasouthern.presence.io/event/collegians-for-christ-bible-study-3",
-   "types": [
-    "Spiritual Awareness"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "academic",
-    "faith"
-   ],
-   "desc": "Gather together and grow closer in Christ Word",
-   "free": null,
-   "org": "Collegians For Christ",
-   "orgUri": "collegians-for-christ",
-   "colleges": []
-  },
-  {
-   "id": "engage-we-sleighed-this-semester-napkin-wars",
-   "title": "We Sleighed This Semester Napkin Wars",
-   "start": "2026-11-20T00:00:28.000Z",
-   "end": "2026-11-20T02:00:00.000Z",
-   "allDay": false,
-   "location": "JAM Gym B324",
-   "campus": "",
-   "url": "https://georgiasouthern.presence.io/event/we-sleighed-this-semester-napkin-wars",
-   "types": [
-    "Art & Music",
-    "Free Food"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "arts",
-    "music",
-    "clubsports",
-    "fitness",
-    "food",
-    "social"
-   ],
-   "desc": "Unwind and blow off some end-of-semester steam at We Sleighed This Semester Napkin Wars ! Join us on Thursday, November 19, from 7:00 PM to 9:00 PM at the East Georgia Campus JAM Gym (B324) for the ultimate end-of-semester celebration. Bring your friends, celebrate finishing your classes, and get ready for an epic nig…",
-   "free": null,
-   "org": "Office of Student Activities",
-   "orgUri": "office-of-student-activities-3",
-   "colleges": [
-    "cah"
-   ]
-  },
   {
    "id": "54487402753735-54487402775249",
    "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
@@ -1437,6 +1075,36 @@
    "colleges": [
     "cah"
    ]
+  },
+  {
+   "id": "engage-rest-your-wings-de-stress-finals-event",
+   "title": "Rest Your Wings: De-Stress Finals Event",
+   "start": "2026-11-30T15:00:40.000Z",
+   "end": "2026-11-30T18:00:00.000Z",
+   "allDay": false,
+   "location": "Student Union Ballroom",
+   "campus": "armstrong",
+   "url": "https://georgiasouthern.presence.io/event/rest-your-wings-de-stress-finals-event",
+   "types": [
+    "Free Food",
+    "Health & Wellness",
+    "Sports/Fitness",
+    "The Eagle Experience"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "arts",
+    "clubsports",
+    "fitness",
+    "wellness",
+    "food"
+   ],
+   "desc": "Happy Finals Week! Take a break from studying and recharge during finals! Join us for an afternoon of relaxation, creativity, and food! 10 - 11 AM: Start your morning with a guided meditation session led by a Campus Recreation & Intramurals (CRI) instructor. Register through IMLeagues HERE ! 11 AM - 1 PM: Stop by our…",
+   "free": null,
+   "org": "Office of Student Engagement and Support",
+   "orgUri": "office-of-student-engagement-and-support",
+   "colleges": []
   },
   {
    "id": "engage-de-stress-from-finals",
@@ -3889,6 +3557,34 @@
    "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
    "start": "2027-01-17T14:00:00.000Z",
    "end": "2027-01-17T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
+   ]
+  },
+  {
+   "id": "54487402753735-54487402856204",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2027-01-18T14:00:00.000Z",
+   "end": "2027-01-18T19:30:00.000Z",
    "allDay": false,
    "location": "Nessmith-Lane Center (Statesboro Campus)",
    "campus": "statesboro",

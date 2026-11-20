@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-19T22:04:56.111Z",
+ "generatedAt": "2026-11-20T04:10:49.657Z",
  "source": "Eagle Engage (https://georgiasouthern.presence.io)",
  "base": "https://georgiasouthern.presence.io",
  "orgs": [
@@ -448,7 +448,7 @@
    "members": 15,
    "meets": "5:15pm · SC 1405",
    "desc": "The Biology Club of Armstrong is a biology-focused student organization centered around enhancing and further developing the appreciation and application of biological studies. Our goal is to better prepare students for…",
-   "upcoming": 1
+   "upcoming": 0
   },
   {
    "name": "Biology Organization of Graduate Students",
@@ -834,7 +834,7 @@
    "members": 5,
    "meets": "7pm",
    "desc": "Collegians for Christ provides an extracurricular activity to those students and/or faculty interested in a more in-depth study of the Bible in a Christian environment that welcomes discussion and questions. Collegians…",
-   "upcoming": 1
+   "upcoming": 0
   },
   {
    "name": "Collegiate 100 of Georgia Southern University",
@@ -2662,7 +2662,7 @@
    "members": 151,
    "meets": "",
    "desc": "Our office is dedicated to helping students develop both in and out of the classroom through:LeadershipA strong co-curricular leadership program of workshops, seminars, conferences, and nationally recognized speakers.Co…",
-   "upcoming": 6
+   "upcoming": 4
   },
   {
    "name": "Office of Multicultural Affairs",
@@ -2702,7 +2702,7 @@
    "members": 30,
    "meets": "",
    "desc": "The Office of Student Activities supports the mission of Georgia Southern University by providing and enhancing diverse involvement opportunities beyond the classroom. In a student-centered and engaging environment, we…",
-   "upcoming": 4
+   "upcoming": 3
   },
   {
    "name": "Office of Student Conduct",
@@ -2726,7 +2726,7 @@
    "members": 4,
    "meets": "",
    "desc": "The Office of Student Engagement and Support develops and coordinates high-impact programs for mentoring, outreach, and support. The office implements data-informed outreach strategies to connect with students and suppo…",
-   "upcoming": 1
+   "upcoming": 2
   },
   {
    "name": "Office of the Dean - College of Behavioral and Social Sciences",
