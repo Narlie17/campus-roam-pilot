@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-20T16:12:47.146Z",
- "source": "Localist API + Eagle Engage (91) · https://calendar.georgiasouthern.edu",
+ "generatedAt": "2026-11-20T22:03:33.710Z",
+ "source": "Localist API + Eagle Engage (96) · https://calendar.georgiasouthern.edu",
  "events": [
   {
    "id": "54487402753735-54487402775249",
@@ -135,31 +135,6 @@
    ]
   },
   {
-   "id": "engage-serve912-weekly-trip-statesboro-food-bank-11-20-fridays",
-   "title": "Serve912 Weekly Trip - Statesboro Food Bank (11/20) Fridays",
-   "start": "2026-11-20T16:00:00.000Z",
-   "end": "2026-11-20T18:00:00.000Z",
-   "allDay": false,
-   "location": "Russell Union Room 1056",
-   "campus": "statesboro",
-   "url": "https://georgiasouthern.presence.io/event/serve912-weekly-trip-statesboro-food-bank-11-20-fridays",
-   "types": [
-    "Serve912 Weekly Trip",
-    "Service"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "food",
-    "service"
-   ],
-   "desc": "Volunteers will h elp in Sunshine Cafe or Pantry",
-   "free": null,
-   "org": "Office of Leadership and Community Engagement",
-   "orgUri": "office-of-leadership-and-community-engagement-2",
-   "colleges": []
-  },
-  {
    "id": "54497857790454-54497857791479",
    "title": "Biomedical Science Seminar Series #9",
    "start": "2026-11-20T17:40:00.000Z",
@@ -181,27 +156,6 @@
    "colleges": [
     "cosm"
    ]
-  },
-  {
-   "id": "engage-pulp-fiction-weekly-pitch-meeting",
-   "title": "Pulp Fiction Weekly Pitch meeting",
-   "start": "2026-11-20T21:00:00.000Z",
-   "end": "2026-11-20T22:00:00.000Z",
-   "allDay": false,
-   "location": "Williams Center 2016",
-   "campus": "statesboro",
-   "url": "https://georgiasouthern.presence.io/event/pulp-fiction-weekly-pitch-meeting",
-   "types": [],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "writing"
-   ],
-   "desc": "These are weekly meetings held by Pulp fiction, a subgroup under student media.",
-   "free": null,
-   "org": "The George-Anne Media Group (Student Media)",
-   "orgUri": "the-george-anne-media-group-student-media",
-   "colleges": []
   },
   {
    "id": "engage-georgia-southern-womens-basketball-vs-florida-gulf-coast",
@@ -1249,6 +1203,30 @@
    "free": null,
    "org": "Office of Student Engagement and Support",
    "orgUri": "office-of-student-engagement-and-support",
+   "colleges": []
+  },
+  {
+   "id": "engage-graduation-social",
+   "title": "Graduation Social",
+   "start": "2026-12-01T18:00:55.000Z",
+   "end": "2026-12-01T20:00:00.000Z",
+   "allDay": false,
+   "location": "ISAP Lobby, Rosenwald Bldg 1051",
+   "campus": "",
+   "url": "https://georgiasouthern.presence.io/event/graduation-social",
+   "types": [
+    "Cultural Awareness"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "culture",
+    "social"
+   ],
+   "desc": "A celebration of Fall 2026 graduates.",
+   "free": null,
+   "org": "Office of International Student Admissions and Programs",
+   "orgUri": "office-of-international-student-admissions-and-programs",
    "colleges": []
   },
   {
@@ -3600,6 +3578,30 @@
    "org": "Office of Student Activities",
    "orgUri": "office-of-student-activities-3",
    "colleges": []
+  },
+  {
+   "id": "engage-nsslha-january-monthly-meeting",
+   "title": "NSSLHA January Monthly Meeting",
+   "start": "2027-01-19T20:00:00.000Z",
+   "end": "2027-01-19T21:00:00.000Z",
+   "allDay": false,
+   "location": "Ogeechee Theatre",
+   "campus": "armstrong",
+   "url": "https://georgiasouthern.presence.io/event/nsslha-january-monthly-meeting",
+   "types": [],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "theatre",
+    "food"
+   ],
+   "desc": "During monthly meetings, we are able to spend time with individuals specifically from the CSDS major! Numerous speakers come and present throughout the semester. Snacks and water/Gatorade are provided!",
+   "free": null,
+   "org": "National Student Speech-Language Hearing Association",
+   "orgUri": "national-student-speech-language-hearing-association-3",
+   "colleges": [
+    "cah"
+   ]
   }
  ]
 }
