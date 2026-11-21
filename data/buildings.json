@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-21T04:13:04.942Z",
+ "generatedAt": "2026-11-21T10:06:29.914Z",
  "note": "Coordinates fill in automatically from the university calendar's places list and OpenStreetMap on each refresh.",
  "buildings": [
   {
@@ -188,8 +188,8 @@
   {
    "name": "Sports Center",
    "campus": "armstrong",
-   "lat": 32.414595,
-   "lon": -81.795837,
+   "lat": 32.431921,
+   "lon": -81.780328,
    "source": "calendar"
   },
   {
@@ -237,8 +237,8 @@
   {
    "name": "University Hall",
    "campus": "armstrong",
-   "lat": 32.425244,
-   "lon": -81.785535,
+   "lat": 32.422783,
+   "lon": -81.779163,
    "source": "calendar"
   },
   {
