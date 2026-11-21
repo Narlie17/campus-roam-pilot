@@ -1,217 +1,7 @@
 {
- "generatedAt": "2026-11-20T22:03:33.710Z",
- "source": "Localist API + Eagle Engage (96) · https://calendar.georgiasouthern.edu",
+ "generatedAt": "2026-11-21T04:08:16.157Z",
+ "source": "Localist API + Eagle Engage (94) · https://calendar.georgiasouthern.edu",
  "events": [
-  {
-   "id": "54487402753735-54487402775249",
-   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
-   "start": "2026-11-20T14:00:00.000Z",
-   "end": "2026-11-20T19:30:00.000Z",
-   "allDay": false,
-   "location": "Nessmith-Lane Center (Statesboro Campus)",
-   "campus": "statesboro",
-   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
-   "types": [
-    "Conferences and Workshops"
-   ],
-   "depts": [],
-   "source": "calendar",
-   "tags": [
-    "academic",
-    "career",
-    "business",
-    "tech"
-   ],
-   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
-   "free": false,
-   "lat": 32.420313,
-   "lon": -81.783089,
-   "colleges": [
-    "parker"
-   ]
-  },
-  {
-   "id": "53860792382816-53860792399215",
-   "title": "Class Project Exhibition",
-   "start": "2026-11-20T14:00:00.000Z",
-   "end": "2026-11-20T22:00:00.000Z",
-   "allDay": false,
-   "location": "Folk Art Gallery",
-   "campus": "",
-   "url": "https://calendar.georgiasouthern.edu/event/class-project-exhibition",
-   "types": [
-    "Arts, Culture and Entertainment"
-   ],
-   "depts": [],
-   "source": "calendar",
-   "tags": [
-    "arts"
-   ],
-   "desc": "Join us for a class project featuring students in Dr. Alt's class from November 1-30",
-   "free": true,
-   "lat": 32.425278,
-   "lon": -81.785556,
-   "colleges": [
-    "cah"
-   ]
-  },
-  {
-   "id": "53860707686680-53860707715382",
-   "title": "Contemporary Gallery: Ernest Shaw: Intimate Frequencies of Care",
-   "start": "2026-11-20T14:00:00.000Z",
-   "end": "2026-11-20T22:00:00.000Z",
-   "allDay": false,
-   "location": "Contemporary and University Art Galleries (Statesboro Campus)",
-   "campus": "statesboro",
-   "url": "https://calendar.georgiasouthern.edu/event/contemporary-gallery-ernest-shaw-intimate-frequencies-of-care",
-   "types": [
-    "Arts, Culture and Entertainment"
-   ],
-   "depts": [],
-   "source": "calendar",
-   "tags": [
-    "arts",
-    "food",
-    "social"
-   ],
-   "desc": "Guest Artist Ernest Shaw will have his work on display in the Contemporary Gallery from October 12 - November 25. With a special dinner party and reception with the Artist on November 5.",
-   "free": true,
-   "lat": 32.425244,
-   "lon": -81.785535,
-   "colleges": [
-    "cah"
-   ]
-  },
-  {
-   "id": "53860810128251-53860810152857",
-   "title": "Tory Schendel-Vyvoda, Navigating the Molecular: The Collective I Series",
-   "start": "2026-11-20T14:00:00.000Z",
-   "end": "2026-11-20T22:00:00.000Z",
-   "allDay": false,
-   "location": "Fine Arts Hall (Armstrong Campus)",
-   "campus": "armstrong",
-   "url": "https://calendar.georgiasouthern.edu/event/tory-schendel-vyvoda-navigating-the-molecular-the-collective-i-series",
-   "types": [
-    "Arts, Culture and Entertainment"
-   ],
-   "depts": [],
-   "source": "calendar",
-   "tags": [
-    "science",
-    "arts"
-   ],
-   "desc": "Guest Artist, Tory Schendel-Vyvoda, will be showing their work in the Fine Arts Gallery on October 12- November 25",
-   "free": true,
-   "lat": 31.980388,
-   "lon": -81.164779,
-   "colleges": [
-    "cah",
-    "cosm"
-   ]
-  },
-  {
-   "id": "53860725872511-53860725960605",
-   "title": "University Gallery: Drew Tetz, Turnable Toons",
-   "start": "2026-11-20T14:00:00.000Z",
-   "end": "2026-11-20T22:00:00.000Z",
-   "allDay": false,
-   "location": "Contemporary and University Art Galleries (Statesboro Campus)",
-   "campus": "statesboro",
-   "url": "https://calendar.georgiasouthern.edu/event/university-gallery-drew-tetz-turnable-toons",
-   "types": [
-    "Arts, Culture and Entertainment"
-   ],
-   "depts": [],
-   "source": "calendar",
-   "tags": [
-    "arts"
-   ],
-   "desc": "Artist Drew Tetz will be on exhibit from October 12- November 25 in the University Gallery. Reception will be held on October 14",
-   "free": true,
-   "lat": 32.425244,
-   "lon": -81.785535,
-   "colleges": [
-    "cah"
-   ]
-  },
-  {
-   "id": "54497857790454-54497857791479",
-   "title": "Biomedical Science Seminar Series #9",
-   "start": "2026-11-20T17:40:00.000Z",
-   "end": "2026-11-20T18:30:00.000Z",
-   "allDay": false,
-   "location": "",
-   "campus": "",
-   "url": "https://calendar.georgiasouthern.edu/event/biomedical-science-seminar-series-9",
-   "types": [
-    "Lectures and Guest Speakers"
-   ],
-   "depts": [],
-   "source": "calendar",
-   "tags": [
-    "science"
-   ],
-   "desc": "Zoom seminar hosted by the Georgia Southern University Department of Biomedical Sciences. The speaker, Dr. Shekhar, will discuss his work on Identifying Functional Variants in Complex Human Traits through Statistical Genetics and Functional Genomics.",
-   "free": true,
-   "colleges": [
-    "cosm"
-   ]
-  },
-  {
-   "id": "engage-georgia-southern-womens-basketball-vs-florida-gulf-coast",
-   "title": "Georgia Southern Women's Basketball vs. Florida Gulf Coast",
-   "start": "2026-11-20T22:00:00.000Z",
-   "end": "2026-11-21T01:00:00.000Z",
-   "allDay": false,
-   "location": "Jack and Ruth Ann Hill Convocation Center",
-   "campus": "statesboro",
-   "url": "https://georgiasouthern.presence.io/event/georgia-southern-womens-basketball-vs-florida-gulf-coast",
-   "types": [
-    "Free Stuff",
-    "Social Event",
-    "Sports/Fitness"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "theatre",
-    "sports",
-    "fitness",
-    "women",
-    "social"
-   ],
-   "desc": "Hunger for Hoops Hunger games: Sunrise on the reaping available at theaters, come out to the game for a chance to win $50 gift card to watch at the movies!",
-   "free": null,
-   "org": "Georgia Southern Athletics",
-   "orgUri": "georgia-southern-athletics-2",
-   "colleges": []
-  },
-  {
-   "id": "engage-georgia-southern-jazz-ensemble-and-georgia-southern-symphony",
-   "title": "Georgia Southern Jazz Ensemble and Georgia Southern Symphony",
-   "start": "2026-11-21T00:30:00.000Z",
-   "end": "2026-11-21T02:30:00.000Z",
-   "allDay": false,
-   "location": "Performing Arts Center",
-   "campus": "",
-   "url": "https://georgiasouthern.presence.io/event/georgia-southern-jazz-ensemble-and-georgia-southern-symphony",
-   "types": [
-    "Art & Music"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "arts",
-    "music"
-   ],
-   "desc": "The Georgia Southern Jazz Ensemble and Georgia Southern Symphony collaborate to perform selections from Tchaikovsky's and Ellington's Nutcracker Suites.",
-   "free": null,
-   "org": "Fred and Dinah Gretsch School of Music",
-   "orgUri": "fred-and-dinah-gretsch-school-of-music",
-   "colleges": [
-    "cah"
-   ]
-  },
   {
    "id": "54487402753735-54487402776274",
    "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
@@ -3561,6 +3351,34 @@
    ]
   },
   {
+   "id": "54487402753735-54487402857229",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2027-01-19T14:00:00.000Z",
+   "end": "2027-01-19T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
+   ]
+  },
+  {
    "id": "engage-student-org-fair-5",
    "title": "Student Org Fair",
    "start": "2027-01-19T16:00:37.000Z",
@@ -3602,6 +3420,30 @@
    "colleges": [
     "cah"
    ]
+  },
+  {
+   "id": "engage-southern-leaders-induction-ceremony-2",
+   "title": "Southern Leaders Induction Ceremony",
+   "start": "2027-01-19T23:00:27.000Z",
+   "end": "2027-01-20T01:00:00.000Z",
+   "allDay": false,
+   "location": "Russell Union Ballroom",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/southern-leaders-induction-ceremony-2",
+   "types": [
+    "Office of Leadership and Community Engagement"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "leadership",
+    "social"
+   ],
+   "desc": "Southern Leaders applicants who were accepted into the Southern Leaders Program will be officially inducted into the program, including a celebration of their accomplishments and information about what to expect as a new Southern Leader.",
+   "free": null,
+   "org": "Southern Leaders",
+   "orgUri": "southern-leaders-2",
+   "colleges": []
   }
  ]
 }
