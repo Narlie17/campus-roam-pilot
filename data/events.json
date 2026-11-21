@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-21T15:59:13.918Z",
- "source": "Localist API + Eagle Engage (94) · https://calendar.georgiasouthern.edu",
+ "generatedAt": "2026-11-21T21:56:01.440Z",
+ "source": "Localist API + Eagle Engage (92) · https://calendar.georgiasouthern.edu",
  "events": [
   {
    "id": "54487402753735-54487402776274",
@@ -29,54 +29,6 @@
    "colleges": [
     "parker"
    ]
-  },
-  {
-   "id": "engage-serve912-weekly-trip-fumc-soup-kitchen-11-21",
-   "title": "Serve912 Weekly Trip - FUMC Soup Kitchen (11/21)",
-   "start": "2026-11-21T14:00:00.000Z",
-   "end": "2026-11-21T17:00:00.000Z",
-   "allDay": false,
-   "location": "Russell Union Room 1056",
-   "campus": "statesboro",
-   "url": "https://georgiasouthern.presence.io/event/serve912-weekly-trip-fumc-soup-kitchen-11-21",
-   "types": [
-    "Serve912 Weekly Trip",
-    "Service"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "service"
-   ],
-   "desc": "Volunteers will help plate and distribute meals, greet and socialize with guests, and clean up.",
-   "free": null,
-   "org": "Office of Leadership and Community Engagement",
-   "orgUri": "office-of-leadership-and-community-engagement-2",
-   "colleges": []
-  },
-  {
-   "id": "engage-serve912-weekly-trip-next-generation-scholars-11-21-saturdays",
-   "title": "Serve912 Weekly Trip - Next Generation Scholars (11/21) Saturdays",
-   "start": "2026-11-21T14:30:00.000Z",
-   "end": "2026-11-21T16:30:00.000Z",
-   "allDay": false,
-   "location": "Russell Union Room 1056",
-   "campus": "statesboro",
-   "url": "https://georgiasouthern.presence.io/event/serve912-weekly-trip-next-generation-scholars-11-21-saturdays",
-   "types": [
-    "Serve912 Weekly Trip",
-    "Service"
-   ],
-   "depts": [],
-   "source": "engage",
-   "tags": [
-    "service"
-   ],
-   "desc": "Volunteers will help plate and distribute meals, greet and socialize with guests, and clean up.",
-   "free": null,
-   "org": "Office of Leadership and Community Engagement",
-   "orgUri": "office-of-leadership-and-community-engagement-2",
-   "colleges": []
   },
   {
    "id": "54487402753735-54487402777299",
@@ -3443,6 +3395,25 @@
    "free": null,
    "org": "Southern Leaders",
    "orgUri": "southern-leaders-2",
+   "colleges": []
+  },
+  {
+   "id": "engage-student-org-fair-4",
+   "title": "Student Org Fair",
+   "start": "2027-01-20T16:00:30.000Z",
+   "end": "2027-01-20T19:00:00.000Z",
+   "allDay": false,
+   "location": "RU Rotunda",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/student-org-fair-4",
+   "types": [],
+   "depts": [],
+   "source": "engage",
+   "tags": [],
+   "desc": "The Statesboro Campus Student Org Fair is a great and centralized opportunity to learn about over 180+ student organizations! The Student Org Fair will be held outside of the Russell Union at the Rotunda on Wednesday, January 20, 2027, from 11 a.m.- 2 p.m. Active student organizations are eligible to participate. Regi…",
+   "free": null,
+   "org": "University Programming Board - Statesboro Campus",
+   "orgUri": "university-programming-board-statesboro-campus-4",
    "colleges": []
   }
  ]
