@@ -1,76 +1,11 @@
 {
- "generatedAt": "2026-11-22T04:10:50.869Z",
+ "generatedAt": "2026-11-22T10:01:40.106Z",
  "source": "https://api3.libcal.com (LibCal)",
  "locations": [
   {
    "lid": 5504,
    "name": "Zach S. Henderson Library",
    "days": {
-    "2026-11-15": {
-     "status": "open",
-     "hours": [
-      {
-       "from": "12pm",
-       "to": "2am"
-      }
-     ],
-     "rendered": "12pm - 2am"
-    },
-    "2026-11-16": {
-     "status": "open",
-     "hours": [
-      {
-       "from": "7:30am",
-       "to": "2am"
-      }
-     ],
-     "rendered": "7:30am - 2am"
-    },
-    "2026-11-17": {
-     "status": "open",
-     "hours": [
-      {
-       "from": "7:30am",
-       "to": "2am"
-      }
-     ],
-     "rendered": "7:30am - 2am"
-    },
-    "2026-11-18": {
-     "status": "open",
-     "hours": [
-      {
-       "from": "7:30am",
-       "to": "2am"
-      }
-     ],
-     "rendered": "7:30am - 2am"
-    },
-    "2026-11-19": {
-     "status": "open",
-     "hours": [
-      {
-       "from": "7:30am",
-       "to": "2am"
-      }
-     ],
-     "rendered": "7:30am - 2am"
-    },
-    "2026-11-20": {
-     "status": "open",
-     "hours": [
-      {
-       "from": "7:30am",
-       "to": "5pm"
-      }
-     ],
-     "rendered": "7:30am - 5pm"
-    },
-    "2026-11-21": {
-     "status": "closed",
-     "hours": [],
-     "rendered": "Closed"
-    },
     "2026-11-22": {
      "status": "closed",
      "hours": [],
@@ -120,6 +55,51 @@
      "status": "closed",
      "hours": [],
      "rendered": "Closed for Thanksgiving"
+    },
+    "2026-11-29": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "12pm",
+       "to": "12am"
+      }
+     ],
+     "rendered": "12pm - 12am"
+    },
+    "2026-11-30": {
+     "status": "24hours",
+     "hours": [],
+     "rendered": "24 Hours"
+    },
+    "2026-12-01": {
+     "status": "24hours",
+     "hours": [],
+     "rendered": "24 Hours"
+    },
+    "2026-12-02": {
+     "status": "24hours",
+     "hours": [],
+     "rendered": "24 Hours"
+    },
+    "2026-12-03": {
+     "status": "24hours",
+     "hours": [],
+     "rendered": "24 Hours"
+    },
+    "2026-12-04": {
+     "status": "24hours",
+     "hours": [],
+     "rendered": "24 Hours"
+    },
+    "2026-12-05": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "9am",
+       "to": "6pm"
+      }
+     ],
+     "rendered": "9am - 6pm"
     }
    }
   },
@@ -127,71 +107,6 @@
    "lid": 7259,
    "name": "Lane Library",
    "days": {
-    "2026-11-15": {
-     "status": "open",
-     "hours": [
-      {
-       "from": "2pm",
-       "to": "11pm"
-      }
-     ],
-     "rendered": "2pm - 11pm"
-    },
-    "2026-11-16": {
-     "status": "open",
-     "hours": [
-      {
-       "from": "7:30am",
-       "to": "11pm"
-      }
-     ],
-     "rendered": "7:30am - 11pm"
-    },
-    "2026-11-17": {
-     "status": "open",
-     "hours": [
-      {
-       "from": "7:30am",
-       "to": "11pm"
-      }
-     ],
-     "rendered": "7:30am - 11pm"
-    },
-    "2026-11-18": {
-     "status": "open",
-     "hours": [
-      {
-       "from": "7:30am",
-       "to": "11pm"
-      }
-     ],
-     "rendered": "7:30am - 11pm"
-    },
-    "2026-11-19": {
-     "status": "open",
-     "hours": [
-      {
-       "from": "7:30am",
-       "to": "11pm"
-      }
-     ],
-     "rendered": "7:30am - 11pm"
-    },
-    "2026-11-20": {
-     "status": "open",
-     "hours": [
-      {
-       "from": "7:30am",
-       "to": "5pm"
-      }
-     ],
-     "rendered": "7:30am - 5pm"
-    },
-    "2026-11-21": {
-     "status": "closed",
-     "hours": [],
-     "rendered": "Closed"
-    },
     "2026-11-22": {
      "status": "closed",
      "hours": [],
@@ -241,6 +156,51 @@
      "status": "closed",
      "hours": [],
      "rendered": "Closed for Thanksgiving"
+    },
+    "2026-11-29": {
+     "status": "text",
+     "hours": [],
+     "rendered": "2:00pm - midnight"
+    },
+    "2026-11-30": {
+     "status": "text",
+     "hours": [],
+     "rendered": "7:30am - midnight"
+    },
+    "2026-12-01": {
+     "status": "text",
+     "hours": [],
+     "rendered": "7:30am - midnight"
+    },
+    "2026-12-02": {
+     "status": "text",
+     "hours": [],
+     "rendered": "7:30am - midnight"
+    },
+    "2026-12-03": {
+     "status": "text",
+     "hours": [],
+     "rendered": "7:30am - midnight"
+    },
+    "2026-12-04": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "7:30am",
+       "to": "5pm"
+      }
+     ],
+     "rendered": "7:30am - 5pm"
+    },
+    "2026-12-05": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "9am",
+       "to": "6pm"
+      }
+     ],
+     "rendered": "9am - 6pm"
     }
    }
   },
@@ -248,57 +208,107 @@
    "lid": 7287,
    "name": "Learning Commons (Armstrong)",
    "days": {
-    "2026-11-15": {
+    "2026-11-22": {
+     "status": "closed",
+     "hours": [],
+     "rendered": "Closed"
+    },
+    "2026-11-23": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "8am",
+       "to": "5pm"
+      }
+     ],
+     "rendered": "8am - 5pm"
+    },
+    "2026-11-24": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "8am",
+       "to": "5pm"
+      }
+     ],
+     "rendered": "8am - 5pm"
+    },
+    "2026-11-25": {
+     "status": "open",
+     "hours": [
+      {
+       "from": "8am",
+       "to": "5pm"
+      }
+     ],
+     "rendered": "8am - 5pm"
+    },
+    "2026-11-26": {
+     "status": "closed",
+     "hours": [],
+     "rendered": "Closed for Thanksgiving"
+    },
+    "2026-11-27": {
+     "status": "closed",
+     "hours": [],
+     "rendered": "Closed for Thanksgiving"
+    },
+    "2026-11-28": {
+     "status": "closed",
+     "hours": [],
+     "rendered": "Closed for Thanksgiving"
+    },
+    "2026-11-29": {
      "status": "open",
      "hours": [
       {
        "from": "2pm",
-       "to": "12am"
+       "to": "2am"
       }
      ],
-     "rendered": "2pm - 12am"
+     "rendered": "2pm - 2am"
     },
-    "2026-11-16": {
+    "2026-11-30": {
      "status": "open",
      "hours": [
       {
        "from": "8am",
-       "to": "12am"
+       "to": "2am"
       }
      ],
-     "rendered": "8am - 12am"
+     "rendered": "8am - 2am"
     },
-    "2026-11-17": {
+    "2026-12-01": {
      "status": "open",
      "hours": [
       {
        "from": "8am",
-       "to": "12am"
+       "to": "2am"
       }
      ],
-     "rendered": "8am - 12am"
+     "rendered": "8am - 2am"
     },
-    "2026-11-18": {
+    "2026-12-02": {
      "status": "open",
      "hours": [
       {
        "from": "8am",
-       "to": "12am"
+       "to": "2am"
       }
      ],
-     "rendered": "8am - 12am"
+     "rendered": "8am - 2am"
     },
-    "2026-11-19": {
+    "2026-12-03": {
      "status": "open",
      "hours": [
       {
        "from": "8am",
-       "to": "12am"
+       "to": "2am"
       }
      ],
-     "rendered": "8am - 12am"
+     "rendered": "8am - 2am"
     },
-    "2026-11-20": {
+    "2026-12-04": {
      "status": "open",
      "hours": [
       {
@@ -308,45 +318,36 @@
      ],
      "rendered": "8am - 6pm"
     },
-    "2026-11-21": {
+    "2026-12-05": {
      "status": "closed",
      "hours": [],
      "rendered": "Closed"
-    },
+    }
+   }
+  },
+  {
+   "lid": 25872,
+   "name": "Foy Music Library",
+   "days": {
     "2026-11-22": {
      "status": "closed",
      "hours": [],
      "rendered": "Closed"
     },
     "2026-11-23": {
-     "status": "open",
-     "hours": [
-      {
-       "from": "8am",
-       "to": "5pm"
-      }
-     ],
-     "rendered": "8am - 5pm"
+     "status": "closed",
+     "hours": [],
+     "rendered": "Closed"
     },
     "2026-11-24": {
-     "status": "open",
-     "hours": [
-      {
-       "from": "8am",
-       "to": "5pm"
-      }
-     ],
-     "rendered": "8am - 5pm"
+     "status": "closed",
+     "hours": [],
+     "rendered": "Closed"
     },
     "2026-11-25": {
-     "status": "open",
-     "hours": [
-      {
-       "from": "8am",
-       "to": "5pm"
-      }
-     ],
-     "rendered": "8am - 5pm"
+     "status": "closed",
+     "hours": [],
+     "rendered": "Closed"
     },
     "2026-11-26": {
      "status": "closed",
@@ -362,19 +363,13 @@
      "status": "closed",
      "hours": [],
      "rendered": "Closed for Thanksgiving"
-    }
-   }
-  },
-  {
-   "lid": 25872,
-   "name": "Foy Music Library",
-   "days": {
-    "2026-11-15": {
+    },
+    "2026-11-29": {
      "status": "closed",
      "hours": [],
      "rendered": "Closed"
     },
-    "2026-11-16": {
+    "2026-11-30": {
      "status": "open",
      "hours": [
       {
@@ -384,7 +379,7 @@
      ],
      "rendered": "10am - 6pm"
     },
-    "2026-11-17": {
+    "2026-12-01": {
      "status": "open",
      "hours": [
       {
@@ -394,7 +389,7 @@
      ],
      "rendered": "10am - 6pm"
     },
-    "2026-11-18": {
+    "2026-12-02": {
      "status": "open",
      "hours": [
       {
@@ -404,7 +399,7 @@
      ],
      "rendered": "10am - 6pm"
     },
-    "2026-11-19": {
+    "2026-12-03": {
      "status": "open",
      "hours": [
       {
@@ -414,7 +409,7 @@
      ],
      "rendered": "10am - 6pm"
     },
-    "2026-11-20": {
+    "2026-12-04": {
      "status": "open",
      "hours": [
       {
@@ -424,30 +419,51 @@
      ],
      "rendered": "9am - 5pm"
     },
-    "2026-11-21": {
+    "2026-12-05": {
      "status": "closed",
      "hours": [],
      "rendered": "Closed"
-    },
+    }
+   }
+  },
+  {
+   "lid": 25873,
+   "name": "East Georgia Library",
+   "days": {
     "2026-11-22": {
      "status": "closed",
      "hours": [],
      "rendered": "Closed"
     },
     "2026-11-23": {
-     "status": "closed",
-     "hours": [],
-     "rendered": "Closed"
+     "status": "open",
+     "hours": [
+      {
+       "from": "8am",
+       "to": "5pm"
+      }
+     ],
+     "rendered": "8am - 5pm"
     },
     "2026-11-24": {
-     "status": "closed",
-     "hours": [],
-     "rendered": "Closed"
+     "status": "open",
+     "hours": [
+      {
+       "from": "8am",
+       "to": "5pm"
+      }
+     ],
+     "rendered": "8am - 5pm"
     },
     "2026-11-25": {
-     "status": "closed",
-     "hours": [],
-     "rendered": "Closed"
+     "status": "open",
+     "hours": [
+      {
+       "from": "8am",
+       "to": "5pm"
+      }
+     ],
+     "rendered": "8am - 5pm"
     },
     "2026-11-26": {
      "status": "closed",
@@ -463,14 +479,8 @@
      "status": "closed",
      "hours": [],
      "rendered": "Closed for Thanksgiving"
-    }
-   }
-  },
-  {
-   "lid": 25873,
-   "name": "East Georgia Library",
-   "days": {
-    "2026-11-15": {
+    },
+    "2026-11-29": {
      "status": "open",
      "hours": [
       {
@@ -480,7 +490,7 @@
      ],
      "rendered": "12pm - 5pm"
     },
-    "2026-11-16": {
+    "2026-11-30": {
      "status": "open",
      "hours": [
       {
@@ -490,7 +500,7 @@
      ],
      "rendered": "8am - 5pm"
     },
-    "2026-11-17": {
+    "2026-12-01": {
      "status": "open",
      "hours": [
       {
@@ -500,7 +510,7 @@
      ],
      "rendered": "8am - 5pm"
     },
-    "2026-11-18": {
+    "2026-12-02": {
      "status": "open",
      "hours": [
       {
@@ -510,7 +520,7 @@
      ],
      "rendered": "8am - 7:30pm"
     },
-    "2026-11-19": {
+    "2026-12-03": {
      "status": "open",
      "hours": [
       {
@@ -520,7 +530,7 @@
      ],
      "rendered": "8am - 7:30pm"
     },
-    "2026-11-20": {
+    "2026-12-04": {
      "status": "open",
      "hours": [
       {
@@ -530,45 +540,36 @@
      ],
      "rendered": "8am - 5pm"
     },
-    "2026-11-21": {
+    "2026-12-05": {
      "status": "closed",
      "hours": [],
      "rendered": "Closed"
-    },
+    }
+   }
+  },
+  {
+   "lid": 13545,
+   "name": "Online Chat Hours",
+   "days": {
     "2026-11-22": {
      "status": "closed",
      "hours": [],
-     "rendered": "Closed"
+     "rendered": "Closed for Thanksgiving"
     },
     "2026-11-23": {
-     "status": "open",
-     "hours": [
-      {
-       "from": "8am",
-       "to": "5pm"
-      }
-     ],
-     "rendered": "8am - 5pm"
+     "status": "closed",
+     "hours": [],
+     "rendered": "Closed for Thanksgiving"
     },
     "2026-11-24": {
-     "status": "open",
-     "hours": [
-      {
-       "from": "8am",
-       "to": "5pm"
-      }
-     ],
-     "rendered": "8am - 5pm"
+     "status": "closed",
+     "hours": [],
+     "rendered": "Closed for Thanksgiving"
     },
     "2026-11-25": {
-     "status": "open",
-     "hours": [
-      {
-       "from": "8am",
-       "to": "5pm"
-      }
-     ],
-     "rendered": "8am - 5pm"
+     "status": "closed",
+     "hours": [],
+     "rendered": "Closed for Thanksgiving"
     },
     "2026-11-26": {
      "status": "closed",
@@ -584,19 +585,13 @@
      "status": "closed",
      "hours": [],
      "rendered": "Closed for Thanksgiving"
-    }
-   }
-  },
-  {
-   "lid": 13545,
-   "name": "Online Chat Hours",
-   "days": {
-    "2026-11-15": {
+    },
+    "2026-11-29": {
      "status": "closed",
      "hours": [],
      "rendered": "Closed"
     },
-    "2026-11-16": {
+    "2026-11-30": {
      "status": "open",
      "hours": [
       {
@@ -606,7 +601,7 @@
      ],
      "rendered": "9am - 7pm"
     },
-    "2026-11-17": {
+    "2026-12-01": {
      "status": "open",
      "hours": [
       {
@@ -616,7 +611,7 @@
      ],
      "rendered": "9am - 7pm"
     },
-    "2026-11-18": {
+    "2026-12-02": {
      "status": "open",
      "hours": [
       {
@@ -626,7 +621,7 @@
      ],
      "rendered": "9am - 7pm"
     },
-    "2026-11-19": {
+    "2026-12-03": {
      "status": "open",
      "hours": [
       {
@@ -636,7 +631,7 @@
      ],
      "rendered": "9am - 7pm"
     },
-    "2026-11-20": {
+    "2026-12-04": {
      "status": "open",
      "hours": [
       {
@@ -646,45 +641,10 @@
      ],
      "rendered": "9am - 4pm"
     },
-    "2026-11-21": {
+    "2026-12-05": {
      "status": "closed",
      "hours": [],
      "rendered": "Closed"
-    },
-    "2026-11-22": {
-     "status": "closed",
-     "hours": [],
-     "rendered": "Closed for Thanksgiving"
-    },
-    "2026-11-23": {
-     "status": "closed",
-     "hours": [],
-     "rendered": "Closed for Thanksgiving"
-    },
-    "2026-11-24": {
-     "status": "closed",
-     "hours": [],
-     "rendered": "Closed for Thanksgiving"
-    },
-    "2026-11-25": {
-     "status": "closed",
-     "hours": [],
-     "rendered": "Closed for Thanksgiving"
-    },
-    "2026-11-26": {
-     "status": "closed",
-     "hours": [],
-     "rendered": "Closed for Thanksgiving"
-    },
-    "2026-11-27": {
-     "status": "closed",
-     "hours": [],
-     "rendered": "Closed for Thanksgiving"
-    },
-    "2026-11-28": {
-     "status": "closed",
-     "hours": [],
-     "rendered": "Closed for Thanksgiving"
     }
    }
   }
