@@ -1,35 +1,7 @@
 {
- "generatedAt": "2026-11-22T21:57:34.483Z",
+ "generatedAt": "2026-11-23T04:27:45.755Z",
  "source": "Localist API + Eagle Engage (92) · https://calendar.georgiasouthern.edu",
  "events": [
-  {
-   "id": "54487402753735-54487402777299",
-   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
-   "start": "2026-11-22T14:00:00.000Z",
-   "end": "2026-11-22T19:30:00.000Z",
-   "allDay": false,
-   "location": "Nessmith-Lane Center (Statesboro Campus)",
-   "campus": "statesboro",
-   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
-   "types": [
-    "Conferences and Workshops"
-   ],
-   "depts": [],
-   "source": "calendar",
-   "tags": [
-    "academic",
-    "career",
-    "business",
-    "tech"
-   ],
-   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
-   "free": false,
-   "lat": 32.420313,
-   "lon": -81.783089,
-   "colleges": [
-    "parker"
-   ]
-  },
   {
    "id": "54487402753735-54487402779348",
    "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
@@ -3443,6 +3415,53 @@
    "free": null,
    "org": "Georgia Southern Athletics",
    "orgUri": "georgia-southern-athletics-2",
+   "colleges": []
+  },
+  {
+   "id": "54487402753735-54487402859279",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2027-01-21T14:00:00.000Z",
+   "end": "2027-01-21T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
+   ]
+  },
+  {
+   "id": "engage-student-org-fair-6",
+   "title": "Student Org Fair",
+   "start": "2027-01-22T04:00:00.000Z",
+   "end": "2027-01-22T05:00:00.000Z",
+   "allDay": false,
+   "location": "The Quad",
+   "campus": "other",
+   "url": "https://georgiasouthern.presence.io/event/student-org-fair-6",
+   "types": [],
+   "depts": [],
+   "source": "engage",
+   "tags": [],
+   "desc": "The East Georgia Campus Student Org Fair is a great and centralized opportunity to learn about our East Georgia Campus student organizations! The Student Org Fair will be held outside at the Quad on Thursday, January 21, 2026 from 11am-1pm. Active student organizations are eligible to participate. Registrations must b…",
+   "free": null,
+   "org": "Office of Student Activities",
+   "orgUri": "office-of-student-activities-3",
    "colleges": []
   }
  ]
