@@ -1,139 +1,7 @@
 {
- "generatedAt": "2026-11-23T22:06:48.086Z",
+ "generatedAt": "2026-11-24T04:17:54.890Z",
  "source": "Localist API + Eagle Engage (92) · https://calendar.georgiasouthern.edu",
  "events": [
-  {
-   "id": "54487402753735-54487402779348",
-   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
-   "start": "2026-11-23T14:00:00.000Z",
-   "end": "2026-11-23T19:30:00.000Z",
-   "allDay": false,
-   "location": "Nessmith-Lane Center (Statesboro Campus)",
-   "campus": "statesboro",
-   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
-   "types": [
-    "Conferences and Workshops"
-   ],
-   "depts": [],
-   "source": "calendar",
-   "tags": [
-    "academic",
-    "career",
-    "business",
-    "tech"
-   ],
-   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
-   "free": false,
-   "lat": 32.420313,
-   "lon": -81.783089,
-   "colleges": [
-    "parker"
-   ]
-  },
-  {
-   "id": "53860792382816-53860792401264",
-   "title": "Class Project Exhibition",
-   "start": "2026-11-23T14:00:00.000Z",
-   "end": "2026-11-23T22:00:00.000Z",
-   "allDay": false,
-   "location": "Folk Art Gallery",
-   "campus": "",
-   "url": "https://calendar.georgiasouthern.edu/event/class-project-exhibition",
-   "types": [
-    "Arts, Culture and Entertainment"
-   ],
-   "depts": [],
-   "source": "calendar",
-   "tags": [
-    "arts"
-   ],
-   "desc": "Join us for a class project featuring students in Dr. Alt's class from November 1-30",
-   "free": true,
-   "lat": 32.425278,
-   "lon": -81.785556,
-   "colleges": [
-    "cah"
-   ]
-  },
-  {
-   "id": "53860707686680-53860707716407",
-   "title": "Contemporary Gallery: Ernest Shaw: Intimate Frequencies of Care",
-   "start": "2026-11-23T14:00:00.000Z",
-   "end": "2026-11-23T22:00:00.000Z",
-   "allDay": false,
-   "location": "Contemporary and University Art Galleries (Statesboro Campus)",
-   "campus": "statesboro",
-   "url": "https://calendar.georgiasouthern.edu/event/contemporary-gallery-ernest-shaw-intimate-frequencies-of-care",
-   "types": [
-    "Arts, Culture and Entertainment"
-   ],
-   "depts": [],
-   "source": "calendar",
-   "tags": [
-    "arts",
-    "food",
-    "social"
-   ],
-   "desc": "Guest Artist Ernest Shaw will have his work on display in the Contemporary Gallery from October 12 - November 25. With a special dinner party and reception with the Artist on November 5.",
-   "free": true,
-   "lat": 32.425244,
-   "lon": -81.785535,
-   "colleges": [
-    "cah"
-   ]
-  },
-  {
-   "id": "53860810128251-53860810153882",
-   "title": "Tory Schendel-Vyvoda, Navigating the Molecular: The Collective I Series",
-   "start": "2026-11-23T14:00:00.000Z",
-   "end": "2026-11-23T22:00:00.000Z",
-   "allDay": false,
-   "location": "Fine Arts Hall (Armstrong Campus)",
-   "campus": "armstrong",
-   "url": "https://calendar.georgiasouthern.edu/event/tory-schendel-vyvoda-navigating-the-molecular-the-collective-i-series",
-   "types": [
-    "Arts, Culture and Entertainment"
-   ],
-   "depts": [],
-   "source": "calendar",
-   "tags": [
-    "science",
-    "arts"
-   ],
-   "desc": "Guest Artist, Tory Schendel-Vyvoda, will be showing their work in the Fine Arts Gallery on October 12- November 25",
-   "free": true,
-   "lat": 31.980388,
-   "lon": -81.164779,
-   "colleges": [
-    "cah",
-    "cosm"
-   ]
-  },
-  {
-   "id": "53860725872511-53860725963678",
-   "title": "University Gallery: Drew Tetz, Turnable Toons",
-   "start": "2026-11-23T14:00:00.000Z",
-   "end": "2026-11-23T22:00:00.000Z",
-   "allDay": false,
-   "location": "Contemporary and University Art Galleries (Statesboro Campus)",
-   "campus": "statesboro",
-   "url": "https://calendar.georgiasouthern.edu/event/university-gallery-drew-tetz-turnable-toons",
-   "types": [
-    "Arts, Culture and Entertainment"
-   ],
-   "depts": [],
-   "source": "calendar",
-   "tags": [
-    "arts"
-   ],
-   "desc": "Artist Drew Tetz will be on exhibit from October 12- November 25 in the University Gallery. Reception will be held on October 14",
-   "free": true,
-   "lat": 32.425244,
-   "lon": -81.785535,
-   "colleges": [
-    "cah"
-   ]
-  },
   {
    "id": "54487402753735-54487402780373",
    "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
@@ -3463,6 +3331,34 @@
    "org": "Office of Student Activities",
    "orgUri": "office-of-student-activities-3",
    "colleges": []
+  },
+  {
+   "id": "54487402753735-54487402860304",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2027-01-22T14:00:00.000Z",
+   "end": "2027-01-22T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
+   ]
   }
  ]
 }
