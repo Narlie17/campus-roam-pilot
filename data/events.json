@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-24T16:27:45.221Z",
+ "generatedAt": "2026-11-24T22:12:46.193Z",
  "source": "Localist API + Eagle Engage (92) · https://calendar.georgiasouthern.edu",
  "events": [
   {
@@ -3359,6 +3359,60 @@
    "colleges": [
     "parker"
    ]
+  },
+  {
+   "id": "engage-georgia-southern-womens-basketball-vs-coastal-carolina-3",
+   "title": "Georgia Southern Women's Basketball vs. Coastal Carolina",
+   "start": "2027-01-23T18:00:00.000Z",
+   "end": "2027-01-23T21:00:00.000Z",
+   "allDay": false,
+   "location": "Jack and Ruth Ann Hill Convocation Center",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/georgia-southern-womens-basketball-vs-coastal-carolina-3",
+   "types": [
+    "Free Stuff",
+    "Social Event",
+    "Sports/Fitness"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "sports",
+    "fitness",
+    "women",
+    "social"
+   ],
+   "desc": "Shuman Farms Day Celebrate Shuman Farms Vidalia Onions at the Hill for a day of Farm-filled fun Giveaway: GS Replica Jerseys &#65279;",
+   "free": null,
+   "org": "Georgia Southern Athletics",
+   "orgUri": "georgia-southern-athletics-2",
+   "colleges": []
+  },
+  {
+   "id": "engage-mens-basketball-vs-app-state-4",
+   "title": "Men's Basketball Vs App State",
+   "start": "2027-01-23T22:00:00.000Z",
+   "end": "2027-01-24T00:00:00.000Z",
+   "allDay": false,
+   "location": "Jack and Ruth Ann Hill convocation center",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/mens-basketball-vs-app-state-4",
+   "types": [
+    "Social Event",
+    "Sports/Fitness"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "sports",
+    "fitness",
+    "social"
+   ],
+   "desc": "Shuman Farms Day Celebrate Shuman Farms Vidalia Onions at The Hill for a day of farm - filled fun & also celebrate Alumni Weekend! Giveaway: GS Replica Jersey",
+   "free": null,
+   "org": "Georgia Southern Athletics",
+   "orgUri": "georgia-southern-athletics-2",
+   "colleges": []
   }
  ]
 }

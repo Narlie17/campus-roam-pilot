@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-24T16:27:46.105Z",
+ "generatedAt": "2026-11-24T22:12:47.113Z",
  "source": "https://api3.libcal.com (LibCal)",
  "locations": [
   {
@@ -158,29 +158,54 @@
      "rendered": "Closed for Thanksgiving"
     },
     "2026-11-29": {
-     "status": "text",
-     "hours": [],
-     "rendered": "2:00pm - midnight"
+     "status": "open",
+     "hours": [
+      {
+       "from": "2pm",
+       "to": "12am"
+      }
+     ],
+     "rendered": "2pm - 12am"
     },
     "2026-11-30": {
-     "status": "text",
-     "hours": [],
-     "rendered": "7:30am - midnight"
+     "status": "open",
+     "hours": [
+      {
+       "from": "7:30am",
+       "to": "12am"
+      }
+     ],
+     "rendered": "7:30am - 12am"
     },
     "2026-12-01": {
-     "status": "text",
-     "hours": [],
-     "rendered": "7:30am - midnight"
+     "status": "open",
+     "hours": [
+      {
+       "from": "7:30am",
+       "to": "12am"
+      }
+     ],
+     "rendered": "7:30am - 12am"
     },
     "2026-12-02": {
-     "status": "text",
-     "hours": [],
-     "rendered": "7:30am - midnight"
+     "status": "open",
+     "hours": [
+      {
+       "from": "7:30am",
+       "to": "12am"
+      }
+     ],
+     "rendered": "7:30am - 12am"
     },
     "2026-12-03": {
-     "status": "text",
-     "hours": [],
-     "rendered": "7:30am - midnight"
+     "status": "open",
+     "hours": [
+      {
+       "from": "7:30am",
+       "to": "12am"
+      }
+     ],
+     "rendered": "7:30am - 12am"
     },
     "2026-12-04": {
      "status": "open",
