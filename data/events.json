@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-26T10:26:24.130Z",
+ "generatedAt": "2026-11-26T16:21:40.623Z",
  "source": "Localist API + Eagle Engage (92) · https://calendar.georgiasouthern.edu",
  "events": [
   {
@@ -3183,6 +3183,52 @@
    "colleges": [
     "parker"
    ]
+  },
+  {
+   "id": "engage-monthly-meeting-5",
+   "title": "Monthly Meeting",
+   "start": "2027-01-25T14:00:00.000Z",
+   "end": "2027-01-25T15:00:00.000Z",
+   "allDay": false,
+   "location": "Solms 103",
+   "campus": "armstrong",
+   "url": "https://georgiasouthern.presence.io/event/monthly-meeting-5",
+   "types": [
+    "Free Food"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "academic",
+    "honors",
+    "food"
+   ],
+   "desc": "This will be the first monthly meeting of the semester where students can meet the new officer team and members. This will be a fun event where we get to celebrate each other and the Honors Student success on Armstrong's campus.",
+   "free": null,
+   "org": "Honors Student Organization - Armstrong",
+   "orgUri": "honors-student-organization-armstrong",
+   "colleges": []
+  },
+  {
+   "id": "engage-osa-on-the-go-3",
+   "title": "OSA on the Go",
+   "start": "2027-01-25T16:00:52.000Z",
+   "end": "2027-01-25T18:00:00.000Z",
+   "allDay": false,
+   "location": "Mobile Office",
+   "campus": "statesboro",
+   "url": "https://georgiasouthern.presence.io/event/osa-on-the-go-3",
+   "types": [],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "social"
+   ],
+   "desc": "&#128665;&#128153; We're coming to you! Find the Office of Student Activities (OSA) riding around the Statesboro campus during our OSA on the Go series on Monday, January 25th, from 11 AM–1 PM! &#127881; Hop over to our golf cart to meet the OSA team, learn about our office, discover upcoming events and student organi…",
+   "free": null,
+   "org": "Office of Student Activities",
+   "orgUri": "office-of-student-activities-3",
+   "colleges": []
   }
  ]
 }
