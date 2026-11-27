@@ -1,60 +1,7 @@
 {
- "generatedAt": "2026-11-26T22:12:19.233Z",
+ "generatedAt": "2026-11-27T04:24:29.003Z",
  "source": "Localist API + Eagle Engage (92) · https://calendar.georgiasouthern.edu",
  "events": [
-  {
-   "id": "54487402753735-54487402782423",
-   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
-   "start": "2026-11-26T14:00:00.000Z",
-   "end": "2026-11-26T19:30:00.000Z",
-   "allDay": false,
-   "location": "Nessmith-Lane Center (Statesboro Campus)",
-   "campus": "statesboro",
-   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
-   "types": [
-    "Conferences and Workshops"
-   ],
-   "depts": [],
-   "source": "calendar",
-   "tags": [
-    "academic",
-    "career",
-    "business",
-    "tech"
-   ],
-   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
-   "free": false,
-   "lat": 32.420313,
-   "lon": -81.783089,
-   "colleges": [
-    "parker"
-   ]
-  },
-  {
-   "id": "53860792382816-53860792404339",
-   "title": "Class Project Exhibition",
-   "start": "2026-11-26T14:00:00.000Z",
-   "end": "2026-11-26T22:00:00.000Z",
-   "allDay": false,
-   "location": "Folk Art Gallery",
-   "campus": "",
-   "url": "https://calendar.georgiasouthern.edu/event/class-project-exhibition",
-   "types": [
-    "Arts, Culture and Entertainment"
-   ],
-   "depts": [],
-   "source": "calendar",
-   "tags": [
-    "arts"
-   ],
-   "desc": "Join us for a class project featuring students in Dr. Alt's class from November 1-30",
-   "free": true,
-   "lat": 32.425278,
-   "lon": -81.785556,
-   "colleges": [
-    "cah"
-   ]
-  },
   {
    "id": "54487402753735-54487402783448",
    "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
@@ -3185,6 +3132,34 @@
    ]
   },
   {
+   "id": "54487402753735-54487402863379",
+   "title": "11th Annual Center for Sales Excellence Showcase Boot Camp Registration",
+   "start": "2027-01-25T14:00:00.000Z",
+   "end": "2027-01-25T19:30:00.000Z",
+   "allDay": false,
+   "location": "Nessmith-Lane Center (Statesboro Campus)",
+   "campus": "statesboro",
+   "url": "https://calendar.georgiasouthern.edu/event/11th-annual-center-for-sales-excellence-showcase-boot-camp-registration",
+   "types": [
+    "Conferences and Workshops"
+   ],
+   "depts": [],
+   "source": "calendar",
+   "tags": [
+    "academic",
+    "career",
+    "business",
+    "tech"
+   ],
+   "desc": "This year's Showcase Boot Camp will address the transition from the classroom to the boardroom with student sessions on crafting personal presentations for recruiters. In addition, attendees will have the opportunity to met with potential employers in a small-group setting. Register using the QR code in the image. ALL…",
+   "free": false,
+   "lat": 32.420313,
+   "lon": -81.783089,
+   "colleges": [
+    "parker"
+   ]
+  },
+  {
    "id": "engage-monthly-meeting-5",
    "title": "Monthly Meeting",
    "start": "2027-01-25T14:00:00.000Z",
@@ -3228,6 +3203,31 @@
    "free": null,
    "org": "Office of Student Activities",
    "orgUri": "office-of-student-activities-3",
+   "colleges": []
+  },
+  {
+   "id": "engage-sga-senate-meeting-50",
+   "title": "SGA Senate Meeting",
+   "start": "2027-01-25T22:30:00.000Z",
+   "end": "2027-01-26T00:30:00.000Z",
+   "allDay": false,
+   "location": "Russell Union Ballroom (Statesboro), Memorial College Center room 211 (Armstrong), & virtual via Zoom",
+   "campus": "armstrong",
+   "url": "https://georgiasouthern.presence.io/event/sga-senate-meeting-50",
+   "types": [
+    "Office of Leadership and Community Engagement",
+    "Virtual"
+   ],
+   "depts": [],
+   "source": "engage",
+   "tags": [
+    "politics",
+    "leadership"
+   ],
+   "desc": "During Senate Meetings, the SGA senate votes on proposals, legislation, and other matters as submitted by its committees and constituents. All students are welcome and have the opportunity to voice any concerns during the open forum section of meetings. SGA uses these meetings to hear how the faculty, staff, and admin…",
+   "free": null,
+   "org": "Student Government Association",
+   "orgUri": "student-government-association-3",
    "colleges": []
   }
  ]
